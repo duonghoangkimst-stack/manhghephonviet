@@ -1,0 +1,8 @@
+{
+  "name": "Mảnh Ghép Hồn Việt (1)",
+  "description": "Nền tảng trải nghiệm và kết nối di sản lịch sử văn hóa Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
