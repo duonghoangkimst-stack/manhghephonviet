@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Trang chủ -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/</loc>
+  </url>
+
+  <!-- Trang Về chúng tôi -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/ve-chung-toi</loc>
+  </url>
+
+  <!-- Trang Bài viết -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/bai-viet</loc>
+  </url>
+
+  <!-- Trang Trò chơi -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/tro-choi</loc>
+  </url>
+
+  <!-- Trang Cửa hàng -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/cua-hang</loc>
+  </url>
+
+  <!-- Trang Đăng nhập -->
+  <url>
+    <loc>https://manhghephonviet-sfjm.vercel.app/login</loc>
+  </url>
+</urlset>
