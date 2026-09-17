@@ -344,6 +344,11 @@ export default function BaiVietView({ setActiveTab: _setActiveTab }: BaiVietView
     <div className="w-full flex-grow bg-[#FAF5EB] text-[#261816]">
       {/* Header Banner */}
       <section className="relative bg-[#570000] text-[#F4EBD0] py-12 px-6 border-b-2 border-[#C5B358] overflow-hidden">
+      <img 
+    src="/NenBaiViet.jpg" 
+    alt="Banner Background" 
+    className="absolute inset-0 w-full h-full object-cover opacity-40 z-0 pointer-events-none" 
+  />
         <div className="relative z-10 max-w-[1280px] mx-auto text-center">
           <span
             className="text-xs bg-[#D4AF37] text-[#570000] font-bold uppercase tracking-widest px-4 py-1.5 rounded-full inline-block shadow-xs"

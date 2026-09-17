@@ -56,7 +56,9 @@ export default function TrangChuView({
         className="hero-title text-[#D4AF37]"
         style={{ color: "#58080A", textShadow: "none", filter: "none", lineHeight: "1.35" }}
         >
-              MẢNH GHÉP HỒN VIỆT
+              MẢNH GHÉP 
+              <br/>
+              HỒN VIỆT
             </h1>
             <div className="bg-[#3A4A38] text-white inline-block px-5 py-2.5 rounded-full mb-6 shadow-md border border-[#C5B358]/50">
               <h3 className="font-sans font-bold text-xs sm:text-sm uppercase tracking-[0.2em]">
@@ -74,11 +76,11 @@ export default function TrangChuView({
                   setActiveTab('trochoi');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="bg-[#5B0E0E] hover:bg-[#800000] text-white px-7 sm:px-8 py-3.5 sm:py-4 rounded-full font-bold uppercase tracking-wider transition-all shadow-lg inline-flex items-center gap-3 cursor-pointer hover:scale-[1.02] border border-[#C5B358]/40"
-              >
-                <span>BẮT ĐẦU HÀNH TRÌNH</span>
-                <span className="material-symbols-outlined text-xl">arrow_forward</span>
-              </button>
+                className="inline-flex items-center justify-center gap-2 bg-[#5B0E0E] hover:bg-[#800000] text-white px-7 sm:px-8 py-3.5 sm:py-4 rounded-full font-bold transition-all"
+>
+  <span>BẮT ĐẦU HÀNH TRÌNH</span>
+  <span className="material-symbols-outlined text-xl">arrow_forward</span>
+</button>
               <button
                 type="button"
                 onClick={() => {

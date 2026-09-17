@@ -411,7 +411,7 @@ export default function TroChoiView({
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCPTB9JML2s3NkD9wJWcJqjBQYcKCVrxYshL35qYI4ufD6LcsjeF7R4MhFCAtkXhPB4tNhEv9Re9NnIaducL59LSwqW67UF4-lkjQSUiJnTBsquqP-We9Wf-KyT8bz-8HwF7gqiyQru613prwDrufB1sySkvffPqZ1cEuYqRd1dqakt0Rq42AhGl45fpyZ0id4smunOTmebcMHExEYIbr31A5YJq7BNOySTQqEOWprHcdRVCYAwEbP_CMU1o64EZuVK6e4')"
+              "url('/NenTroChoi.jpg')"
           }}
         ></div>
         <div className="absolute inset-0 bg-black/65"></div>

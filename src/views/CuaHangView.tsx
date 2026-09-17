@@ -117,13 +117,10 @@ export default function CuaHangView({
           </span>
 
           {/* Title with exact precomposed diacritics on HỒN */}
-          <h1
-            className="font-serif text-4xl md:text-6xl text-[#D4AF37] uppercase font-bold drop-shadow-sm mb-4"
-            style={{
-              letterSpacing: '0.06em',
-              fontFeatureSettings: '"liga" 1',
-            }}
-          >
+          <h1 
+        className="hero-title text-[#D4AF37]"
+        style={{ color: "#C5B358" }}
+        >
             NƠI LƯU GIỮ SỬ VIỆT
           </h1>
 
