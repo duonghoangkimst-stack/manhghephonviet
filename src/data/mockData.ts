@@ -779,7 +779,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 221000,
     rating: 4.9,
     soldCount: 1420,
-    image: 'https://lh3.googleusercontent.com/aida/AEtjO1W1lXiH1jb02EBeKt7-c0jAjPEqsyH-m_0_hpdErAwfMFYAjwHKM8CObyJBxACiHRWo75TEPzYTKq04W8zZG94RabyLpJGJanxq5_ckPhAGny3_1ElSvoG_97xlb5nO7NfCce0u07cnpa20mRaWYlfqaNWVk-mFH7e3JWqjzUnLksJ0_ciDGkChg3Up-9Nc2PYA_w5W-kzjby_Mik9z_t7-OXyH-ZoFXzqdGuv880DmqWlENVjFCTbMt2I',
+    image: '/MANHGHEPNFC.jpg',
     shortDesc: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh.',
     description: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh. Chạm smartphone để truy cập vào giao diện trò chơi trên trang web và nhận mã giới thiệu đổi sao/sen.',
     nfcFeatures: [
@@ -797,7 +797,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 54000,
     rating: 4.8,
     soldCount: 3820,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCXswf4kNJ5peZt_MvOP1du6ojafEb19GQ97eIqFykLrHJOaRfMjdFGh8mxxJn5Ddk1fYjpEk7437fUmt-QJ2yYHUq5VF1OWDJDokJE4E2YHIiU_ooyfsmiS2fEihmTBPBIkmTqG07VfJUpG-X6D0y75vYJ34Sb3Shb68v9AkC9Kq1lxg9Zko7rklo5WziXgg4JigQh__cmxo7WXXj5xv4hAkoikzhgC6QRunJdV2bW3Rh2VWKFpY0owrwqw7QadS_XCOE',
+    image: '/MocKhoa.jpg',
     shortDesc: 'Móc khóa gỗ khắc họa các di tích lịch sử, tích hợp chip NFC.',
     description: 'Móc khóa làm bằng gỗ, khắc họa các di tích lịch sử nổi tiếng. Không chỉ là một món quà lưu niệm nhỏ gọn, sản phẩm còn được tích hợp công nghệ chip NFC thông minh. Chỉ cần chạm nhẹ, không gian lịch sử sẽ mở ra trước mắt bạn.',
     nfcFeatures: [
@@ -815,7 +815,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 77000,
     rating: 4.7,
     soldCount: 2150,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCukjEUBkSr1NpxWIWgSnXoL9RdCylNOGLP6_-OYsbjsxsWIXp8lf24wlu4M9uEa3Y4Os6nZxhUXASLWwYT3o38R-Je8t-IJn41OaOQk-4M9HoqrmaReBDy-SfP7JhT_bZ347tB-on14DLHZWPYt4W4LYruBXIFndceIZ2ByqYfCJVeJadgVaObCzPkFcPTOI7V1C9ZevA6fYN-sBwn4F36JdPyZ7Iwg6M6SEBk3YGxpPJ2HtxiLT1zOAo0CHK9CqlgT9c',
+    image: '/Magnet.jpg',
     shortDesc: 'Nam châm dán hít trang trí tủ lạnh tích hợp NFC – Magnet Polyresin.',
     description: `Nam châm dán hít trang trí tủ lạnh tích hợp NFC – Magnet Tủ Lạnh Polyresin
 
@@ -841,7 +841,7 @@ THÔNG TIN SẢN PHẨM:
     oldPrice: 33000,
     rating: 5.0,
     soldCount: 940,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC8dSFgBlab9LlAOhUYk1nhhu4sJ_LobxFmB8TnH1RGo01-NH1i1sM_3wem2WjMwtAvf1go3q0cV-t75wiFDxT2KheNL2w0HlAlF3MCV5Odu8vBsOEG6L8xv8yypNoqgmaOncFgq5GqFkj22JcxkJTiJEjdw5L1cBQT_nk4YpDA_aqdlYtVsMBa8xg3uqU2KC4OF1Y1POCDzER2LTdbX9z0v13OaMKANAx3Gcs39kqgbCFi_Qi3FozjXwx7pc-QTOcDWYA',
+    image: '/BOSUUTAP.jpg',
     shortDesc: 'Món quà ý nghĩa dành tặng người thân và bạn bè quốc tế.',
     description: 'Hộp quà sang trọng bọc nhung bao gồm sổ tay giấy điệp thủ công, bút khắc gỗ Hồn Việt, bookmark kim loại hình hoa sen nghệ thuật.',
     nfcFeatures: ['Hộp quà bọc nhung sang trọng', 'Bộ quà tặng văn hóa thủ công'],
