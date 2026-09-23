@@ -1,6 +1,7 @@
 import { TabType, Product } from '../types';
 import { PRODUCTS } from '../data/mockData';
 import heroBannerBg from '../assets/images/bia_trang_chu.jpg';
+import { Helmet } from 'react-helmet-async'; //
 
 interface TrangChuViewProps {
   setActiveTab: (tab: TabType) => void;
