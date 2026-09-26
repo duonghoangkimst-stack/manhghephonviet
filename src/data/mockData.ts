@@ -9,6 +9,7 @@ import soChiHuyImg from '../assets/images/so_chi_huy_1788879341577.jpg';
 import cauMuongThanhImg from '../assets/images/cau_muong_thanh_1788879366410.jpg';
 import doiHimLamImg from '../assets/images/doi_him_lam_1788879387996.jpg';
 import hongCumImg from '../assets/images/hong_cum_1788879407856.jpg';
+import { InteractionSection } from 'scr/components/InteractionSection';
 
 export const INITIAL_USER: UserProfile = {
   name: 'Nguyễn Văn An',
@@ -33,7 +34,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '6.489',
     storiesCount: 18,
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: '/Hà Nội.jpg',
     desc: 'Thủ đô ngàn năm văn hiến với Hoàng thành Thăng Long, Văn Miếu và 36 phố phường cổ kính.'
   },
   {
@@ -42,7 +43,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '~ 4.000',
     storiesCount: 11,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: '/Hải Phòng.jpg',
     desc: 'Thành phố hoa phượng đỏ với Di tích Bến tàu Không số K15 và Quần đảo Cát Bà.'
   },
   {
@@ -51,7 +52,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '719',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1599827556779-166249db4424?auto=format&fit=crop&w=800&q=80',
+    image: '/Tuyên Quang.jpg',
     desc: 'Thủ đô Khu giải phóng, Thủ đô Kháng chiến với Di tích Tân Trào lịch sử.'
   },
   {
@@ -60,7 +61,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '150+',
     storiesCount: 6,
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
+    image: '/Lào Cai.jpg',
     desc: 'Vùng đất biên cương hùng vĩ với đỉnh Fansipan, đền Bảo Hà và ruộng bậc thang Sa Pa kỳ vĩ.'
   },
   {
@@ -69,7 +70,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '120+',
     storiesCount: 5,
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: '/Lai Châu.jpg',
     desc: 'Vùng non cao kỳ vĩ với đèo Ô Quy Hồ huyền thoại, bản Sin Suối Hồ và di tích Bia đá Vua Lê Lợi.'
   },
   {
@@ -80,7 +81,7 @@ export const PROVINCES: Province[] = [
     relicsCount: 33,
     explorationRate: 0,
     storiesCount: 12,
-    image: dienBienPhuImg,
+    image: '/Bìa điện biên.png',
     desc: 'Vùng đất lịch sử với chiến thắng Điện Biên Phủ "lừng lẫy năm châu, chấn động địa cầu".'
   },
   {
@@ -98,7 +99,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '271',
     storiesCount: 11,
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: '/Cao Bằng.jpg',
     desc: 'Khu di tích Pác Bó nơi Bác Hồ về nước lãnh đạo cách mạng và Thác Bản Giốc hùng vĩ.'
   },
   {
@@ -107,7 +108,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '200+',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    image: '/Sơn La.jpg',
     desc: 'Mảnh đất Tây Bắc hào hùng với Di tích Nhà tù Sơn La cùng cây đào Tô Hiệu bất khuất.'
   },
   {
@@ -125,7 +126,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '2.778',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
+    image: '/Phú Thọ.jpg',
     desc: 'Đất Tổ Hùng Vương – cội nguồn dân tộc với Tín ngưỡng thờ cúng Hùng Vương.'
   },
   {
@@ -134,7 +135,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '636',
     storiesCount: 10,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: '/Quảng Ninh.jpg',
     desc: 'Kỳ quan thiên nhiên Vịnh Hạ Long và non thiêng Yên Tử – cái nôi Thiền phái Trúc Lâm.'
   },
   {
@@ -161,7 +162,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '5.000+',
     storiesCount: 9,
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    image: '/Ninh Bình.jpg',
     desc: 'Cố đô Hoa Lư linh thiêng của nhà Đinh - Tiền Lê và Quần thể danh thắng Tràng An.'
   },
 
@@ -172,7 +173,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '1.535',
     storiesCount: 8,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDXiSpYwkeQGIdSyrTvmtUEKAbZU-0QQXXoB1mBtUkm7E94OQ-QTi6vDUwYEIseRFAypGou-4MSny8TC6lPMupkT0UK3TYovk_M75TPjYpBKDv8i1W2XcMmS2AmFACNi-HYsKqmaoMLernDLT1wYw3t9K63xik5HRpyJ7FhX41cKqIukHVmVEC1GBG5HcdAKXnCtllqbh_gCDEcX0JPAwNmvR1296pFlbY9Tuv4gm1yKsxPgX7pAucP4nP_26vQV98yhlM',
+    image: '/Thanh Hóa.jpg',
     desc: 'Vùng đất địa linh nhân kiệt với Di sản Thành nhà Hồ và Lam Kinh ngàn năm văn hiến.'
   },
   {
@@ -199,7 +200,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '500+',
     storiesCount: 18,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCtO_hbFEr-JkZkT49MlzGT7M_Bn-VxkzjvKArTnUNR9KDS2gNUWrUJXgV9umFD6YraQaz4j2a5t5UbJEIMuz036OP4i5ghK-lZmnjj__HfFkjR5aiYKqTqfgN-6s6n4lsQ2cQB-4xod1IKpqtILs_9KhhsWurKDUUsZt3ISu0O3MHZtQFIRrM6LIoIGr-fbfYJ3g-i_lmBsAll-kmvGasdrBeVxd5-RCVVXjY0dD5jlNhjfEZqrX7MFv7uy-Y3rnYZ6G8',
+    image: '/Quảng Trị.jpg',
     desc: 'Mảnh đất anh hùng với 81 ngày đêm Thành cổ, Đôi bờ Hiền Lương và Địa đạo Vịnh Mốc.'
   },
   {
@@ -208,7 +209,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '1.000+',
     storiesCount: 16,
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80',
+    image: '/Huế.jpg',
     desc: 'Quần thể di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới.'
   },
   {
@@ -226,7 +227,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '250+',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80',
+    image: '/Quảng Ngãi.jpg',
     desc: 'Vương quốc tỏi đảo Lý Sơn, Di tích Ba Tơ khởi nghĩa và cái nôi Văn hóa Sa Huỳnh cổ xưa.'
   },
   {
@@ -235,7 +236,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '200+',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
+    image: '/Gia Lai.jpg',
     desc: 'Hào khí Tây Nguyên với Quần thể di tích Tây Sơn Thượng Đạo và Chiến thắng Đắk Pơ lẫy lừng.'
   },
   {
@@ -244,7 +245,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '150+',
     storiesCount: 9,
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: '/Đắk Lắk.jpg',
     desc: 'Thủ phủ cà phê đại ngàn với Di tích Nhà đày Buôn Ma Thuột và Không gian Văn hóa Cồng chiêng.'
   },
   {
@@ -253,7 +254,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '300+',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: '/Khánh Hòa.jpg',
     desc: 'Xứ trầm biển yến với Tháp Bà Ponagar cổ kính và Di tích Tàu Không số C235 tại Vịnh Vân Phong.'
   },
   {
@@ -262,7 +263,7 @@ export const PROVINCES: Province[] = [
     region: 'central',
     sitesCount: '120+',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80',
+    image: '/Lâm Đồng.jpg',
     desc: 'Cao nguyên Lang Biang thơ mộng với Di tích lịch sử Nhà lao Thiếu nhi Đà Lạt và Ga Đà Lạt cổ kính.'
   },
 
@@ -273,7 +274,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '321',
     storiesCount: 16,
-    image: saigonPalaceImg,
+    image:'/TpHCM.jpg' ,
     desc: 'Gia Định xưa, Sài Gòn nay – 300 năm qua từng lớp thời gian: Nơi mỗi di sản kể một câu chuyện của thành phố.'
   },
   {
@@ -282,7 +283,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '38',
     storiesCount: 9,
-    image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80',
+    image: '/Cần Thơ.jpg',
     desc: 'Thủ phủ miền Tây sông nước với Chợ nổi Cái Răng và Nhà cổ Bình Thủy trứ danh.'
   },
   {
@@ -291,7 +292,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '65',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=800&q=80',
+    image: '/Đồng Nai.jpg',
     desc: 'Hào khí miền Đông gian lao mà anh dũng với Chiến khu Đ, Vườn quốc gia Cát Tiên và Văn miếu Trấn Biên.'
   },
   {
@@ -300,7 +301,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '96',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1628172901377-09415494d4d1?auto=format&fit=crop&w=800&q=80',
+    image: '/Tây Ninh.jpg',
     desc: 'Căn cứ Trung ương Cục Miền Nam anh hùng và Tòa Thánh Tây Ninh độc đáo.'
   },
   {
@@ -309,7 +310,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '100+',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=800&q=80',
+    image: '/Đồng Tháp.jpg',
     desc: 'Khu di tích Gò Tháp văn hóa Óc Eo và Khu lăng mộ cụ Phó bảng Nguyễn Sinh Sắc.'
   },
   {
@@ -318,7 +319,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '100+',
     storiesCount: 10,
-    image: 'https://images.unsplash.com/photo-1606820262744-8451f280c44c?auto=format&fit=crop&w=800&q=80',
+    image: '/An Giang.jpg',
     desc: 'Khu di tích Óc Eo – Ba Thê huyền bí và Rừng tràm Trà Sư bạt ngàn.'
   },
   {
@@ -327,7 +328,7 @@ export const PROVINCES: Province[] = [
     region: 'south',
     sitesCount: '68',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80',
+    image: '/Vĩnh Long.jpg',
     desc: 'Đất học phương Nam với Văn Thánh Miếu Vĩnh Long và Khu lưu niệm Giáo sư Viện sĩ Trần Đại Nghĩa.'
   },
   {
@@ -798,8 +799,8 @@ export const PRODUCTS: Product[] = [
     rating: 4.8,
     soldCount: 3820,
     image: '/MocKhoa.jpg',
-    shortDesc: 'Móc khóa gỗ khắc họa các di tích lịch sử, tích hợp chip NFC.',
-    description: 'Móc khóa làm bằng gỗ, khắc họa các di tích lịch sử nổi tiếng. Không chỉ là một món quà lưu niệm nhỏ gọn, sản phẩm còn được tích hợp công nghệ chip NFC thông minh. Chỉ cần chạm nhẹ, không gian lịch sử sẽ mở ra trước mắt bạn.',
+    shortDesc: 'Móc khóa gỗ khắc họa các di tích lịch sử',
+    description: 'Móc khóa làm bằng gỗ, khắc họa các di tích lịch sử nổi tiếng.',
     nfcFeatures: [
       'Có mã giới thiệu riêng',
       'Quà tặng Sao/ Sen đi kèm',
@@ -816,8 +817,8 @@ export const PRODUCTS: Product[] = [
     rating: 4.7,
     soldCount: 2150,
     image: '/Magnet.jpg',
-    shortDesc: 'Nam châm dán hít trang trí tủ lạnh tích hợp NFC – Magnet Polyresin.',
-    description: `Nam châm dán hít trang trí tủ lạnh tích hợp NFC – Magnet Tủ Lạnh Polyresin
+    shortDesc: 'Nam châm dán hít trang trí tủ lạnh – Magnet Polyresin.',
+    description: `Nam châm dán hít trang trí tủ lạnh – Magnet Tủ Lạnh Polyresin
 
 Nam châm gắn tủ lạnh có nhiều thiết kế đa dạng, độc đáo về nhiều phong cách Việt Nam, con người và văn hóa các dân tộc từ dân gian đến hiện đại.
 Sản phẩm có độ bền cao, sắc nét, bền màu theo thời gian thích hợp sử dụng làm quà tặng cho khách nước ngoài hoặc trang trí nhà cửa.
@@ -849,119 +850,112 @@ THÔNG TIN SẢN PHẨM:
   }
 ];
 
+export interface Article {
+  id: string;
+  title: string;
+  slug: string;
+  category: string;
+  date: string;
+  author: string;
+  views: string;
+  image: string;
+  description: string;
+  content: string;
+}
+
 export const ARTICLES: Article[] = [
   {
-    id: 'bai-viet-01',
-    title: '81 ngày đêm Thành cổ Quảng Trị - Bản hùng ca bất diệt',
-    category: 'Lịch sử',
-    author: {
-      name: 'Nguyễn Minh Anh',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200',
-      role: 'Người Giữ Sử • Thủ Lĩnh'
-    },
-    date: '31/08/2026',
-    timeAgo: '2 giờ trước',
-    views: '1.2k',
-    readTime: '6 phút đọc',
-    excerpt: 'Câu chuyện về lòng quả cảm và sự hy sinh của những người lính đã làm nên kỳ tích 81 ngày đêm giữ thành cổ Quảng Trị.',
-    content: `Chiến dịch bảo vệ Thành cổ Quảng Trị năm 1972 là một trong những cuộc đọ sức khốc liệt nhất trong lịch sử quân sự thế giới. Trong suốt 81 ngày đêm từ ngày 28/6 đến 16/9/1972, quân đội đối phương đã trút xuống mảnh đất này hơn 328.000 tấn bom đạn, tương đương sức công phá của 7 quả bom nguyên tử.
+    id: 'trai-nghiem-lich-su',
+    slug: 'trai-nghiem-lich-su',
+    title: 'Trải Nghiệm Lịch sử Việt Nam: Chạm vào hồn thiêng non nước',
+    category: 'Về Mảnh ghép Hồn Việt',
+    date: '26/09/2026',
+    author: 'Mảnh Ghép Hồn Việt',
+    image: '/BiaSEO1.jpg',
+    description: 'Trải nghiệm lịch sử Việt Nam cùng Mảnh Ghép Hồn Việt qua bản đồ gỗ NFC và công nghệ tương tác số. Chạm nhẹ vào từng cột mốc để sống lại thời khắc hào hùng!',
+    content: `
+Học sử nước mình xưa nay dễ làm người đọc mỏi mệt vì những dòng niên đại khô khan nằm yên trên trang giấy. Việc **trải nghiệm lịch sử** mở ra lối tiếp cận hoàn toàn mới, người học từ vị thế bị động, đứng ngoài quan sát thành người chủ động bước vào lòng thời cuộc.
 
-Hàng vạn người lính trẻ, phần lớn là sinh viên các trường đại học tại Hà Nội, đã xếp bút nghiên lên đường tòng quân. Họ đã chiến đấu kiên cường đến hơi thở cuối cùng để giữ vững từng mét chiến hào, tạo ưu thế quyết định trên bàn đàm phán Hiệp định Paris 1973.
+Tại *Mảnh Ghép Hồn Việt*, từng mốc son mở cõi được đánh thức sống động qua bản đồ gỗ thủ công tích hợp chip NFC cùng nền tảng số hóa. Chỉ cần một chạm nhẹ, bạn hữu đã có thể kết nối ngay với ký ức ngàn năm của cha ông.
 
-Ngày nay, Thành cổ Quảng Trị không chỉ là di tích lịch sử quốc gia đặc biệt mà còn là biểu tượng bất diệt cho lòng quả cảm, đức hy sinh và khát vọng hòa bình của dân tộc Việt Nam.`,
-    image: quangTri1972Img,
-    likes: 1240,
-    commentsCount: 138,
-    tags: ['Thành cổ Quảng Trị', 'Lịch sử 1972', 'Bản hùng ca', 'Di tích quốc gia'],
-    featured: true
-  },
-  {
-    id: 'bai-viet-02',
-    title: 'Vẻ đẹp kiến trúc chùa Một Cột - Biểu tượng của Thăng Long',
-    category: 'Văn hóa',
-    author: {
-      name: 'Trần Hoàng Nam',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200',
-      role: 'Nghiên cứu kiến trúc cổ'
-    },
-    date: '31/08/2026',
-    timeAgo: '5 giờ trước',
-    views: '856',
-    readTime: '5 phút đọc',
-    excerpt: 'Tìm hiểu về lịch sử hình thành và giá trị kiến trúc độc đáo của ngôi chùa có một không hai giữa lòng Hà Nội.',
-    content: `Chùa Một Cột (Diên Hựu tự) được xây dựng từ năm 1049 dưới thời vua Lý Thái Tông. Theo truyền thuyết, vua chiêm bao thấy Phật Bà Quan Âm ngồi trên tòa sen dắt vua lên tòa. Khi tỉnh dậy, vua cho dựng chùa trên một cột đá lớn giữa hồ sen tựa như đài sen vươn lên mặt nước.
 
-Kiến trúc chùa hình vuông, mái cong lợp ngói mũi hài, đặt trên một cột đá vững chãi đường kính 1.25m. Đây là công trình kiến trúc Phật giáo mang tính biểu tượng văn hóa rực rỡ và độc nhất vô nhị của thủ đô ngàn năm văn hiến.`,
-    image: chuaMotCotImg,
-    likes: 856,
-    commentsCount: 64,
-    tags: ['Chùa Một Cột', 'Thăng Long', 'Kiến trúc cổ', 'Văn hóa thời Lý']
-  },
-  {
-    id: 'bai-viet-03',
-    title: 'Áo dài Việt Nam - Hồn dân tộc trong từng nét áo',
-    category: 'Đời sống',
-    author: {
-      name: 'Lê Quỳnh Trang',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200',
-      role: 'Cộng tác viên văn hóa'
-    },
-    date: '30/08/2026',
-    timeAgo: '1 ngày trước',
-    views: '1.5k',
-    readTime: '4 phút đọc',
-    excerpt: 'Hành trình của tà áo dài qua bao thế hệ, từ truyền thống đến hiện đại, vẫn luôn là niềm tự hào của người Việt.',
-    content: `Từ chiếc áo Giao Lĩnh, áo Ngũ Thân thời chúa Nguyễn đến áo dài Le Mur và tà áo dài truyền thống thướt tha ngày nay, chiếc áo dài luôn mang theo tâm hồn, cốt cách thanh tao và kín đáo của phụ nữ Việt Nam.
+## 1. Trải nghiệm lịch sử: Khi quá khứ không chỉ nằm trên trang sách
 
-Tà áo dài không đơn thuần là trang phục, mà là biểu tượng thẩm mỹ và niềm kiêu hãnh của văn hóa Việt trước bạn bè năm châu. Dù qua bao thăng trầm thời gian, nét đẹp ấy vẫn trường tồn và tỏa sáng.`,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=800',
-    likes: 1520,
-    commentsCount: 95,
-    tags: ['Áo dài', 'Trang phục truyền thống', 'Văn hóa Việt', 'Nét đẹp dân tộc']
-  },
-  {
-    id: 'bai-viet-04',
-    title: 'Vịnh Hạ Long - Kỳ quan thiên nhiên của thế giới',
-    category: 'Danh lam thắng cảnh',
-    author: {
-      name: 'Phạm Đức Huy',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200',
-      role: 'Đại sứ du lịch di sản'
-    },
-    date: '29/08/2026',
-    timeAgo: '2 ngày trước',
-    views: '2.3k',
-    readTime: '7 phút đọc',
-    excerpt: 'Khám phá vẻ đẹp kỳ vĩ và những giá trị địa chất, đa dạng sinh học của di sản thiên nhiên thế giới tại Việt Nam.',
-    content: `Vịnh Hạ Long nằm ở vùng Đông Bắc Việt Nam, nổi tiếng với hàng ngàn hòn đảo đá vôi kỳ vĩ nhô lên giữa làn nước xanh như ngọc bích. Được UNESCO hai lần công nhận là Di sản Thiên nhiên Thế giới về cảnh quan và địa chất địa mạo.
+### 1.1. Trải nghiệm lịch sử là gì?
+**Trải nghiệm lịch sử** là phương pháp tiếp cận quá khứ thông qua thị giác, thính giác và tương tác hai chiều thay vì chỉ đọc văn bản truyền thống. Người dùng chủ động khám phá từng vùng đất theo sở thích, nhu cầu của cá nhân.
+- **Nhập vai tương tác:** Trải nghiệm lịch sử tương tác đưa người học vào thế trận của tiền nhân, thấu hiểu áp lực và mưu lược của từng quyết sách sinh tử.
+- **Khám phá phi tuyến tính:** Bắt đầu từ một địa danh, một cột mốc, hệ thống mở ra mối liên kết chặt chẽ giữa địa hình và thế trận quân sự.
+- **Chuẩn xác về sử liệu:** Dù đổi mới hình thức thể hiện, mọi dữ liệu đều bám sát các bộ chính sử uy tín để giữ trọn vẹn tính chân thực.
 
-Nơi đây gắn liền với truyền thuyết Rồng Mẹ và đàn Rồng Con hạ phàm giúp người Việt đánh giặc ngoại xâm, nhả ngọc châu tạo thành bức trường thành vững chãi bảo vệ bờ cõi non sông.`,
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800',
-    likes: 2310,
-    commentsCount: 175,
-    tags: ['Vịnh Hạ Long', 'UNESCO', 'Kỳ quan thiên nhiên', 'Quảng Ninh']
-  },
-  {
-    id: 'bai-viet-05',
-    title: 'Kinh thành Huế - Dấu ấn vàng sơn của triều Nguyễn',
-    category: 'Lịch sử',
-    author: {
-      name: 'Hoàng Mai Linh',
-      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200',
-      role: 'Nhà nghiên cứu Cố đô'
-    },
-    date: '28/08/2026',
-    timeAgo: '3 ngày trước',
-    views: '1.1k',
-    readTime: '6 phút đọc',
-    excerpt: 'Hành trình ngược dòng thời gian trở về kinh đô Huế, nơi lưu giữ bao câu chuyện về một thời vàng sơn.',
-    content: `Kinh thành Huế là quần thể kiến trúc cung đình đồ sộ nhất còn được bảo tồn tương đối nguyên vẹn tại Việt Nam. Được xây dựng từ năm 1805 dưới thời vua Gia Long và hoàn chỉnh dưới thời vua Minh Mạng.
+![Các bạn học sinh đang khám phá sách lịch sử tương tác](/images/hoc-sinh-kham-pha.jpg)
 
-Với hệ thống Hoàng thành, Tử Cấm Thành, Ngọ Môn và các lăng tẩm uy nghiêm nằm ẩn mình bên dòng sông Hương thơ mộng, Cố đô Huế là đỉnh cao của nghệ thuật quy hoạch, phong thủy và kiến trúc truyền thống phương Đông.`,
-    image: 'https://images.unsplash.com/photo-1596402184320-417e7178b2cd?q=80&w=800',
-    likes: 1150,
-    commentsCount: 72,
-    tags: ['Cố đô Huế', 'Triều Nguyễn', 'Di sản thế giới', 'Kinh thành']
+*Hình 1: Các bạn học sinh đang khám phá sách lịch sử tương tác*
+
+### 1.2. Từ đọc lịch sử đến hành trình khám phá di sản
+Thay vì đọc sách một chiều, **trải nghiệm lịch sử Việt Nam** tương tác số mang đến trải nghiệm khám phá trực quan, linh hoạt:
+
+- **Chủ động điểm chạm:** Bắt đầu từ vùng đất, cột mốc hoặc sự kiện bạn quan tâm nhất.
+- **Gắn kết bối cảnh:** Hiểu rõ mối liên hệ giữa địa hình và thời cuộc.
+- **Đánh thức di sản:** Đưa tư liệu từ bảo tàng vào đời thực một cách sống động, đầy chân thật.
+
+![Ứng dụng công nghệ AR mở ra trải nghiệm lịch sử trực quan, giúp người dùng khám phá những thời khắc hào hùng của dân tộc](/images/cong-nghe-ar-trong-giao-duc-lich-su.jpg)
+*Hình 2: Ứng dụng công nghệ AR mở ra trải nghiệm lịch sử trực quan, giúp người dùng khám phá những thời khắc hào hùng của dân tộc*
+
+
+## 2. Công nghệ số: Cầu nối đưa dòng chảy lịch sử về hiện tại
+Ứng dụng số hóa biến nguồn tri thức lưu trữ trong viện bảo tàng thành nguồn tư liệu trực quan, sinh động:
+
+- **Bản đồ tương tác:** Giúp người xem liên kết không gian địa lý với dòng thời gian, quan sát rõ đường tiến thoái quân lương và thế trận chiến lược qua từng thời kỳ.
+- **Đa phương tiện chân thực:** Thuyết minh chuyên sâu hòa cùng âm thanh sóng cuộn, hiệu lệnh quân reo, tái hiện sinh động khí thế của thời đại.
+- **Bảo tồn bền vững:** Trải nghiệm lịch sử qua công nghệ góp phần số hóa cổ vật, di tích và văn bản cổ, giúp thế hệ trẻ tiếp cận di sản nguồn cội dễ dàng hơn bao giờ hết.
+
+![Bản đồ tương tác giúp trải nghiệm lịch sử theo cách mới](/images/giao-dien-ban-do-tuong-tac-kham-pha-lich-su.jpg)
+*Hình 3: Bản đồ tương tác giúp trải nghiệm lịch sử theo cách mới*
+
+
+## 3. Công nghệ NFC: Chạm vật phẩm vật lý, mở kho tàng số hóa
+Dù công nghệ số rất trực quan, việc chỉ nhìn qua màn hình điện thoại vẫn thiếu đi cảm giác xúc giác chân thật. Công nghệ kết nối tầm ngắn NFC trên vật phẩm gỗ chính là chìa khóa xóa nhòa ranh giới giữa thực và ảo.
+
+### 3.1. Từ mảnh ghép hữu hình đến hành trình tìm về nguồn cội
+Nhờ vi mạch NFC tích hợp khéo léo bên trong, từng mảnh ghép thủ công không còn là món đồ trang trí đơn thuần. Mỗi mảnh ghép trở thành một "chìa khóa số" mở ra câu chuyện lịch sử của từng vùng đất.
+
+| Tính năng tương tác | Cách thức hoạt động thực tế | Giá trị tri thức và cảm xúc mang lại |
+| :--- | :--- | :--- |
+| **Tra cứu tức thì** | Chạm nhẹ điện thoại lên vật phẩm để hiển thị mốc sử | Nắm bắt thông tin nhanh chóng, loại bỏ thao tác tìm kiếm rườm rà |
+| **Tương tác đa chiều** | Lắng nghe giọng đọc thuyết minh, đối chiếu hình ảnh | Tăng khả năng ghi nhớ kiến thức, tạo sự rung cảm sâu sắc |
+| **Sưu tầm trọn bộ** | Lắp ghép các mảnh vật lý đại diện cho các tỉnh thành | Cầm nắm được sản phẩm di sản, gắn kết không gian gia đình |
+
+### 3.2. Bản đồ gỗ NFC: Đưa biểu tượng non sông vào không gian sống
+Bản đồ gỗ tích hợp chip NFC là sự kết hợp chỉn chu giữa tay nghề thủ công mỹ nghệ và công nghệ tương tác hiện đại:
+
+- **Mỗi tỉnh thành là một điểm chạm:** Từng mảnh gỗ đại diện cho một vùng đất địa linh nhân kiệt, mang theo câu chuyện dựng nước và giữ gìn bờ cõi đầy oai hùng.  
+- **Nâng tầm thẩm mỹ không gian:** Bước ra khỏi công năng trang trí tường đơn thuần, trở thành một không gian trưng bày tri thức trang nhã, gợi mở câu chuyện văn hóa mỗi khi gia đình quây quần hay đón tiếp khách quý.
+
+![Sản phẩm thủ công kết hợp NFC của Mảnh ghép Hồn Việt](/images/san-pham-ket-hop-nfc.jpg)
+*Hình 4: Sản phẩm thủ công kết hợp NFC của Mảnh ghép Hồn Việt*
+
+Bạn muốn trực tiếp chạm tay vào ngàn năm lịch sử hào hùng? Khám phá ngay tại Website [Mảnh ghép Hồn Việt](https://www.manhghephonviet.com).
+
+
+## 4. Mảnh Ghép Hồn Việt: Tiếp nối dòng chảy di sản
+Sự kết hợp giữa nghệ thuật mộc thủ công và chip NFC của Mảnh Ghép Hồn Việt biến lịch sử trở nên gần gũi, mạch lạc:
+- **Mỗi mảnh ghép – Một câu chuyện:** Tái hiện chân thực từng bước mở cõi, giữ nước của dân tộc.
+- **Mỗi điểm chạm – Một niềm tự hào:** Khơi dậy tinh thần yêu nước, kết nối giá trị truyền thống với thế hệ tương lai.
+
+
+## Câu hỏi thường gặp (FAQ)
+
+**1. Chip NFC trên bản đồ gỗ có cần sạc pin không?**  
+*Không.* Chip NFC là vi mạch thụ động, lấy năng lượng từ cảm ứng từ trường của điện thoại khi chạm vào nên không cần pin hay dây sạc.
+
+**2. Dòng điện thoại nào tương tác được với bản đồ?**  
+Hầu hết smartphone hiện đại chạy iOS hoặc Android có tích hợp NFC đều quét và hiển thị thông tin ngay tức thì mà không cần cài app trung gian.
+
+**3. Dữ liệu lịch sử được thẩm định từ nguồn nào?**  
+Nội dung được nghiên cứu và đối chiếu chặt chẽ từ các bộ chính sử uy tín như *Đại Việt Sử Ký Toàn Thư*, *Khâm Định Việt Sử Thông Giám Cương Mục* cùng các công trình khoa học chuyên ngành.
+
+**4. Gỗ của bản đồ có bị cong vênh hay mối mọt không?**  
+Phôi gỗ tự nhiên được xử lý sấy chống ẩm và mối mọt theo quy chuẩn, đảm bảo độ bền cao và thích nghi tốt với khí hậu nóng ẩm tại Việt Nam. `
   }
 ];
 

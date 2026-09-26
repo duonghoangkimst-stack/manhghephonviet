@@ -259,7 +259,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
               </p>
               <p className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-base text-[#D4AF37]">mail</span>
-                <span>lienhe@manhghephonviet.vn</span>
+                <span>manhghephonviet.project@gmail.com</span>
               </p>
             </div>
           </div>

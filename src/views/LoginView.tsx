@@ -256,7 +256,7 @@ export default function LoginView({
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder="Hoàng Kim"
+                    placeholder="Nguyễn Văn A"
                     className="w-full p-3 bg-white border border-[#C5B358] rounded-xl text-xs text-[#261816] focus:outline-none focus:border-[#570000]"
                     required
                   />
@@ -271,7 +271,7 @@ export default function LoginView({
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="hoangkim@gmail.com"
+                  placeholder="nguyenvana@gmail.com"
                   className="w-full p-3 bg-white border border-[#C5B358] rounded-xl text-xs text-[#261816] focus:outline-none focus:border-[#570000]"
                   required
                 />

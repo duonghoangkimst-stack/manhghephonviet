@@ -175,4 +175,21 @@
     font-size: 1.15rem;
   }
 }
+/* Chỉ áp dụng riêng cho khung chứa bài viết có class .article-body */
+.article-body h2 {
+  font-family: inherit !important; /* Dùng chung font sans-serif với thân bài */
+  font-size: 1.5rem !important;   /* Cỡ chữ to 24px */
+  font-weight: 700 !important;    /* In đậm */
+  color: #111827 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
 
+.article-body h3 {
+  font-family: inherit !important; /* Dùng chung font sans-serif với thân bài */
+  font-size: 1.25rem !important;  /* Cỡ chữ to 20px */
+  font-weight: 700 !important;    /* In đậm */
+  color: #1f2937 !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}

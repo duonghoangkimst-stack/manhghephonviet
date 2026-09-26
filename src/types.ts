@@ -1,4 +1,4 @@
-export type TabType = 'trangchu' | 'vechungtoi' | 'baiviet' | 'trochoi' | 'cuahang' | 'lienhe' | 'login';
+export type TabType = 'trangchu' | 'vechungtoi' | 'baiviet' | 'trochoi' | 'cuahang' | 'lienhe' | 'login' | 'chitietbaiviet';
 
 export interface Article {
   id: string;
@@ -16,6 +16,7 @@ export interface Article {
   excerpt: string;
   content: string;
   image: string;
+  images?: string[];
   likes: number;
   commentsCount: number;
   tags: string[];
@@ -25,13 +26,12 @@ export interface Article {
 export interface Product {
   id: string;
   name: string;
-  category: 'banchay' | 'chinh' | 'phu' | 'luuniem';
+  category: string;
   price: number;
-  oldPrice?: number;
+  originalPrice?: number;
   rating: number;
-  soldCount: number;
+  reviewsCount: number;
   image: string;
-  shortDesc: string;
   description: string;
   nfcFeatures: string[];
   inStock: boolean;
@@ -42,35 +42,35 @@ export interface CartItem {
   quantity: number;
 }
 
-export interface HeritageSite {
-  id: string;
-  name: string;
-  provinceId: string;
-  subtitle: string;
-  image: string;
-  desc: string;
-  xpReward: number;
-  experienceUrl?: string;
-}
-
 export interface Province {
   id: string;
   name: string;
   region: 'north' | 'central' | 'south';
-  sitesCount: number | string;
+  sitesCount: string;
   storiesCount: number;
   image: string;
   desc: string;
-  relicsCount?: number | string;
-  explorationRate?: number;
+}
+
+export interface HeritageSite {
+  id: string;
+  name: string;
+  provinceId: string;
+  period: string;
+  category: string;
+  image: string;
+  description: string;
+  architecturalSignificance: string;
+  unlockedByDefault?: boolean;
 }
 
 export interface QuizQuestion {
-  id: number;
+  id: string;
   question: string;
   options: string[];
-  correctIndex: number;
+  correctAnswer: number;
   explanation: string;
+  hint?: string;
 }
 
 export interface UserProfile {
