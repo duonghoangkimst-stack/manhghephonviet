@@ -18,7 +18,7 @@ import LoginView from './views/LoginView';
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('trangchu');
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
-  const [user, setUser] = useState<UserProfile | null>(INITIAL_USER);
+  const [user, setUser] = useState<UserProfile | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
