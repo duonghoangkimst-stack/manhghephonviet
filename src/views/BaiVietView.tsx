@@ -26,6 +26,7 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
     ? articlesList
     : articlesList.filter(a => a.category.toUpperCase() === selectedCategory.toUpperCase());
 
+
   const topFeaturedArticles = articlesList.slice(0, 3);
 
   // Schema SEO JSON-LD
@@ -101,10 +102,15 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
 
                 return (
                   <article
-                    key={art.id}
-                    onClick={() => onSelectArticle ? onSelectArticle(art) : null}
-                    className="bg-[#FFFDF9] rounded-2xl border-2 border-[#C5B358]/60 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col cursor-pointer group hover:border-[#580E0E]"
-                  >
+  key={art.id}
+  onClick={() => {
+    localStorage.setItem('selectedArticleId', String(art.id));
+    if (onSelectArticle) {
+      onSelectArticle(art);
+    }
+  }}
+  className="bg-[#FFFDF9] rounded-2xl border-2 border-[#C5B358]/60 shadow-sm hover:shadow-md transition-all cursor-pointer"
+>
                     <div className="relative w-full h-56 overflow-hidden bg-[#FAF5EB]">
                       <img
                         src={art.image}

@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ARTICLES, Article } from '../data/mockData';
 import { InteractionSection } from '../components/InteractionSection';
+import rehypeRaw from 'rehype-raw';
 interface ChiTietBaiVietViewProps {
   onBack: () => void;
   user?: any; // Thêm prop user nhận từ App.tsx
@@ -14,11 +15,14 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({ onBack, 
   useEffect(() => {
     window.scrollTo(0, 0);
     const savedId = localStorage.getItem('selectedArticleId');
+    
     if (savedId) {
       const found = ARTICLES.find((a) => String(a.id) === String(savedId));
-      setArticle(found || ARTICLES[0]);
-    } else {
-      setArticle(ARTICLES[0]);
+      if (found) {
+        setArticle(found);
+      } else {
+        setArticle(null); // Không tự động lấy ARTICLES[0] để dễ phát hiện lỗi ID
+      }
     }
   }, []);
 
@@ -68,6 +72,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({ onBack, 
           <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed font-sans space-y-4 prose-headings:font-sans prose-h2:text-3xl prose-h2:font-bold prose-h2:text-gray-900 prose-h3:text-2xl prose-h3:font-bold prose-h3:text-gray-900">
           <ReactMarkdown
   remarkPlugins={[remarkGfm]}
+  rehypePlugins={[rehypeRaw]}
   components={{
     h2: ({ node, ...props }) => (
       <h2 className="text-xl md:text-2xl font-bold font-sans text-gray-900 mt-6 mb-3" {...props} />
