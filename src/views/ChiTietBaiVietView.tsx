@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ARTICLES, Article } from '../data/mockData';
-
+import { InteractionSection } from '../components/InteractionSection';
 interface ChiTietBaiVietViewProps {
   onBack: () => void;
+  user?: any; // Thêm prop user nhận từ App.tsx
 }
 
-export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({ onBack }) => {
+export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({ onBack, user }) => {
   const [article, setArticle] = useState<Article | null>(null);
 
   useEffect(() => {
@@ -130,6 +131,11 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({ onBack }
 >
   {article.content}
 </ReactMarkdown>
+<InteractionSection
+        articleId={String(article.id)}
+        currentUser={user}
+        initialLikes={article.likes || 0}
+      />
           </div>
 
         </article>

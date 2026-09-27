@@ -1,170 +1,194 @@
 import React, { useState, useEffect } from 'react';
-import { db, ref, onValue, push, runTransaction } from '../firebase';
 
 interface Comment {
   id: string;
-  author: string;
-  text: string;
-  createdAt: number;
+  userName: string;
+  avatar?: string;
+  content: string;
+  createdAt: number; // Lưu dạng Timestamp (miliseconds)
 }
 
-interface InteractionProps {
-  articleId: string; // ID của bài viết (ví dụ: 'faq' hoặc 'ban-do-go')
+interface InteractionSectionProps {
+  articleId: string;
+  currentUser?: any;
+  initialLikes?: number;
 }
 
-export const InteractionSection: React.FC<InteractionProps> = ({ articleId }) => {
-  const [likes, setLikes] = useState<number>(0);
-  const [views, setViews] = useState<number>(0);
-  const [comments, setComments] = useState<Comment[]>([]);
-  const [authorName, setAuthorName] = useState('');
-  const [commentText, setCommentText] = useState('');
-  const [hasLiked, setHasLiked] = useState(false);
+// Hàm chuyển đổi Timestamp sang định dạng tương đối ("Vừa xong", "5 phút trước",...)
+const getTimeAgo = (timestamp: number): string => {
+  const seconds = Math.floor((Date.now() - timestamp) / 1000);
 
+  if (seconds < 60) return 'Vừa xong';
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `${minutes} phút trước`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours} giờ trước`;
+  const days = Math.floor(hours / 24);
+  if (days < 30) return `${days} ngày trước`;
+  
+  const date = new Date(timestamp);
+  return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+};
+
+export const InteractionSection: React.FC<InteractionSectionProps> = ({
+  articleId,
+  currentUser,
+  initialLikes = 0,
+}) => {
+  const userId = currentUser?.id || currentUser?.uid || currentUser?.email || 'guest';
+  const storageLikeKey = `article_liked_${articleId}_${userId}`;
+  const storageCommentsKey = `article_comments_${articleId}`;
+
+  // State Likes
+  const [likes, setLikes] = useState<number>(initialLikes);
+  const [hasLiked, setHasLiked] = useState<boolean>(() => {
+    return localStorage.getItem(storageLikeKey) === 'true';
+  });
+
+  // State Comments (Lấy từ localStorage nếu có, nếu không thì dùng bình luận mẫu)
+  const [comments, setComments] = useState<Comment[]>(() => {
+    const saved = localStorage.getItem(storageCommentsKey);
+    if (saved) {
+      try {
+        return JSON.parse(saved);
+      } catch (e) {
+        console.error('Lỗi parse bình luận:', e);
+      }
+    }
+    return [
+      {
+        id: '1',
+        userName: 'Trần Minh Tâm',
+        content: 'Bài viết rất hay và giàu giá trị di sản!',
+        createdAt: Date.now() - 10 * 60 * 1000, // 10 phút trước
+      },
+    ];
+  });
+
+  const [newComment, setNewComment] = useState('');
+  const [, setTicker] = useState(0);
+
+  // Tự động re-render mỗi 30 giây để cập nhật thời gian "x phút trước" liên tục
   useEffect(() => {
-    if (!articleId) return;
+    const interval = setInterval(() => {
+      setTicker((prev) => prev + 1);
+    }, 30000);
+    return () => clearInterval(interval);
+  }, []);
 
-    // 1. Tăng lượt xem (Views) khi vào trang
-    const viewsRef = ref(db, `articles/${articleId}/views`);
-    runTransaction(viewsRef, (currentViews) => (currentViews || 0) + 1);
+  // Lưu bình luận vào localStorage mỗi khi có bình luận mới
+  useEffect(() => {
+    localStorage.setItem(storageCommentsKey, JSON.stringify(comments));
+  }, [comments, storageCommentsKey]);
 
-    // 2. Lắng nghe dữ liệu Likes & Views thời gian thực
-    const articleRef = ref(db, `articles/${articleId}`);
-    const unsubscribeArticle = onValue(articleRef, (snapshot) => {
-      const data = snapshot.val();
-      if (data) {
-        setLikes(data.likes || 0);
-        setViews(data.views || 0);
-      }
-    });
-
-    // 3. Lắng nghe danh sách Bình luận thời gian thực
-    const commentsRef = ref(db, `articles/${articleId}/comments`);
-    const unsubscribeComments = onValue(commentsRef, (snapshot) => {
-      const data = snapshot.val();
-      if (data) {
-        const loadedComments: Comment[] = Object.keys(data).map((key) => ({
-          id: key,
-          ...data[key],
-        }));
-        setComments(loadedComments.reverse()); // Hiện bình luận mới nhất lên đầu
-      } else {
-        setComments([]);
-      }
-    });
-
-    return () => {
-      unsubscribeArticle();
-      unsubscribeComments();
-    };
-  }, [articleId]);
-
-  // Xử lý bấm Tim
+  // Xử lý Thả tim
   const handleLike = () => {
-    const likesRef = ref(db, `articles/${articleId}/likes`);
-    runTransaction(likesRef, (currentLikes) => {
-      if (hasLiked) {
-        setHasLiked(false);
-        return (currentLikes || 1) - 1;
-      } else {
-        setHasLiked(true);
-        return (currentLikes || 0) + 1;
-      }
-    });
+    if (!currentUser) {
+      alert('Vui lòng đăng nhập để thả tim bài viết!');
+      return;
+    }
+
+    if (hasLiked) {
+      setLikes((prev) => prev - 1);
+      setHasLiked(false);
+      localStorage.removeItem(storageLikeKey);
+    } else {
+      setLikes((prev) => prev + 1);
+      setHasLiked(true);
+      localStorage.setItem(storageLikeKey, 'true');
+    }
   };
 
-  // Xử lý gửi Bình luận
+  // Xử lý gửi Bình luận mới
   const handleCommentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!commentText.trim()) return;
+    if (!currentUser) {
+      alert('Vui lòng đăng nhập để tham gia bình luận!');
+      return;
+    }
+    if (!newComment.trim()) return;
 
-    const commentsRef = ref(db, `articles/${articleId}/comments`);
-    push(commentsRef, {
-      author: authorName.trim() || 'Người dùng ẩn danh',
-      text: commentText.trim(),
-      createdAt: Date.now(),
-    });
+    const commentObj: Comment = {
+      id: Date.now().toString(),
+      userName: currentUser.name || currentUser.fullName || currentUser.email || 'Người dùng',
+      avatar: currentUser.avatar,
+      content: newComment.trim(),
+      createdAt: Date.now(), // Thời gian thực ngay lúc bấm gửi
+    };
 
-    setCommentText('');
+    setComments([commentObj, ...comments]);
+    setNewComment('');
   };
 
   return (
-    <div style={{ maxWidth: '800px', margin: '40px auto', padding: '20px', fontFamily: 'sans-serif' }}>
-      {/* Thanh Tương tác: Tim & Views */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '20px', borderBottom: '1px solid #eee', paddingBottom: '15px' }}>
+    <div className="mt-10 pt-6 border-t border-gray-200">
+      {/* Khung Thả tim */}
+      <div className="flex items-center justify-between bg-red-50 p-4 rounded-xl mb-8 border border-red-100">
+        <div>
+          <h4 className="font-bold text-gray-800 text-lg">Yêu thích bài viết này?</h4>
+          <p className="text-sm text-gray-600">Thả tim để lan tỏa di sản đến cộng đồng</p>
+        </div>
         <button
           onClick={handleLike}
-          style={{
-            padding: '8px 16px',
-            borderRadius: '20px',
-            border: 'none',
-            backgroundColor: hasLiked ? '#ff4d4f' : '#f0f0f0',
-            color: hasLiked ? '#fff' : '#333',
-            cursor: 'pointer',
-            fontSize: '16px',
-            fontWeight: 'bold',
-            transition: 'all 0.2s'
-          }}
+          className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold transition-all duration-200 ${
+            hasLiked
+              ? 'bg-red-700 text-white shadow-md scale-105'
+              : 'bg-white text-red-700 border border-red-300 hover:bg-red-100'
+          }`}
         >
-          ❤️ {likes} Thích
-        </button>
-
-        <span style={{ color: '#666', fontSize: '14px' }}>
-          👁️ {views} Lượt xem
-        </span>
-      </div>
-
-      {/* Form viết bình luận */}
-      <div style={{ marginTop: '25px' }}>
-        <h3 style={{ marginBottom: '15px' }}>Bình luận ({comments.length})</h3>
-        <form onSubmit={handleCommentSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-          <input
-            type="text"
-            placeholder="Tên của bạn (không bắt buộc)..."
-            value={authorName}
-            onChange={(e) => setAuthorName(e.target.value)}
-            style={{ padding: '10px', borderRadius: '6px', border: '1px solid #ccc' }}
-          />
-          <textarea
-            placeholder="Viết bình luận của bạn..."
-            value={commentText}
-            onChange={(e) => setCommentText(e.target.value)}
-            rows={3}
-            style={{ padding: '10px', borderRadius: '6px', border: '1px solid #ccc', resize: 'vertical' }}
-            required
-          />
-          <button
-            type="submit"
-            style={{
-              alignSelf: 'flex-end',
-              padding: '8px 20px',
-              backgroundColor: '#8B0000', // Tone màu đỏ đậm hợp giao diện Hồn Việt
-              color: '#fff',
-              border: 'none',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              fontWeight: 'bold'
-            }}
+          <svg
+            className={`w-6 h-6 ${hasLiked ? 'fill-current' : 'fill-none stroke-current'}`}
+            viewBox="0 0 24 24"
+            strokeWidth="2"
           >
-            Gửi bình luận
-          </button>
-        </form>
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+          <span>{likes} {hasLiked ? 'Đã tim' : 'Thả tim'}</span>
+        </button>
       </div>
 
-      {/* Danh sách bình luận */}
-      <div style={{ marginTop: '25px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        {comments.length === 0 ? (
-          <p style={{ color: '#888', italic: 'true' }}>Chưa có bình luận nào. Hãy là người đầu tiên bình luận!</p>
-        ) : (
-          comments.map((item) => (
-            <div key={item.id} style={{ backgroundColor: '#f9f9f9', padding: '12px 16px', borderRadius: '8px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '5px' }}>
-                <strong style={{ color: '#333' }}>{item.author}</strong>
-                <small style={{ color: '#999' }}>{new Date(item.createdAt).toLocaleString('vi-VN')}</small>
+      {/* Khung Bình luận */}
+      <div>
+        <h3 className="text-xl font-bold text-gray-900 mb-4">
+          Bình luận ({comments.length})
+        </h3>
+
+        <form onSubmit={handleCommentSubmit} className="mb-6">
+          <textarea
+            rows={3}
+            value={newComment}
+            onChange={(e) => setNewComment(e.target.value)}
+            placeholder={
+              currentUser
+                ? 'Viết cảm nghĩ của bạn về bài viết...'
+                : 'Vui lòng đăng nhập để tham gia bình luận...'
+            }
+            disabled={!currentUser}
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:outline-none disabled:bg-gray-100"
+          />
+          <div className="flex justify-end mt-2">
+            <button
+              type="submit"
+              disabled={!currentUser || !newComment.trim()}
+              className="px-6 py-2 bg-red-800 text-white rounded-lg font-medium hover:bg-red-900 transition-colors disabled:opacity-50"
+            >
+              Gửi bình luận
+            </button>
+          </div>
+        </form>
+
+        <div className="space-y-4">
+          {comments.map((comment) => (
+            <div key={comment.id} className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+              <div className="flex items-center justify-between mb-2">
+                <span className="font-bold text-gray-900">{comment.userName}</span>
+                {/* Gọi hàm tính thời gian thực tương đối */}
+                <span className="text-xs text-gray-500">{getTimeAgo(comment.createdAt)}</span>
               </div>
-              <p style={{ margin: 0, color: '#444' }}>{item.text}</p>
+              <p className="text-gray-700 text-sm md:text-base">{comment.content}</p>
             </div>
-          ))
-        )}
+          ))}
+        </div>
       </div>
     </div>
   );
