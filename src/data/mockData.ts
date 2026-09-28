@@ -90,7 +90,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '581',
     storiesCount: 7,
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'Lạng Sơn.jpg',
     desc: 'Ải Chi Lăng lẫy lừng chiến công chống giặc ngoại xâm cùng Động Nhị Thanh - Tam Thanh.'
   },
   {
@@ -117,7 +117,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '800+',
     storiesCount: 8,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'Thái Nguyên.jpg',
     desc: 'Thủ đô gió ngàn ATK Định Hóa – trung tâm đầu não kháng chiến chống thực dân Pháp.'
   },
   {
@@ -144,7 +144,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '1.589',
     storiesCount: 12,
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: 'Bắc Ninh.jpg',
     desc: 'Kinh Bắc hào hoa với Đền Đô thờ 8 vị vua triều Lý và Dân ca quan họ di sản văn hóa phi vật thể.'
   },
   {
@@ -153,7 +153,7 @@ export const PROVINCES: Province[] = [
     region: 'north',
     sitesCount: '1.800+',
     storiesCount: 9,
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'Hưng Yên.jpg',
     desc: 'Thứ nhất Kinh Kỳ, thứ nhì Phố Hiến với Quần thể di tích Phố Hiến và Đền Chử Đồng Tử.'
   },
   {
@@ -349,7 +349,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Hoàng thành Thăng Long',
     provinceId: 'ha-noi',
     subtitle: 'Ngàn năm văn hiến',
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: '/hoangthanhthanglong.jpg',
     desc: 'Trực tiếp bước vào không gian cung đình xưa, giải mã các hiện vật quý qua các triều Lý - Trần - Lê.',
     xpReward: 500
   },
@@ -358,7 +358,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Văn Miếu Quốc Tử Giám',
     provinceId: 'ha-noi',
     subtitle: 'Trường đại học đầu tiên',
-    image: 'https://images.unsplash.com/photo-1599827556779-166249db4424?auto=format&fit=crop&w=800&q=80',
+    image: '/vanmieuquoctugiam.jpg',
     desc: 'Tìm hiểu truyền thống hiếu học, 82 bia tiến sĩ vinh danh hiền tài của đất nước.',
     xpReward: 400
   },
@@ -367,7 +367,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Đồi A1',
     provinceId: 'dien-bien',
     subtitle: 'Cứ điểm then chốt quả đồi Eliane 2',
-    image: doiA1Img,
+    image: 'Đồi A1.jpg',
     desc: 'Điểm cao chiến lược quan trọng và là nơi diễn ra trận chiến ác liệt nhất, hiện còn lưu giữ hố bộc phá 960kg thuốc nổ.',
     xpReward: 550,
     experienceUrl: 'https://doia1-dienbienphu-manhghephonviet.netlify.app/'
@@ -377,7 +377,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Hầm De Castries',
     provinceId: 'dien-bien',
     subtitle: 'Trung tâm đầu não tập đoàn cứ điểm',
-    image: hamDeCastriesImg,
+    image: 'Hầm De Castries.jpg',
     desc: 'Sở chỉ huy của tướng De Castries kiên cố với vòm thép uốn cong, nơi lá cờ Quyết chiến Quyết thắng tung bay chiều 7/5/1954.',
     xpReward: 600
   },
@@ -386,7 +386,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Sở chỉ huy chiến dịch Điện Biên Phủ',
     provinceId: 'dien-bien',
     subtitle: 'Căn cứ Mường Phăng rừng đại ngàn',
-    image: soChiHuyImg,
+    image: '/Sở chỉ huy chiến dịch Điện Biên Phủ.jpg',
     desc: 'Nơi Đại tướng Võ Nguyên Giáp và Bộ Chỉ huy đưa ra quyết định lịch sử chuyển sang phương châm "Đánh chắc, tiến chắc" vang dội.',
     xpReward: 580
   },
@@ -395,7 +395,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Cầu Mường Thanh',
     provinceId: 'dien-bien',
     subtitle: 'Cây cầu bắc qua dòng sông Nậm Rốm',
-    image: cauMuongThanhImg,
+    image: 'Cầu Mường Thanh.jpg',
     desc: 'Cầu sắt dã chiến bắc qua sông Nậm Rốm, chứng kiến bước chân xung phong thần tốc của quân ta tiến thẳng vào bắt sống tướng De Castries.',
     xpReward: 500
   },
@@ -404,7 +404,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Đồi Him Lam',
     provinceId: 'dien-bien',
     subtitle: 'Cánh cửa thép mở màn chiến dịch',
-    image: doiHimLamImg,
+    image: 'ĐỒI HIM LAM.jpg',
     desc: 'Trung tâm đề kháng Béatrice bị đập tan trong trận mở màn ngày 13/3/1954, nơi ngời sáng tấm gương anh hùng Phan Đình Giót lấy thân mình lấp lỗ châu mai.',
     xpReward: 520
   },
@@ -413,7 +413,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Cứ điểm Hồng Cúm',
     provinceId: 'dien-bien',
     subtitle: 'Phân khu Nam kiềm tỏa pháo binh',
-    image: hongCumImg,
+    image: 'Cứ Điểm Hồng Cúm.jpg',
     desc: 'Cụm cứ điểm phân khu Nam bảo vệ sân bay dự bị và trận địa pháo binh của Pháp, bị quân ta siết chặt vòng vây và cô lập hoàn toàn.',
     xpReward: 510
   },
@@ -422,7 +422,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Vịnh Hạ Long',
     provinceId: 'quang-ninh',
     subtitle: 'Kỳ quan thiên nhiên',
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'vinhhalong.jpg',
     desc: 'Khám phá huyền tích Rồng Mẹ hạ phàm nhả ngọc tạo dựng thế trận bảo vệ non sông.',
     xpReward: 450
   },
@@ -431,7 +431,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Cố đô Hoa Lư',
     provinceId: 'ninh-binh',
     subtitle: 'Kinh đô Đinh - Tiền Lê',
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    image: 'co-do-hoa-lu.jpg',
     desc: 'Trải nghiệm hào khí dựng nước của Vua Đinh Tiên Hoàng sau khi dẹp loạn 12 sứ quân.',
     xpReward: 420
   },
@@ -440,7 +440,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Khu Di tích Đền Hùng',
     provinceId: 'phu-tho',
     subtitle: 'Cội nguồn đất Mẹ',
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'khuditichdenHung.jpg',
     desc: 'Hành hương về núi Nghĩa Lĩnh, dâng hương tri ân các Vua Hùng đã có công dựng nước.',
     xpReward: 480
   },
@@ -449,16 +449,16 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Khu Di tích Tân Trào',
     provinceId: 'tuyen-quang',
     subtitle: 'Thủ đô Kháng chiến',
-    image: 'https://images.unsplash.com/photo-1599827556779-166249db4424?auto=format&fit=crop&w=800&q=80',
+    image: '/khuditichtantrao.jpg',
     desc: 'Nơi Bác Hồ và Trung ương Đảng lãnh đạo toàn dân làm nên cuộc Cách mạng Tháng Tám lịch sử.',
     xpReward: 460
   },
   {
     id: 'den-bao-ha-site',
-    name: 'Đền Bảo Hà & Sa Pa',
+    name: 'Đền Bảo Hà',
     provinceId: 'lao-cai',
     subtitle: 'Hào khí biên cương',
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
+    image: '/denbaoha.jpg',
     desc: 'Nơi thờ danh tướng Hoàng Bảy có công giữ vững bờ cõi biên cương phía Bắc Tổ quốc.',
     xpReward: 430
   },
@@ -467,7 +467,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Di tích Bia đá Vua Lê Lợi',
     provinceId: 'lai-chau',
     subtitle: 'Bảo vật quốc gia non cao',
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: '/biavuaLeLoi.jpg',
     desc: 'Bảo vật quốc gia khắc ghi bài thơ răn dạy tướng sĩ bảo vệ biên cương của Bình Định Vương Lê Lợi.',
     xpReward: 420
   },
@@ -476,7 +476,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Khu Di tích Ải Chi Lăng',
     provinceId: 'lang-son',
     subtitle: 'Chiến công hiển hách',
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'aichilang.jpg',
     desc: 'Nơi chôn vùi danh tướng Liễu Thăng, đập tan âm mưu xâm lược của nhà Minh năm 1427.',
     xpReward: 470
   },
@@ -485,7 +485,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Khu Di tích Pác Bó',
     provinceId: 'cao-bang',
     subtitle: 'Cội nguồn Cách mạng',
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'pacbo.jpg',
     desc: 'Suối Lê Nin, núi Các Mác nơi Bác Hồ đặt chân về nước năm 1941 trực tiếp lãnh đạo cách mạng Việt Nam.',
     xpReward: 500
   },
@@ -494,7 +494,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Di tích Nhà tù Sơn La',
     provinceId: 'son-la',
     subtitle: 'Cây đào Tô Hiệu',
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    image: 'nhatuSonLa.jpg',
     desc: 'Trường học cách mạng rèn luyện ý chí gang thép của các chiến sĩ cộng sản kiên trung nơi ngục tù đế quốc.',
     xpReward: 450
   },
@@ -503,7 +503,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'ATK Định Hóa',
     provinceId: 'thai-nguyen',
     subtitle: 'Thủ đô Gió ngàn',
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'atkDinhHoa.jpg',
     desc: 'Trung tâm đầu não an toàn khu của Trung ương Đảng và Bác Hồ trong suốt 9 năm kháng chiến trường kỳ.',
     xpReward: 460
   },
@@ -512,7 +512,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Đền Đô - Cổ Pháp Điện',
     provinceId: 'bac-ninh',
     subtitle: 'Bát Vị Triều Lý',
-    image: 'https://images.unsplash.com/photo-1509030450996-932d20501eb3?auto=format&fit=crop&w=800&q=80',
+    image: 'Đền Đô.jpg',
     desc: 'Nơi phụng thờ 8 vị vua triều Lý tại đất phát tích Cổ Pháp linh thiêng giàu truyền thống văn hiến.',
     xpReward: 440
   },
@@ -521,7 +521,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Quần thể Di tích Phố Hiến',
     provinceId: 'hung-yen',
     subtitle: 'Thương cảng hưng thịnh',
-    image: 'https://images.unsplash.com/photo-1571401835393-8c5f353283ce?auto=format&fit=crop&w=800&q=80',
+    image: 'Phố Hiến.jpeg',
     desc: 'Đệ nhị thương cảng sầm uất bậc nhất Đàng Ngoài thế kỷ 16–17 với Chùa Chuông, Đền Mẫu cổ kính.',
     xpReward: 450
   },
@@ -530,7 +530,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Di tích Bến tàu K15 Đồ Sơn',
     provinceId: 'hai-phong',
     subtitle: 'Đường Hồ Chí Minh trên biển',
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: '/bentauk15.jpg',
     desc: 'Điểm xuất phát của những đoàn tàu Không số cảm tử chi viện vũ khí cho chiến trường miền Nam anh hùng.',
     xpReward: 470
   },
@@ -1121,6 +1121,103 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   **Mảnh Ghép Hồn Việt** mang đến một không gian tương tác sống động, nơi bạn được trực tiếp điều binh khiển tướng, đối thoại cùng các bậc tiền nhân và tự tay mở khóa từng mảnh ghép hào khí ngàn năm.
   
   **Trải nghiệm ngay hành trình nhập vai lịch sử tại [Mảnh ghép Hồn Việt](https://www.manhghephonviet.com) để việc tìm hiểu sử Việt trở thành niềm tự hào mỗi ngày!**`
+  },
+  {
+    id: 'lich-su-viet-nam-dong-chay-qua-cac-thoi-ky',
+    title: 'Lịch sử Việt Nam: Dòng chảy qua các thời kỳ',
+    excerpt: 'Lịch sử Việt Nam là một dòng chảy liên tục, nơi mỗi vùng đất, nhân vật và biến cố đều góp phần tạo nên diện mạo đất nước. Cùng Mảnh Ghép Hồn Việt nhìn lại hành trình ấy!',
+    category: 'Góc lịch sử Việt',
+    date: '28/09/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/images/bia_seo_4.jpg',
+    likes: 0,
+    content: `Lịch sử Việt Nam không chỉ là những con số, niên đại hay danh sách các triều đại cần ghi nhớ. Đó là một dòng chảy liên tục, nơi mỗi vùng đất, nhân vật và biến cố đều góp phần tạo nên diện mạo Việt Nam hôm nay. Từ những dấu tích đầu tiên của thời dựng nước đến các cuộc đấu tranh giành độc lập và quá trình xây dựng đất nước hiện đại, lịch sử chứa đựng những câu chuyện có giá trị vượt xa một bài học trong sách. Cùng Mảnh Ghép Hồn Việt nhìn lại hành trình ấy theo một cách trực quan, kết nối và gần gũi hơn.
+  
+  ## 1. Lịch sử Việt Nam – dòng chảy hình thành và phát triển của dân tộc
+  
+  Khi nhắc đến lịch sử, nhiều người thường hình dung trước tiên về những mốc thời gian, tên triều đại hoặc các sự kiện phải ghi nhớ. Cách tiếp cận này giúp hệ thống hóa kiến thức, nhưng nếu chỉ dừng lại ở việc ghi nhớ, lịch sử rất dễ trở thành những dữ kiện rời rạc. Muốn hiểu lịch sử Việt Nam sâu hơn, điều quan trọng là nhìn thấy mối liên hệ giữa các giai đoạn: một biến cố tạo ra thay đổi gì, một vùng đất đóng vai trò thế nào và những con người trong quá khứ đã để lại ảnh hưởng gì cho hiện tại.
+  
+  ### 1.1. Vì sao cần nhìn lịch sử theo một dòng chảy liên tục?
+  
+  Lịch sử Việt Nam được hình thành qua hàng nghìn năm với nhiều giai đoạn chuyển tiếp và biến đổi. Các thời kỳ không tồn tại độc lập mà có sự kế thừa về lãnh thổ, văn hóa, tổ chức xã hội, kinh nghiệm dựng nước và giữ nước. Chẳng hạn, khi tìm hiểu quá trình hình thành quốc gia thời cổ, người đọc không nên chỉ ghi nhớ tên gọi hay niên đại. Cần đặt chúng trong bối cảnh đời sống cư dân, điều kiện tự nhiên, hoạt động sản xuất và nhu cầu tổ chức cộng đồng. Từ nền tảng ấy, những thiết chế xã hội và nhà nước sơ khai dần hình thành, tạo tiền đề cho các giai đoạn phát triển tiếp theo. Cách nhìn theo dòng chảy giúp người học trả lời được câu hỏi "vì sao?", thay vì chỉ trả lời "khi nào?". Vì sao một triều đại xuất hiện? Vì sao một cuộc khởi nghĩa bùng nổ? Vì sao một vùng đất trở thành trung tâm chính trị, kinh tế hoặc văn hóa? Khi những câu hỏi ấy được kết nối, kiến thức lịch sử trở nên có logic và dễ ghi nhớ hơn.
+  
+  ![Lịch sử Việt Nam qua các thời kỳ từ cội nguồn đến hiện đại](/images/lich-su-viet-nam-dong-chay.jpg)
+  *Hình 1: Lịch sử Việt Nam là một dòng chảy liên tục qua nhiều thời kỳ và biến chuyển.*
+
+   ### 1.2. Lịch sử không chỉ là những mốc thời gian
+
+   Một sự kiện lịch sử luôn tồn tại trong một không gian và bối cảnh cụ thể. Vì vậy, hiểu lịch sử cần đặt thời gian – con người – vùng đất – sự kiện trong cùng một mối quan hệ. Một trận đánh không chỉ có ngày diễn ra và kết quả. Đằng sau đó còn là địa hình, chiến lược, lực lượng tham gia và những thay đổi sau sự kiện. Một nhân vật lịch sử cũng không nên chỉ được nhớ bằng chức vị hay một hành động nổi bật, mà cần được nhìn trong hoàn cảnh của thời đại. Đây cũng là lý do kiến thức lịch sử có thể trở nên hấp dẫn hơn khi được kể bằng câu chuyện. Thay vì tiếp nhận từng dữ kiện riêng lẻ, người đọc có thể hình dung một hành trình: sự kiện xảy ra ở đâu, ai tham gia, điều gì dẫn đến nó và dấu ấn còn lại là gì. Khi lịch sử được nhìn như một câu chuyện có nguyên nhân, diễn biến và hệ quả, việc tìm hiểu lịch sử Việt Nam không còn đơn thuần là “học thuộc bài”, mà trở thành quá trình khám phá cách một dân tộc được hình thành và phát triển qua thời gian.
+  
+  ## 2. Lịch sử Việt Nam qua các thời kỳ: từ cội nguồn đến hiện đại
+  
+  Để có một bức tranh tổng thể, lịch sử Việt Nam thường được tiếp cận theo các giai đoạn lớn. Mỗi thời kỳ có đặc điểm riêng về chính trị, xã hội, văn hóa và lãnh thổ, nhưng đồng thời cũng tạo ra những tiền đề cho giai đoạn sau.
+  
+  ### 2.1. Từ thời dựng nước đến các triều đại phong kiến
+
+  Những dấu tích khảo cổ học cho thấy cư dân trên lãnh thổ Việt Nam đã hình thành và phát triển những cộng đồng với đời sống vật chất, tinh thần phong phú từ rất sớm. Các nền văn hóa như Phùng Nguyên, Đồng Đậu, Gò Mun và Đông Sơn phản ánh quá trình phát triển lâu dài của cư dân cổ ở khu vực Bắc Bộ và Bắc Trung Bộ. Trong truyền thống lịch sử Việt Nam, thời kỳ Văn Lang – Âu Lạc thường được nhắc đến như một phần quan trọng của giai đoạn dựng nước. Những câu chuyện về các vua Hùng, An Dương Vương hay thành Cổ Loa không chỉ mang giá trị lịch sử mà còn trở thành một phần của ký ức văn hóa dân tộc.Sau đó là một thời kỳ dài chịu ảnh hưởng và tác động từ các thế lực phương Bắc, xen kẽ với nhiều cuộc đấu tranh giành quyền tự chủ. Các cuộc khởi nghĩa Hai Bà Trưng, Bà Triệu, Lý Bí hay chiến thắng Bạch Đằng năm 938 là những dấu mốc quan trọng trong tiến trình giành lại quyền tự chủ.
+
+  Từ thế kỷ X, các nhà nước quân chủ độc lập lần lượt được xây dựng và củng cố qua các triều đại Ngô, Đinh, Tiền Lê, Lý, Trần, Hồ, Lê sơ, Mạc, Lê Trung Hưng, Tây Sơn và Nguyễn. Mỗi triều đại để lại những dấu ấn riêng về tổ chức nhà nước, quân sự, văn hóa, giáo dục và lãnh thổ. Vì vậy, khi học các thời kỳ lịch sử Việt Nam, không nên xem các triều đại như những “ngăn kéo” riêng biệt. Chúng là những mắt xích trong một quá trình lâu dài của xây dựng quốc gia và bảo vệ chủ quyền.
+
+   ### 2.2. Từ thời kỳ đấu tranh giành độc lập đến Việt Nam hiện đại
+
+   Bước sang thế kỷ XIX và XX, lịch sử Việt Nam chuyển sang một giai đoạn có nhiều biến động sâu sắc. Sự hiện diện của thực dân Pháp, các phong trào yêu nước cuối thế kỷ XIX – đầu thế kỷ XX, sự ra đời của các tổ chức chính trị mới và những biến chuyển của xã hội đã tạo nên một thời kỳ đấu tranh quyết liệt.Cách mạng Tháng Tám năm 1945 mở ra một bước ngoặt lớn với sự ra đời của nước Việt Nam Dân chủ Cộng hòa. Sau đó, Việt Nam tiếp tục trải qua các cuộc chiến tranh kéo dài, trong đó có Chiến tranh Đông Dương và Chiến tranh Việt Nam, trước khi đất nước thống nhất năm 1975.
+
+   Từ sau thống nhất, Việt Nam bước vào quá trình khôi phục và xây dựng đất nước. Công cuộc Đổi mới từ năm 1986 tạo ra những thay đổi quan trọng về kinh tế, xã hội và hội nhập quốc tế. Nhìn từ hiện tại, mỗi giai đoạn đều góp phần giải thích một phần diện mạo Việt Nam hôm nay. Vì thế, kiến thức lịch sử Việt Nam có giá trị không chỉ trong việc hiểu quá khứ mà còn giúp chúng ta nhận diện nguồn gốc của nhiều thay đổi trong xã hội hiện đại.
+
+   Bảng khái quát các thời kỳ lịch sử Việt Nam:
+
+  | <center>Giai đoạn</center> | <center>Thời gian khái quát</center> | <center>Nội dung chính</center> |<center>Dấu mốc tiêu biểu</center> |
+  | :--- | :--- | :--- | :--- |
+  | **Thời kỳ dựng nước** | Khoảng thiên niên kỷ II–I TCN đến thế kỷ II TCN |Hình thành các cộng đồng cư dân và nhà nước sơ khai; tiêu biểu là Văn Lang và Âu Lạc | Văn hóa Đông Sơn, nhà nước Văn Lang, Âu Lạc, thành Cổ Loa |
+  | **Thời kỳ Bắc thuộc và đấu tranh giành quyền tự chủ** | 179 TCN – 938 | Chống sự cai trị từ phương Bắc, từng bước giành quyền tự chủ | Hai Bà Trưng, Bà Triệu, Lý Bí, Phùng Hưng, Khúc Thừa Dụ, chiến thắng Bạch Đằng năm 938 |
+  | **TThời kỳ quốc gia phong kiến độc lập** | 938 – giữa thế kỷ XIX | Xây dựng nhà nước, phát triển lãnh thổ, kinh tế và văn hóa | Ngô, Đinh, Tiền Lê, Lý, Trần, Hồ, Lê sơ, Mạc, Lê Trung Hưng, Tây Sơn, Nguyễn |
+  | **Thời kỳ Pháp thuộc và phong trào đấu tranh giải phóng dân tộc** | 1858 – 1945 | Kháng chiến chống Pháp và hình thành các phong trào yêu nước | Phong trào Cần Vương, Đông Du, Duy Tân, Cách mạng Tháng Tám |
+  | **Đấu tranh giành độc lập và thống nhất** | 1945 – 1975 | Kháng chiến chống Pháp, chống Mỹ và thống nhất đất nước | Độc lập 1945, Điện Biên Phủ 1954, Hiệp định Paris 1973, thống nhất 1975 |
+  | **Xây dựng và phát triển đất nước** | 1975 – nay | Khôi phục, Đổi mới và hội nhập quốc tế | Đổi mới 1986, hội nhập và phát triển |
+
+  ![Các thời kỳ lịch sử Việt Nam trên dòng thời gian](/images/cac-thoi-ki-lich-su-viet-nam-timeline.jpg)
+  *Hình 2: Các thời kỳ lịch sử Việt Nam được kết nối theo dòng thời gian để dễ hình dung tổng thể.*
+
+  ### 3. Mảnh Ghép Hồn Việt – Kết nối các mảnh ghép lịch sử Việt Nam
+  
+  Một trong những cách tiếp cận hiệu quả để hiểu lịch sử là không tách sự kiện khỏi con người và không tách con người khỏi không gian lịch sử. Một câu chuyện chỉ thực sự có chiều sâu khi người đọc biết nó diễn ra ở đâu, trong hoàn cảnh nào và để lại dấu ấn gì.
+  
+### 3.1. Nhìn lịch sử qua những sự kiện và nhân vật tiêu biểu
+
+Trong lịch sử Việt Nam có hàng nghìn sự kiện và nhân vật đáng tìm hiểu. Tuy nhiên, việc ghi nhớ toàn bộ một cách máy móc thường không phải cách hiệu quả để hiểu lịch sử.
+
+Có thể bắt đầu từ những dấu mốc lớn như chiến thắng Bạch Đằng năm 938, chiến thắng Bạch Đằng năm 1288, phong trào Tây Sơn, Cách mạng Tháng Tám năm 1945, Chiến thắng Điện Biên Phủ năm 1954 hay sự kiện thống nhất đất nước năm 1975.
+
+Mỗi sự kiện lại mở ra một mạng lưới kiến thức rộng hơn. Từ Bạch Đằng có thể tìm hiểu về Ngô Quyền, địa hình sông nước và nghệ thuật quân sự. Từ Điện Biên Phủ có thể tìm hiểu về bối cảnh chiến tranh Đông Dương, chiến dịch, con người và ý nghĩa lịch sử của chiến thắng.
+
+Cách học này tạo ra liên kết kiến thức thay vì những mảnh thông tin rời rạc. Khi một nhân vật gắn với một sự kiện, một sự kiện gắn với một địa điểm và địa điểm ấy gắn với một giai đoạn, khả năng ghi nhớ và hiểu bản chất vấn đề sẽ được củng cố.
+
+### 3.2. Mỗi vùng đất là một mảnh ghép của lịch sử Việt Nam
+
+Lịch sử không chỉ nằm trong sách. Lịch sử còn hiện diện trong những địa danh, di tích, công trình kiến trúc, bảo tàng và không gian văn hóa trên khắp đất nước.
+
+Hà Nội gắn với nhiều lớp lịch sử của Thăng Long – Đông Đô – Đông Quan – Đông Kinh. Huế lưu giữ dấu ấn rõ nét của thời Nguyễn với hệ thống kinh thành, cung điện và lăng tẩm. Quảng Trị gắn với nhiều dấu tích của một thời kỳ chiến tranh khốc liệt. TP.HCM phản ánh quá trình biến đổi từ vùng đất Gia Định đến một đô thị hiện đại.
+
+Khi đặt những địa danh ấy lên bản đồ, lịch sử trở nên cụ thể hơn. Người đọc không còn nhìn một sự kiện như một điểm xa xôi trong quá khứ mà có thể xác định nó diễn ra ở đâu và dấu tích còn lại ở đâu.
+
+![Bản đồ lịch sử Việt Nam kết nối các vùng đất và di tích](/images/ban-do-viet-nam-ket-noi-di-tich.jpg)
+  *Hình 3: Mỗi vùng đất là một mảnh ghép góp phần tạo nên dòng chảy lịch sử Việt Nam.*
+
+  Chính từ cách nhìn mỗi vùng đất như một mảnh ghép riêng, Mảnh Ghép Hồn Việt phát triển trải nghiệm bản đồ lịch sử theo hướng kết nối địa danh với câu chuyện phía sau. Thay vì chỉ xem tên một tỉnh, thành trên bản đồ, người dùng có thể bắt đầu khám phá những dấu ấn lịch sử, văn hóa gắn với vùng đất đó. Cách tiếp cận này giúp bản đồ không chỉ là công cụ định vị mà trở thành điểm bắt đầu cho một hành trình tìm hiểu lịch sử Việt Nam trực quan và gần gũi hơn.
+
+  ### 4. Câu hỏi thường gặp về lịch sử Việt Nam
+  
+  #### **Lịch sử Việt Nam gồm những thời kỳ nào?**
+  Có nhiều cách phân kỳ khác nhau tùy mục đích nghiên cứu. Ở góc nhìn phổ thông, có thể khái quát từ thời dựng nước, thời kỳ đấu tranh giành quyền tự chủ, các triều đại phong kiến, thời Pháp thuộc, giai đoạn 1945–1975 và thời kỳ Việt Nam từ sau năm 1975 đến nay.
+  
+  #### **Nên bắt đầu tìm hiểu lịch sử Việt Nam từ đâu?**
+  Có thể bắt đầu bằng một dòng thời gian tổng quan, sau đó chọn một giai đoạn hoặc sự kiện mình quan tâm để tìm hiểu sâu hơn. Cách này giúp hình thành khung kiến thức trước khi đi vào chi tiết.
+  
+  #### **Làm thế nào để nhớ lịch sử dễ hơn?**
+  Thay vì chỉ học thuộc niên đại, hãy kết nối thời gian – sự kiện – nhân vật – địa điểm – nguyên nhân – kết quả. Sơ đồ tư duy, timeline và bản đồ lịch sử cũng có thể hỗ trợ ghi nhớ tốt hơn.
+  
+  #### **Bản đồ lịch sử Việt Nam có thể giúp ích gì?**
+  Bản đồ giúp đặt các sự kiện và di tích vào đúng không gian địa lý, từ đó làm rõ mối liên hệ giữa vùng đất, con người và lịch sử. Với bản đồ tương tác, người dùng còn có thể chủ động khám phá từng địa phương theo nhu cầu.`
   }
 ];
 export const FEATURED_WEEKLY_ARTICLES = [

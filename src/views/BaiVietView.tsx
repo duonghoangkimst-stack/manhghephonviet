@@ -13,6 +13,10 @@ interface BaiVietViewProps {
 export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
   const [articlesList] = useState<Article[]>(ARTICLES);
   const [selectedCategory, setSelectedCategory] = useState<string>('Tất cả');
+  
+  // State phân trang
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const itemsPerPage = 6; // Số lượng bài viết tối đa mỗi trang
 
   const categories = [
     'Tất cả',
@@ -26,6 +30,20 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
     ? articlesList
     : articlesList.filter(a => a.category.toUpperCase() === selectedCategory.toUpperCase());
 
+  // Logic tính toán phân trang
+  const totalPages = Math.ceil(filteredArticles.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentArticles = filteredArticles.slice(startIndex, startIndex + itemsPerPage);
+
+  const handleCategoryChange = (cat: string) => {
+    setSelectedCategory(cat);
+    setCurrentPage(1); // Reset về trang 1 khi chuyển danh mục
+  };
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 400, behavior: 'smooth' }); // Cuộn nhẹ lên khu vực danh sách bài viết
+  };
 
   const topFeaturedArticles = articlesList.slice(0, 3);
 
@@ -43,7 +61,7 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
       "image": art.image,
       "author": {
         "@type": "Person",
-        "name": art.author.name
+        "name": typeof art.author === 'string' ? art.author : art.author?.name
       }
     }))
   };
@@ -93,24 +111,24 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          <section aria-label="Danh sách bài viết di sản" className="lg:col-span-8">
+          <section aria-label="Danh sách bài viết di sản" className="lg:col-span-8 flex flex-col justify-between min-h-[600px]">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-              {filteredArticles.map((art, idx) => {
+              {currentArticles.map((art, idx) => {
                 const dateParts = art.date.split(' ');
                 const dayStr = dateParts[0] || `${10 + idx}`;
                 const monthStr = dateParts[1] ? `${dateParts[1]} ${dateParts[2] || ''}` : 'Tháng 09';
 
                 return (
                   <article
-  key={art.id}
-  onClick={() => {
-    localStorage.setItem('selectedArticleId', String(art.id));
-    if (onSelectArticle) {
-      onSelectArticle(art);
-    }
-  }}
-  className="bg-[#FFFDF9] rounded-2xl border-2 border-[#C5B358]/60 shadow-sm hover:shadow-md transition-all cursor-pointer"
->
+                    key={art.id}
+                    onClick={() => {
+                      localStorage.setItem('selectedArticleId', String(art.id));
+                      if (onSelectArticle) {
+                        onSelectArticle(art);
+                      }
+                    }}
+                    className="bg-[#FFFDF9] rounded-2xl border-2 border-[#C5B358]/60 shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col overflow-hidden"
+                  >
                     <div className="relative w-full h-56 overflow-hidden bg-[#FAF5EB]">
                       <img
                         src={art.image}
@@ -142,6 +160,52 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
                 );
               })}
             </div>
+
+            {/* THANH PHÂN TRANG (PAGINATION) */}
+            {totalPages > 1 && (
+              <div className="flex justify-center items-center gap-2 mt-10 pt-6 border-t border-[#C5B358]/40">
+                <button
+                  type="button"
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className={`px-3 py-1.5 rounded-lg border text-xs font-bold transition-all cursor-pointer ${
+                    currentPage === 1
+                      ? 'bg-gray-200 text-gray-400 border-gray-300 cursor-not-allowed'
+                      : 'bg-[#FFFDF9] text-[#580E0E] border-[#C5B358] hover:bg-[#580E0E] hover:text-white'
+                  }`}
+                >
+                  ‹ Trước
+                </button>
+
+                {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+                  <button
+                    key={page}
+                    type="button"
+                    onClick={() => handlePageChange(page)}
+                    className={`w-9 h-9 rounded-lg border text-xs font-bold transition-all cursor-pointer ${
+                      currentPage === page
+                        ? 'bg-[#580E0E] text-[#D4AF37] border-[#D4AF37] shadow-md font-extrabold'
+                        : 'bg-[#FFFDF9] text-[#580E0E] border-[#C5B358]/60 hover:bg-[#580E0E]/10'
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ))}
+
+                <button
+                  type="button"
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className={`px-3 py-1.5 rounded-lg border text-xs font-bold transition-all cursor-pointer ${
+                    currentPage === totalPages
+                      ? 'bg-gray-200 text-gray-400 border-gray-300 cursor-not-allowed'
+                      : 'bg-[#FFFDF9] text-[#580E0E] border-[#C5B358] hover:bg-[#580E0E] hover:text-white'
+                  }`}
+                >
+                  Sau ›
+                </button>
+              </div>
+            )}
           </section>
 
           {/* SIDEBAR DANH MỤC & NỔI BẬT */}
@@ -155,7 +219,7 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
                   <li key={cat}>
                     <button
                       type="button"
-                      onClick={() => setSelectedCategory(cat)}
+                      onClick={() => handleCategoryChange(cat)}
                       className={`w-full text-left uppercase py-1.5 px-3 rounded-lg transition-colors flex items-center justify-between cursor-pointer ${
                         selectedCategory === cat ? 'bg-[#2A5222] text-white' : 'hover:bg-[#2A5222]/10 text-[#2A5222]'
                       }`}
@@ -175,7 +239,10 @@ export default function BaiVietView({ onSelectArticle }: BaiVietViewProps) {
                 {topFeaturedArticles.map((feat) => (
                   <div
                     key={feat.id}
-                    onClick={() => onSelectArticle ? onSelectArticle(feat) : null}
+                    onClick={() => {
+                      localStorage.setItem('selectedArticleId', String(feat.id));
+                      if (onSelectArticle) onSelectArticle(feat);
+                    }}
                     className="flex gap-3 items-center cursor-pointer group"
                   >
                     <img

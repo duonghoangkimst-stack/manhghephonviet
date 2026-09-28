@@ -702,40 +702,6 @@ export default function TroChoiView({
 
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent pointer-events-none"></div>
 
-                  {/* Upload Cover Button for Province in Step 2 */}
-                  <div className="absolute top-3 left-3 flex items-center gap-1.5 z-20">
-                    <label
-                      htmlFor={`upload-province-${currentProvince.id}`}
-                      onClick={(e) => e.stopPropagation()}
-                      title="Tải ảnh bìa tỉnh thành từ máy tính"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-sans font-bold bg-[#570000]/90 hover:bg-[#570000] text-[#D4AF37] hover:text-[#FFF8F6] border border-[#D4AF37]/80 shadow-md backdrop-blur-xs cursor-pointer transition-all duration-200 hover:scale-105 active:scale-95 select-none"
-                    >
-                      <Upload className="w-3.5 h-3.5 text-[#D4AF37]" />
-                      <span>{customProvinceImages[currentProvince.id] ? 'Đổi ảnh bìa' : 'Tải ảnh bìa'}</span>
-                      <input
-                        id={`upload-province-${currentProvince.id}`}
-                        type="file"
-                        accept="image/*"
-                        className="sr-only"
-                        onChange={(e) => handleUploadProvinceImage(currentProvince.id, e)}
-                      />
-                    </label>
-
-                    {customProvinceImages[currentProvince.id] && (
-                      <button
-                        type="button"
-                        title="Khôi phục ảnh mặc định của tỉnh"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleResetProvinceImage(currentProvince.id);
-                        }}
-                        className="p-1.5 rounded-full bg-black/70 hover:bg-black/90 text-stone-300 hover:text-white border border-white/30 backdrop-blur-xs transition-all duration-200 cursor-pointer shadow-md"
-                      >
-                        <RotateCcw className="w-3.5 h-3.5" />
-                      </button>
-                    )}
-                  </div>
-
                   <div className="absolute bottom-4 left-4 right-4 text-white z-10 pointer-events-none">
                     <span className="text-[10px] bg-[#570000] text-[#D4AF37] px-2.5 py-0.5 rounded-full font-sans font-bold tracking-wide border border-[#D4AF37]/50 shadow-xs inline-block">
                       {selectedRegion === 'north'
@@ -875,42 +841,6 @@ export default function TroChoiView({
                         referrerPolicy="no-referrer"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/30 pointer-events-none"></div>
-
-                      {/* Upload Button overlay on top left */}
-                      <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 z-20">
-                        <label
-                          htmlFor={`upload-site-img-${site.id}`}
-                          onClick={(e) => e.stopPropagation()}
-                          title="Tải ảnh bìa mới từ máy tính"
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-sans font-bold bg-[#570000]/90 hover:bg-[#570000] text-[#D4AF37] hover:text-[#FFF8F6] border border-[#D4AF37]/80 shadow-md backdrop-blur-xs cursor-pointer transition-all duration-200 hover:scale-105 active:scale-95 select-none"
-                        >
-                          <Upload className="w-3.5 h-3.5 text-[#D4AF37]" />
-                          <span className="text-[10px] tracking-wide">
-                            {isCustom ? 'Đổi ảnh' : 'Tải ảnh'}
-                          </span>
-                          <input
-                            id={`upload-site-img-${site.id}`}
-                            type="file"
-                            accept="image/*"
-                            className="sr-only"
-                            onChange={(e) => handleUploadSiteImage(site.id, e)}
-                          />
-                        </label>
-
-                        {isCustom && (
-                          <button
-                            type="button"
-                            title="Khôi phục ảnh mặc định"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleResetSiteImage(site.id);
-                            }}
-                            className="p-1.5 rounded-full bg-black/70 hover:bg-black/90 text-stone-300 hover:text-white border border-white/30 backdrop-blur-xs transition-all duration-200 cursor-pointer shadow-md"
-                          >
-                            <RotateCcw className="w-3 h-3" />
-                          </button>
-                        )}
-                      </div>
 
                       {/* XP Reward Badge on top right */}
                       <div className="absolute top-2.5 right-2.5 bg-black/65 backdrop-blur-xs text-[#D4AF37] px-2.5 py-0.5 rounded-full text-[11px] font-sans font-bold border border-[#D4AF37]/50 shadow-xs">
