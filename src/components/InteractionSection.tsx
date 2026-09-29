@@ -54,40 +54,51 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
   initialLikes = 0,
 }) => {
   const userId = currentUser?.id || currentUser?.uid || currentUser?.email || 'guest';
-  const storageLikeKey = `article_liked_${articleId}_${userId}`;
+  
+  // Khóa lưu trạng thái đã tim của user cho bài viết này
+  const storageLikeKey = `article_user_liked_${articleId}_${userId}`;
+  // Khóa lưu tổng số lượt tim của bài viết này
   const storageLikesCountKey = `article_likes_count_${articleId}`;
+  // Khóa lưu bình luận
   const storageCommentsKey = `article_comments_${articleId}`;
 
-  // State Likes: Khởi tạo từ localStorage nếu có, nếu không lấy initialLikes
+  // 1. State Likes: Đọc trực tiếp từ localStorage khi khởi tạo
   const [likes, setLikes] = useState<number>(() => {
+    if (!articleId) return initialLikes;
     const savedLikes = localStorage.getItem(storageLikesCountKey);
     return savedLikes !== null ? parseInt(savedLikes, 10) : initialLikes;
   });
 
-  const [hasLiked, setHasLiked] = useState<boolean>(false);
+  // 2. State trạng thái đã tim
+  const [hasLiked, setHasLiked] = useState<boolean>(() => {
+    if (!articleId || userId === 'guest') return false;
+    return localStorage.getItem(storageLikeKey) === 'true';
+  });
 
-  // Khôi phục trạng thái đã thả tim và tổng số tim
+  // Cập nhật lại state khi articleId hoặc userId thay đổi
   useEffect(() => {
+    if (!articleId) return;
+
+    // Đọc lượt tim
     const savedLikes = localStorage.getItem(storageLikesCountKey);
     if (savedLikes !== null) {
       setLikes(parseInt(savedLikes, 10));
+    } else {
+      setLikes(initialLikes);
     }
 
+    // Đọc trạng thái đã tim
     if (userId && userId !== 'guest') {
       const liked = localStorage.getItem(storageLikeKey) === 'true';
       setHasLiked(liked);
     } else {
       setHasLiked(false);
     }
-  }, [userId, storageLikeKey, storageLikesCountKey]);
-
-  // Lưu tổng số tim vào localStorage mỗi khi biến likes thay đổi
-  useEffect(() => {
-    localStorage.setItem(storageLikesCountKey, likes.toString());
-  }, [likes, storageLikesCountKey]);
+  }, [articleId, userId, storageLikeKey, storageLikesCountKey, initialLikes]);
 
   // State Comments
   const [comments, setComments] = useState<Comment[]>(() => {
+    if (!articleId) return [];
     const saved = localStorage.getItem(storageCommentsKey);
     if (saved) {
       try {
@@ -110,7 +121,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
   const [newComment, setNewComment] = useState('');
   const [, setTicker] = useState(0);
 
-  // Tự động re-render mỗi 30 giây để cập nhật thời gian "x phút trước" liên tục
+  // Re-render mỗi 30 giây để cập nhật nhãn thời gian thực
   useEffect(() => {
     const interval = setInterval(() => {
       setTicker((prev) => prev + 1);
@@ -118,12 +129,14 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     return () => clearInterval(interval);
   }, []);
 
-  // Lưu bình luận vào localStorage mỗi khi danh sách bình luận thay đổi
+  // Lưu bình luận vào localStorage
   useEffect(() => {
-    localStorage.setItem(storageCommentsKey, JSON.stringify(comments));
-  }, [comments, storageCommentsKey]);
+    if (articleId) {
+      localStorage.setItem(storageCommentsKey, JSON.stringify(comments));
+    }
+  }, [comments, articleId, storageCommentsKey]);
 
-  // Xử lý Thả tim
+  // Xử lý Thả tim / Bỏ thả tim
   const handleLike = () => {
     if (!currentUser) {
       alert('Vui lòng đăng nhập để thả tim bài viết!');
@@ -131,12 +144,14 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     }
 
     if (hasLiked) {
+      // Bỏ tim
       const newLikes = Math.max(0, likes - 1);
       setLikes(newLikes);
       setHasLiked(false);
       localStorage.removeItem(storageLikeKey);
       localStorage.setItem(storageLikesCountKey, newLikes.toString());
     } else {
+      // Thả tim
       const newLikes = likes + 1;
       setLikes(newLikes);
       setHasLiked(true);
@@ -145,7 +160,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     }
   };
 
-  // Xử lý gửi Bình luận mới
+  // Xử lý gửi Bình luận
   const handleCommentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!currentUser) {
