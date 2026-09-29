@@ -1326,6 +1326,129 @@ Mọi sản phẩm gửi đi đều được đóng gói hộp quà chống số
 Ghé thăm ngay gian hàng của [Mảnh Ghép Hồn Việt](https://www.manhghephonviet.com) để chọn cho mình kích thước ưng ý và bắt đầu hành trình chạm vào lịch sử non sông ngay hôm nay!
 `
   },
+  {
+    id: 'top-5-dia-diem-du-lich-cho-nguoi-yeu-su',
+    slug: 'top-5-dia-diem-du-lich-cho-nguoi-yeu-su',
+    title: 'Top 5+ Địa Điểm Du Lịch Cho Người Yêu Sử Không Thể Bỏ Qua',
+    category: 'Góc Lịch Sử Việt',
+    date: '29/09/2026',
+    author: 'Mảnh Ghép Hồn Việt',
+    image: '/biaseo6.jpg',
+    description: 'Điểm danh 5+ di tích lịch sử tiêu biểu tại Việt Nam dành cho người mê Sử: dấu ấn vương triều ngàn năm và những chiến trường rực lửa nhất định phải đến một lần.',
+    content: `Không ngủ yên trên trang sử liệu khô khan, quá khứ thực sự sống dậy khi chúng ta tận mắt chiêm ngưỡng và lắng nghe câu chuyện ngay tại nơi nó diễn ra. Từ trung tâm quyền lực của các vương triều phong kiến nghìn năm đến những "túi bom" rực lửa thử thách lòng quả cảm dân tộc, cùng Mảnh ghép Hồn Việt khám phá **top 5+ địa điểm du lịch di sản lịch sử tiêu biểu tại Việt Nam** bạn nhất định nên trải nghiệm một lần.
+
+## 1. Hoàng thành Thăng Long (Hà Nội) – Trái tim quyền lực ngàn năm
+
+Tọa lạc ngay giữa trung tâm thủ đô Hà Nội, **Hoàng thành Thăng Long** là Di sản Văn hóa Thế giới minh chứng cho sự tiếp nối quyền lực liên tục suốt 13 thế kỷ, kéo dài từ thời Lý, Trần, Lê sơ, Mạc, Lê Trung hưng đến triều Nguyễn.
+
+![Đoan Môn – Hoàng thành Thăng Long](/images/hoang-thanh-thang-long.jpg)
+
+*Hình 1: Đoan Môn – Hoàng thành Thăng Long*
+
+### Dấu ấn lịch sử & Trải nghiệm đắt giá
+
+* **Thềm rồng Điện Kính Thiên:** Được chế tác tinh xảo từ thời Lê sơ (thế kỷ XV), biểu tượng cho vương quyền và kỹ nghệ điêu khắc đá đỉnh cao của người Việt xưa.
+* **Tầng văn hóa khảo cổ 18 Hoàng Diệu:** Nơi các lớp gạch ngói, đồ gốm sứ và hệ thống cống thoát nước của nhiều thời kỳ lịch sử nằm chồng xếp lên nhau.
+* **Hầm T1 (Hầm Chỉ huy Tác chiến):** Ẩn sâu dưới lòng đất, nơi Bộ Tổng Tham mưu Quân đội Nhân dân Việt Nam từng đưa ra những chỉ đạo mang tính quyết định trong chiến dịch Điện Biên Phủ trên không năm 1972.
+
+> **Mẹo tham quan:** Hãy trải nghiệm tour đêm *"Giải mã Hoàng thành Thăng Long"* vào cuối tuần để ngắm nhìn di sản dưới ánh sáng nghệ thuật và giải mã các hiện vật bằng công nghệ laser.
+
+## 2. Quần thể Cố đô Huế – Đỉnh cao kiến trúc và điển chế triều Nguyễn
+
+Nếu muốn chiêm ngưỡng diện mạo hoàn chỉnh nhất của một kinh đô phong kiến Việt Nam, **Cố đô Huế** là điểm dừng chân không thể thay thế. Đây là kinh đô của triều Nguyễn từ năm 1802 đến 1945.
+
+![Quần thể Cố đô Huế](/images/quanthecodoHue.jpg)
+
+*Hình 2: Quần thể Cố đô Huế*
+
+### Dấu ấn lịch sử & Trải nghiệm đắt giá
+
+* **Đại Nội (Hoàng thành và Tử Cấm Thành):** Bước qua cửa Ngọ Môn uy nghiêm, bạn sẽ tiến vào Điện Thái Hòa – nơi thiết triều uy nghiêm, cùng hệ thống Thái Miếu, Thế Miếu thờ phụng các bậc tiên đế.
+* **Hệ thống Lăng tẩm vua Nguyễn:** Mỗi lăng tẩm phản ánh rõ nét tính cách và triết lý sống của vị vua xây dựng nó:
+  * *Lăng Tự Đức (Khiêm Lăng):* Mang vẻ trầm mặc, thơ mộng như một bức tranh thủy mặc.
+  * *Lăng Minh Mạng (Hiếu Lăng):* Đăng đối, trang nghiêm tuyệt đối theo quy chuẩn Nho giáo.
+  * *Lăng Khải Định (Ứng Lăng):* Sự phá cách táo bạo với nghệ thuật ghép sành sứ đỉnh cao kết hợp kiến trúc Á – Âu.
+
+## 3. Thành cổ Quảng Trị – Khúc tráng ca 81 ngày đêm rực lửa
+
+Nằm bên bờ sông Thạch Hãn, **Thành cổ Quảng Trị** là biểu tượng bất tử của lòng quả cảm trong cuộc chiến tranh bảo vệ Tổ quốc. Vào mùa hè năm 1972, nơi đây từng hứng chịu lượng bom đạn có sức công phá tương đương 7 quả bom nguyên tử ném xuống Hiroshima trong trận chiến 81 ngày đêm giữ thành.
+
+![Đài tưởng niệm trung tâm Thành cổ Quảng Trị](/images/khutuongniemthanhcoQuangTri.jpg)
+
+*Hình 3: Đài tưởng niệm trung tâm Thành cổ Quảng Trị*
+
+### Không gian tưởng niệm xúc động
+
+* **Đài tưởng niệm trung tâm:** Được thiết kế như một nấm mồ tập thể hình bát giác, phía trên là đài đuốc mang ý nghĩa ngọn đèn dẫn lối cho hương hồn các liệt sĩ đã hòa vào lòng đất mẹ.
+* **Bảo tàng Thành cổ:** Nơi lưu giữ hàng trăm di vật chiến tranh, nổi tiếng nhất là bức thư xúc động của liệt sĩ Lê Văn Huỳnh viết gửi mẹ và người vợ trẻ trước khi anh hy sinh.
+* **Bến thả hoa sông Thạch Hãn:** Nằm cách Thành cổ vài trăm mét, nơi du khách có thể thả hoa đăng tưởng nhớ những người lính đã ngã xuống khi vượt sông vào tiếp viện.
+
+## 4. Dinh Độc Lập (TP.HCM) – Cột mốc trọn vẹn non sông
+
+Tọa lạc tại Quận 1, TP. Hồ Chí Minh, **Dinh Độc Lập** (Hội trường Thống Nhất) là Di tích Quốc gia Đặc biệt lưu giữ thời khắc lịch sử trưa ngày 30/4/1975, khi hai chiếc xe tăng húc đổ cổng chính, đánh dấu sự kết thúc của chiến tranh Việt Nam và mở ra kỷ nguyên thống nhất đất nước.
+
+![Dinh Độc Lập (Hội trường Thống Nhất)](/images/dinhdoclap.jpg)
+
+*Hình 4: Dinh Độc Lập (Hội trường Thống Nhất)*
+
+### Điểm nhấn kiến trúc và lịch sử
+
+* **Triết lý chiết tự của KTS Ngô Viết Thụ:** Tổng thể công trình mang vẻ đẹp hiện đại nhưng ẩn chứa triết lý phương Đông sâu sắc qua các mặt bằng mang hình chữ Hán: *Cát* (may mắn), *Khẩu* (tự do ngôn luận), *Trung* (trung kiên), *Tam* (Dân chủ - Tri thức - Quân sự) và *Chủ* (chủ quyền).
+* **Hệ thống hầm chỉ huy ngầm:** Được đúc bằng bê tông cốt thép kiên cố, trang bị hệ thống máy móc thông tin liên lạc hiện đại thời bấy giờ, bản đồ tác chiến nguyên bản và phòng ngủ của Tổng thống.
+* **Hiện vật lịch sử sống động:** Hai cỗ xe tăng số hiệu 390 và 843 được trưng bày trang trọng trong khuôn viên bãi cỏ trước Dinh.
+
+## 5. Quần thể Di tích Chiến trường Điện Biên Phủ – Mốc son "lừng lẫy năm châu"
+
+Nằm gọn giữa thung lũng Mường Thanh, quần thể di tích **Điện Biên Phủ** tái hiện chiến thắng năm 1954 chấm dứt ách đô hộ của thực dân Pháp.
+
+* **Bảo tàng Chiến thắng Lịch sử Điện Biên Phủ:** Chiêm ngưỡng bức tranh Panorama 360 độ lớn nhất Đông Nam Á, tái hiện sống động 56 ngày đêm "khoét núi, ngủ hầm, mưa dầm, cơm vắt".
+* **Đồi A1 và Hầm De Castries:** Tận mắt nhìn thấy hố bộc phá nặng gần 1.000 kg trên đỉnh đồi A1 và bước vào căn hầm chỉ huy kiên cố của viên tướng Pháp.
+
+![Di tích chiến trường Điện Biên Phủ](/images/ditichchientruongdienbienphu.jpg)
+*Hình 5: Di tích chiến trường Điện Biên Phủ*
+
+### Dấu ấn lịch sử & Trải nghiệm đắt giá
+
+* **Bảo tàng Chiến thắng Lịch sử Điện Biên Phủ:** Chiêm ngưỡng bức tranh Panorama 360 độ lớn nhất Đông Nam Á, tái hiện sống động 56 ngày đêm "khoét núi, ngủ hầm, mưa dầm, cơm vắt".
+* **Đồi A1 và Hầm De Castries:** Tận mắt nhìn thấy hố bộc phá nặng gần 1.000 kg trên đỉnh đồi A1 và bước vào căn hầm chỉ huy kiên cố của viên tướng Pháp.
+
+## Các tọa độ lịch sử có thể bạn thích
+
+* **Địa đạo Củ Chi (TP.HCM):** "Mê cung trong lòng đất" dài hơn 200 km, thể hiện đỉnh cao nghệ thuật chiến tranh nhân dân.
+* **Cố đô Hoa Lư (Ninh Bình):** Kinh đô đầu tiên của nhà nước phong kiến tập quyền Đại Cồ Việt sau thời Bắc thuộc dưới triều Đinh – Tiền Lê.
+
+## Bảng so sánh nhanh các tọa độ di sản lịch sử
+
+| Địa điểm | Vị trí | Thời kỳ tiêu biểu | Điểm nhấn lịch sử nổi bật | Thời lượng trải nghiệm |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hoàng thành Thăng Long** | Ba Đình, Hà Nội | Lý – Trần – Lê – Nguyễn | Tầng khảo cổ ngàn năm, thềm rồng Điện Kính Thiên | 2 – 3 tiếng |
+| **Cố đô Huế** | Thừa Thiên Huế | Triều Nguyễn (1802 – 1945) | Đại Nội, hệ thống lăng tẩm mang dấu ấn cá nhân các vua | 1 – 2 ngày |
+| **Thành cổ Quảng Trị** | TX. Quảng Trị, Quảng Trị | Kháng chiến chống Mỹ (1972) | Đài tưởng niệm 81 ngày đêm, bến thả hoa sông Thạch Hãn | 1.5 – 2 tiếng |
+| **Dinh Độc Lập** | Quận 1, TP. Hồ Chí Minh | Kháng chiến chống Mỹ (1975) | Kiến trúc chiết tự chữ Hán, hệ thống hầm ngầm tác chiến | 2 – 3 tiếng |
+| **Chiến trường Điện Biên Phủ** | Điện Biên | Kháng chiến chống Pháp (1954) | Bức tranh Panorama khổng lồ, Đồi A1, Hầm De Castries | 1 – 2 ngày |
+
+## Cẩm nang bỏ túi dành riêng cho người mê Sử khi đi thực địa
+
+1. **Tìm hiểu tổng quan dòng thời gian:** Nắm rõ bối cảnh cơ bản của sự kiện trước khi đi giúp bạn không bị choáng ngợp trước các số liệu và hiện vật.
+2. **Thuê hướng dẫn viên hoặc dùng Audio Guide:** Các khu di tích như Dinh Độc Lập, Hoàng thành Thăng Long đều có máy thuyết minh tự động kèm tai nghe đa ngôn ngữ rất chi tiết.
+3. **Giữ sự tôn nghiêm tại chốn linh thiêng:** Khi viếng thăm Thành cổ Quảng Trị hoặc các khu lăng tẩm cung đình Huế, hãy mặc trang phục lịch sự, kín đáo và giữ trật tự khi dâng hương tưởng niệm.
+
+## Câu hỏi thường gặp (FAQ)
+
+**Thành cổ Quảng Trị có bán vé tham quan không?**
+
+Không. Thành cổ Quảng Trị mở cửa miễn phí cho du khách và người dân đến dâng hương viếng liệt sĩ. Du khách có thể chuẩn bị trước hương hoa hoặc liên hệ Ban quản lý nếu có nhu cầu nghe thuyết minh tại điểm.
+
+**Nên dành bao lâu để tham quan trọn vẹn Dinh Độc Lập?**
+
+Bạn nên dành từ 2 đến 3 tiếng. Khoảng thời gian này vừa đủ để đi hết các phòng khánh tiết, khu hầm ngầm chỉ huy và tòa nhà triển lãm chuyên đề *"Từ Dinh Norodom đến Dinh Độc Lập 1868 – 1966"*.
+
+**Thời điểm nào trong năm thích hợp nhất để đi tour di tích miền Trung?**
+
+Thời điểm đẹp nhất là từ tháng 2 đến tháng 7 khi thời tiết khô ráo, nắng đẹp. Riêng tại Quảng Trị, tháng 4 và tháng 7 âm/dương lịch là dịp cao điểm của các hoạt động tri ân, thả hoa đăng trên sông Thạch Hãn.
+
+`,
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {
