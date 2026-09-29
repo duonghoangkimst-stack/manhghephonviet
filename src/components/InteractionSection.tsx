@@ -5,7 +5,7 @@ interface Comment {
   userName: string;
   avatar?: string;
   content: string;
-  createdAt: number; // Lưu dạng Timestamp (miliseconds)
+  createdAt: number | string; // Hỗ trợ cả Timestamp (number) và chuỗi thời gian (string)
 }
 
 interface InteractionSectionProps {
@@ -14,18 +14,37 @@ interface InteractionSectionProps {
   initialLikes?: number;
 }
 
-// Hàm chuyển đổi Timestamp sang định dạng tương đối ("Vừa xong", "5 phút trước",...)
-const getTimeAgo = (timestamp: number): string => {
+// Hàm chuyển đổi thời gian sang dạng thời gian thực ("Vừa xong", "5 phút trước",...)
+const getTimeAgo = (createdAt: number | string): string => {
+  if (!createdAt) return 'Vừa xong';
+
+  let timestamp: number;
+
+  if (typeof createdAt === 'number') {
+    timestamp = createdAt;
+  } else {
+    // Nếu dữ liệu cũ đã lỡ lưu dạng chuỗi chữ (VD: "10 phút trước")
+    const parsedDate = new Date(createdAt).getTime();
+    if (isNaN(parsedDate)) {
+      return createdAt; // Trả về nguyên văn chuỗi chữ nếu không parse được date
+    }
+    timestamp = parsedDate;
+  }
+
   const seconds = Math.floor((Date.now() - timestamp) / 1000);
 
-  if (seconds < 60) return 'Vừa xong';
+  if (seconds < 30) return 'Vừa xong';
+  if (seconds < 60) return `${seconds} giây trước`;
+
   const minutes = Math.floor(seconds / 60);
   if (minutes < 60) return `${minutes} phút trước`;
+
   const hours = Math.floor(minutes / 60);
   if (hours < 24) return `${hours} giờ trước`;
+
   const days = Math.floor(hours / 24);
   if (days < 30) return `${days} ngày trước`;
-  
+
   const date = new Date(timestamp);
   return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
 };
@@ -35,34 +54,45 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
   currentUser,
   initialLikes = 0,
 }) => {
-  const userId = currentUser?.id || currentUser?.uid || currentUser?.email || 'guest';
+  // Lấy userId chính xác
+  const userId = currentUser?.id || currentUser?.uid || currentUser?.email || '';
   const storageLikeKey = `article_liked_${articleId}_${userId}`;
   const storageCommentsKey = `article_comments_${articleId}`;
 
   // State Likes
   const [likes, setLikes] = useState<number>(initialLikes);
-  const [hasLiked, setHasLiked] = useState<boolean>(() => {
-    return localStorage.getItem(storageLikeKey) === 'true';
-  });
+  const [hasLiked, setHasLiked] = useState<boolean>(false);
 
-  // State Comments (Lấy từ localStorage nếu có, nếu không thì dùng bình luận mẫu)
+  // Đồng bộ trạng thái đã thả tim khi currentUser thay đổi
+  useEffect(() => {
+    if (userId) {
+      const liked = localStorage.getItem(storageLikeKey) === 'true';
+      setHasLiked(liked);
+    } else {
+      setHasLiked(false);
+    }
+  }, [userId, storageLikeKey]);
+
+  // State Comments: Đọc từ localStorage và LỌC BỎ "Trần Minh Tâm"
   const [comments, setComments] = useState<Comment[]>(() => {
     const saved = localStorage.getItem(storageCommentsKey);
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          // Lọc bỏ bất kỳ comment nào có tên "Trần Minh Tâm"
+          return parsed.filter(
+            (c: any) =>
+              c.userName !== 'Trần Minh Tâm' &&
+              c.author !== 'Trần Minh Tâm' &&
+              c.user?.name !== 'Trần Minh Tâm'
+          );
+        }
       } catch (e) {
         console.error('Lỗi parse bình luận:', e);
       }
     }
-    return [
-      {
-        id: '1',
-        userName: 'Trần Minh Tâm',
-        content: 'Bài viết rất hay và giàu giá trị di sản!',
-        createdAt: Date.now() - 10 * 60 * 1000, // 10 phút trước
-      },
-    ];
+    return []; // Mặc định rỗng khi chưa có comment
   });
 
   const [newComment, setNewComment] = useState('');
@@ -76,7 +106,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     return () => clearInterval(interval);
   }, []);
 
-  // Lưu bình luận vào localStorage mỗi khi có bình luận mới
+  // Lưu bình luận vào localStorage mỗi khi danh sách bình luận thay đổi
   useEffect(() => {
     localStorage.setItem(storageCommentsKey, JSON.stringify(comments));
   }, [comments, storageCommentsKey]);
@@ -89,7 +119,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     }
 
     if (hasLiked) {
-      setLikes((prev) => prev - 1);
+      setLikes((prev) => Math.max(0, prev - 1));
       setHasLiked(false);
       localStorage.removeItem(storageLikeKey);
     } else {
@@ -99,7 +129,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     }
   };
 
-  // Xử lý gửi Bình luận mới
+  // Xử lý gửi Bình luận mới (Lưu Timestamp thời gian thực lúc bấm gửi)
   const handleCommentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!currentUser) {
@@ -113,7 +143,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
       userName: currentUser.name || currentUser.fullName || currentUser.email || 'Người dùng',
       avatar: currentUser.avatar,
       content: newComment.trim(),
-      createdAt: Date.now(), // Thời gian thực ngay lúc bấm gửi
+      createdAt: Date.now(), // Lưu mốc thời gian thực dạng timestamp (miliseconds)
     };
 
     setComments([commentObj, ...comments]);
@@ -129,8 +159,9 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
           <p className="text-sm text-gray-600">Thả tim để lan tỏa di sản đến cộng đồng</p>
         </div>
         <button
+          type="button"
           onClick={handleLike}
-          className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold transition-all duration-200 ${
+          className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold transition-all duration-200 cursor-pointer ${
             hasLiked
               ? 'bg-red-700 text-white shadow-md scale-105'
               : 'bg-white text-red-700 border border-red-300 hover:bg-red-100'
@@ -164,30 +195,39 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
                 : 'Vui lòng đăng nhập để tham gia bình luận...'
             }
             disabled={!currentUser}
-            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:outline-none disabled:bg-gray-100"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
           />
           <div className="flex justify-end mt-2">
             <button
               type="submit"
               disabled={!currentUser || !newComment.trim()}
-              className="px-6 py-2 bg-red-800 text-white rounded-lg font-medium hover:bg-red-900 transition-colors disabled:opacity-50"
+              className="px-6 py-2 bg-red-800 text-white rounded-lg font-medium hover:bg-red-900 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               Gửi bình luận
             </button>
           </div>
         </form>
 
+        {/* Danh sách bình luận */}
         <div className="space-y-4">
-          {comments.map((comment) => (
-            <div key={comment.id} className="p-4 bg-gray-50 rounded-lg border border-gray-100">
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-bold text-gray-900">{comment.userName}</span>
-                {/* Gọi hàm tính thời gian thực tương đối */}
-                <span className="text-xs text-gray-500">{getTimeAgo(comment.createdAt)}</span>
+          {comments.length > 0 ? (
+            comments.map((comment) => (
+              <div key={comment.id} className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-bold text-gray-900">{comment.userName}</span>
+                  <span className="text-xs text-gray-500">{getTimeAgo(comment.createdAt)}</span>
+                </div>
+                <p className="text-gray-700 text-sm md:text-base">{comment.content}</p>
               </div>
-              <p className="text-gray-700 text-sm md:text-base">{comment.content}</p>
+            ))
+          ) : (
+            /* Hiển thị khi mảng bình luận rỗng */
+            <div className="text-center py-8 bg-gray-50 rounded-lg border border-dashed border-gray-200">
+              <p className="text-sm text-gray-500 italic">
+                Chưa có bình luận nào. Hãy là người đầu tiên bình luận!
+              </p>
             </div>
-          ))}
+          )}
         </div>
       </div>
     </div>

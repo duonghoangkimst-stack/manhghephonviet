@@ -250,19 +250,20 @@ export default function App() {
           />
         )}
 
-        {activeTab === 'chitietbaiviet' && (
-          <ChiTietBaiVietView
-            article={selectedArticle || articles[0]}
-            setActiveTab={handleTabChange}
-            onBack={() => {
-              handleTabChange('baiviet');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            onLike={handleLikeArticle}
-            allArticles={articles}
-            onSelectArticle={handleSelectArticle}
-          />
-        )}
+{activeTab === 'chitietbaiviet' && (
+  <ChiTietBaiVietView
+    article={selectedArticle || articles[0]}
+    setActiveTab={handleTabChange}
+    user={user} // 👈 THÊM DÒNG NÀY
+    onBack={() => {
+      handleTabChange('baiviet');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }}
+    onLike={handleLikeArticle}
+    allArticles={articles}
+    onSelectArticle={handleSelectArticle}
+  />
+)}
 
         {activeTab === 'trochoi' && (
           <TroChoiView
