@@ -1218,7 +1218,114 @@ Khi đặt những địa danh ấy lên bản đồ, lịch sử trở nên c�
   
   #### **Bản đồ lịch sử Việt Nam có thể giúp ích gì?**
   Bản đồ giúp đặt các sự kiện và di tích vào đúng không gian địa lý, từ đó làm rõ mối liên hệ giữa vùng đất, con người và lịch sử. Với bản đồ tương tác, người dùng còn có thể chủ động khám phá từng địa phương theo nhu cầu.`
-  }
+  },
+  {
+    id: 'manh-ghep-ban-do-viet-nam-bang-go',
+    slug: 'manh-ghep-ban-do-viet-nam-bang-go',
+    title: 'Mảnh Ghép Bản Đồ Việt Nam Bằng Gỗ: Quà Tặng Văn Hóa Đặc Biệt',
+    category: 'Về Mảnh ghép Hồn Việt',
+    date: '29/09/2026',
+    author: 'Mảnh Ghép Hồn Việt',
+    image: '/biaseo5.jpg',
+    description: 'Bản đồ Việt Nam ghép mảnh bằng gỗ gắn chip NFC, khi lịch sử không chỉ nằm yên trên giấy mà có thể tương tác một cách sống động đầy trực quan.',
+    content: `Mảnh Ghép Hồn Việt ra đời để giải quyết một bâng khuâng: làm sao để lịch sử và địa lý quê hương không còn là những trang sách lý thuyết xa vời, mà trở thành trải nghiệm sống động có thể cầm nắm, chiêm ngưỡng và khám phá mỗi ngày.
+
+Dự án mang đến giải pháp đột phá với bộ **mảnh ghép bản đồ Việt Nam** chế tác từ gỗ, tích hợp chip thông minh để biến dải đất hình chữ S thành một hành trình nhập vai tương tác ngay trên bàn làm việc của bạn.
+
+
+## 1. Mảnh Ghép Hồn Việt – Khi Tình Yêu Lịch Sử Giao Thoa Cùng Nghệ Thuật Chế Tác Gỗ
+
+Sự kết hợp giữa chất liệu mộc truyền thống và tinh thần khám phá hiện đại tạo nên chiều sâu khác biệt cho từng sản phẩm. Mỗi đường nét đều hướng đến cảm xúc chân thực của người trải nghiệm.
+
+### 1.1. Trải nghiệm xúc giác từ chất liệu gỗ tự nhiên tỉ mỉ
+Cầm trên tay từng **mảnh ghép bản đồ Việt Nam bằng gỗ**, bạn sẽ cảm nhận rõ độ mịn màng của bề mặt được mài thủ công, thoảng mùi hương tinh dầu gỗ mộc mạc và thư thái.
+
+Từng khớp nối giữa các tỉnh thành, hệ thống sông ngòi và các quần đảo tiền tiêu như Hoàng Sa, Trường Sa đều được cắt laser với độ chuẩn xác tuyệt đối, mang lại cảm giác gắn kết thiêng liêng khi tự tay hoàn thiện từng tấc đất quê hương.
+
+![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC.jpg)
+
+*Hình 1: Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt*
+
+### 1.2. Tinh thần game nhập vai trong đời thực
+Lấy cảm hứng từ những bản đồ phiêu lưu trong game nhập vai, hành trình lắp ráp được thiết kế như một chuyến viễn du mở cõi đầy lôi cuốn.
+
+Bạn không cần học thuộc lòng từng địa danh một cách gượng ép; thay vào đó, mỗi mảnh ghép đặt vào đúng vị trí chính là một vùng đất được "mở khóa", khơi gợi trọn vẹn trí tò mò và cảm giác chinh phục của một lữ khách thực thụ.
+
+![Trải nghiệm cột mốc Đồi A1 trong chiến dịch Điện Biên Phủ](/images/trai-nghiem-cot-moc-doi-a1-dien-bien-phu.webp)
+
+*Hình 2: Trải nghiệm cột mốc Đồi A1 trong chiến dịch Điện Biên Phủ*
+
+
+## 2. Công Nghệ Chạm NFC: "Thổi Hồn" Vào Bản Đồ Gỗ Truyền Thống
+
+Vượt qua giới hạn của một bức tranh treo tường tĩnh lặng, công nghệ kết nối trường gần biến mô hình gỗ thành một kho lưu trữ dữ liệu sống động.
+
+### 2.1. Cơ chế hoạt động của bản đồ Việt Nam NFC
+Mỗi bộ **bản đồ Việt Nam NFC** được tích hợp vi mạch cảm ứng ẩn khéo léo dưới các tầng gỗ mà không làm mất đi vẻ đẹp tự nhiên của sản phẩm.
+
+Bạn chỉ cần đưa lưng smartphone chạm nhẹ vào từng tọa độ là nội dung số sẽ hiển thị tức thì trên màn hình. Hệ thống hoạt động hoàn toàn không cần sạc pin, không tiêu tốn năng lượng và không yêu cầu cài đặt ứng dụng phức tạp.
+
+![Chạm NFC trên bản đồ để truy cập vào Website Mảnh ghép Hồn Việt](/images/huong-dan-vi-tri-dau-doc-nfc-tren-dien-thoai.jpg)
+
+*Hình 3: Chạm NFC trên bản đồ để truy cập vào Website Mảnh ghép Hồn Việt*
+
+### 2.2. Kho tàng tri thức sau mỗi cú chạm
+Mỗi điểm chạm trên bộ **mảnh ghép bản đồ NFC** mở ra một lớp lang văn hóa phong phú:
+- Tái hiện sống động bối cảnh các chiến tích hiển hách như ải Chi Lăng, sông Bạch Đằng hay chiến dịch Điện Biên Phủ với mốc thời gian cô đọng.
+- Lắng nghe truyền thuyết địa phương, các phong tục tập quán và nét văn hóa ẩm thực đặc sắc của từng vùng miền.
+- Cập nhật thông tin địa lý và danh thắng thiên nhiên tiêu biểu được biên soạn chuẩn xác, ngắn gọn.
+
+
+## 3. Phân Biệt Các Phiên Bản Bản Đồ Tại Mảnh Ghép Hồn Việt
+
+Nhằm giúp bạn dễ dàng cân đối ngân sách và lựa chọn phiên bản phù hợp với sở thích cá nhân, bảng đối chiếu dưới đây làm rõ sự khác biệt giữa hai dòng sản phẩm chính:
+
+| Tiêu chí so sánh | Bản Gỗ Tiêu Chuẩn | Bản Gỗ Smart NFC |
+| :--- | :--- | :--- |
+| **Chất liệu gia công** | Gỗ ép tự nhiên cao cấp, phủ sáp bảo vệ vân gỗ | Gỗ tự nhiên đa lớp cao cấp, khoét rãnh ngầm chứa chip |
+| **Tính năng tương tác** | Lắp ráp thủ công, rèn luyện tính kiên nhẫn và ghi nhớ | Chạm smartphone tương tác dữ liệu số đa phương tiện |
+| **Độ bền bề mặt** | Chống ẩm mốc cơ bản, giữ trọn màu gỗ mộc nguyên bản | Kháng nước bề mặt, bảo vệ chip cảm ứng vĩnh cửu |
+| **Đối tượng phù hợp** | Học sinh, trẻ nhỏ, người yêu thích không gian mộc | Người mê công nghệ, giới mộ điệu lịch sử, đối tác ngoại giao |
+
+Dù chọn phiên bản nào, bộ **bản đồ Việt Nam bằng gỗ** này cũng đi kèm chân đế trưng bày hoặc khung treo tường chuyên dụng, sẵn sàng tạo điểm nhấn thẩm mỹ cho bất kỳ góc phòng nào.
+
+Việc hoàn thiện một bộ **bản đồ Việt Nam ghép mảnh** không chỉ đem lại niềm vui thị giác mà còn là lời nhắc nhở nhẹ nhàng về niềm tự hào nguồn cội.
+
+
+## 4. Lựa Chọn Quà Tặng Văn Hóa Tinh Tế, Độc Bản Cho Mọi Dịp
+
+Một món quà biếu trang trọng luôn bắt đầu từ sự thấu hiểu và câu chuyện văn hóa hàm chứa bên trong. Sản phẩm được thiết kế chỉn chu để làm hài lòng từng nhóm người nhận đặc thù:
+- **Đối tác ngoại giao, Việt kiều và bạn bè quốc tế:** Khẳng định trọn vẹn chủ quyền bờ cõi và biển đảo Việt Nam với quy cách đóng gói hộp mỹ thuật sang trọng, đậm đà bản sắc.
+- **Món quà tinh thần cho người yêu sử:** Đây là lựa chọn **quà tặng cho người yêu lịch sử** đắt giá, đóng vai trò như một "bảo tàng thu nhỏ" đặt trang trọng ngay góc bàn làm việc.
+- **Gắn kết gia đình nhiều thế hệ:** Cha mẹ cùng con cái ráp từng mảnh đất vào dịp cuối tuần, biến giờ sinh hoạt gia đình thành lớp học văn hóa ấm áp và gần gũi.
+
+Từng chi tiết được chăm chút tỉ mỉ biến vật phẩm thành món **quà tặng văn hóa Việt Nam** giàu giá trị kỷ niệm, thay bạn gửi gắm trọn vẹn sự trân quý đến người nhận.
+
+
+## 5. Giải Đáp Thắc Mắc Thường Gặp (FAQs)
+
+### 5.1. Điện thoại nào có thể quét được chip trên bản đồ Việt Nam NFC?
+Hầu hết smartphone hiện nay đều tương thích hoàn hảo. Với iPhone (từ dòng Xs/XR trở lên), bạn chỉ cần đưa máy lại gần là chip tự nhận diện; với điện thoại Android, bạn chỉ cần bật tính năng NFC trong thanh cài đặt nhanh của máy.
+
+### 5.2. Chip NFC gắn trong gỗ có cần sạc pin hay bảo trì định kỳ không?
+Chip NFC là mạch thụ động hoạt động nhờ cảm ứng từ trường phát ra từ điện thoại khi chạm vào. Do đó, chip hoàn toàn không cần pin, không cần sạc điện và có tuổi thọ bền bỉ hàng chục năm theo tuổi thọ của gỗ.
+
+### 5.3. Các mảnh ghép có dễ bị cong vênh hay ẩm mốc trong thời tiết nồm ẩm không?
+Toàn bộ phôi gỗ được sấy nhiệt theo quy chuẩn kỹ thuật nghiêm ngặt với độ ẩm dưới 12%. Lớp hoàn thiện ngoài cùng được quét sáp thực vật tự nhiên chống thấm ẩm, hạn chế tối đa nguy cơ co ngót hay cong vênh trước khí hậu nhiệt đới gió mùa.
+
+### 5.4. Tôi có thể yêu cầu khắc tên, lời chúc riêng để làm quà tặng cá nhân hóa không?
+Mảnh Ghép Hồn Việt hỗ trợ khắc laser thông điệp, tên người nhận hoặc logo doanh nghiệp lên chân đế và khung bản đồ theo yêu cầu riêng, giúp món quà của bạn trở nên độc bản và giàu dấu ấn cá nhân.
+
+
+## Chọn Mảnh Ghép Của Riêng Bạn Tại Mảnh Ghép Hồn Việt
+
+Mỗi mảnh gỗ ráp vào không đơn thuần hoàn thiện một bức tranh địa lý, mà là một nhịp cầu nối liền quá khứ hào hùng với nhịp sống đương đại. Hãy để tình yêu quê hương đất nước hiện diện trang trọng trong chính không gian sống của bạn.
+
+Mọi sản phẩm gửi đi đều được đóng gói hộp quà chống sốc cẩn thận, đi kèm chính sách bảo hành 1 đổi 1 và hỗ trợ gửi bù miễn phí nếu bạn vô tình làm thất lạc bất kỳ mảnh ghép nào.
+
+Ghé thăm ngay gian hàng của [Mảnh Ghép Hồn Việt](https://www.manhghephonviet.com) để chọn cho mình kích thước ưng ý và bắt đầu hành trình chạm vào lịch sử non sông ngay hôm nay!
+`
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {

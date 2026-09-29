@@ -22,7 +22,7 @@ export default function TroChoiView({
   // Navigation inside Game view - Default to user requested example: Nam -> TP. HCM -> Dinh Độc Lập
   const [selectedRegion, setSelectedRegion] = useState<'north' | 'central' | 'south' | null>('south');
   const [selectedProvinceId, setSelectedProvinceId] = useState<string | null>('tp-hcm');
-  
+  const [completedSiteIds, setCompletedSiteIds] = useState<string[]>([]);
   // Custom uploaded cover images for landmark cards (persisted locally)
   const [customSiteImages, setCustomSiteImages] = useState<Record<string, string>>(() => {
     try {
@@ -359,6 +359,20 @@ export default function TroChoiView({
       })()
     : null;
 
+  // Lấy danh sách các di tích/cột mốc thuộc tỉnh thành đang chọn
+  const currentProvinceSites = currentProvince
+    ? HERITAGE_SITES.filter(s => s.provinceId === currentProvince.id || s.region === currentProvince.region)
+    : [];
+
+  // Đếm số di tích đã hoàn thành thuộc tỉnh thành này
+  const completedInCurrentProvince = currentProvinceSites.filter(s =>
+    completedSiteIds.includes(s.id)
+  ).length;
+
+  // Tính % Khám phá (Ban đầu chưa chơi sẽ là 0%)
+  const explorationPercent = currentProvinceSites.length > 0
+    ? Math.round((completedInCurrentProvince / currentProvinceSites.length) * 100)
+    : 0;
   const filteredProvinces = selectedRegion
     ? PROVINCES.filter((p) => p.region === selectedRegion)
     : PROVINCES;
@@ -397,12 +411,18 @@ export default function TroChoiView({
       setIsAnswerSubmitted(false);
     } else {
       setQuizFinished(true);
-      // Award XP
-      const earnedXp = (score + (selectedOptionIndex === QUIZ_QUESTIONS[currentQuestionIndex].correctIndex ? 1 : 0)) * 100;
+
+      // 1. Tính điểm kinh nghiệm
+      const finalScore = score + (selectedOptionIndex === QUIZ_QUESTIONS[currentQuestionIndex].correctIndex ? 1 : 0);
+      const earnedXp = finalScore * 100;
       onAwardXp(earnedXp);
+
+      // 2. Cập nhật tiến độ hoàn thành theo tỉnh thành hiện tại
+      if (selectedProvinceId && !completedSiteIds.includes(selectedProvinceId)) {
+        setCompletedSiteIds((prev) => [...prev, selectedProvinceId]);
+      }
     }
   };
-
   return (
     <div className="w-full flex-grow bg-[#FDFBF7]">
       {/* Hero Section */}
@@ -724,6 +744,7 @@ export default function TroChoiView({
                       "{currentProvince.desc}"
                     </p>
                     <div className="grid grid-cols-2 gap-4 text-center py-5 border-y border-[#C5B358]/40 mb-4">
+                      {/* Cột 1: Số di tích */}
                       <div className="flex flex-col items-center justify-center">
                         <span className="text-3xl md:text-4xl font-black text-[#570000]">
                           {currentProvince.relicsCount !== undefined
@@ -736,15 +757,15 @@ export default function TroChoiView({
                           Di tích
                         </p>
                       </div>
+
+                      {/* Cột 2: Phần trăm khám phá */}
                       <div className="flex flex-col items-center justify-center">
                         <span
                           className={`text-3xl md:text-4xl font-black ${
-                            (currentProvince.explorationRate ?? 100) > 0 ? 'text-[#007A33]' : 'text-stone-500'
+                            explorationPercent > 0 ? 'text-[#007A33]' : 'text-stone-500'
                           }`}
                         >
-                          {currentProvince.explorationRate !== undefined
-                            ? `${currentProvince.explorationRate}%`
-                            : '100%'}
+                          {explorationPercent}%
                         </span>
                         <p className="text-xs md:text-sm text-stone-600 uppercase font-bold tracking-wider mt-1">
                           Khám phá
@@ -759,7 +780,7 @@ export default function TroChoiView({
                 </div>
               </div>
             ) : (
-              <div className="lg:col-span-8 bg-[#FFF8F6] rounded-2xl border-2 border-[#C5B358] p-8 flex flex-col items-center justify-center text-center space-y-4 min-h-[350px]">
+              <div className="lg:col-span-8 bg-[#FFF8F6] rounded-2xl border-2 border-[#C5B358] p-8 flex flex-col items-center justify-center text-center space-y-3">
                 <div className="w-16 h-16 rounded-full bg-[#FEF9E7] border-2 border-[#C89B3C] flex items-center justify-center text-[#7A1C1C]">
                   <span className="material-symbols-outlined text-3xl">location_city</span>
                 </div>
@@ -771,7 +792,6 @@ export default function TroChoiView({
             )}
           </div>
         </section>
-
         {/* STEP 3: CHỌN CỘT MỐC */}
         <section id="section-step-3" className="space-y-6 scroll-mt-24">
           <div className="flex items-center gap-3">
