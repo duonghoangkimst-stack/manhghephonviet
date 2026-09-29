@@ -5,7 +5,7 @@ interface Comment {
   userName: string;
   avatar?: string;
   content: string;
-  createdAt: number | string; // Hỗ trợ cả Timestamp (number) và chuỗi thời gian (string)
+  createdAt: number | string;
 }
 
 interface InteractionSectionProps {
@@ -23,10 +23,9 @@ const getTimeAgo = (createdAt: number | string): string => {
   if (typeof createdAt === 'number') {
     timestamp = createdAt;
   } else {
-    // Nếu dữ liệu cũ đã lỡ lưu dạng chuỗi chữ (VD: "10 phút trước")
     const parsedDate = new Date(createdAt).getTime();
     if (isNaN(parsedDate)) {
-      return createdAt; // Trả về nguyên văn chuỗi chữ nếu không parse được date
+      return createdAt;
     }
     timestamp = parsedDate;
   }
@@ -54,33 +53,46 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
   currentUser,
   initialLikes = 0,
 }) => {
-  // Lấy userId chính xác
-  const userId = currentUser?.id || currentUser?.uid || currentUser?.email || '';
+  const userId = currentUser?.id || currentUser?.uid || currentUser?.email || 'guest';
   const storageLikeKey = `article_liked_${articleId}_${userId}`;
+  const storageLikesCountKey = `article_likes_count_${articleId}`;
   const storageCommentsKey = `article_comments_${articleId}`;
 
-  // State Likes
-  const [likes, setLikes] = useState<number>(initialLikes);
+  // State Likes: Khởi tạo từ localStorage nếu có, nếu không lấy initialLikes
+  const [likes, setLikes] = useState<number>(() => {
+    const savedLikes = localStorage.getItem(storageLikesCountKey);
+    return savedLikes !== null ? parseInt(savedLikes, 10) : initialLikes;
+  });
+
   const [hasLiked, setHasLiked] = useState<boolean>(false);
 
-  // Đồng bộ trạng thái đã thả tim khi currentUser thay đổi
+  // Khôi phục trạng thái đã thả tim và tổng số tim
   useEffect(() => {
-    if (userId) {
+    const savedLikes = localStorage.getItem(storageLikesCountKey);
+    if (savedLikes !== null) {
+      setLikes(parseInt(savedLikes, 10));
+    }
+
+    if (userId && userId !== 'guest') {
       const liked = localStorage.getItem(storageLikeKey) === 'true';
       setHasLiked(liked);
     } else {
       setHasLiked(false);
     }
-  }, [userId, storageLikeKey]);
+  }, [userId, storageLikeKey, storageLikesCountKey]);
 
-  // State Comments: Đọc từ localStorage và LỌC BỎ "Trần Minh Tâm"
+  // Lưu tổng số tim vào localStorage mỗi khi biến likes thay đổi
+  useEffect(() => {
+    localStorage.setItem(storageLikesCountKey, likes.toString());
+  }, [likes, storageLikesCountKey]);
+
+  // State Comments
   const [comments, setComments] = useState<Comment[]>(() => {
     const saved = localStorage.getItem(storageCommentsKey);
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
-          // Lọc bỏ bất kỳ comment nào có tên "Trần Minh Tâm"
           return parsed.filter(
             (c: any) =>
               c.userName !== 'Trần Minh Tâm' &&
@@ -92,7 +104,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
         console.error('Lỗi parse bình luận:', e);
       }
     }
-    return []; // Mặc định rỗng khi chưa có comment
+    return [];
   });
 
   const [newComment, setNewComment] = useState('');
@@ -119,17 +131,21 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
     }
 
     if (hasLiked) {
-      setLikes((prev) => Math.max(0, prev - 1));
+      const newLikes = Math.max(0, likes - 1);
+      setLikes(newLikes);
       setHasLiked(false);
       localStorage.removeItem(storageLikeKey);
+      localStorage.setItem(storageLikesCountKey, newLikes.toString());
     } else {
-      setLikes((prev) => prev + 1);
+      const newLikes = likes + 1;
+      setLikes(newLikes);
       setHasLiked(true);
       localStorage.setItem(storageLikeKey, 'true');
+      localStorage.setItem(storageLikesCountKey, newLikes.toString());
     }
   };
 
-  // Xử lý gửi Bình luận mới (Lưu Timestamp thời gian thực lúc bấm gửi)
+  // Xử lý gửi Bình luận mới
   const handleCommentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!currentUser) {
@@ -143,7 +159,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
       userName: currentUser.name || currentUser.fullName || currentUser.email || 'Người dùng',
       avatar: currentUser.avatar,
       content: newComment.trim(),
-      createdAt: Date.now(), // Lưu mốc thời gian thực dạng timestamp (miliseconds)
+      createdAt: Date.now(),
     };
 
     setComments([commentObj, ...comments]);
@@ -221,7 +237,6 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
               </div>
             ))
           ) : (
-            /* Hiển thị khi mảng bình luận rỗng */
             <div className="text-center py-8 bg-gray-50 rounded-lg border border-dashed border-gray-200">
               <p className="text-sm text-gray-500 italic">
                 Chưa có bình luận nào. Hãy là người đầu tiên bình luận!
