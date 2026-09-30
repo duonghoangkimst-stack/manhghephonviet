@@ -1149,16 +1149,17 @@ export default function TroChoiView({
                       </button>
                     )}
 
-                    {/* Quick anchor to Đồi A1 Quiz */}
-                    {selectedSite.id === 'doi-a1-dien-bien' && (
-                      <a
-                        href="#doi-a1-quiz-section"
-                        className="bg-[#570000] hover:bg-[#800000] text-[#D4AF37] border-2 border-[#C5B358] px-6 py-3.5 rounded-full font-bold text-xs uppercase tracking-wider shadow-lg transition-all flex items-center gap-2 cursor-pointer hover:scale-105"
-                      >
-                        <span className="material-symbols-outlined text-base text-[#D4AF37]">quiz</span>
-                        <span>THỬ THÁCH TRẮC NGHIỆM (10 CÂU)</span>
-                      </a>
-                    )}
+                    {/* Nút Thử Thách Trắc Nghiệm - Hiển thị cho TẤT CẢ các cột mốc/tỉnh thành */}
+                    <button
+  type="button"
+  onClick={() => {
+    document.getElementById('doi-a1-quiz-section')?.scrollIntoView({ behavior: 'smooth' });
+  }}
+  className="bg-[#570000] hover:bg-[#800000] text-[#D4AF37] border-2 border-[#C5B358] px-6 py-3.5 rounded-full font-bold flex items-center gap-2 transition-all shadow-md cursor-pointer"
+>
+  <span className="material-symbols-outlined text-base text-[#D4AF37]">quiz</span>
+  <span>THỬ THÁCH TRẮC NGHIỆM (10 CÂU)</span>
+</button>
                   </div>
                 </div>
               </div>
@@ -1244,13 +1245,14 @@ export default function TroChoiView({
             </div>
           )}
 
-          {/* TAB / KHUNG THỬ THÁCH TRẮC NGHIỆM LỊCH SỬ CHO CỘT MỐC ĐỒI A1 */}
-          {selectedSite?.id === 'doi-a1-dien-bien' && (
-            <DoiA1QuizSection
-              onAwardRewards={onAwardQuizRewards}
-              onAwardXp={onAwardXp}
-            />
-          )}
+          {/* KHUNG THỬ THÁCH TRẮC NGHIỆM LỊCH SỬ CHO TẤT CẢ CÁC CỘT MỐC */}
+          <DoiA1QuizSection
+  currentProvinceId={selectedSite?.id || selectedSite?.provinceId}
+  onAwardRewards={onAwardQuizRewards}
+  onAwardXp={onAwardXp}
+  currentUser={user}                       // State user hiện tại
+  onOpenAuthModal={() => setIsAuthModalOpen(true)} // Hàm mở modal Login/Register
+/>
         </section>
       </div>
 

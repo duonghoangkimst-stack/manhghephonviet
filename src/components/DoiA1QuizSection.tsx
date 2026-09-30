@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   CheckCircle2,
   XCircle,
@@ -7,22 +7,64 @@ import {
   RotateCcw,
   ChevronRight,
   ChevronLeft,
-  HelpCircle,
   Flame,
   Check
 } from 'lucide-react';
 import { DOI_A1_QUIZ_QUESTIONS } from '../data/doiA1QuizData';
+import { HANOI_HOANG_THANH_QUIZ } from '../data/hanoiQuizData';
+import { HAIPHONG_BEN_K15_QUIZ } from '../data/haiphongQuizData';
 
 interface DoiA1QuizSectionProps {
+  currentProvinceId?: string; // e.g., 'ha-noi' | 'dien-bien'
   onAwardRewards?: (xp: number, lotus: number, title?: string) => void;
   onAwardXp?: (xp: number) => void;
+  currentUser?: any;            // Thêm prop user
+  onOpenAuthModal?: () => void; // Thêm prop mở popup Đăng nhập/Đăng ký
 }
 
+// Danh sách quản lý Quiz tập trung
+const QUIZ_MAP: Record<string, any> = {
+  // Hà Nội
+  'ha-noi': HANOI_HOANG_THANH_QUIZ,
+  'hanoi': HANOI_HOANG_THANH_QUIZ,
+  'hoang-thanh': HANOI_HOANG_THANH_QUIZ,
+
+  // Hải Phòng
+  'hai-phong': HAIPHONG_BEN_K15_QUIZ,
+  'haiphong': HAIPHONG_BEN_K15_QUIZ,
+  'ben-k15': HAIPHONG_BEN_K15_QUIZ,
+  'k15': HAIPHONG_BEN_K15_QUIZ,
+};
+
+// Dữ liệu mặc định Đồi A1
+const DEFAULT_A1_QUIZ = {
+  id: 'dien-bien-doi-a1',
+  title: 'KÝ ỨC CỨ ĐIỂM ĐỒI A1 – 10 CÂU HỎI QUÂN SỰ',
+  location: 'Tỉnh Điện Biên',
+  maxReward: { xp: 500, sen: 50 },
+  questions: DOI_A1_QUIZ_QUESTIONS
+};
+
 export default function DoiA1QuizSection({
+  currentProvinceId = 'dien-bien',
   onAwardRewards,
-  onAwardXp
+  onAwardXp,
+  currentUser,
+  onOpenAuthModal
 }: DoiA1QuizSectionProps) {
-  // State for current question index (0 - 9)
+  // Lấy dữ liệu quiz dựa theo key tỉnh (VD: ha-noi, hai-phong)
+ // Tìm key khớp linh hoạt (chuẩn hóa chuỗi về chữ thường để tránh lỗi viết hoa/thường)
+ const normalizedId = (currentProvinceId || '').toLowerCase();
+  
+ const matchedKey = Object.keys(QUIZ_MAP).find(
+   key => normalizedId === key || normalizedId.includes(key)
+ );
+
+ const activeQuiz = matchedKey ? QUIZ_MAP[matchedKey] : DEFAULT_A1_QUIZ;
+ const questions = activeQuiz.questions;
+  // ... (Giữ nguyên các phần code useState bên dưới của bạn)
+
+  // State cho câu hỏi hiện tại
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Map of questionId -> selectedOptionIndex
@@ -34,23 +76,42 @@ export default function DoiA1QuizSection({
   // Show summary modal/card
   const [showSummary, setShowSummary] = useState(false);
 
-  const currentQ = DOI_A1_QUIZ_QUESTIONS[currentIndex];
-  const isAnswered = userAnswers[currentQ.id] !== undefined;
-  const chosenIndex = userAnswers[currentQ.id];
+  // Tự động reset câu hỏi & câu trả lời khi người dùng chọn tỉnh thành khác
+  useEffect(() => {
+    setUserAnswers({});
+    setCurrentIndex(0);
+    setShowSummary(false);
+    setIsRewardClaimed(false);
+  }, [currentProvinceId]);
 
-  // Calculate score
-  const totalQuestions = DOI_A1_QUIZ_QUESTIONS.length;
+  const currentQ = questions[currentIndex];
+  const isAnswered = currentQ && userAnswers[currentQ.id] !== undefined;
+  const chosenIndex = currentQ ? userAnswers[currentQ.id] : undefined;
+
+  // Tính toán kết quả
+  const totalQuestions = questions.length;
   const answeredCount = Object.keys(userAnswers).length;
-  const correctCount = DOI_A1_QUIZ_QUESTIONS.filter(
-    (q) => userAnswers[q.id] === q.correctIndex
-  ).length;
+
+  // Hàm kiểm tra đáp án đúng (tương thích cả correctIndex lẫn dạng chuỗi answer)
+  const isCorrectAnswer = (q: typeof questions[0], userOptIdx: number) => {
+    if ('correctIndex' in q && typeof (q as any).correctIndex === 'number') {
+      return userOptIdx === (q as any).correctIndex;
+    }
+    const optionLetter = String.fromCharCode(65 + userOptIdx); // A, B, C, D
+    return q.answer.startsWith(optionLetter);
+  };
+
+  const correctCount = questions.filter((q) => {
+    const userAns = userAnswers[q.id];
+    return userAns !== undefined && isCorrectAnswer(q, userAns);
+  }).length;
 
   const totalEarnableXp = correctCount * 50;
   const totalEarnableLotus = correctCount * 5;
 
-  // Handle selecting an option
+  // Chọn đáp án
   const handleSelectOption = (optIndex: number) => {
-    if (isAnswered) return; // Prevent changing after answer is submitted
+    if (isAnswered) return;
 
     const newAnswers = {
       ...userAnswers,
@@ -58,7 +119,6 @@ export default function DoiA1QuizSection({
     };
     setUserAnswers(newAnswers);
 
-    // If this was the last question being answered, auto show summary after short delay
     if (Object.keys(newAnswers).length === totalQuestions) {
       setTimeout(() => {
         setShowSummary(true);
@@ -66,21 +126,21 @@ export default function DoiA1QuizSection({
     }
   };
 
-  // Handle claiming rewards
+  // Nhận thưởng
   const handleClaimReward = () => {
     if (isRewardClaimed) return;
     const earnedXp = Math.max(100, correctCount * 50);
     const earnedLotus = Math.max(10, correctCount * 5);
 
     if (onAwardRewards) {
-      onAwardRewards(earnedXp, earnedLotus, 'Trắc nghiệm Đồi A1');
+      onAwardRewards(earnedXp, earnedLotus, `Trắc nghiệm ${activeQuiz.location}`);
     } else if (onAwardXp) {
       onAwardXp(earnedXp);
     }
     setIsRewardClaimed(true);
   };
 
-  // Reset quiz
+  // Làm lại
   const handleResetQuiz = () => {
     setUserAnswers({});
     setCurrentIndex(0);
@@ -88,24 +148,51 @@ export default function DoiA1QuizSection({
     setIsRewardClaimed(false);
   };
 
+  if (!currentQ) return null;
+
   return (
-    <div
-      id="doi-a1-quiz-section"
-      className="w-full bg-[#FAF5EB] rounded-3xl border-2 border-[#C5B358] p-5 sm:p-8 shadow-xl mt-8 space-y-6 scroll-mt-28"
-    >
+    <div className="relative w-full">
+      {/* 1. LỚP PHỦ YÊU CẦU ĐĂNG NHẬP / ĐĂNG KÝ (HIỆN KHI CHƯA CÓ USER) */}
+      {!currentUser && (
+        <div className="absolute inset-0 z-50 bg-slate-900/80 backdrop-blur-md rounded-3xl flex flex-col items-center justify-center p-6 text-center text-white min-h-[400px]">
+          <div className="bg-amber-500/20 p-4 rounded-full mb-4 border border-amber-500/40">
+            <Sparkles className="w-10 h-10 text-amber-400" />
+          </div>
+          <h3 className="text-2xl font-bold mb-2 text-amber-300">Yêu Cầu Đăng Nhập</h3>
+          <p className="text-gray-200 max-w-md mb-6 text-sm md:text-base leading-relaxed">
+            Bạn cần đăng nhập hoặc đăng ký tài khoản để tham gia thử thách trắc nghiệm 10 câu và tích lũy điểm **XP, Hoa Sen** lên Bảng Vàng!
+          </p>
+          <button
+            onClick={onOpenAuthModal}
+            type="button"
+            className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-semibold rounded-xl shadow-lg transform transition active:scale-95 cursor-pointer"
+          >
+            Đăng nhập / Đăng ký ngay
+          </button>
+        </div>
+      )}
+
+      {/* 2. KHUNG GIAO DIỆN QUIZ HIỆN TẠI CỦA BẠN (MỜ VÀ KHÓA TƯƠNG TÁC KHI CHƯA DĂNG NHẬP) */}
+      <div 
+        id="doi-a1-quiz-section"
+        className={`w-full bg-[#FAF5EB] rounded-3xl border-2 border-[#C5B358] p-5 sm:p-8 shadow-xl mt-8 space-y-6 scroll-mt-28 ${
+          !currentUser ? 'pointer-events-none opacity-20 select-none filter blur-[2px]' : ''
+        }`}
+      >
+        {/* TOÀN BỘ CODE NỘI DUNG BÊN TRONG CỦA BẠN TỪ DÒNG 158 Trở Đi GIỮ NGUYÊN */}
       {/* Top Header Banner */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-[#C5B358]/50">
         <div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#570000] text-[#D4AF37] text-[11px] font-bold uppercase tracking-wider mb-2 border border-[#C5B358]">
             <Flame className="w-3.5 h-3.5 text-[#F59E0B]" />
-            <span>Thử Thách Trắc Nghiệm Lịch Sử</span>
+            <span>Thử Thách Trắc Nghiệm Lịch Sử • {activeQuiz.location}</span>
           </div>
           <h3 className="font-serif text-2xl sm:text-3xl font-black text-[#570000] uppercase tracking-tight">
-            KÝ ỨC CỨ ĐIỂM ĐỒI A1 – 10 CÂU HỎI QUÂN SỰ
+            {activeQuiz.title}
           </h3>
           <p className="text-xs sm:text-sm text-[#5A413D] mt-1 max-w-2xl leading-relaxed">
             Trả lời đúng để nhận ngay điểm kinh nghiệm <strong className="text-[#570000]">XP</strong> và hoa sen{' '}
-            <strong className="text-[#007A33]">Sen</strong> vinh danh bảng vàng di sản Điện Biên Phủ.
+            <strong className="text-[#007A33]">Sen</strong> vinh danh bảng vàng di sản văn hóa.
           </p>
         </div>
 
@@ -114,9 +201,9 @@ export default function DoiA1QuizSection({
           <div className="text-right">
             <p className="text-[10px] text-stone-500 uppercase font-bold">Thưởng tối đa</p>
             <p className="text-sm font-black text-[#570000] flex items-center justify-end gap-1">
-              <span>+500 XP</span>
+              <span>+{activeQuiz.maxReward.xp} XP</span>
               <span className="text-[#C5B358]">•</span>
-              <span className="text-[#007A33]">+50 Sen</span>
+              <span className="text-[#007A33]">+{activeQuiz.maxReward.sen} Sen</span>
             </p>
           </div>
           <div className="w-10 h-10 rounded-full bg-[#FFF8F6] border border-[#C5B358] flex items-center justify-center text-[#D4AF37]">
@@ -125,7 +212,7 @@ export default function DoiA1QuizSection({
         </div>
       </div>
 
-      {/* Question Number Pills Navigation (1 - 10) */}
+      {/* Progress Navigation */}
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs">
           <span className="font-bold text-[#570000]">
@@ -146,10 +233,10 @@ export default function DoiA1QuizSection({
 
         {/* Question Selector Buttons */}
         <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 pt-2">
-          {DOI_A1_QUIZ_QUESTIONS.map((q, idx) => {
+          {questions.map((q, idx) => {
             const hasAnswered = userAnswers[q.id] !== undefined;
-            const isQCorrect = hasAnswered && userAnswers[q.id] === q.correctIndex;
-            const isQWrong = hasAnswered && userAnswers[q.id] !== q.correctIndex;
+            const isQCorrect = hasAnswered && isCorrectAnswer(q, userAnswers[q.id]);
+            const isQWrong = hasAnswered && !isCorrectAnswer(q, userAnswers[q.id]);
             const isCurrent = idx === currentIndex;
 
             let pillStyle = 'bg-white text-stone-700 border-stone-300 hover:border-[#C5B358]';
@@ -196,26 +283,25 @@ export default function DoiA1QuizSection({
           </span>
         </div>
 
-        {/* Options List (A, B, C, D) as rounded-xl cards */}
+        {/* Options List (A, B, C, D) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
           {currentQ.options.map((optText, optIdx) => {
-            const letter = String.fromCharCode(65 + optIdx); // A, B, C, D
-            const isCorrectOption = optIdx === currentQ.correctIndex;
+            const letter = String.fromCharCode(65 + optIdx);
+            const isCorrectOpt = isCorrectAnswer(currentQ, optIdx);
             const isUserChosen = optIdx === chosenIndex;
 
-            // Compute styling based on whether question is answered
             let cardClass =
               'bg-white border-stone-200 text-stone-800 hover:border-[#D4AF37] hover:bg-[#FFFDF6]';
             let circleClass = 'bg-[#FAF5EB] text-[#570000] border-stone-300';
             let iconElement = null;
 
             if (isAnswered) {
-              if (isCorrectOption) {
+              if (isCorrectOpt) {
                 cardClass =
                   'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-500/40 shadow-sm';
                 circleClass = 'bg-emerald-600 text-white border-emerald-600';
                 iconElement = <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />;
-              } else if (isUserChosen && !isCorrectOption) {
+              } else if (isUserChosen && !isCorrectOpt) {
                 cardClass =
                   'bg-rose-50 border-rose-500 text-rose-950 ring-2 ring-rose-400/40 opacity-90';
                 circleClass = 'bg-rose-600 text-white border-rose-600';
@@ -248,17 +334,17 @@ export default function DoiA1QuizSection({
           })}
         </div>
 
-        {/* Immediate Explanation Box (Hiển thị ngay sau khi chọn đáp án) */}
+        {/* Immediate Explanation Box */}
         {isAnswered && (
           <div
             className={`p-4 sm:p-5 rounded-xl border text-xs sm:text-sm space-y-1.5 transition-all ${
-              chosenIndex === currentQ.correctIndex
+              isCorrectAnswer(currentQ, chosenIndex!)
                 ? 'bg-emerald-50/80 border-emerald-300 text-emerald-950'
                 : 'bg-[#FFF8F6] border-[#C5B358] text-[#3D0505]'
             }`}
           >
             <div className="flex items-center gap-2 font-bold text-sm">
-              {chosenIndex === currentQ.correctIndex ? (
+              {isCorrectAnswer(currentQ, chosenIndex!) ? (
                 <>
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                   <span className="text-emerald-800">Chính xác! (+50 XP, +5 Sen)</span>
@@ -277,7 +363,7 @@ export default function DoiA1QuizSection({
           </div>
         )}
 
-        {/* Navigation Buttons (Prev / Next) */}
+        {/* Navigation Buttons */}
         <div className="flex items-center justify-between pt-2">
           <button
             type="button"
@@ -324,7 +410,7 @@ export default function DoiA1QuizSection({
         </div>
       </div>
 
-      {/* Summary / Result Modal or Container */}
+      {/* Summary / Result Modal */}
       {showSummary && (
         <div className="fixed inset-0 z-[120] flex items-center justify-center bg-black/80 backdrop-blur-xs p-4">
           <div className="bg-[#FAF5EB] border-3 border-[#C5B358] rounded-3xl p-6 sm:p-8 max-w-lg w-full text-center space-y-5 shadow-2xl relative">
@@ -334,7 +420,7 @@ export default function DoiA1QuizSection({
 
             <div>
               <span className="text-[11px] font-bold text-[#D4AF37] bg-[#570000] px-3 py-1 rounded-full uppercase tracking-wider">
-                KẾT QUẢ THỬ THÁCH ĐỒI A1
+                KẾT QUẢ THỬ THÁCH {activeQuiz.location.toUpperCase()}
               </span>
               <h4 className="font-serif text-2xl sm:text-3xl font-black text-[#570000] mt-2">
                 {correctCount >= 8
@@ -343,9 +429,7 @@ export default function DoiA1QuizSection({
                   ? 'BẠN ĐÃ VƯỢT QUA THỬ THÁCH!'
                   : 'TIẾP TỤC CỐ GẮNG ÔN LUYỆN!'}
               </h4>
-              <p className="text-xs text-stone-600 mt-1">
-                Chiến dịch Điện Biên Phủ 1954 – Cứ điểm Đồi A1 lịch sử
-              </p>
+              <p className="text-xs text-stone-600 mt-1">{activeQuiz.title}</p>
             </div>
 
             {/* Score Grid */}
@@ -405,6 +489,7 @@ export default function DoiA1QuizSection({
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }

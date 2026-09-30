@@ -85,6 +85,21 @@ export default function LoginView({
       });
       localStorage.setItem('registered_users', JSON.stringify(registeredUsers));
 
+      // --- TÍCH HỢP GỬI WEBHOOK DỮ LIỆU SANG MAKE.COM ---
+      fetch('https://hook.eu1.make.com/86mvdomvqlom7pt54j8khq4nolutnkbk', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email.trim(),
+          name: name.trim() || 'Người Giữ Sử',
+          registeredAt: new Date().toISOString(),
+          source: 'Hồn Việt Web'
+        }),
+      }).catch((err) => console.error('Lỗi khi gửi webhook sang Make.com:', err));
+      // ---------------------------------------------------
+
       onLogin(newUserProfile);
       setSuccessMessage('🎉 Đăng ký thành công! Bạn nhận được +50 Điểm Sao.');
       setTimeout(() => setSuccessMessage(''), 4000);
@@ -272,7 +287,7 @@ export default function LoginView({
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="nguyenvana@gmail.com"
-                  className="w-full p-3 bg-white border border-[#C5B358] rounded-xl text-xs text-[#261816] focus:outline-none focus:border-[#570000]"
+                  className="w-[#100%] p-3 bg-white border border-[#C5B358] rounded-xl text-xs text-[#261816] focus:outline-none focus:border-[#570000]"
                   required
                 />
               </div>
