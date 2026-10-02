@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
+import { HashRouter, Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { TabType, CartItem, Product, UserProfile, Article } from './types';
-import { INITIAL_USER, ARTICLES } from './data/mockData';
+import { ARTICLES } from './data/mockData';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
@@ -15,8 +17,80 @@ import CuaHangView from './views/CuaHangView';
 import LienHeView from './views/LienHeView';
 import LoginView from './views/LoginView';
 
-export default function App() {
-  const [activeTab, setActiveTab] = useState<TabType>('trangchu');
+// Component wrapper hỗ trợ route chi tiết bài viết theo URL :id / :slug
+function ChiTietBaiVietRoute({
+  articles,
+  setActiveTab,
+  user,
+  onLikeArticle,
+  onSelectArticle
+}: {
+  articles: Article[];
+  setActiveTab: (tab: TabType) => void;
+  user: UserProfile | null;
+  onLikeArticle: (id: string) => void;
+  onSelectArticle: (article: Article) => void;
+}) {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+
+  // Decode URI và làm sạch chuỗi id từ URL
+  const targetId = id ? decodeURIComponent(id).trim() : '';
+
+  // Tìm bài viết theo id HOẶC slug
+  const currentArticle = articles.find(
+    (a) => String(a.id).trim() === targetId || String((a as any).slug).trim() === targetId
+  );
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [id]);
+
+  if (!currentArticle) {
+    return (
+      <div className="min-h-screen bg-[#FAF7F2] py-20 px-4 text-center">
+        <p className="text-gray-500 mb-4">Không tìm thấy bài viết này.</p>
+        <button
+          onClick={() => navigate('/bai-viet')}
+          className="px-4 py-2 bg-[#8C1010] text-white rounded-lg hover:bg-[#6e0c0c] transition-colors"
+        >
+          Quay lại danh sách bài viết
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <Helmet>
+        <title>{currentArticle.title} | Mảnh Ghép Hồn Việt</title>
+        <meta name="description" content={currentArticle.description || (currentArticle as any).excerpt} />
+        <meta property="og:title" content={currentArticle.title} />
+        <meta property="og:description" content={currentArticle.description || (currentArticle as any).excerpt} />
+        <meta property="og:image" content={currentArticle.image} />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href={`https://manhghephonviet.com/#/bai-viet/${currentArticle.id}`} />
+      </Helmet>
+      <ChiTietBaiVietView
+        article={currentArticle}
+        setActiveTab={setActiveTab}
+        user={user}
+        onBack={() => {
+          navigate('/bai-viet');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+        onLike={onLikeArticle}
+        allArticles={articles}
+        onSelectArticle={onSelectArticle}
+      />
+    </>
+  );
+}
+
+function MainContent() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [user, setUser] = useState<UserProfile | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -25,14 +99,33 @@ export default function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
-  // Lưu trữ danh sách bài viết tập trung kèm đồng bộ localStorage
+  // Xác định activeTab dựa theo path thực tế của URL
+  const getActiveTabFromPath = (path: string): TabType => {
+    if (path.startsWith('/ve-chung-toi')) return 'vechungtoi';
+    if (path.startsWith('/bai-viet/')) return 'chitietbaiviet';
+    if (path.startsWith('/bai-viet')) return 'baiviet';
+    if (path.startsWith('/tro-choi')) return 'trochoi';
+    if (path.startsWith('/cua-hang')) return 'cuahang';
+    if (path.startsWith('/lien-he')) return 'lienhe';
+    if (path.startsWith('/tai-khoan')) return 'login';
+    return 'trangchu';
+  };
+
+  const activeTab = getActiveTabFromPath(location.pathname);
+
+  // Khởi tạo và TỰ ĐỘNG ĐỒNG BỘ mảng ARTICLES từ mockData với localStorage
   const [articles, setArticles] = useState<Article[]>(() => {
     try {
       const saved = localStorage.getItem('vietnam_heritage_articles_list');
       if (saved) {
-        const parsed = JSON.parse(saved);
+        const parsed: Article[] = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          return parsed;
+          // Lấy tất cả bài viết từ mockData
+          const mockIds = new Set(ARTICLES.map((a) => String(a.id)));
+          // Giữ lại các bài viết do người dùng tự thêm mới
+          const userCreated = parsed.filter((a) => !mockIds.has(String(a.id)));
+          // Ưu tiên mảng ARTICLES từ mockData chuẩn + bài do người dùng tạo
+          return [...userCreated, ...ARTICLES];
         }
       }
     } catch (e) {
@@ -41,21 +134,7 @@ export default function App() {
     return ARTICLES;
   });
 
-  // Bài viết đang được chọn xem chi tiết
-  const [selectedArticle, setSelectedArticle] = useState<Article | null>(() => {
-    try {
-      const savedId = localStorage.getItem('vietnam_heritage_selected_article_id');
-      if (savedId) {
-        const found = ARTICLES.find((a) => a.id === savedId);
-        if (found) return found;
-      }
-    } catch (e) {
-      console.error(e);
-    }
-    return ARTICLES[0] || null;
-  });
-
-  // Tự động lưu articles vào localStorage mỗi khi cập nhật
+  // Tự động lưu articles vào localStorage khi có sự thay đổi
   useEffect(() => {
     try {
       localStorage.setItem('vietnam_heritage_articles_list', JSON.stringify(articles));
@@ -64,38 +143,42 @@ export default function App() {
     }
   }, [articles]);
 
-  // Điều hướng và chuyển sang trang chi tiết bài viết
-  const handleSelectArticle = (article: Article) => {
-    setSelectedArticle(article);
-    try {
-      localStorage.setItem('vietnam_heritage_selected_article_id', article.id);
-    } catch (e) {
-      console.error(e);
-    }
-    setActiveTab('chitietbaiviet');
+  // Điều hướng bằng URL thay vì chỉ đổi state
+  const handleTabChange = (tab: TabType) => {
+    const routeMap: Record<TabType, string> = {
+      trangchu: '/',
+      vechungtoi: '/ve-chung-toi',
+      baiviet: '/bai-viet',
+      chitietbaiviet: '/bai-viet',
+      trochoi: '/tro-choi',
+      cuahang: '/cua-hang',
+      lienhe: '/lien-he',
+      login: '/tai-khoan',
+    };
+    navigate(routeMap[tab] || '/');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Thêm bài viết mới vào danh sách
+  const handleSelectArticle = (article: Article) => {
+    const articleIdentifier = (article as any).slug || article.id;
+    try {
+      localStorage.setItem('vietnam_heritage_selected_article_id', articleIdentifier);
+    } catch (e) {
+      console.error(e);
+    }
+    navigate(`/bai-viet/${articleIdentifier}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const handleAddArticle = (newArticle: Article) => {
     setArticles((prev) => [newArticle, ...prev]);
     showToast(`Đã xuất bản bài viết "${newArticle.title.slice(0, 32)}..." thành công!`);
   };
 
-  // Thả tim bài viết
   const handleLikeArticle = (articleId: string) => {
     setArticles((prev) =>
       prev.map((a) => (a.id === articleId ? { ...a, likes: a.likes + 1 } : a))
     );
-    setSelectedArticle((prev) =>
-      prev && prev.id === articleId ? { ...prev, likes: prev.likes + 1 } : prev
-    );
-  };
-
-  // Scroll to top on tab change
-  const handleTabChange = (tab: TabType) => {
-    setActiveTab(tab);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const showToast = (msg: string) => {
@@ -153,7 +236,7 @@ export default function App() {
               completedGames: prev.completedGames + 1,
               discoveredStories: prev.discoveredStories + 1,
               starsCount: prev.starsCount + 50,
-              lotusPoints: (prev.lotusPoints || 0) + lotusToAdd
+              lotusPoints: (prev.lotusPoints || 0) + lotusToAdd,
             }
           : null
       );
@@ -185,29 +268,28 @@ export default function App() {
     showToast(`Kích hoạt mã [${code}] thành công! +${lotus} Sen & +${coins} Xu.`);
   };
 
-  // Sync title
+  // Cập nhật thẻ Title chuẩn SEO theo trang
   useEffect(() => {
     const titles: Record<TabType, string> = {
       trangchu: 'Mảnh Ghép Hồn Việt - Sống lại di sản, viết tiếp sử xanh',
       vechungtoi: 'Về Chúng Tôi - Mảnh Ghép Hồn Việt',
       baiviet: 'Bài Viết & Tư Liệu Di Sản - Mảnh Ghép Hồn Việt',
-      chitietbaiviet: selectedArticle
-        ? `${selectedArticle.title} - Mảnh Ghép Hồn Việt`
-        : 'Chi Tiết Bài Viết - Mảnh Ghép Hồn Việt',
+      chitietbaiviet: 'Chi Tiết Bài Viết - Mảnh Ghép Hồn Việt',
       trochoi: 'Trò Chơi Di Sản - Khám phá 34 Tỉnh Thành',
       cuahang: 'Cửa Hàng Quà Tặng NFC - Mảnh Ghép Hồn Việt',
       lienhe: 'Liên Hệ & Đóng Góp Di Tích - Mảnh Ghép Hồn Việt',
-      login: 'Tài Khoản & Hồ Sơ - Mảnh Ghép Hồn Việt'
+      login: 'Tài Khoản & Hồ Sơ - Mảnh Ghép Hồn Việt',
     };
-    document.title = titles[activeTab] || 'Mảnh Ghép Hồn Việt';
-  }, [activeTab, selectedArticle]);
+    if (activeTab !== 'chitietbaiviet') {
+      document.title = titles[activeTab] || 'Mảnh Ghép Hồn Việt';
+    }
+  }, [activeTab]);
 
   return (
     <div
       className="w-full min-h-screen bg-[#FAF7F0] m-0 p-0 overflow-x-hidden flex flex-col font-sans antialiased text-[#261816]"
       style={{ width: '100%', maxWidth: '100vw', margin: 0, padding: 0, overflowX: 'hidden', backgroundColor: '#FAF7F0' }}
     >
-      {/* Header with button-based tab navigation */}
       <Header
         activeTab={activeTab}
         setActiveTab={handleTabChange}
@@ -219,88 +301,89 @@ export default function App() {
         onApplyBonus={handleApplyBonus}
       />
 
-      {/* Main View Container */}
       <main
         className="w-full flex-grow pt-[72px] m-0 p-0 flex flex-col overflow-x-hidden bg-[#FAF7F0]"
         style={{ width: '100%', maxWidth: '100vw', margin: 0, padding: 0, overflowX: 'hidden', backgroundColor: '#FAF7F0' }}
       >
-        {activeTab === 'trangchu' && (
-          <TrangChuView
-            setActiveTab={handleTabChange}
-            onAddToCart={handleAddToCart}
-            onBuyNow={handleBuyNow}
-            onSelectProduct={(p) => {
-              setSelectedProduct(p);
-              setActiveTab('cuahang');
-            }}
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <TrangChuView
+                setActiveTab={handleTabChange}
+                onAddToCart={handleAddToCart}
+                onBuyNow={handleBuyNow}
+                onSelectProduct={(p) => {
+                  setSelectedProduct(p);
+                  handleTabChange('cuahang');
+                }}
+              />
+            }
           />
-        )}
-
-        {activeTab === 'vechungtoi' && (
-          <VeChungToiView setActiveTab={handleTabChange} />
-        )}
-
-        {activeTab === 'baiviet' && (
-          <BaiVietView
-            setActiveTab={handleTabChange}
-            articles={articles}
-            onSelectArticle={handleSelectArticle}
-            onAddArticle={handleAddArticle}
-            onLikeArticle={handleLikeArticle}
+          <Route path="/ve-chung-toi" element={<VeChungToiView setActiveTab={handleTabChange} />} />
+          <Route
+            path="/bai-viet"
+            element={
+              <BaiVietView
+                setActiveTab={handleTabChange}
+                articles={articles}
+                onSelectArticle={handleSelectArticle}
+                onAddArticle={handleAddArticle}
+                onLikeArticle={handleLikeArticle}
+              />
+            }
           />
-        )}
-
-{activeTab === 'chitietbaiviet' && (
-  <ChiTietBaiVietView
-    article={selectedArticle || articles[0]}
-    setActiveTab={handleTabChange}
-    user={user} // 👈 THÊM DÒNG NÀY
-    onBack={() => {
-      handleTabChange('baiviet');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }}
-    onLike={handleLikeArticle}
-    allArticles={articles}
-    onSelectArticle={handleSelectArticle}
-  />
-)}
-
-        {activeTab === 'trochoi' && (
-          <TroChoiView
-            setActiveTab={handleTabChange}
-            user={user}
-            onAwardXp={handleAwardXp}
+          <Route
+            path="/bai-viet/:id"
+            element={
+              <ChiTietBaiVietRoute
+                articles={articles}
+                setActiveTab={handleTabChange}
+                user={user}
+                onLikeArticle={handleLikeArticle}
+                onSelectArticle={handleSelectArticle}
+              />
+            }
           />
-        )}
-
-        {activeTab === 'cuahang' && (
-          <CuaHangView
-            setActiveTab={handleTabChange}
-            onAddToCart={handleAddToCart}
-            onBuyNow={handleBuyNow}
-            selectedProduct={selectedProduct}
-            onSelectProduct={setSelectedProduct}
+          <Route
+            path="/tro-choi"
+            element={
+              <TroChoiView
+                setActiveTab={handleTabChange}
+                user={user}
+                onAwardXp={handleAwardXp}
+              />
+            }
           />
-        )}
-
-        {activeTab === 'lienhe' && (
-          <LienHeView setActiveTab={handleTabChange} />
-        )}
-
-        {activeTab === 'login' && (
-          <LoginView
-            setActiveTab={handleTabChange}
-            user={user}
-            onLogin={(u) => setUser(u)}
-            onLogout={() => setUser(null)}
+          <Route
+            path="/cua-hang"
+            element={
+              <CuaHangView
+                setActiveTab={handleTabChange}
+                onAddToCart={handleAddToCart}
+                onBuyNow={handleBuyNow}
+                selectedProduct={selectedProduct}
+                onSelectProduct={setSelectedProduct}
+              />
+            }
           />
-        )}
+          <Route path="/lien-he" element={<LienHeView setActiveTab={handleTabChange} />} />
+          <Route
+            path="/tai-khoan"
+            element={
+              <LoginView
+                setActiveTab={handleTabChange}
+                user={user}
+                onLogin={(u) => setUser(u)}
+                onLogout={() => setUser(null)}
+              />
+            }
+          />
+        </Routes>
       </main>
 
-      {/* Footer with button-based SPA links */}
       <Footer setActiveTab={handleTabChange} />
 
-      {/* Cart Drawer */}
       <CartDrawer
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
@@ -314,7 +397,6 @@ export default function App() {
         }}
       />
 
-      {/* Checkout Modal */}
       <CheckoutModal
         isOpen={isCheckoutOpen}
         onClose={() => setIsCheckoutOpen(false)}
@@ -326,7 +408,6 @@ export default function App() {
         }}
       />
 
-      {/* Search Modal */}
       <SearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
@@ -334,7 +415,6 @@ export default function App() {
         onSelectProduct={(p) => setSelectedProduct(p)}
       />
 
-      {/* Toast Notification */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-[150] bg-[#570000] text-[#F4EBD0] border-2 border-[#C5B358] px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 animate-fadeIn">
           <span className="material-symbols-outlined text-[#D4AF37] text-xl">
@@ -344,5 +424,13 @@ export default function App() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <HashRouter>
+      <MainContent />
+    </HashRouter>
   );
 }

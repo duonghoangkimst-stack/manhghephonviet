@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -24,26 +25,28 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
   allArticles = ARTICLES,
   onSelectArticle,
 }) => {
-  const [article, setArticle] = useState<Article | null>(propArticle || null);
+  // Lấy id/slug trực tiếp từ đường dẫn URL (ví dụ: trai-nghiem-lich-su)
+  const { id } = useParams<{ id: string }>();
 
-  // Tự động cập nhật bài viết từ prop hoặc khôi phục từ localStorage khi F5
+  // Ưu tiên tìm bài viết chính xác khớp với slug/id trên URL
+  const findArticleByUrlOrProp = () => {
+    if (id) {
+      const found = allArticles.find(
+        (a) => String(a.id) === String(id) || (a as any).slug === String(id)
+      );
+      if (found) return found;
+    }
+    return propArticle || null;
+  };
+
+  const [article, setArticle] = useState<Article | null>(findArticleByUrlOrProp());
+
+  // Cập nhật lại state bài viết khi URL (id/slug) hoặc propArticle thay đổi
   useEffect(() => {
     window.scrollTo(0, 0);
-
-    if (propArticle) {
-      setArticle(propArticle);
-    } else {
-      const savedId = localStorage.getItem('selectedArticleId');
-      if (savedId) {
-        const found = allArticles.find((a) => String(a.id) === String(savedId));
-        if (found) {
-          setArticle(found);
-        } else {
-          setArticle(null);
-        }
-      }
-    }
-  }, [propArticle, allArticles]);
+    const currentArticle = findArticleByUrlOrProp();
+    setArticle(currentArticle);
+  }, [id, propArticle, allArticles]);
 
   if (!article) {
     return (
@@ -58,6 +61,35 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
       </div>
     );
   }
+
+  // Hàm hỗ trợ render thông tin tác giả (xử lý cả dạng chuỗi lẫn dạng object)
+  const renderAuthorInfo = () => {
+    const authorData = article.author;
+    if (!authorData) return <strong className="text-gray-800">Mảnh Ghép Hồn Việt</strong>;
+
+    if (typeof authorData === 'object' && authorData !== null) {
+      return (
+        <div className="flex items-center gap-2">
+          {authorData.avatar && (
+            <img
+              src={authorData.avatar}
+              alt={authorData.name || 'Avatar'}
+              className="w-6 h-6 rounded-full object-cover"
+            />
+          )}
+          <strong className="text-gray-800">{authorData.name || 'Mảnh Ghép Hồn Việt'}</strong>
+          {authorData.role && (
+            <span className="text-xs text-gray-400">({authorData.role})</span>
+          )}
+        </div>
+      );
+    }
+
+    return <strong className="text-gray-800">{String(authorData)}</strong>;
+  };
+
+  // Lấy nội dung Sapo/Mô tả ngắn
+  const sapoText = article.description || (article as any).excerpt;
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] py-10 px-4 sm:px-6 lg:px-8">
@@ -87,19 +119,19 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
           </h1>
 
           <div className="flex items-center gap-4 text-xs md:text-sm text-gray-500 pb-6 border-b border-gray-100">
-            <span>Tác giả: <strong className="text-gray-800">{article.author}</strong></span>
-            <span>•</span>
-            <span>Lượt xem: <strong className="text-gray-800">{article.views}</strong></span>
-          </div>
-
-          {/* SAPO / Mô tả ngắn */}
-          {article.description && (
+            <div className="flex items-center gap-2">
+              <span>Tác giả:</span>
+              {renderAuthorInfo()}
+            </div>
+            </div>
+          {/* SAPO / Mô tả ngắn dạng khung viền đỏ */}
+          {sapoText && (
             <div className="p-5 bg-[#FAF5EF] border-l-4 border-[#8C1010] rounded-r-2xl text-gray-700 font-medium italic text-base md:text-lg leading-relaxed">
-              {article.description}
+              {sapoText}
             </div>
           )}
 
-          {/* Nội dung chi tiết render chuẩn Markdown */}
+          {/* Nội dung chi tiết Render qua Markdown */}
           <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed font-sans space-y-4 prose-headings:font-sans prose-h2:text-3xl prose-h2:font-bold prose-h2:text-gray-900 prose-h3:text-2xl prose-h3:font-bold prose-h3:text-gray-900">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
@@ -122,8 +154,6 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
                     {...props}
                   />
                 ),
-                
-                /* Định dạng bảng */
                 table: ({ node, ...props }) => (
                   <div className="overflow-x-auto my-6">
                     <table className="w-full border-collapse border border-gray-300 text-left text-sm md:text-base" {...props} />
@@ -141,7 +171,6 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
                 tr: ({ node, ...props }) => (
                   <tr className="hover:bg-gray-50 transition-colors" {...props} />
                 ),
-
                 p: ({ node, children, ...props }) => {
                   const rawText = node?.children
                     ?.map((child: any) => child.value || child.children?.[0]?.value || '')
@@ -165,7 +194,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
               {article.content}
             </ReactMarkdown>
 
-            {/* Phần Tương tác (Like / Comment) */}
+            {/* Khung Tương tác */}
             <InteractionSection
               articleId={String(article.id)}
               currentUser={user}

@@ -960,7 +960,7 @@ Phôi gỗ tự nhiên được xử lý sấy chống ẩm và mối mọt theo
 {
     id: 'lay-goc-mon-lich-su',
     title: 'Bí quyết lấy gốc môn lịch sử dành cho người "ngại học"',
-    excerpt: 'Mất gốc môn Lịch sử nên bắt đầu từ đâu? Cùng Mảnh ghép Hồn Việt khám phá lộ trình học ít, hiểu sâu, ẵm trọn điểm khá giỏi!',
+    description: 'Mất gốc môn Lịch sử nên bắt đầu từ đâu? Cùng Mảnh ghép Hồn Việt khám phá lộ trình học ít, hiểu sâu, ẵm trọn điểm khá giỏi!',
     category: 'Góc học tập',
     date: '27/09/2026',
     author: 'Mảnh ghép Hồn Việt',
@@ -1023,7 +1023,7 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   {
     id: 'so-hoc-lich-su-co-the-ban-chua-tim-duoc-cach-hoc-phu-hop',
     title: 'Sợ học lịch sử? Có thể bạn chưa tìm được cách học phù hợp',
-    excerpt: 'Bạn sợ học lịch sử không phải vì trí nhớ kém, mà vì chưa tìm đúng cách tiếp cận. Cùng Mảnh Ghép Hồn Việt khám phá phương pháp học Lịch sử trực quan, nhập vai!',
+    description: 'Bạn sợ học lịch sử không phải vì trí nhớ kém, mà vì chưa tìm đúng cách tiếp cận. Cùng Mảnh Ghép Hồn Việt khám phá phương pháp học Lịch sử trực quan, nhập vai!',
     category: 'Góc học tập',
     date: '28/09/2026',
     author: 'Mảnh ghép Hồn Việt',
@@ -1125,7 +1125,7 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   {
     id: 'lich-su-viet-nam-dong-chay-qua-cac-thoi-ky',
     title: 'Lịch sử Việt Nam: Dòng chảy qua các thời kỳ',
-    excerpt: 'Lịch sử Việt Nam là một dòng chảy liên tục, nơi mỗi vùng đất, nhân vật và biến cố đều góp phần tạo nên diện mạo đất nước. Cùng Mảnh Ghép Hồn Việt nhìn lại hành trình ấy!',
+    description: 'Lịch sử Việt Nam là một dòng chảy liên tục, nơi mỗi vùng đất, nhân vật và biến cố đều góp phần tạo nên diện mạo đất nước. Cùng Mảnh Ghép Hồn Việt nhìn lại hành trình ấy!',
     category: 'Góc lịch sử Việt',
     date: '28/09/2026',
     author: 'Mảnh ghép Hồn Việt',
@@ -1605,7 +1605,7 @@ Bộ thẻ được phát triển theo hướng sưu tầm và khám phá, mỗi
   {
     id: 'tu-hao-viet-nam-theo-cach-gen-z',
     title: 'Tự hào Việt Nam theo cách Gen Z: Một thế hệ, muôn sắc màu',
-    excerpt: 'Tự hào Việt Nam theo cách Gen Z: khám phá lịch sử, văn hóa, di sản và cách người trẻ kết nối với quê hương theo một cách riêng, gần gũi và đầy trải nghiệm.',
+    description: 'Tự hào Việt Nam theo cách Gen Z: khám phá lịch sử, văn hóa, di sản và cách người trẻ kết nối với quê hương theo một cách riêng, gần gũi và đầy trải nghiệm.',
     category: 'Góc Sử Việt',
     date: '01/10/2026',
     author: 'Mảnh ghép Hồn Việt',
