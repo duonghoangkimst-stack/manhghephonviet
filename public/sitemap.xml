@@ -1,32 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Trang chủ -->
+  <!-- Trang chính -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/</loc>
+    <loc>https://www.manhghephonviet.com/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/bai-viet</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/ve-chung-toi</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/tro-choi</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/cua-hang</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Trang Về chúng tôi -->
+  <!-- 8 BÀI VIẾT DETAILED SEO -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/ve-chung-toi</loc>
+    <loc>https://www.manhghephonviet.com/bai-viet/trai-nghiem-lich-su</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Trang Bài viết -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/bai-viet</loc>
+    <loc>https://www.manhghephonviet.com/bai-viet/lay-goc-mon-lich-su</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Trang Trò chơi -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/tro-choi</loc>
+    <loc>https://www.manhghephonviet.com/bai-viet/so-hoc-lich-su-co-the-ban-chua-tim-duoc-cach-hoc-phu-hop</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Trang Cửa hàng -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/cua-hang</loc>
+    <loc>https://www.manhghephonviet.com/bai-viet/lich-su-viet-nam-dong-chay-qua-cac-thoi-ky</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Trang Đăng nhập -->
   <url>
-    <loc>https://manhghephonviet-sfjm.vercel.app/login</loc>
+    <loc>https://www.manhghephonviet.com/bai-viet/manh-ghep-ban-do-viet-nam-bang-go</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/bai-viet/top-5-dia-diem-du-lich-cho-nguoi-yeu-su</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/bai-viet/qua-luu-niem-viet-nam-10-mon-qua-mang-dam-dau-an-van-hoa</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/bai-viet/tu-hao-viet-nam-theo-cach-gen-z</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
