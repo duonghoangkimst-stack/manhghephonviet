@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { TabType, CartItem, Product, UserProfile, Article } from './types';
 import { ARTICLES } from './data/mockData';
@@ -69,7 +69,7 @@ function ChiTietBaiVietRoute({
         <meta property="og:description" content={currentArticle.description || (currentArticle as any).excerpt} />
         <meta property="og:image" content={currentArticle.image} />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href={`https://manhghephonviet.com/#/bai-viet/${currentArticle.id}`} />
+        <link rel="canonical" href={`https://manhghephonviet.com/bai-viet/${currentArticle.id}`} />
       </Helmet>
       <ChiTietBaiVietView
         article={currentArticle}
@@ -143,7 +143,7 @@ function MainContent() {
     }
   }, [articles]);
 
-  // Điều hướng bằng URL thay vì chỉ đổi state
+  // Điều hướng bằng URL chuẩn
   const handleTabChange = (tab: TabType) => {
     const routeMap: Record<TabType, string> = {
       trangchu: '/',
@@ -429,8 +429,8 @@ function MainContent() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <MainContent />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
