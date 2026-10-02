@@ -1128,26 +1128,29 @@ export default function TroChoiView({
                     </div>
                   </div>
                   <div className="pt-4 flex flex-wrap gap-3 sm:gap-4">
-                    {selectedSite.experienceUrl ? (
-                      <a
-                        href={selectedSite.experienceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-[#D4AF37] hover:bg-white text-[#3D0505] px-8 py-3.5 rounded-full font-bold text-xs uppercase tracking-wider shadow-lg transition-all flex items-center gap-2 cursor-pointer hover:scale-105"
-                      >
-                        <span>THAM GIA TRẢI NGHIỆM</span>
-                        <span className="material-symbols-outlined text-base">play_arrow</span>
-                      </a>
-                    ) : (
-                      <button
-                        type="button"
-                        onClick={handleStartQuiz}
-                        className="bg-[#D4AF37] hover:bg-white text-[#3D0505] px-8 py-3.5 rounded-full font-bold text-xs uppercase tracking-wider shadow-lg transition-all flex items-center gap-2 cursor-pointer hover:scale-105"
-                      >
-                        <span>THAM GIA TRẢI NGHIỆM</span>
-                        <span className="material-symbols-outlined text-base">play_arrow</span>
-                      </button>
-                    )}
+  {/* NÚT THAM GIA TRẢI NGHIỆM */}
+  <button
+    type="button"
+    onClick={() => {
+      // 1. Nếu chưa đăng nhập -> Chuyển sang Tab Đăng nhập / Đăng ký
+      if (!user) {
+        setActiveTab('login');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+
+      // 2. Nếu đã đăng nhập -> Cho phép trải nghiệm
+      if (selectedSite?.experienceUrl) {
+        window.open(selectedSite.experienceUrl, '_blank', 'noopener,noreferrer');
+      } else {
+        handleStartQuiz();
+      }
+    }}
+    className="bg-[#D4AF37] hover:bg-white text-[#3D0505] px-8 py-3.5 rounded-full font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer shadow-lg"
+  >
+    <span>THAM GIA TRẢI NGHIỆM</span>
+    <span className="material-symbols-outlined text-base">play_arrow</span>
+  </button>
 
                     {/* Nút Thử Thách Trắc Nghiệm - Hiển thị cho TẤT CẢ các cột mốc/tỉnh thành */}
                     <button

@@ -1602,6 +1602,109 @@ Chip NFC được tích hợp vào mảnh ghép gỗ, móc khóa và hít nam ch
 
 Bộ thẻ được phát triển theo hướng sưu tầm và khám phá, mỗi thẻ mang một hình ảnh, thông tin hoặc dấu ấn riêng, góp phần tạo nên câu chuyện về các vùng đất Việt Nam.`,
   },
+  {
+    id: 'tu-hao-viet-nam-theo-cach-gen-z',
+    title: 'Tự hào Việt Nam theo cách Gen Z: Một thế hệ, muôn sắc màu',
+    excerpt: 'Tự hào Việt Nam theo cách Gen Z: khám phá lịch sử, văn hóa, di sản và cách người trẻ kết nối với quê hương theo một cách riêng, gần gũi và đầy trải nghiệm.',
+    category: 'Góc Sử Việt',
+    date: '01/10/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/biaseo8.jpg',
+    content: `Tự hào Việt Nam trong thế giới của Gen Z không nằm ở những mỹ từ xa xôi, mà hiện hữu bình dị trong từng nhịp thở đời thường. Đó là khoảnh khắc đôi chân dừng lại trước một di tích cổ, một video đong đầy ký ức quê hương, hay nét chấm phá truyền thống được thổi hồn vào những thiết kế hiện đại. Giữa dòng chảy công nghệ, người trẻ chạm vào quá khứ theo cách của riêng mình sáng tạo hơn, cá tính hơn nhưng vẫn vẹn nguyên một tình yêu nguồn cội. Cùng Mảnh Ghép Hồn Việt lắng nghe nhịp đập ấy qua những hành trình kết nối văn hóa vừa gần gũi, vừa đậm đà bản sắc.
+  
+  ## 1. Gen Z và sự thay đổi trong cách thể hiện niềm tự hào Việt Nam
+  
+  ### 1.1. Tự hào dân tộc bắt đầu từ sự thấu hiểu
+  Tình yêu và lòng tự hào dân tộc không dừng lại ở việc nhớ thuộc lòng những cột mốc lịch sử. Ở tầng sâu hơn, niềm tự hào ấy là cảm giác thuộc về đầy sâu sắc—nơi mỗi cá nhân lắng nghe nhịp thở của vùng đất mình gắn bó, thấu cảm những thiên tiểu thuyết tạo nên cộng đồng và nuôi dưỡng các giá trị được gìn giữ qua nhiều thế hệ. Với người trẻ, ngọn lửa ấy có thể bùng lên từ một câu hỏi rất đỗi mộc mạc: *Vì sao địa danh này lại mang tên như thế? Vì sao một lễ hội vẫn vẹn nguyên sức sống qua nhiều thế hệ? Hay ẩn sau một di tích từng ghé thăm là trang sử trầm hùng nào?*
+  
+  - Từ nét tò mò ban đầu, hành trình tìm hiểu lịch sử Việt Nam biến chuyển thành chuyến đi tìm lại chính mình. Khi ấy, nhân vật lịch sử không còn đóng khung trong sách giáo khoa; di tích không còn là điểm dừng chân thoáng qua; và mỗi món ăn truyền thống trở thành chiếc chìa khóa mở ra câu chuyện đời sống của xứ sở. Tư duy tiếp cận của thế hệ trẻ đã sang trang: hiểu trước khi tự hào, trải nghiệm để ghi nhớ và kết nối để giá trị tiếp tục được truyền đi.
+ 
+  - Giữa môi trường số, cánh cửa tiếp cận văn hóa đang mở ra rộng lớn hơn bao giờ hết. Định hướng từ Bộ Văn hóa, Thể thao và Du lịch chỉ rõ chuyển đổi số văn hóa bao gồm các trụ cột: số hóa, bảo tồn số di sản, phát triển nội dung số và quảng bá văn hóa Việt Nam. Khi di sản được thổi vào hơi thở hiện đại, người trẻ có thêm nguồn cảm hứng để chủ động khám phá, đối thoại và sáng tạo cùng dòng chảy lịch sử thay vì chỉ tiếp nhận thụ động.
+ 
+  
+  ![Người trẻ tìm hiểu lịch sử Việt Nam tại bảo tàng](/images/tim-hieu-bao-tang.webp)
+  
+  *Hình 1: Hiểu lịch sử là bước đầu để cảm nhận giá trị quê hương.*
+  
+  ### 1.2. Không có một khuôn mẫu duy nhất để yêu Việt Nam
+  Tình yêu xứ sở trong tâm thức của một thế hệ tuy mang cùng một nhịp đập, nhưng lại chẳng hề gò bó trong bất kỳ một mẫu số chung nào. Có người tìm thấy sợi dây kết nối qua những trang sử vàng trầm mặc. Có người lại gửi gắm tình yêu vào nét tinh hoa của làng nghề truyền thống, hương vị ẩm thực quê nhà, sắc màu tà áo dài hay giai điệu dân gian. Lại có những người trẻ chọn cách định hình tình yêu ấy qua lăng kính nhiếp ảnh, ngôn ngữ thiết kế, những bản phối âm nhạc hiện đại, hay thước phim ngắn đong đầy cảm xúc trên không gian số. Chính sự muôn màu ấy đã vẽ nên chân dung độc đáo của Gen Z và văn hóa Việt.
+  
+  Năm 2024, Bộ Văn hóa, Thể thao và Du lịch từng ghi nhận hiện tượng hàng loạt bạn trẻ sáng tạo nội dung trên Facebook, TikTok, YouTube để quảng bá văn hóa vùng miền. Điều này chứng minh mạng xã hội đang trở thành nhịp cầu nối thế hệ trẻ với việc tiếp cận và lan tỏa các giá trị văn hóa truyền thống. Thế nên, đừng dùng một thước đo đơn điệu để định giá tình yêu quê hương. Một bạn trẻ có thể thể hiện sự gắn bó bằng việc miệt mài tìm hiểu lịch sử; một người khác lại bắt đầu bằng việc khoác lên mình tà áo dài, thả hồn theo nhạc Việt, thưởng thức ẩm thực hay đơn giản là kể một câu chuyện mộc mạc về mảnh đất quê hương. Muôn vàn cách thể hiện khác nhau, nhưng tất cả đều gặp nhau ở một điểm chung: sự kết nối chân thành từ tâm hồn.
+
+  
+  ![Gen Z khám phá tìm hiểu lịch sử qua công nghệ mới](/images/Genz-kham-pha-lich-su-cong-nghe-moi.webp)
+
+  *Hình 2: Mỗi người trẻ có một cách riêng để kết nối với Việt Nam.*
+  
+  ## 2. Những cách Gen Z thể hiện niềm tự hào Việt Nam
+  
+  ### 2.1. Khám phá lịch sử qua những chuyến đi và điểm đến di sản
+  Có những câu chuyện quá khứ chỉ thực sự thức tỉnh khi ta đặt chân đến đúng nơi nó từng diễn ra. Một trang sách dù sống động đến đâu cũng chỉ có thể phác họa lại dáng hình di tích. Nhưng khi trực tiếp bước qua không gian ấy, tận mắt ngắm nhìn đường nét kiến trúc, chạm vào những hiện vật mang dấu vết thời gian, lịch sử mới thực sự đánh thức trọn vẹn mọi giác quan. Chính điều đó đã biến trải nghiệm lịch sử và du lịch di sản trở thành một phần hành trình không thể thiếu đối với người trẻ trên con đường khám phá Việt Nam.
+  
+  Một chuyến ghé thăm Hoàng thành Thăng Long sẽ mở ra thiên tiểu thuyết trầm hùng về Thăng Long – Hà Nội. Một lần dừng chân tại Cố đô Huế sẽ dẫn lối người trẻ đi sâu vào chiều dài lịch sử triều Nguyễn. Hay một hành trình tìm về những vùng đất cách mạng sẽ nhóm lên niềm tò mò về những chiến công oanh liệt từng vang dội nơi đây. Điều giá trị nhất sau mỗi chuyến đi không nằm ở câu trả lời "ta đã đi đâu", mà ở nhận thức "ta đã thấu hiểu thêm điều gì". Khi mỗi địa danh được thổi hồn bằng một câu chuyện, ký ức trải nghiệm sẽ trở nên sâu đậm hơn bao giờ hết. Thế hệ trẻ không chỉ bấm máy lưu giữ một bức ảnh check-in, mà còn mang theo câu chuyện của vùng đất ấy khắc sâu vào tâm trí.
+  
+Theo ghi nhận từ Bộ Văn hóa, Thể thao và Du lịch, mạng xã hội đang mở ra những phương thức hoàn toàn mới để giới trẻ khám phá, diễn giải và lan tỏa các giá trị di sản. Tuy nhiên, dù góc nhìn sáng tạo đến đâu, cách kể chuyện mới vẫn cần lấy sự chính xác làm gốc và giữ trọn sự tôn trọng đối với giá trị nguyên bản của chất liệu văn hóa.
+  
+  ![Gen Z khám phá di sản và lịch sử Việt Nam](/images/GenZ-kham-pha-di-san.webp)
+
+  *Hình 3: Những chuyến đi đưa lịch sử đến gần hơn với người trẻ.*
+  
+  ### 2.2 Đưa văn hóa Việt vào phong cách sống và sáng tạo
+  Giữ gìn văn hóa Việt Nam không phải là cất giữ di sản trong tủ kính. Trong dòng chảy hôm nay, văn hóa chỉ trường tồn khi trở thành một phần của phong cách sống—được cảm nhận và sáng tạo trong những ngữ cảnh mới. Từ họa tiết cổ truyền trên trang phục đương đại, truyện dân gian qua tranh minh họa, đến ẩm thực và chất liệu thủ công bước vào đời sống trẻ... tất cả minh chứng rằng văn hóa Việt đang chuyển mình cùng thời đại.
+  
+ Bệ phóng số đã chắp cánh cho tư duy mới. Đúng như Bộ Văn hóa, Thể thao và Du lịch đánh giá, mạng xã hội biến thế hệ trẻ thành những đại sứ lan tỏa di sản. Dẫu vậy, mọi thử nghiệm sáng tạo đều cần tựa trên sự am hiểu và lòng trân trọng vốn cổ. Sáng tạo văn hóa không đòi hỏi sự gượng ép hay sao chép nguyên mẫu. Quan trọng nhất là giá trị cốt lõi của văn hóa được thấu cảm trọn vẹn và tiếp nối bằng ngôn ngữ tươi trẻ của hiện tại.
+  
+  ## 3. Tự hào Việt Nam bắt đầu từ những điều rất riêng nhưng tạo nên một niềm tự hào chung
+  
+  ### 3.1. Mỗi người trẻ, một cách riêng để yêu Việt
+  Mỗi tâm hồn luôn sở hữu một "điểm chạm" rất riêng với mảnh đất quê hương. Có người bắt đầu hành trình ấy từ nơi cất tiếng khóc chào đời. Có người chạm vào nguồn cội qua một chuyến đi xa. Lại có những người bị cuốn hút bởi chiều sâu lịch sử, nét tinh tế của kiến trúc, giai điệu âm nhạc, hương vị ẩm thực hay đơn giản là những câu chuyện ký ức gầy dựng từ gia đình. Những khởi đầu ấy tuy khác biệt, nhưng đều chung một cái đích đến: khát khao tìm hiểu Việt Nam một cách sâu sắc hơn.
+  
+ Một nhiếp ảnh gia trẻ có thể tìm về các công trình cổ để lưu giữ hồn cốt di sản. Một người mê xê dịch chọn đặt chân đến những vùng đất hoang sơ. Một nhà thiết kế đưa chất liệu truyền thống vào ngôn ngữ hiện đại. Hay một sáng tạo nội dung dùng video ngắn để kể lại câu chuyện về một địa danh quê hương. Những hành động ấy không nhất thiết phải chung một khuôn mẫu. Giá trị thực sự nằm ở sự chủ động tìm kiếm mối liên kết giữa bản thân với các giá trị văn hóa xung quanh. Từ góc nhìn ấy, Gen Z yêu nước không bị định nghĩa bởi một công thức cố định, mà là hành trình một thế hệ lựa chọn khám phá, sáng tạo và lan tỏa những gì khiến họ gắn bó với Việt Nam.
+  
+  ### 3.2. Khi những câu chuyện riêng gặp nhau ở tình yêu Việt
+ Từng câu chuyện riêng lẻ tựa như một đốm sáng nhỏ. Nhưng khi những đốm sáng ấy cùng thắp lên, chúng sẽ soi tỏ cả một vùng di sản rực rỡ. Chỉ cần một thước phim đong đầy hồn quê cũng đủ làm bừng lên mong muốn ghé thăm một làng nghề cổ. Một góc nhìn sâu sắc về di tích có thể nhen nhóm ngọn lửa tìm hiểu lịch sử cho người trẻ. Và một bức ảnh mộc mạc về ẩm thực bản địa lại có thể lay động những tâm hồn từng gắn bó với mảnh đất quê hương.Không gian số nhờ đó vượt thoát khỏi vai trò của một công cụ giao tiếp thông thường, trở thành nhịp cầu thiêng liêng kết nối ký ức, trải nghiệm và tình yêu di sản.
+  
+  Tuy nhiên, sự nổi tiếng nhanh chóng chưa bao giờ là thước đo tối thượng. Đối với dòng chảy lịch sử, tính chuẩn xác chính là linh hồn của câu chuyện. Một sản phẩm truyền thông dù hấp dẫn đến đâu nhưng nếu lệch chuẩn về tri thức sẽ làm tổn thương giá trị cổ truyền. Việc lan tỏa di sản trên mạng xã hội đòi hỏi người trẻ sự dung hòa tinh tế: vừa tự do sáng tạo, vừa giữ trọn tinh thần trân trọng giá trị nguyên bản. Hành trình văn hóa chân chính, vì thế, chưa bao giờ khép lại sau một lượt bấm thích hay chia sẻ. Đó là con đường thiêng liêng: từ biết đến hiểu, từ hiểu đến trải nghiệm và từ trải nghiệm đến ghi nhớ muôn đời.
+  
+  ![Gen Z kể chuyện và lan tỏa văn hóa Việt trên mạng xã hội](/images/Genz-ke-chuyen-lan-toa-van-hoa-Viet-tren-mxh.webp)
+
+  *Hình 4: Những câu chuyện Việt được lan tỏa từ trải nghiệm của người trẻ.*
+  
+  ## 4. Mảnh Ghép Hồn Việt – kết nối Gen Z với lịch sử và văn hóa Việt
+  
+  ### 4.1. Khi lịch sử trở thành trải nghiệm
+  Lịch sử sẽ thôi khô xơ và trở nên gần gũi hơn bao giờ hết khi người trẻ được tự tay lật mở, chủ động khám phá thay vì thụ động tiếp nhận thông tin một chiều. Đó cũng chính là triết lý mà Mảnh Ghép Hồn Việt kiên trì đuổi theo: kết nối bản đồ lịch sử Việt Nam với nghệ thuật storytelling, tư duy gamification, công nghệ NFC cùng những trải nghiệm tương tác đa chiều. Thay vì nhìn lịch sử như những mảng dữ liệu rời rạc, người dùng nay có thể thong dong bước qua từng vùng đất, thẩm thấu câu chuyện ẩn sau mỗi địa danh và tự tay gắn kết từng mảnh ghép di sản vào bức tranh toàn cảnh sâu rộng của dân tộc.
+  
+  Hướng đi này hoàn toàn bắt nhịp cùng xu hướng chuyển đổi số văn hóa, nơi công nghệ trở thành công cụ đắc lực để số hóa, bảo tồn và mở rộng biên độ tiếp cận di sản. Đề án chuyển đổi số trong lĩnh vực văn hóa đến năm 2030 cũng đã khẳng định phát triển nội dung số và quảng bá văn hóa Việt Nam là một trong những nhiệm vụ chiến lược hàng đầu. Ở hành trình này, công nghệ không bao giờ thay thế lịch sử.Công nghệ đóng vai trò là nhịp cầu tri thức, đưa tâm hồn người trẻ bước lại gần hơn với cội nguồn dân tộc.
+
+  ![Quy trình chạm NFC và trải nghiệm game lịch sử Việt Nam](/images/Quy-trinh-cham-NFC-va-trai-nghiem-lich-su-VN.webp)
+
+  *Hình 5: Quy trình chạm NFC kết nối mảnh ghép gỗ với trải nghiệm game lịch sử Việt Nam.*
+  
+  ### 4.2. Mỗi mảnh ghép, một câu chuyện Việt
+  Một mảnh ghép nhỏ có thể mở ra câu chuyện lớn về nguồn cội. Khi từng tọa độ gắn kết cùng nhau, chiếc bản đồ vượt thoát khỏi vai trò địa lý để kể lại hành trình văn hóa Việt Nam nối tiếp qua nhiều thế hệ. Triết lý này được gửi gắm trọn vẹn trong hệ sinh thái Mảnh Ghép Hồn Việt—sự giao thoa giữa bản đồ lịch sử, storytelling, gamification, công nghệ chạm NFC và sản phẩm lưu niệm. Giới trẻ không chỉ khám phá hay tương tác với di sản, mà còn mang về những vật phẩm lưu giữ trọn vẹn cảm xúc hành trình. Quà lưu niệm nhờ vậy trở thành "chứng nhân ký ức", đưa lịch sử hiện diện tự nhiên trong đời sống hôm nay.
+  
+  ### 4.3. Từ trải nghiệm hôm nay đến giá trị Việt
+  Hành trình vạn dẫm tìm về cội nguồn đôi khi chỉ bắt đầu từ một đốm lửa nhỏ: một thắc mắc, một tên gọi thân thương hay một mảnh ghép di sản. Từ những "điểm chạm" mộc mạc ấy, ngọn lửa khao khát khám phá bắt đầu bùng cháy. Mảnh Ghép Hồn Việt tự hào trở thành cầu nối giữa Gen Z và lịch sử Việt Nam, đan dệt hơi thở công nghệ hiện đại vào những giá trị văn hóa ngàn năm.Đó cũng là nhịp đập chung của thời đại gắn liền bảo tồn di sản với chuyển đổi số, du lịch và sự đồng hành của toàn xã hội.
+
+  Lịch sử chưa bao giờ thuộc về những gì đã cũ. Lịch sử sống động trong lăng kính của hiện tại, trong cách chúng ta thấu hiểu quá khứ và truyền thấu ngọn lửa ấy cho mai sau. Khái niệm tự hào Việt Nam nay đã mang diện mạo mới. Ngôn ngữ tình yêu của Gen Z được cất lời qua từng thước phim sống động, những sáng tạo thiết kế đậm chất di sản, các trải nghiệm công nghệ chạm hay khát khao gắn bó với mảnh đất quê hương. Mỗi góc nhìn cá nhân là một gam màu độc bản. Khi tất cả hội tụ, bức tranh văn hóa dân tộc lại càng thêm lộng lẫy và kiêu hãnh. Một thế hệ, muôn sắc màu – nhưng cùng chung một hành trình tìm hiểu và kết nối với Việt Nam.
+
+  ## Câu hỏi thường gặp về tự hào Việt Nam và Gen Z (FAQ)
+  ### Gen Z thể hiện niềm tự hào Việt Nam bằng những cách nào?
+  Gen Z có thể thể hiện qua việc khám phá lịch sử, trải nghiệm di sản, sáng tạo nội dung, tìm hiểu văn hóa vùng miền và đưa các chất liệu truyền thống vào đời sống hiện đại.
+  ### Vì sao Gen Z quan tâm đến văn hóa Việt Nam theo những cách mới?
+  Mạng xã hội và công nghệ tạo ra nhiều hình thức tiếp cận khác nhau, giúp người trẻ có thể tìm hiểu, sáng tạo và chia sẻ câu chuyện văn hóa bằng ngôn ngữ gần với đời sống của mình.
+  ### Gen Z yêu nước có nhất thiết phải theo một khuôn mẫu?
+  Không. Cách thể hiện tình cảm với quê hương có thể khác nhau tùy sở thích, trải nghiệm và mối quan tâm của mỗi người trẻ.
+  ### Giới trẻ có thể góp phần giữ gìn văn hóa Việt Nam như thế nào?
+  Người trẻ có thể bắt đầu từ việc tìm hiểu đúng nguồn tư liệu, trải nghiệm di sản, ủng hộ giá trị văn hóa địa phương và sáng tạo những nội dung giúp văn hóa Việt tiếp cận gần hơn với cộng đồng.
+  ### Công nghệ giúp người trẻ khám phá lịch sử như thế nào?
+  Bản đồ số, NFC, gamification, nội dung tương tác và storytelling có thể biến thông tin lịch sử thành trải nghiệm trực quan, giúp người trẻ chủ động khám phá và ghi nhớ.
+  ### Mảnh Ghép Hồn Việt kết nối Gen Z với lịch sử ra sao?
+   Mảnh Ghép Hồn Việt kết hợp bản đồ lịch sử, storytelling, gamification, NFC và sản phẩm lưu niệm để tạo ra hành trình khám phá các vùng đất, câu chuyện và giá trị văn hóa Việt theo hướng tương tác.
+  ### Bắt đầu hành trình khám phá Việt Nam từ đâu?
+  Có thể bắt đầu từ chính quê hương, một di tích từng đi qua, một câu chuyện gia đình hoặc một địa danh khiến bạn tò mò. Mỗi câu hỏi nhỏ đều có thể mở ra một câu chuyện lớn hơn về Việt Nam.`
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {
