@@ -1705,6 +1705,76 @@ Theo ghi nhận từ Bộ Văn hóa, Thể thao và Du lịch, mạng xã hội 
   ### Bắt đầu hành trình khám phá Việt Nam từ đâu?
   Có thể bắt đầu từ chính quê hương, một di tích từng đi qua, một câu chuyện gia đình hoặc một địa danh khiến bạn tò mò. Mỗi câu hỏi nhỏ đều có thể mở ra một câu chuyện lớn hơn về Việt Nam.`
   },
+  {
+    id: 'dai-tuong-le-trong-tan-cuoc-doi-va-dau-an-lich-su',
+    title: 'Đại tướng Lê Trọng Tấn: Một đời cống hiến cho đất nước',
+    description: 'Nhìn lại cuộc đời Đại tướng Lê Trọng Tấn và những đóng góp to lớn từ chiến thắng Điện Biên Phủ đến mùa Xuân thống nhất đất nước cùng Mảnh Ghép Hồn Việt.',
+    category: 'Góc Lịch Sử Việt',
+    date: '03/10/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/LeTrongTan.webp',
+    content: `Trong lịch sử đấu tranh giải phóng dân tộc, Đại tướng Lê Trọng Tấn là một người chỉ huy có nhiều đóng góp quan trọng, gắn với chiến thắng Điện Biên Phủ và cuộc Tổng tiến công, nổi dậy mùa Xuân năm 1975. Tìm hiểu cuộc đời ông cũng là dịp nhìn lại bản lĩnh và trách nhiệm của những người đã cống hiến cho độc lập, thống nhất đất nước. Hãy cùng Mảnh Ghép Hồn Việt nhìn lại cuộc đời đầy oanh liệt cùng những cống hiến vĩ đại của Đại tướng Lê Trọng Tấn.
+
+## 1. Đại tướng Lê Trọng Tấn và những năm đầu hoạt động cách mạng
+Hành trình cách mạng của Đại tướng Lê Trọng Tấn bắt đầu từ ngọn lửa yêu nước nồng nàn và bản lĩnh kiên cường của người con xứ Đoài. Ngay từ những năm tháng tuổi trẻ, ông đã thể hiện chí khí khác thường, từng bước dấn thân vào con đường đấu tranh giải phóng dân tộc. Sự chuyển biến tư tưởng từ một thanh niên yêu nước trở thành nhà quân sự lỗi lạc đã đặt nền móng vững chắc cho toàn bộ sự nghiệp lừng lẫy sau này của ông.
+
+### 1.1. Tiểu sử đại tướng Lê Trọng Tấn
+Đại tướng Lê Trọng Tấn có tên khai sinh là Lê Trọng Tố, bí danh Ba Long, sinh ngày 1/10/1914 tại làng Nghĩa Lộ, xã Yên Nghĩa, huyện Hoài Đức (nay là phường Yên Nghĩa, quận Hà Đông, TP Hà Nội). Ông qua đời ngày 5/12/1986, sau hơn bốn mươi năm hoạt động cách mạng và phục vụ trong quân đội. Những mốc thời gian ấy đặt cuộc đời ông trong một giai đoạn đất nước trải qua nhiều thử thách lớn.
+
+Khi tìm hiểu tiểu sử Lê Trọng Tấn, điều đáng chú ý là sự gắn bó giữa cuộc đời cá nhân và nhiệm vụ chung của dân tộc. Ông được biết đến qua các cương vị chỉ huy, những chiến dịch quan trọng và đóng góp trong xây dựng quân đội.
+
+![Đại tướng Lê Trọng Tấn (1914 - 1986)](/images/chan-dung-dai-tuong-Le-Trong-Tan.webp)
+
+*Hình 1: Đại tướng Lê Trọng Tấn (1914 - 1986)*
+
+### 1.2. Tham gia Việt Minh đến những nhiệm vụ quân sự đầu tiên
+Năm 1944, Lê Trọng Tấn chính thức gia nhập Mặt trận Việt Minh. Trong thời kỳ chuẩn bị khởi nghĩa, nhờ năng lực tổ chức vượt trội cùng sự quyết đoán trong công tác ông được giao nhiệm vụ tuyên truyền, xây dựng cơ sở cách mạng và huấn luyện lực lượng tự vệ. Đến tháng 8/1945, ông tham gia Ủy ban khởi nghĩa Hà Đông, phụ trách công tác quân sự.
+
+Sau Cách mạng tháng Tám, ông tiếp tục đảm nhiệm nhiều chức vụ chỉ huy trong quân đội. Qua các nhiệm vụ tại đơn vị và chiến trường, ông tích lũy kinh nghiệm tổ chức lực lượng, chuẩn bị chiến đấu và xử lý tình huống thực tế. Những nhiệm vụ quân sự đầu tiên tại chiến trường Bắc Bộ không chỉ giúp ông rèn luyện bản lĩnh trận mạc mà còn khẳng định phẩm chất của một người chỉ huy kiệt xuất, luôn sát cánh cùng chiến sĩ trong mọi nguy nan.
+
+## 2. Dấu ấn của Đại tướng Lê Trọng Tấn tại Điện Biên Phủ
+Chiến dịch Điện Biên Phủ là một dấu mốc tiêu biểu trong cuộc đời chỉ huy của Đại tướng Lê Trọng Tấn. Trên cương vị Đại đoàn trưởng Đại đoàn 312, ông cùng tập thể lãnh đạo, chỉ huy đơn vị thực hiện những nhiệm vụ quan trọng. Từ trận mở màn tại Him Lam đến đợt tiến công cuối cùng, đóng góp của đại đoàn được đặt trong sự phối hợp chung của toàn chiến dịch.
+
+### 2.1. Đại đoàn 312 và trận mở màn tại Him Lam
+Ngày 13/3/1954, Đại đoàn 312 do Lê Trọng Tấn chỉ huy tiến công cụm cứ điểm Him Lam, mở màn chiến dịch Điện Biên Phủ. Đây là nhiệm vụ quan trọng, đòi hỏi sự chuẩn bị kỹ lưỡng và khả năng phối hợp giữa các lực lượng. Thắng lợi tại Him Lam góp phần tạo điều kiện cho những bước tiến tiếp theo của chiến dịch.
+
+Trong quá trình chỉ huy, ông chú trọng nắm tình hình đối phương, chuẩn bị hỏa lực và tổ chức đột phá vào hệ thống phòng ngự. Những yêu cầu ấy cho thấy chiến thắng được xây dựng từ công tác chuẩn bị cụ thể cùng việc tổ chức thực hiện trên chiến trường.
+
+Chiến thắng vang dội này không chỉ giập tắt đợt đề kháng đầu tiên của tập đoàn căn cứ điểm mà còn tạo đà tâm lý vô cùng quan trọng, tiếp thêm khí thế quyết thắng cho toàn quân trên khắp các mặt trận.
+
+### 2.2. Đóng góp trong đợt tiến công kết thúc chiến dịch
+Không dừng lại ở trận mở màn, Đại đoàn 312 tiếp tục là lực lượng nòng cốt trong đợt tiến công cuối cùng đánh thẳng vào sào huyệt của địch, tham gia xây dựng trận địa, bao vây và tiến công các vị trí phòng ngự của đối phương. Chiều ngày 7/5/1954, một đơn vị thuộc đại đoàn tiến vào sở chỉ huy, bắt tướng De Castries cùng bộ tham mưu tập đoàn cứ điểm Điện Biên Phủ. Sự kiện này góp phần đánh dấu thắng lợi của chiến dịch, khép lại trận quyết chiến chiến lược lừng lẫy năm châu năm ấy.
+
+## 3. Đại tướng Lê Trọng Tấn trong mùa Xuân đại thắng năm 1975
+Hơn hai thập niên sau Điện Biên Phủ, Lê Trọng Tấn tiếp tục đảm nhiệm những nhiệm vụ quan trọng trong cuộc Tổng tiến công. Lúc này, ông mang quân hàm Trung tướng và giữ vị trí Phó Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam, đồng thời được tin tưởng giao đảm nhận vai trò Phó Tư lệnh Chiến dịch Hồ Chí Minh lịch sử. Trực tiếp chỉ huy Cánh quân phía Đông tiến về Sài Gòn, ông đã thể hiện tư duy quân sự sắc bén cùng khả năng ứng biến chớp thời cơ xuất thần.
+
+### 3.1. Vai trò trong chiến dịch Hồ Chí Minh
+Tháng 4/1975, Trung tướng Lê Trọng Tấn được giao nhiệm vụ Phó Tư lệnh chiến dịch Hồ Chí Minh, kiêm Tư lệnh cánh quân phía Đông. Ông tham gia chỉ huy lực lượng tiến về Sài Gòn, phối hợp với các hướng tiến công khác để thực hiện mục tiêu của chiến dịch. Cương vị này thể hiện trách nhiệm của ông trong một thời điểm có ý nghĩa quyết định.
+
+Trước đó, ông đề xuất thành lập cánh quân Duyên Hải nhằm khai thác hướng tiến quân ven biển. Trong quá trình hành quân, lực lượng này kết hợp cơ động với tiến công, vượt qua các tuyến phòng ngự để tiến về phía Nam. Những quyết định ấy cho thấy yêu cầu nắm bắt tình hình và tận dụng thời cơ trong tổ chức chiến dịch xuất sắc của ông.
+
+### 3.2. Sự linh hoạt trong tổ chức tiến công
+Trong giai đoạn cuối chiến dịch Hồ Chí Minh, Trung tướng Lê Trọng Tấn đề nghị cho cánh quân phía Đông tiến công sớm hơn giờ tiến công chung. Đề nghị xuất phát từ điều kiện thực tế: lực lượng còn phải vượt quãng đường đáng kể, vừa chiến đấu vừa cơ động và vượt các tuyến sông để tiếp cận mục tiêu. Đề nghị được Bộ Tổng Tư lệnh chấp thuận.
+
+## 4. Dấu ấn nghệ thuật quân sự Việt Nam qua góc nhìn đại tướng Lê Trọng Tấn
+Nghệ thuật quân sự Việt Nam qua góc nhìn và thực tiễn chỉ đạo của Đại tướng Lê Trọng Tấn là sự kết hợp tài tình giữa lý luận kinh điển và thực tiễn chiến trường. Ông luôn chú trọng việc đánh giá đúng bản chất kẻ thù, chọn đúng thời cơ và tạo ra thế trận bất ngờ khiến đối phương hoàn toàn bị động.
+
+![Đại tướng Lê Trọng Tấn đang nghiên cứu tình hình chiến trường miền Nam](/images/dai-tuong-nghien-cuu-chien-truong-mien-Nam.webp)
+
+*Hình 2: Đại tướng Lê Trọng Tấn đang nghiên cứu tình hình chiến trường miền Nam*
+
+### 4.1. Tư tưởng chỉ đạo tác chiến: Thần tốc, táo bạo và quyết thắng
+Tư tưởng tác chiến của Đại tướng luôn thấm đượm tinh thần "Thần tốc, thần tốc hơn nữa; táo bạo, táo bạo hơn nữa". Trong mỗi trận đánh, ông luôn yêu cầu các đơn vị phải nắm chắc tình hình, tổ chức tiến công kiên quyết, liên tục và không cho địch thời cơ co cụm hay củng cố lực lượng phòng ngự.
+
+### 4.2. Nhãn quan chiến lược của "Zhukov Việt Nam"
+Được bạn bè quốc tế và đồng đội ưu ái ví như "Zhukov của Việt Nam", ông sở hữu nhãn quan chiến lược sắc bén cùng khả năng phân tích cục diện trận đánh vô cùng chính xác. Tầm nhìn vượt thời gian và khả năng dự báo tình huống tài tình của ông đã để lại nhiều bài học giá trị cho khoa học quân sự nước nhà.
+
+![Chân dung Đại tướng Lê Trọng Tấn](/images/dai-tuong-ngoi-tren-canh-dong.webp)
+*Hình 3: Đằng sau vẻ ngoài điềm tĩnh này là một bộ óc quân sự lỗi lạc của Đại tướng Lê Trọng Tấn*
+
+## 5. Đại tướng Lê Trọng Tấn - Niềm tự hào đối với thế hệ mai sau
+Cuộc đời và sự nghiệp vĩ đại của Đại tướng Lê Trọng Tấn là tấm gương sáng ngời về tinh thần trung thành vô hạn với Tổ quốc, đạo đức cách mạng trong sáng và tài năng quân sự xuất chúng. Tên tuổi của ông sẽ mãi mãi được khắc ghi trong mốc son lịch sử dân tộc như một biểu tượng kiên cường của lòng yêu nước. Hãy cùng Mảnh Ghép Hồn Việt tiếp nối ngọn lửa tự hào, giữ gìn và phát huy những giá trị lịch sử cao quý mà các thế hệ cha anh đã đánh đổi bằng cả máu xương để gầy dựng.`
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {

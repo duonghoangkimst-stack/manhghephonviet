@@ -81,4 +81,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.manhghephonviet.com/bai-viet/dai-tuong-le-trong-tan-cuoc-doi-va-dau-an-lich-su</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
