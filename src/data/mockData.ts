@@ -1775,6 +1775,152 @@ Tư tưởng tác chiến của Đại tướng luôn thấm đượm tinh thầ
 ## 5. Đại tướng Lê Trọng Tấn - Niềm tự hào đối với thế hệ mai sau
 Cuộc đời và sự nghiệp vĩ đại của Đại tướng Lê Trọng Tấn là tấm gương sáng ngời về tinh thần trung thành vô hạn với Tổ quốc, đạo đức cách mạng trong sáng và tài năng quân sự xuất chúng. Tên tuổi của ông sẽ mãi mãi được khắc ghi trong mốc son lịch sử dân tộc như một biểu tượng kiên cường của lòng yêu nước. Hãy cùng Mảnh Ghép Hồn Việt tiếp nối ngọn lửa tự hào, giữ gìn và phát huy những giá trị lịch sử cao quý mà các thế hệ cha anh đã đánh đổi bằng cả máu xương để gầy dựng.`
   },
+  {
+    id: 'chien-thang-dien-bien-phu-56-ngay-dem-di-vao-lich-su',
+    title: 'Chiến thắng Điện Biên Phủ: 56 ngày đêm đi vào lịch sử',
+    description: 'Cùng Mảnh ghép Hồn Việt tìm hiểu Chiến thắng Điện Biên Phủ qua 56 ngày đêm chiến đấu, những dấu mốc quan trọng và ý nghĩa lịch sử của chiến thắng năm 1954.',
+    category: 'Góc Sử Việt',
+    date: '04/10/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/biaseo10.jpg',
+    content: `Giữa núi rừng Tây Bắc, Mường Thanh trở thành địa danh lịch sử - nơi ghi dấu một trong những chiến công vang dội nhất của dân tộc Việt Nam. Trong 56 ngày đêm khốc liệt, quân và dân ta đã kiên cường vượt qua mưa bom bão đạn, từng bước làm nên thắng lợi quyết định tại Điện Biên Phủ. Vào ngày 7/5/1954, chiến dịch kết thúc thắng lợi, đánh dấu cột mốc vàng son đặc biệt trong cuộc kháng chiến chống thực dân Pháp và Điện Biên Phủ đã trở thành biểu tượng của ý chí và sức mạnh của Việt Nam.
+
+## 1. Tổng quan về chiến dịch Điện Biên Phủ
+Để hiểu rõ được toàn diện tầm vóc chiến lược, bảng dưới đây tổng hợp đầy đủ các thông số thực tế của hai bên trên chiến trường Mường Thanh:
+
+| Tiêu chí | Nội dung chi tiết |
+| :--- | :--- |
+| **Thời gian diễn ra** | 13/03/1954 – 07/05/1954 (kéo dài đúng 56 ngày đêm) |
+| **Địa bàn tác chiến** | Thung lũng lòng chảo Mường Thanh, tỉnh Lai Châu (nay thuộc tỉnh Điện Biên) |
+| **Chỉ huy Quân đội nhân dân Việt Nam** | Đại tướng Võ Nguyên Giáp – Tổng Tư lệnh kiêm Chỉ huy trưởng chiến dịch |
+| **Chỉ huy Quân đội Liên hiệp Pháp** | Đại tá (được thăng Thiếu tướng trong chiến dịch) Christian de Castries |
+| **Lực lượng Việt Nam** | Hơn 5 vạn bộ đội chủ lực (Đại đoàn 308, 304, 312, 316, Đại đoàn công pháo 351) cùng hơn 26 vạn dân công hỏa tuyến |
+| **Lực lượng Pháp** | Khoảng 16.200 quân tinh nhuệ gồm lính dù, lính lê dương, pháo binh, thiết giáp và không quân |
+| **Kết quả chung cuộc** | Tiêu diệt và bắt sống toàn bộ quân địch; đập tan Kế hoạch Navarre, buộc Pháp ký Hiệp định Genève |
+
+### Bối cảnh lịch sử và kế hoạch Navarre của Pháp
+Tính đến giữa năm 1953, cuộc chiến tranh xâm lược của thực dân Pháp tại Đông Dương đã kéo dài 8 năm nhưng vẫn chưa đạt được mục tiêu đề ra, trong khi tình hình chiến trường ngày càng trở nên khó khăn và bất lợi. Với sự hậu thuẫn tài chính và viện trợ quân sự quy mô lớn từ Mỹ, chính phủ Pháp cử Đại tướng Henri Navarre sang làm Tổng chỉ huy quân đội viễn chinh.
+
+Navarre đề ra một kế hoạch tác chiến quy mô (mang tên **Kế hoạch Navarre**) với tham vọng giành lại thế chủ động chiến lược trong vòng **18 tháng**. Trước sự chuyển hướng tiến công chủ động của bộ đội ta lên vùng Tây Bắc và Thượng Lào, tháng 11/1953, Pháp nhảy dù chiếm đóng “lòng chảo” Mường Thanh và xây dựng nơi đây thành một **tập đoàn cứ điểm quân sự khổng lồ**.
+
+Tập đoàn cứ điểm Điện Biên Phủ gồm 49 cứ điểm chia thành 8 cụm, liên kết trong 3 phân khu phòng ngự liên hoàn:
+- **Phân khu Bắc:** Các cứ điểm Độc Lập, Bản Kéo và Him Lam làm lá chắn thép ngăn chặn ta từ hướng Bắc và Đông Bắc.
+- **Phân khu Trung tâm:** Bao quanh sở chỉ huy ngầm của tướng De Castries, trận địa pháo và sân bay Mường Thanh.
+- **Phân khu Nam:** Trận địa pháo và sân bay phụ yểm trợ cho phân khu trung tâm.
+
+Navarre cùng các tướng lĩnh cấp cao của Pháp và các chuyên gia quân sự Mỹ tự tin tuyên bố Điện Biên Phủ là một *"pháo đài bất khả xâm phạm"*, một *"cỗ máy nghiền nát"* các đơn vị chủ lực Việt Minh nếu dám tấn công trực diện.
+
+### Quyết định chiến lược của Đảng và Bác Hồ
+**Đầu tháng 12/1953**, Bộ Chính trị họp dưới sự chủ trì của **Chủ tịch Hồ Chí Minh** đã thông qua kế hoạch tác chiến mùa Xuân 1954 và quyết định mở Chiến dịch Điện Biên Phủ. Trung ương Đảng nhận định: Địch đóng quân ở thung lũng cô lập, mọi nguồn tiếp tế và chi viện đều phải qua đường hàng không. Nếu ta cắt đứt được đường tiếp tế này, địch sẽ hoàn toàn rơi vào thế cô lập.
+
+Trước khi **Đại tướng Võ Nguyên Giáp** lên đường ra mặt trận, **Chủ tịch Hồ Chí Minh** đã trực tiếp căn dặn:
+> *“Trận này rất quan trọng, phải đánh cho thắng. Chắc thắng mới đánh, không chắc thắng không đánh.”*
+
+![Hình ảnh chiến dịch Điện Biên Phủ toàn thắng](/images/chien-dich-Dien-Bien-Phu-toan-thang.jpg)
+
+*Hình 1: Hình ảnh chiến dịch Điện Biên Phủ toàn thắng*
+
+## 2. Quyết định thay đổi phương châm tác chiến: Bước ngoặt lịch sử
+Trước giờ mở màn, mặt trận Điện Biên Phủ đã trải qua một cuộc đấu trí cân nội mang tính sống còn đối với toàn bộ lực lượng kháng chiến.
+
+![Đại tướng Võ Nguyên Giáp tại mặt trận](/images/dai-tuong-Vo-Nguyen-Giap-tai-mat-tran.jpg)
+
+*Hình 2: Đại tướng Võ Nguyên Giáp trực tiếp chỉ huy tại mặt trận Điện Biên Phủ*
+
+### Chuyển từ "Đánh nhanh, thắng nhanh" sang "Đánh chắc, tiến chắc"
+**“Đánh nhanh, thắng nhanh”** là phương án tác chiến ban đầu dự kiến nổ súng vào ngày **26/01/1954** với mục tiêu tập trung binh lực đánh dứt điểm trong **3 ngày 2 đêm**.
+
+Tuy nhiên, khi bám sát diễn biến thực địa, Đại tướng nhận thấy công sự của Pháp đã được củng cố chắc chắn bằng hầm ngầm bê tông cốt thép, hàng rào thép gai dày đặc và hệ thống bãi mìn liên hoàn; pháo binh địch chiếm ưu thế áp đảo. Nhận thấy việc tấn công khi chưa đủ điều kiện công kiên sẽ gây tổn thất vô cùng lớn cho bộ đội chủ lực.
+
+Sáng ngày 26/01/1954, sau đêm trăn trở cân nhắc từng yếu tố chiến trường, Đại tướng Võ Nguyên Giáp đã đưa ra quyết định khó khăn nhất trong sự nghiệp cầm quân: **Hoãn nổ súng, hạ lệnh cho các đơn vị lui về vị trí tập kết và kéo toàn bộ pháo ra khỏi trận địa**, chính thức chuyển phương châm sang **“đánh chắc, tiến chắc”**.
+
+Quyết định lịch sử này đã đưa chiến dịch đi đúng quy luật chiến tranh cách mạng, giúp quân ta có thời gian đào hào, xây dựng thế trận bao vây và bảo toàn lực lượng để đi tới toàn thắng.
+
+![Đại tướng Võ Nguyên Giáp chuyển từ "Đánh nhanh, thắng nhanh" sang "Đánh chắc, tiến chắc"](/images/danh-chac-tien-chac.jpg)
+
+*Hình 3: Đại tướng Võ Nguyên Giáp chuyển từ "Đánh nhanh, thắng nhanh" sang "Đánh chắc, tiến chắc"*
+
+### Kỳ tích kéo pháo và hậu cần hỏa tuyến
+- **Dùng sức người kéo pháo:** Hàng vạn cán bộ, chiến sĩ công pháo đã dùng dây tời, đòn bẩy kết hợp sức người kéo những khẩu lựu pháo 105mm, pháo cao xạ 37mm nặng hàng tấn vượt qua các vách núi dốc đứng 60 - 70 độ. Kéo vào hiểm trở, khi có lệnh kéo ra càng cam go bội phần dưới làn bom đạn bắn phá ác liệt của máy bay địch.
+- **Chiến tranh nhân dân từ hậu phương:** Hơn 26 vạn dân công hỏa tuyến với khẩu hiệu *“Tất cả cho tiền tuyến, tất cả để chiến thắng”* đã mở đường, xẻ núi, vận tải hơn 25.000 tấn gạo, đạn dược ra mặt trận. Bằng các phương tiện thô sơ như đôi quang gánh, bè mảng và đặc biệt là chiếc xe đạp thồ cải tiến (chở được từ 200kg đến hơn 300kg hàng hóa), quân và dân ta đã giải quyết một cách trọn vẹn bài toán hậu cần mà bộ chỉ huy Pháp từng khẳng định đối phương không thể nào thực hiện được.
+
+![Huyền thoại kéo pháo của dân ta trong chiến dịch Điện Biên Phủ](/images/keo-phao-dien-bien-phu.jpg)
+*Hình 4: Huyền thoại kéo pháo bằng sức người trong chiến dịch Điện Biên Phủ*
+
+## 3. Diễn biến 56 ngày đêm Chiến dịch Điện Biên Phủ (3 đợt tiến công)
+Chiến dịch Điện Biên Phủ diễn ra từ ngày **13/3 đến 7/5/1954**, trải qua **3 đợt tiến công lớn**. Quân đội Việt Nam từng bước phá vỡ hệ thống phòng ngự của tập đoàn cứ điểm Điện Biên Phủ, từ các cứ điểm vòng ngoài đến khu trung tâm.
+
+### Đợt 1: Mở màn chiến dịch – Đánh chiếm các cứ điểm phía Bắc (13/3/1954 – 17/3/1954)
+Chiến dịch mở màn vào tối **13/3/1954** với cuộc tiến công vào cứ điểm **Him Lam**. Sau đó, quân ta lần lượt tiến công và làm chủ các cứ điểm **Độc Lập** và **Bản Kéo**, phá vỡ tuyến phòng ngự phía Bắc và Đông Bắc của tập đoàn cứ điểm.
+
+### Đợt 2: Tiến công các cứ điểm phía Đông – Từng bước siết chặt vòng vây (30/3/1954 – 30/4/1954)
+Từ ngày **30/3**, quân ta mở đợt tiến công thứ hai, tập trung vào hệ thống cứ điểm phía Đông của tập đoàn cứ điểm, trong đó có các cao điểm quan trọng như **A1, C1, D1, E1**. Các trận chiến diễn ra quyết liệt, đặc biệt tại những cao điểm khống chế khu trung tâm. Sau đợt tiến công, thế phòng thủ của quân Pháp ngày càng bị thu hẹp.
+
+### Đợt 3: Tổng công kích – Kết thúc chiến dịch (1/5/1954 – 7/5/1954)
+Từ ngày **1/5**, quân ta mở đợt tiến công cuối cùng, lần lượt đánh chiếm những vị trí còn lại của quân Pháp và tiến vào khu trung tâm. Đến chiều **7/5/1954**, quân ta chiếm Sở chỉ huy tập đoàn cứ điểm. **De Castries cùng Bộ tham mưu bị bắt và phải đầu hàng**, đánh dấu sự kết thúc thắng lợi của Chiến dịch Điện Biên Phủ.
+
+![3 đợt tiến công của chiến dịch Điện Biên Phủ](/images/3-dot-tien-cong-dien-bien-phu.jpg)
+*Hình 5: Bản đồ diễn biến 3 đợt tiến công của chiến dịch Điện Biên Phủ*
+
+[Tham gia game nhập vai vào Chiến dịch Điện Biên Phủ tại Mảnh ghép Hồn Việt để hiểu hơn về chiến dịch.](https://www.manhghephonviet.com/tro-choi)
+## 4. Kết quả và số liệu thiệt hại sau chiến dịch
+Kết thúc 56 ngày đêm ác liệt chiến đấu, với tinh thần “vì nước quên thân, vì dân phục vụ” quân đội nhân dân Việt Nam đã giành thắng lợi đầy thuyết phục:
+- **Về quân số địch:** Tiêu diệt và bắt sống toàn bộ **16.200 quân viễn chinh Pháp**, bao gồm 1 Thiếu tướng, 16 Đại tá và Trung tá, 353 sĩ quan các cấp và toàn bộ binh lính thuộc 21 tiểu đoàn đồn trú.
+- **Về phương tiện chiến tranh:** Bắn rơi và phá hủy **62 máy bay** chiến đấu và vận tải của Pháp; phá hủy và thu giữ 64 xe ô tô vận tải, toàn bộ xe tăng, hàng chục khẩu trọng pháo, hàng vạn khẩu súng cùng kho tàng quân trang quân dụng.
+- Kế hoạch quân sự Navarre cùng ý chí duy trì thuộc địa của giới cầm quyền thực dân Pháp hoàn toàn sụp đổ.
+
+## 5. Tri ân những vị anh hùng đã ngã xuống vì Tổ quốc
+Khi nói về chiến thắng vinh quang Điện Biên Phủ không thể không tri ân những vị anh hùng đã dũng cảm hy sinh thân mình để bảo vệ nước non.
+
+### Những tấm gương anh hùng sống mãi cùng non sông
+- **Anh hùng Phan Đình Giót – Lấy thân mình lấp lỗ châu mai:** Trong trận mở màn cứ điểm Him Lam đêm 13/03/1954, trước hỏa lực dày đặc từ hỏa điểm đối phương đang chặn đường xung phong của đơn vị, người chiến sĩ quê Hà Tĩnh đã lao trọn thân mình vào lỗ châu mai bịt kín họng súng địch, tạo điều kiện cho đồng đội đạp rào xông lên cắm cờ trên đồn giặc.
+- **Anh hùng Tô Vĩnh Diện – Thân chèn bánh pháo:** Đêm 01/02/1954, trên cung đường dốc Chuối hiểm trở trong quá trình kéo pháo ra chuẩn bị cho phương châm tác chiến mới, khi dây tời đứt khiến khẩu pháo cao xạ nặng hàng tấn trôi dốc, Tô Vĩnh Diện đã không ngần ngại lao mình vào chèn bánh pháo, cứu khẩu pháo của đơn vị bằng chính mạng sống của mình.
+- **Anh hùng Bế Văn Đàn – Lấy vai làm giá súng:** Trong trận phục kích đánh địch tại Mường Pồn, trước làn đạn dữ dội khiến khẩu súng trung liên không có chỗ kê, Bế Văn Đàn đã ghé hai bờ vai mình làm giá súng cho đồng đội tiếp tục nhả đạn ghìm chân địch cho tới hơi thở cuối cùng.
+- **Anh hùng Trần Can – Người cắm cờ trên đỉnh Him Lam:** Người chỉ huy phân đội dũng cảm xông lên cắm lá cờ đầu tiên lên cụm cứ điểm Him Lam trong đêm khai hỏa; sau đó anh dũng ngã xuống trên điểm cao 507 vào buổi sáng ngày 07/05/1954, ngay trước thời khắc toàn thắng chỉ vài giờ.
+
+![Ba trong nhiều anh hùng đã phải nằm xuống trong chiến dịch Điện Biên Phủ](/images/anh-hung-dien-bien-phu.jpg)
+*Hình 6: Ba trong nhiều anh hùng đã phải nằm xuống trong chiến dịch Điện Biên Phủ*
+
+### Sự cống hiến thầm lặng của hơn 26 vạn dân công hỏa tuyến
+Chiến dịch Điện Biên Phủ là biểu tượng rực rỡ của thế trận lòng dân. Đằng sau chiến hào rực lửa là những đôi chân không biết mệt mỏi của hơn 26 vạn đồng bào, dân công hỏa tuyến, thanh niên xung phong băng qua đèo Pha Đin, đèo Lũng Lô. Họ là những bàn tay chai sần bạt núi thông đường, là những người chèo bè vượt thác sông Nậm Na đưa đạn ra tuyến trước. Không có tuyến chi viện nhân dân ấy, sẽ không thể có kỳ tích Điện Biên Phủ.
+
+![Dân công hoả tuyến trong chiến dịch Điện Biên Phủ](/images/dan-cong-dien-bien-phu.webp)
+*Hình 7: Đoàn dân công hỏa tuyến tải lương, tiếp đạn ra mặt trận*
+
+### Đời đời ghi nhớ: Khói hương nơi chiến trường xưa
+Ngày nay, các khu nghĩa trang liệt sĩ quốc gia tại Điện Biên như **Nghĩa trang A1, Nghĩa trang Độc Lập, Nghĩa trang Him Lam, Tông Khao** là nơi yên nghỉ ngàn thu của những người lính Điện Biên. Rất nhiều ngôi mộ vẫn mang dòng chữ *"Liệt sĩ chưa biết tên"*, nhắc nhở các thế hệ hôm nay và mai sau về đạo lý "Uống nước nhớ nguồn" và cái giá thiêng liêng của nền độc lập tự do.
+
+![Nghĩa trang liệt sỹ A1 - Nơi những ký ức hào hùng chưa bao giờ ngủ yên](/images/nghia-trang-a1.jpg)
+*Hình 8: Nghĩa trang liệt sỹ A1 - Nơi những ký ức hào hùng chưa bao giờ ngủ yên*
+
+## 6. Ý nghĩa lịch sử và tầm vóc thời đại của Chiến thắng Điện Biên Phủ
+Chiến thắng Điện Biên Phủ là một sự kiện lịch sử mang tầm vóc vượt ra ngoài phạm vi biên giới quốc gia:
+
+### Đối với cách mạng Việt Nam
+- **Chấm dứt hoàn toàn ách thống trị của thực dân Pháp:** Thắng lợi trực tiếp buộc chính phủ Pháp phải ký kết **Hiệp định Genève ngày 21/07/1954**, công nhận độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của ba nước Việt Nam, Lào và Campuchia.
+- **Giải phóng miền Bắc:** Tạo bàn đạp vững chắc về chính trị, kinh tế và quốc phòng để xây dựng hậu phương lớn miền Bắc xã hội chủ nghĩa, tạo tiền đề quyết định cho cuộc kháng chiến chống Mỹ cứu nước và giải phóng hoàn toàn miền Nam năm 1975.
+
+### Đối với phong trào giải phóng dân tộc thế giới
+- Lần đầu tiên trong lịch sử phong trào đấu tranh của các dân tộc bị áp bức, quân đội của một quốc gia thuộc địa nhỏ bé tại châu Á đã đánh bại đội quân viễn chinh nhà nghề của một đế quốc phương Tây hùng mạnh.
+- Thắng lợi này cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên khắp thế giới, báo hiệu sự sụp đổ không thể tránh khỏi của hệ thống chủ nghĩa thực dân cũ tại châu Phi, châu Á và Mỹ Latinh, tiêu biểu là cuộc đấu tranh giành độc lập của nhân dân Algérie.
+
+## 7. Các câu hỏi thường gặp (FAQ)
+
+### Chiến dịch Điện Biên Phủ diễn ra trong bao nhiêu ngày đêm?
+Chiến dịch diễn ra trong đúng **56 ngày đêm liên tục**, bắt đầu từ ngày 13 tháng 3 năm 1954 và kết thúc thắng lợi trọn vẹn vào chiều ngày 7 tháng 5 năm 1954.
+
+### Vị tướng chỉ huy cao nhất của thực dân Pháp tại Điện Biên Phủ là ai?
+Chỉ huy trưởng tập đoàn cứ điểm là **Đại tá Christian de Castries** (sau được thăng quân hàm Thiếu tướng ngay trong chiến dịch).
+
+### Cứ điểm nào diễn ra giao tranh đẫm máu và ác liệt nhất?
+**Đồi A1 (mật danh tiếng Pháp là Eliane 2)** là điểm cao diễn ra cuộc chiến giằng co khốc liệt và kéo dài nhất giữa hai bên. Quân ta làm chủ hoàn toàn đồi A1 sau khi kích nổ khối bộc phá gần 1.000 kg vào đêm ngày 6/5/1954.
+
+### Đơn vị nào trực tiếp đánh vào hầm và bắt sống tướng De Castries?
+Tổ xung kích do **Đại đội trưởng Tạ Quốc Luật** chỉ huy thuộc Đại đội 360, Tiểu đoàn 130, **Trung đoàn 209, Đại đoàn 312** (cùng các chiến sĩ Hoàng Đăng Vinh, Bùi Văn Nhỏ, Nguyễn Văn Lam, Đào Văn Hiếu) là đơn vị trực tiếp xông vào hầm chỉ huy áp giải tướng De Castries cùng toàn bộ ban tham mưu Pháp đầu hàng.
+
+## Kết luận
+Chiến dịch Điện Biên Phủ mãi là biểu tượng bất diệt cho bản lĩnh, trí tuệ quân sự và ý chí kiên cường không chịu khuất phục của dân tộc Việt Nam. Nhìn lại mốc son lịch sử năm 1954 là dịp để mỗi người khắc ghi công lao hy sinh trời biển của thế hệ cha anh, từ đó tiếp thêm niềm tin và động lực xây dựng đất nước ngày một vững mạnh.`
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {
