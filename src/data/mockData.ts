@@ -795,7 +795,7 @@ export const PRODUCTS: Product[] = [
     name: 'Móc khóa di sản',
     category: 'phu',
     price: 49000,
-    oldPrice: 54000,
+    oldPrice: 54444,
     rating: 4.8,
     soldCount: 3820,
     image: '/MocKhoa.jpg',
@@ -1606,7 +1606,7 @@ Bộ thẻ được phát triển theo hướng sưu tầm và khám phá, mỗi
     id: 'tu-hao-viet-nam-theo-cach-gen-z',
     title: 'Tự hào Việt Nam theo cách Gen Z: Một thế hệ, muôn sắc màu',
     description: 'Tự hào Việt Nam theo cách Gen Z: khám phá lịch sử, văn hóa, di sản và cách người trẻ kết nối với quê hương theo một cách riêng, gần gũi và đầy trải nghiệm.',
-    category: 'Góc Sử Việt',
+    category: 'Góc Lịch Sử Việt',
     date: '01/10/2026',
     author: 'Mảnh ghép Hồn Việt',
     image: '/biaseo8.jpg',
@@ -1779,7 +1779,7 @@ Cuộc đời và sự nghiệp vĩ đại của Đại tướng Lê Trọng T�
     id: 'chien-thang-dien-bien-phu-56-ngay-dem-di-vao-lich-su',
     title: 'Chiến thắng Điện Biên Phủ: 56 ngày đêm đi vào lịch sử',
     description: 'Cùng Mảnh ghép Hồn Việt tìm hiểu Chiến thắng Điện Biên Phủ qua 56 ngày đêm chiến đấu, những dấu mốc quan trọng và ý nghĩa lịch sử của chiến thắng năm 1954.',
-    category: 'Góc Sử Việt',
+    category: 'Góc Lịch Sử Việt',
     date: '04/10/2026',
     author: 'Mảnh ghép Hồn Việt',
     image: '/biaseo10.jpg',
@@ -1920,6 +1920,155 @@ Tổ xung kích do **Đại đội trưởng Tạ Quốc Luật** chỉ huy thu�
 
 ## Kết luận
 Chiến dịch Điện Biên Phủ mãi là biểu tượng bất diệt cho bản lĩnh, trí tuệ quân sự và ý chí kiên cường không chịu khuất phục của dân tộc Việt Nam. Nhìn lại mốc son lịch sử năm 1954 là dịp để mỗi người khắc ghi công lao hy sinh trời biển của thế hệ cha anh, từ đó tiếp thêm niềm tin và động lực xây dựng đất nước ngày một vững mạnh.`
+  },
+  {
+    id: 'kinh-nghiem-tham-quan-thanh-co-quang-tri',
+    title: 'Kinh Nghiệm Tham Quan Thành Cổ Quảng Trị: Ký Ức 81 Ngày Đêm Và Cẩm Nang Từ A-Z',
+    description: 'Cùng Mảnh ghép Hồn Việt khám phá cẩm nang kinh nghiệm tham quan Thành cổ Quảng Trị: vị trí, giá vé, văn hóa dâng hương, câu chuyện bi tráng 81 ngày đêm 1972 và tác phẩm Mưa Đỏ.',
+    category: 'Góc Sử Việt',
+    date: '04/10/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/images/biaseo11.jpg',
+    content: `Thành cổ Quảng Trị không chỉ là một công trình phòng thủ cổ kính của triều Nguyễn, mà nơi đây đã trở thành một trong những nơi linh thiêng bậc nhất Việt Nam. Nằm trầm mặc bên dòng Thạch Hãn êm đềm, mảnh đất chỉ rộng chưa đầy vài km² này từng gánh chịu lượng bom đạn khủng khiếp trong trận quyết chiến mùa hè năm 1972, biến từng tấc đất, ngọn cỏ thành biểu tượng bất tử của lòng quả cảm.
+
+Để chuyến về nguồn thêm trọn vẹn, Mảnh ghép Hồn Việt sẽ cung cấp trọn bộ **kinh nghiệm tham quan Thành cổ Quảng Trị** chi tiết: từ cội nguồn lịch sử 81 ngày đêm máu lửa, dấu ấn tác phẩm *Mưa đỏ*, cho đến hướng dẫn dâng hương, đi lại và lịch trình thực tế.
+
+
+## Thành Cổ Quảng Trị Ở Đâu? Hướng Dẫn Di Chuyển Đến Di Tích
+Thành cổ Quảng Trị tọa lạc tại trung tâm Phường 2, thị xã Quảng Trị, tỉnh Quảng Trị, nằm cách bờ sông Thạch Hãn chỉ vài trăm mét. Đây là điểm dừng chân quan trọng trong tuyến du lịch hoài niệm chiến trường xưa của dải đất miền Trung.
+
+### Vị trí địa lý và khoảng cách từ các trung tâm lớn
+- **Từ TP. Đông Hà:** Cách khoảng 13 km về phía Nam. Bạn chỉ mất khoảng 20 phút chạy xe dọc theo Quốc lộ 1A.
+- **Từ TP. Huế:** Cách khoảng 60 km về phía Bắc, mất tầm 1 giờ 15 phút di chuyển qua tuyến Quốc lộ 1A hoặc cao tốc Cam Lộ – La Sơn.
+
+### Lộ trình và phương tiện di chuyển thuận tiện nhất
+- **Xe máy hoặc ô tô cá nhân:** Tuyến đường Quốc lộ 1A qua thị xã Quảng Trị rất bằng phẳng và dễ đi. Khi đến trung tâm thị xã, bạn rẽ vào đường Lý Thái Tổ hoặc đường Lê Duẩn theo biển chỉ dẫn lớn dẫn thẳng vào cổng Tiền của khu di tích.
+- **Xe buýt công cộng:** Nếu xuất phát từ Đông Hà, bạn có thể bắt tuyến xe buýt liên tỉnh Đông Hà – Hải Lăng hoặc Đông Hà – Huế, xuống ngay tại bến xe thị xã Quảng Trị rồi đi bộ hoặc bắt xe ôm khoảng 1 km vào thành.
+- **Tàu hỏa:** Bạn có thể đi tàu hỏa Thống Nhất dừng ở ga Đông Hà hoặc ngay ga thị xã Quảng Trị, sau đó gọi taxi vào di tích rất nhanh chóng.
+
+## Lịch Sử 81 Ngày Đêm Và Ý Nghĩa Của Thành Cổ Quảng Trị
+Đằng sau vẻ thanh bình phủ bóng cây xanh hôm nay là cả một quá khứ bi tráng đã đi vào trang sử giữ nước hào hùng của dân tộc.
+
+### Kiến trúc thành lũy quân sự thời Nguyễn
+Năm 1809, vua Gia Long cho đắp thành Quảng Trị bằng đất tại xã Thạch Hãn. Đến năm 1827, dưới triều vua Minh Mạng, thành được xây dựng lại kiên cố bằng gạch vồ theo cấu trúc phòng thủ quân sự kiểu Vauban (kinh điển phương Tây kết hợp phương Đông). Thành có chu vi gần 2.000 m, cao hơn 4 m, bao quanh bởi hào sâu và bốn cổng lớn: Tiền, Hậu, Tả, Hữu mang phong cách kiến trúc vòm cuốn uy nghiêm.
+
+![Hình ảnh Thành cổ Quảng Trị ngày xưa](/images/thanh-co-quang-tri-xua.jpg)
+*Hình 2: Thành cổ Quảng Trị ngày xưa*
+
+### Trận chiến 81 ngày đêm năm 1972: "Túi bom" mùa hè đỏ lửa
+Từ ngày 28/6/1972 đến ngày 16/9/1972, nơi đây diễn ra cuộc đụng đầu ác liệt chưa từng có trong lịch sử quân sự thế giới giữa quân giải phóng và quân đội Mỹ - chính quyền Sài Gòn nhằm tái chiếm thị xã và Thành cổ.
+
+Trong vỏn vẹn 81 ngày đêm, không quân và pháo binh Mỹ đã dội xuống thị xã và Thành cổ hơn **328.000 tấn bom đạn** – sức công phá tương đương 7 quả bom nguyên tử từng ném xuống Hiroshima năm 1945. Trung bình mỗi chiến sĩ giải phóng quân phải hứng chịu hơn 100 quả bom và 200 quả đạn pháo. Thành quách gần như bị san phẳng thành bình địa, cỏ cây cháy rụi, chỉ còn lại lòng đất bị cày xới nát nhừ trộn lẫn máu xương của hàng ngàn người lính tuổi đôi mươi.
+
+![Dấu tích đạn bom tại Thành cổ Quảng Trị](/images/vet-dan-bom-thanh-co.jpg)
+*Hình 3: Dấu tích để lại của đạn bom*
+
+### Tầm vóc chiến dịch đối với cục diện bàn đàm phán Paris
+Mỗi ngày trụ vững tại Thành cổ Quảng Trị là một thắng lợi chính trị vô giá trên bàn đàm phán. Cuộc chiến đấu kiên cường giữ từng mét chiến hào của quân dân ta đã giáng đòn chí mạng vào chiến lược "Việt Nam hóa chiến tranh", buộc chính phủ Mỹ phải xuống thang, chấp nhận ký kết **Hiệp định Paris năm 1973**, rút toàn bộ quân đội viễn chinh về nước và tạo tiền đề then chốt cho đại thắng mùa Xuân năm 1975.
+
+![Ký kết Hiệp định Paris 1973](/images/hiep-dinh-paris-1973.jpg)
+*Hình 4: Hiệp định Paris là tiền đề then chốt cho đại thắng mùa Xuân năm 1975*
+
+## Dấu Ấn "Mưa Đỏ": Khúc Tráng Ca 81 Ngày Đêm Trong Văn Học Nghệ Thuật
+Để chạm đến tận cùng cảm xúc trước khi bước chân lên mảnh đất này, bạn nên tìm hiểu tác phẩm **"Mưa đỏ"** – một tượng đài nghệ thuật khắc họa trận đánh Thành cổ Quảng Trị.
+
+### Tiểu thuyết "Mưa đỏ" của nhà văn Chu Lai và các tác phẩm chuyển thể
+*Mưa đỏ* là cuốn tiểu thuyết xuất sắc của nhà văn Chu Lai, sau đó được chuyển thể thành vở kịch nói chấn động dư luận và dự án phim điện ảnh chuyển thể công phu. Tác phẩm không đơn thuần miêu tả tiếng súng gầm thét, mà soi chiếu sâu sắc tâm tư của thế hệ "thanh niên gác bút nghiên" – những chàng sinh viên trường Đại học Tổng hợp, Bách khoa, Nhạc viện... rời ghế giảng đường, vượt dòng Thạch Hãn vào chốt giữ thành cổ với lý tưởng son sắt.
+
+![Tiểu thuyết Mưa Đỏ của tác giả Chu Lai](/images/tieu-thuyet-mua-do-chu-lai.jpg)
+*Hình 5: Tiểu thuyết "Mưa đỏ" của nhà văn Chu Lai*
+
+### Vì sao nên tìm hiểu "Mưa đỏ" trước khi đến thăm Thành cổ?
+Đọc hoặc xem *Mưa đỏ*, bạn sẽ thấu hiểu vì sao người ta gọi dòng Thạch Hãn là dòng sông máu, hiểu được cảm giác của người lính khi ôm khẩu AK ngâm mình dưới đáy bùn lạnh giá giữa làn mưa pháo. Khi tận mắt đứng trước những hố bom, từng đoạn tường đổ rêu phong ngoài đời thực, bạn sẽ cảm nhận được câu chuyện lịch sử không còn là những con số vô hồn trong sách giáo khoa, mà là hơi thở, là nhịp đập thanh xuân của cả một thế hệ bất tử.
+
+## Các Điểm Dâng Hương Và Tham Quan Không Thể Bỏ Qua Bên Trong Di Tích
+Toàn bộ khuôn viên Thành cổ ngày nay được quy hoạch như một công viên tâm linh tĩnh mịch, rợp bóng cây xanh và hồ sen ngát hương.
+
+### Đài tưởng niệm trung tâm – Ngôi mộ tập thể hình bát giác
+Nằm ở chính giữa trung tâm di tích là Đài tưởng niệm mô phỏng hình nấm mồ chung bát giác, tượng trưng cho 8 hướng của bát quái, ngũ hành. Bên trên đài là ngọn lửa tri ân vĩnh cửu, vươn cao với mái vòm biểu thị cho linh hồn các liệt sĩ bay về cõi vĩnh hằng. Đây là nơi mọi đoàn khách đều dừng chân thắp nén nhang thành kính đầu tiên để tưởng nhớ linh hồn các anh hùng liệt sĩ đang yên nghỉ dưới lòng đất mẹ.
+
+![Đài tưởng niệm trung tâm Thành cổ Quảng Trị](/images/dai-tuong-niem-thanh-co.jpg)
+*Hình 6: Đài tưởng niệm trung tâm - Ngôi mộ tập thể hình bát giác linh thiêng*
+
+### Bảo tàng Thành cổ Quảng Trị và bức thư thiêng của liệt sĩ Lê Văn Huỳnh
+Nhà bảo tàng hai tầng nằm bên trong di tích trưng bày hàng trăm hiện vật chiến tranh: bi đông, mũ cối, mảnh bom pháo, chiếc ba lô mục rách...
+
+Đặc biệt, nơi đây lưu giữ **bức thư dài 10 trang của liệt sĩ Lê Văn Huỳnh** (sinh viên Đại học Bách khoa Hà Nội) viết cho mẹ và người vợ trẻ trước giờ bước vào trận đánh dữ dội. Bức thư được xem như bản di chúc thiêng liêng có tính chất tiên cảm trước ngày hy sinh, chứa đựng niềm tin tất thắng và tình yêu gia đình sâu thẳm, khiến bất cứ ai đọc qua cũng nghẹn ngào rơi lệ.
+
+![Bảo tàng Thành cổ Quảng Trị](/images/bao-tang-thanh-co-quang-tri.jpg)
+*Hình 7: Bảo tàng Thành cổ Quảng Trị - Nơi lưu giữ hàng trăm hiện vật chiến tranh*
+
+### Bến thả hoa sông Thạch Hãn
+Nằm cách tường thành chỉ một đoạn ngắn, bờ sông Thạch Hãn là nơi diễn ra các lễ cầu siêu và thả hoa đăng tri ân vào mỗi dịp rằm, ngày lễ lớn. Đứng bên bến sông, ai cũng bồi hồi nhớ đến bốn câu thơ bất hủ của cựu chiến binh Lê Bá Dương:
+
+*<center>"Đò lên Thạch Hãn ơi... chèo nhẹ</center>*
+
+*<center>Đáy sông còn đó bạn tôi nằm.</center>*
+
+*<center>Có tuổi hai mươi thành sóng nước</center>*
+
+*<center>Vỗ yên bờ bãi mãi ngàn năm.”</center>*
+
+![Bến thả hoa sông Thạch Hãn](/images/ben-tha-hoa-song-thach-han.jpg)
+*Hình 8: Bến thả hoa sông Thạch Hãn để tri ân các vị anh hùng*
+
+## Cẩm Nang Và Kinh Nghiệm Tham Quan Thành Cổ Quảng Trị Tự Túc
+
+### Giờ mở cửa và bảng giá vé Thành cổ Quảng Trị
+- **Giá vé:** **Miễn phí 100% vé vào cổng** cho tất cả người dân và du khách trong nước lẫn quốc tế.
+
+- **Thời gian mở cửa:** Phục vụ tất cả các ngày trong tuần (kể cả thứ Bảy, Chủ Nhật và các ngày nghỉ lễ, Tết):
+  - Buổi sáng: **07:00 – 11:30**
+  - Buổi chiều: **13:30 – 17:00**
+
+### Thời điểm lý tưởng cho chuyến về nguồn
+- **Từ tháng 3 đến tháng 8:** Thời tiết miền Trung vào mùa khô, nắng ráo, rất thuận tiện cho việc di chuyển ngoài trời và thăm viếng.
+
+- **Các dịp đại lễ:** Dịp **30/4** (Ngày Giải phóng miền Nam) và đặc biệt là ngày **27/7** (Ngày Thương binh - Liệt sĩ), khu di tích tổ chức lễ dâng hương, cầu siêu và lễ hội hoa đăng bên dòng Thạch Hãn vô cùng trang trọng và linh thiêng.
+
+### Quy định trang phục và nghi thức dâng hương
+- **Trang phục:** Thành cổ là nghĩa trang không nấm mồ, vì vậy bạn cần mặc trang phục lịch sự, kín đáo (áo có tay, quần dài qua gối). Tuyệt đối không mặc váy ngắn, áo ba lỗ hay đồ hở hang.
+
+- **Quy cách dâng hương:** Nếu đi theo đoàn, bạn có thể chuẩn bị trước lẵng hoa cúc trắng hoặc vàng, đĩa trái cây và nén hương thơm. Tại đài tưởng niệm có ban quản lý hướng dẫn việc thắp hương tập trung để đảm bảo an toàn phòng chống cháy nổ.
+
+- **Tác phong:** Giữ trật tự, đi nhẹ, nói khẽ, không dẫm đạp lên các bãi cỏ, khu vực chưa rà phá hoặc các hiện vật di tích.
+
+### Dịch vụ hướng dẫn viên thuyết minh tại điểm
+Để chuyến đi đọng lại nhiều cảm xúc, bạn rất nên đăng ký dịch vụ thuyết minh viên ngay tại phòng quản lý di tích (chi phí tượng trưng từ 150.000 – 200.000 VNĐ/đoàn). Những giọng thuyết minh truyền cảm của những người con sinh ra trên đất lửa sẽ giúp bạn tái hiện lại từng trận đánh và những mẩu chuyện cảm động đằng sau từng kỷ vật.
+
+## Gợi Ý Lịch Trình Du Lịch Lịch Sử Quảng Trị 1 Ngày
+Nếu có trọn vẹn 1 ngày tại vùng đất "Ký ức chiến tranh", bạn có thể kết hợp các điểm đến lịch sử theo cung đường gợi ý sau:
+
+- **07:30 – 09:30:** Dâng hương, lắng nghe thuyết minh tại **Thành cổ Quảng Trị** và thả hoa tưởng niệm bên bờ sông Thạch Hãn.
+- **10:00 – 11:30:** Di chuyển ra phía Bắc ghé thăm **Di tích Đôi bờ Hiền Lương – Sông Bến Hải** (vĩ tuyến 17 chia cắt đất nước ròng rã hơn 20 năm).
+- **12:00 – 13:30:** Nghỉ trưa, thưởng thức ẩm thực địa phương.
+- **14:00 – 15:30:** Khám phá kiệt tác công trình ngầm **Địa đạo Vịnh Mốc** – pháo đài dưới lòng đất của quân dân Vĩnh Linh.
+- **16:00 – 17:30:** Dâng hương tại **Nghĩa trang Liệt sĩ Quốc gia Trường Sơn** hoặc **Nghĩa trang Liệt sĩ Đường 9** trước khi kết thúc chuyến đi.
+
+**Món ngon địa phương không nên bỏ lỡ khi ghé Quảng Trị:**
+- **Bánh ướt Phương Lang:** Thơm mềm, ăn kèm thịt heo luộc và nước chấm tương đậu thơm lừng.
+
+![Đặc sản Bánh ướt Phương Lang Quảng Trị](/images/banh-uot-phuong-lang.webp)
+*Hình 9: Bánh ướt Phương Lang - Món ăn nên thử khi đến Quảng Trị*
+
+- **Cháo bột cá lóc (Bánh canh cá lóc):** Nước dùng đậm đà từ xương cá, sợi bột gạo hoặc bột lọc dai ngon, ăn kèm rau đắng cay nồng.
+
+![Bánh canh cá lóc - Đặc sản miền Trung](/images/banh-canh-ca-loc.jpg)
+*Hình 10: Bánh canh cá lóc - Đặc sản miền Trung*
+
+## Những Câu Hỏi Thường Gặp Về Di Tích Thành Cổ Quảng Trị (FAQ)
+
+### Vào tham quan Thành cổ Quảng Trị có mất vé không?
+Không. Di tích Thành cổ Quảng Trị mở cửa phục vụ người dân và khách du lịch hoàn toàn miễn phí quanh năm.
+
+### Nên dành bao nhiêu thời gian để tham quan di tích?
+Thời gian phù hợp nhất là khoảng 1,5 đến 2 giờ. Khoảng thời gian này đủ để bạn làm lễ dâng hương, ghé thăm bảo tàng chiến tranh, dạo bước quanh các phế tích và ra bờ sông Thạch Hãn thả hoa tri ân.
+
+### Tác phẩm "Mưa đỏ" kể về sự kiện gì?
+*Mưa đỏ* của nhà văn Chu Lai là tác phẩm văn học nghệ thuật tái hiện chân thực trận chiến 81 ngày đêm bảo vệ Thành cổ Quảng Trị mùa hè năm 1972, ca ngợi sự hy sinh bi tráng của thế hệ trẻ vì nền độc lập dân tộc.
+
+## Kết luận
+Đến với Thành cổ Quảng Trị, mỗi bước chân bạn đặt xuống đều chạm vào một phần ký ức của lịch sử. Đây không chỉ đơn thuần là một chuyến du lịch tham quan ngắm cảnh, mà là hành trình "về nguồn" lắng đọng tâm thức, để ta thêm thấu hiểu cái giá đắt đỏ của độc lập, tự do và biết ơn thế hệ cha anh đã gửi lại cả tuổi xuân dưới cỏ non Thành Cổ.`
   },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
