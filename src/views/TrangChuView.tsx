@@ -113,7 +113,7 @@ export default function TrangChuView({
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-5 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {/* Card 1 */}
             <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
           <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
@@ -141,16 +141,8 @@ export default function TrangChuView({
           <p className="text-xs text-gray-200">Phương pháp ghi nhớ & bí quyết học tốt môn Sử</p>
         </div>
 
-            {/* Card 4 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
-          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
-            <span className="material-symbols-outlined text-2xl">favorite</span>
-          </div>
-          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Góc Cảm Nhận</h4>
-          <p className="text-xs text-gray-200">Nơi độc giả lắng đọng & chia sẻ cảm nghĩ</p>
-        </div>
 
-            {/* Card 5 */}
+            {/* Card 4 */}
             <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
           <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
             <span className="material-symbols-outlined text-2xl">newspaper</span>
