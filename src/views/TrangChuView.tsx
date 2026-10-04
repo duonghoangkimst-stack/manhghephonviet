@@ -188,57 +188,63 @@ export default function TrangChuView({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Steps */}
-            <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-              <div className="bg-[#F5EDE1] p-5 rounded-xl border border-[#D8CBB4] shadow-sm flex flex-col">
-                <div className="w-10 h-10 rounded-full bg-[#5B0E0E] text-white flex items-center justify-center font-bold mb-3 shadow-md">
-                  1
-                </div>
-                <h4 className="font-bold text-[#5B0E0E] text-sm uppercase mb-1">
-                  Chọn địa danh
-                </h4>
-                <p className="text-xs text-gray-700 leading-relaxed">
-                  Khám phá các di tích lịch sử Bắc - Trung - Nam trên bản đồ trực quan.
-                </p>
-              </div>
+          <div className="relative my-12">
+  {/* Đường kẻ nối giữa các bước trên Desktop */}
+  <div className="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-[#8C2323]/30 -z-0" />
 
-              <div className="bg-[#F5EDE1] p-5 rounded-xl border border-[#D8CBB4] shadow-sm flex flex-col">
-                <div className="w-10 h-10 rounded-full bg-[#5B0E0E] text-white flex items-center justify-center font-bold mb-3 shadow-md">
-                  2
-                </div>
-                <h4 className="font-bold text-[#5B0E0E] text-sm uppercase mb-1">
-                  Hóa thân nhân vật
-                </h4>
-                <p className="text-xs text-gray-700 leading-relaxed">
-                  Trở thành người trong cuộc, cảm nhận câu chuyện từ góc nhìn thực tế.
-                </p>
-              </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 relative z-10">
+    {/* Bước 1 */}
+    <div className="flex flex-col items-center text-center group">
+      <div className="w-16 h-16 rounded-full bg-[#8C2323] text-[#F4EBD0] font-bold text-xl flex items-center justify-center shadow-lg border-2 border-[#D4AF37] group-hover:scale-110 transition-transform mb-4">
+        01
+      </div>
+      <h4 className="font-bold text-[#8C2323] text-base mb-2 uppercase tracking-wide">
+        Chọn Địa Danh
+      </h4>
+      <p className="text-xs text-gray-700 leading-relaxed max-w-[220px]">
+        Khám phá các di tích lịch sử Bắc - Trung - Nam trên bản đồ trực quan.
+      </p>
+    </div>
 
-              <div className="bg-[#F5EDE1] p-5 rounded-xl border border-[#D8CBB4] shadow-sm flex flex-col">
-                <div className="w-10 h-10 rounded-full bg-[#5B0E0E] text-white flex items-center justify-center font-bold mb-3 shadow-md">
-                  3
-                </div>
-                <h4 className="font-bold text-[#5B0E0E] text-sm uppercase mb-1">
-                  Chinh phục thử thách
-                </h4>
-                <p className="text-xs text-gray-700 leading-relaxed">
-                  Trực tiếp giải mã các câu đố, xử lý tình huống hóc búa và đưa ra quyết định sinh tử
-                </p>
-              </div>
+    {/* Bước 2 */}
+    <div className="flex flex-col items-center text-center group">
+      <div className="w-16 h-16 rounded-full bg-[#8C2323] text-[#F4EBD0] font-bold text-xl flex items-center justify-center shadow-lg border-2 border-[#D4AF37] group-hover:scale-110 transition-transform mb-4">
+        02
+      </div>
+      <h4 className="font-bold text-[#8C2323] text-base mb-2 uppercase tracking-wide">
+        Hóa Thân Nhân Vật
+      </h4>
+      <p className="text-xs text-gray-700 leading-relaxed max-w-[220px]">
+        Trở thành người trong cuộc, cảm nhận câu chuyện từ góc nhìn thực tế.
+      </p>
+    </div>
 
-              <div className="bg-[#F5EDE1] p-5 rounded-xl border border-[#D8CBB4] shadow-sm flex flex-col">
-                <div className="w-10 h-10 rounded-full bg-[#5B0E0E] text-white flex items-center justify-center font-bold mb-3 shadow-md">
-                  4
-                </div>
-                <h4 className="font-bold text-[#5B0E0E] text-sm uppercase mb-1">
-                  Mở khóa ký ức
-                </h4>
-                <p className="text-xs text-gray-700 leading-relaxed">
-                  Thu thập tư liệu lịch sử, nhận điểm XP và vinh danh trên Bảng vàng.
-                </p>
-              </div>
-            </div>
+    {/* Bước 3 */}
+    <div className="flex flex-col items-center text-center group">
+      <div className="w-16 h-16 rounded-full bg-[#8C2323] text-[#F4EBD0] font-bold text-xl flex items-center justify-center shadow-lg border-2 border-[#D4AF37] group-hover:scale-110 transition-transform mb-4">
+        03
+      </div>
+      <h4 className="font-bold text-[#8C2323] text-base mb-2 uppercase tracking-wide">
+        Chinh Phục Thử Thách
+      </h4>
+      <p className="text-xs text-gray-700 leading-relaxed max-w-[220px]">
+        Trực tiếp giải mã các câu đố, xử lý tình huống hóc búa và đưa ra quyết định sinh tử.
+      </p>
+    </div>
+
+    {/* Bước 4 */}
+    <div className="flex flex-col items-center text-center group">
+      <div className="w-16 h-16 rounded-full bg-[#8C2323] text-[#F4EBD0] font-bold text-xl flex items-center justify-center shadow-lg border-2 border-[#D4AF37] group-hover:scale-110 transition-transform mb-4">
+        04
+      </div>
+      <h4 className="font-bold text-[#8C2323] text-base mb-2 uppercase tracking-wide">
+        Mở Khóa Ký Ức
+      </h4>
+      <p className="text-xs text-gray-700 leading-relaxed max-w-[220px]">
+        Thu thập tư liệu lịch sử, nhận điểm XP và vinh danh trên Bảng vàng.
+      </p>
+    </div>
+  </div>
 
             {/* Featured Game Card */}
             <div className="lg:col-span-6">
@@ -446,8 +452,8 @@ export default function TrangChuView({
                   <p className="text-xs text-gray-800 italic mb-4 text-center flex-grow">
                     "Lần đầu tiên mình cảm thấy lịch sử không còn xa lạ. Nhập vai rất chân thực và xúc động."
                   </p>
-                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Minh Anh</p>
-                  <p className="text-center text-[10px] text-gray-500">Sinh viên, Hà Nội</p>
+                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Ngọc Vân</p>
+                  <p className="text-center text-[10px] text-gray-500">Sinh viên, TpHCM</p>
                 </div>
 
                 <div className="bg-[#FAF5EB] p-4 rounded-xl border border-[#D8CBB4] flex flex-col">
@@ -457,8 +463,8 @@ export default function TrangChuView({
                   <p className="text-xs text-gray-800 italic mb-4 text-center flex-grow">
                     "Trò chơi cuốn hút, đồ họa cổ kính tuyệt đẹp. Mảnh ghép bản đồ NFC mua về ai cũng khen!"
                   </p>
-                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Hoàng Nam</p>
-                  <p className="text-center text-[10px] text-gray-500">Học sinh, Đà Nẵng</p>
+                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Yến Ngọc</p>
+                  <p className="text-center text-[10px] text-gray-500">Học sinh, Bến Tre</p>
                 </div>
 
                 <div className="bg-[#FAF5EB] p-4 rounded-xl border border-[#D8CBB4] flex flex-col">
@@ -468,7 +474,7 @@ export default function TrangChuView({
                   <p className="text-xs text-gray-800 italic mb-4 text-center flex-grow">
                     "Cách tiếp cận lịch sử rất văn minh, khơi dậy niềm tự hào dân tộc trong giới trẻ."
                   </p>
-                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Thảo Vy</p>
+                  <p className="text-center font-bold text-xs text-[#5B0E0E]">Thúy Nga</p>
                   <p className="text-center text-[10px] text-gray-500">Nhân viên văn phòng, TP.HCM</p>
                 </div>
               </div>
