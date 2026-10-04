@@ -271,7 +271,7 @@ function MainContent() {
   // Cập nhật thẻ Title chuẩn SEO theo trang
   useEffect(() => {
     const titles: Record<TabType, string> = {
-      trangchu: 'Mảnh Ghép Hồn Việt - Sống lại di sản, viết tiếp sử xanh',
+      trangchu: 'Mảnh Ghép Hồn Việt - Khơi nguồn di sản, thắp sáng sử vàng',
       vechungtoi: 'Về Chúng Tôi - Mảnh Ghép Hồn Việt',
       baiviet: 'Bài Viết & Tư Liệu Di Sản - Mảnh Ghép Hồn Việt',
       chitietbaiviet: 'Chi Tiết Bài Viết - Mảnh Ghép Hồn Việt',

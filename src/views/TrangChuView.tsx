@@ -104,60 +104,60 @@ export default function TrangChuView({
             <div className="flex items-center justify-center gap-4 mb-3">
               <div className="h-px w-20 bg-[#C5B358]"></div>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#D4AF37] uppercase tracking-widest">
-                CỘNG ĐỒNG
+                BÀI VIẾT
               </h2>
               <div className="h-px w-20 bg-[#C5B358]"></div>
             </div>
             <p className="font-sans text-[#F4EBD0]/80 text-sm italic">
-              Hòa sắc riêng – dệt hồn chung
+            Lan tỏa tình yêu lịch sử qua từng trang viết
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-5 mb-12">
             {/* Card 1 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#C5B358]/40 hover:border-[#C5B358] transition-all group">
-              <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37] group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">photo_camera</span>
-              </div>
-              <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Check-in di tích</h4>
-              <p className="text-xs text-gray-200">Ghi lại hành trình khám phá di sản</p>
-            </div>
+            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
+          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
+            <span className="material-symbols-outlined text-2xl">menu_book</span>
+          </div>
+          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Góc Lịch Sử Việt</h4>
+          <p className="text-xs text-gray-200">Những câu chuyện lịch sử hào hùng & góc nhìn mới</p>
+        </div>
 
             {/* Card 2 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#C5B358]/40 hover:border-[#C5B358] transition-all group">
-              <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37] group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">rate_review</span>
-              </div>
-              <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Chia sẻ cảm nhận</h4>
-              <p className="text-xs text-gray-200">Kể câu chuyện với cộng đồng</p>
-            </div>
+            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
+          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
+            <span className="material-symbols-outlined text-2xl">explore</span>
+          </div>
+          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Cẩm Nang Du Lịch</h4>
+          <p className="text-xs text-gray-200">Kinh nghiệm tham quan di tích & di sản từ A-Z</p>
+        </div>
 
             {/* Card 3 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#C5B358]/40 hover:border-[#C5B358] transition-all group">
-              <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37] group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">emoji_events</span>
-              </div>
-              <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Bảng xếp hạng</h4>
-              <p className="text-xs text-gray-200">Thử thách bản thân, vinh danh sử xanh</p>
-            </div>
+            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
+          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
+            <span className="material-symbols-outlined text-2xl">school</span>
+          </div>
+          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Góc Học Tập</h4>
+          <p className="text-xs text-gray-200">Phương pháp ghi nhớ & bí quyết học tốt môn Sử</p>
+        </div>
 
             {/* Card 4 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#C5B358]/40 hover:border-[#C5B358] transition-all group">
-              <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37] group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">local_florist</span>
-              </div>
-              <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Tích Sao & Sen</h4>
-              <p className="text-xs text-gray-200">Tích lũy điểm, đổi quà tri ân</p>
-            </div>
+            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
+          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
+            <span className="material-symbols-outlined text-2xl">favorite</span>
+          </div>
+          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Góc Cảm Nhận</h4>
+          <p className="text-xs text-gray-200">Nơi độc giả lắng đọng & chia sẻ cảm nghĩ</p>
+        </div>
 
             {/* Card 5 */}
-            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#C5B358]/40 hover:border-[#C5B358] transition-all group col-span-2 md:col-span-1">
-              <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37] group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">groups</span>
-              </div>
-              <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Sự kiện giao lưu</h4>
-              <p className="text-xs text-gray-200">Kết nối các bạn trẻ yêu sử Việt</p>
-            </div>
+            <div className="bg-black/35 backdrop-blur-sm rounded-2xl p-6 flex flex-col items-center text-center border border-[#D4AF37]/20">
+          <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] flex items-center justify-center mb-4 text-[#D4AF37]">
+            <span className="material-symbols-outlined text-2xl">newspaper</span>
+          </div>
+          <h4 className="font-bold text-[#D4AF37] text-sm mb-2">Tin Tức & Sự Kiện</h4>
+          <p className="text-xs text-gray-200">Cập nhật sự kiện văn hóa & triển lãm di sản</p>
+        </div>
           </div>
 
           <div className="text-center">
@@ -169,7 +169,7 @@ export default function TrangChuView({
               }}
               className="bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#4A0808] px-8 py-3.5 rounded-full text-sm font-bold uppercase tracking-wider transition-all inline-flex items-center gap-2 cursor-pointer shadow-md"
             >
-              <span>KHÁM PHÁ CỘNG ĐỒNG BÀI VIẾT</span>
+              <span>KHÁM PHÁ TẤT CẢ BÀI VIẾT</span>
               <span className="material-symbols-outlined text-lg">arrow_forward</span>
             </button>
           </div>
@@ -486,7 +486,7 @@ export default function TrangChuView({
             MỖI CÂU CHUYỆN LÀ MỘT PHẦN HỒN VIỆT.
           </h2>
           <p className="font-serif italic text-[#F4EBD0]/90 text-lg md:text-xl mb-8">
-            Sống lại di sản, viết tiếp sử xanh.
+            Khơi nguồn di sản, thắp sáng sử vàng.
           </p>
           <button
             type="button"
