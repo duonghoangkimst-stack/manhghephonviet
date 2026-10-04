@@ -19,20 +19,49 @@ export default function SearchModal({
 
   if (!isOpen) return null;
 
-  const matchedProducts = query.trim()
-    ? PRODUCTS.filter((p) => p.name.toLowerCase().includes(query.toLowerCase()))
+  // Hàm chuyển tiếng Việt có dấu thành không dấu để so sánh an toàn
+  const removeAccents = (str: string) => {
+    if (!str) return '';
+    return str
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'D')
+      .toLowerCase();
+  };
+
+  const cleanQuery = removeAccents(query.trim());
+
+  // Lọc sản phẩm an toàn
+  const matchedProducts = cleanQuery
+    ? PRODUCTS.filter((p) => {
+        const name = removeAccents(p?.name || '');
+        return name.includes(cleanQuery);
+      })
     : [];
 
-  const matchedArticles = query.trim()
-    ? ARTICLES.filter(
-        (a) =>
-          a.title.toLowerCase().includes(query.toLowerCase()) ||
-          a.tags.some((t) => t.toLowerCase().includes(query.toLowerCase()))
-      )
+  // Lọc bài viết an toàn (xử lý cẩn thận phần tags)
+  const matchedArticles = cleanQuery
+    ? ARTICLES.filter((a) => {
+        const title = removeAccents(a?.title || '');
+        const category = removeAccents(a?.category || '');
+        const hasTagMatch = Array.isArray(a?.tags)
+          ? a.tags.some((t) => removeAccents(t || '').includes(cleanQuery))
+          : false;
+
+        return title.includes(cleanQuery) || category.includes(cleanQuery) || hasTagMatch;
+      })
     : [];
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+  };
 
   return (
-    <div className="fixed inset-0 z-[120] flex items-start justify-center pt-20 bg-black/70 backdrop-blur-xs p-4 animate-fadeIn">
+    <div 
+      className="fixed inset-0 z-[120] flex items-start justify-center pt-20 bg-black/70 backdrop-blur-xs p-4 animate-fadeIn"
+      onClick={onClose}
+    >
       <div
         className="bg-[#FDFBF7] rounded-2xl border-2 border-[#C5B358] w-full max-w-2xl shadow-2xl p-6 relative overflow-hidden"
         onClick={(e) => e.stopPropagation()}
@@ -49,7 +78,7 @@ export default function SearchModal({
           Tìm kiếm trong Mảnh Ghép Hồn Việt
         </h3>
 
-        <div className="relative mb-6 flex items-center">
+        <form onSubmit={handleSubmit} className="relative mb-6 flex items-center">
           <span className="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400 text-xl pointer-events-none select-none flex items-center justify-center leading-none">
             search
           </span>
@@ -70,7 +99,7 @@ export default function SearchModal({
               <span className="material-symbols-outlined text-base">close</span>
             </button>
           )}
-        </div>
+        </form>
 
         {query.trim() && (
           <div className="max-h-80 overflow-y-auto space-y-4">
@@ -100,7 +129,7 @@ export default function SearchModal({
                         <span className="text-xs font-bold text-[#261816]">{p.name}</span>
                       </div>
                       <span className="text-xs font-bold text-[#570000]">
-                        {p.price.toLocaleString('vi-VN')}đ
+                        {typeof p.price === 'number' ? p.price.toLocaleString('vi-VN') : p.price}đ
                       </span>
                     </div>
                   ))}
