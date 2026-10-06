@@ -38,43 +38,43 @@ export default function Header({
   return (
     <header
       id="main-app-header"
-      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs transition-colors sticky top-0 z-50 w-full px-3 sm:px-4 py-2"
+      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs sticky top-0 z-50 w-full px-2 lg:px-4 py-2"
     >
-      <div className="w-full flex items-center justify-between gap-2 max-w-7xl mx-auto">
+      <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between gap-2 lg:gap-3 flex-nowrap">
         
-        {/* 1. CỤM TRÁI (LOGO & TÊN) */}
-        <div id="header-logo-container" className="flex items-center shrink-0 min-w-0">
+        {/* 1. CỤM LOGO & SLOGAN */}
+        <div id="header-logo-container" className="flex items-center shrink-0">
           <button
             type="button"
-            onClick={() => setActiveTab('trangchu')}
-            className="flex items-center gap-1.5 sm:gap-2 text-left group focus:outline-none cursor-pointer min-w-0"
+            onClick={() => {
+              setActiveTab('trangchu');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center gap-2 text-left group focus:outline-none cursor-pointer"
           >
             <img
               src="/logodo.png"
               alt="Mảnh Ghép Hồn Việt Logo"
-              className="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
+              className="h-8 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
             />
-            <div className="flex flex-col justify-center min-w-0">
+            <div className="flex flex-col justify-center">
               <span
-                className="text-xs sm:text-sm md:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight truncate"
+                className="text-xs sm:text-sm lg:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight whitespace-nowrap"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Mảnh Ghép Hồn Việt
               </span>
-              <span
-                className="text-[9px] sm:text-[10px] text-[#A26D2B] font-sans font-bold uppercase tracking-widest leading-none hidden sm:block whitespace-nowrap"
-              >
+              <span className="text-[8px] sm:text-[9px] lg:text-[10px] text-[#A26D2B] font-sans font-bold uppercase tracking-wider leading-none hidden lg:block whitespace-nowrap mt-0.5">
                 Khơi nguồn di sản, thắp sáng sử vàng
               </span>
             </div>
           </button>
         </div>
 
-        {/* 2. CỤM GIỮA (NAVIGATION MENU - CHỈ HIỆN TRÊN DESKTOP) */}
+        {/* 2. CỤM NAVIGATION MENU */}
         <nav
           id="header-nav-menu"
-          className="no-scrollbar hidden md:flex items-center justify-center gap-2 mx-4 flex-1 min-w-0 overflow-x-auto"
-          style={{ scrollbarWidth: 'none' }}
+          className="hidden md:flex items-center justify-center gap-1.5 lg:gap-3 xl:gap-5 flex-nowrap shrink-0"
         >
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
@@ -82,8 +82,11 @@ export default function Header({
               <button
                 key={item.id}
                 type="button"
-                onClick={() => setActiveTab(item.id)}
-                className={`font-sans font-bold uppercase transition-all relative py-1 px-2 cursor-pointer whitespace-nowrap text-[13px] shrink-0 ${
+                onClick={() => {
+                  setActiveTab(item.id);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className={`font-sans font-bold uppercase transition-all relative py-1 px-1 lg:px-2 cursor-pointer whitespace-nowrap shrink-0 text-xs lg:text-[13px] xl:text-sm ${
                   isActive
                     ? 'text-[#7A1C1C] font-extrabold after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[#7A1C1C]'
                     : 'text-[#5A413D] hover:text-[#7A1C1C]'
@@ -95,66 +98,60 @@ export default function Header({
           })}
         </nav>
 
-        {/* 3. CỤM PHẢI (BADGE SEN/ĐIỂM, TÌM KIẾM, GIỎ HÀNG, AVATAR, HAMBURGER) */}
+        {/* 3. CỤM PHẢI: CÁC NÚT TÁC VỤ & SEN/SAO (KHI ĐÃ ĐĂNG NHẬP) */}
         <div
           id="header-actions-container"
-          className="shrink-0 flex items-center gap-1 sm:gap-2.5"
+          className="flex items-center justify-end gap-1 sm:gap-2 shrink-0"
         >
-          {/* Badge Sen & Xu - CHỈ HIỂN THỊ TRÊN MÀN HÌNH MÁY TÍNH (hidden md:flex) */}
-          <button
-            id="header-rewards-btn"
-            type="button"
-            onClick={() => setShowReferralModal(true)}
-            className="hidden md:flex items-center gap-1 px-2.5 py-1 bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer whitespace-nowrap text-xs"
-            title="Tài khoản & điểm thưởng (Bấm để xem và nhập mã quà tặng)"
-          >
-            <div className="flex items-center gap-1">
-              <span className="text-xs select-none">🪷</span>
-              <span className="font-serif font-black text-[#800000] text-xs">
-                {user?.lotusPoints ?? 0}
-              </span>
-              <span className="text-[#A26D2B] font-semibold text-[11px]">
-                Sen
-              </span>
-            </div>
+          {/* Badge Sen & Sao (Điểm) -> CHỈ HIỂN THỊ KHI ĐÃ ĐĂNG NHẬP (user !== null) */}
+          {user && (
+            <button
+              id="header-rewards-btn"
+              type="button"
+              onClick={() => setShowReferralModal(true)}
+              className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer whitespace-nowrap text-[11px] sm:text-xs shrink-0"
+              title="Tài khoản & điểm thưởng"
+            >
+              <div className="flex items-center gap-0.5 sm:gap-1">
+                <span className="text-xs">🪷</span>
+                <span className="font-serif font-black text-[#800000] text-xs">
+                  {user.lotusPoints ?? 0}
+                </span>
+                <span className="text-[#A26D2B] font-semibold text-[10px] sm:text-[11px]">Sen</span>
+              </div>
+              <span className="w-px h-3 bg-[#C5B358]/60"></span>
+              <div className="flex items-center gap-0.5 sm:gap-1">
+                <span className="text-xs">🪙</span>
+                <span className="font-serif font-black text-[#800000] text-xs">
+                  {user.starsCount ?? 0}
+                </span>
+                <span className="text-[#A26D2B] font-semibold text-[10px] sm:text-[11px]">điểm</span>
+              </div>
+            </button>
+          )}
 
-            <span className="w-px h-3 bg-[#C5B358]/60 mx-0.5"></span>
-
-            <div className="flex items-center gap-1">
-              <span className="text-xs select-none">🪙</span>
-              <span className="font-serif font-black text-[#800000] text-xs">
-                {user?.starsCount ?? 0}
-              </span>
-              <span className="text-[#A26D2B] font-semibold text-[11px]">
-                điểm
-              </span>
-            </div>
-          </button>
-
-          {/* Kính lúp (Tìm kiếm) */}
+          {/* Tìm kiếm */}
           <button
             id="header-search-btn"
             type="button"
             onClick={openSearch}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer flex items-center justify-center shrink-0"
+            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer shrink-0"
             title="Tìm kiếm"
           >
             <span className="material-symbols-outlined text-xl">search</span>
           </button>
 
-          {/* Giỏ hàng (Cart) */}
+          {/* Giỏ hàng */}
           <button
             id="header-cart-btn"
             type="button"
             onClick={openCart}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer flex items-center justify-center shrink-0"
+            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer shrink-0"
             title="Giỏ hàng"
           >
             <span className="material-symbols-outlined text-xl">shopping_cart</span>
             {cartCount > 0 && (
-              <span
-                className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-4 h-4 rounded-full flex items-center justify-center shadow-sm text-[10px] leading-none"
-              >
+              <span className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-4 h-4 rounded-full flex items-center justify-center shadow-sm text-[10px] leading-none">
                 {cartCount}
               </span>
             )}
@@ -166,8 +163,8 @@ export default function Header({
               id="header-avatar-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="rounded-full p-0.5 border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:opacity-90 hover:scale-105 transition-all cursor-pointer shadow-xs focus:outline-none flex items-center justify-center shrink-0"
-              title={`Tài khoản: ${user.name}`}
+              className="rounded-full p-0.5 border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:scale-105 transition-all cursor-pointer shrink-0"
+              title={user.name || "Trang cá nhân"}
             >
               <img
                 src={user.avatar}
@@ -180,20 +177,19 @@ export default function Header({
               id="header-login-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="bg-[#800000] hover:bg-[#570000] text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer flex items-center gap-1 shrink-0 text-[11px] sm:text-xs"
+              className="bg-[#800000] hover:bg-[#570000] text-white px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer flex items-center gap-1 shrink-0 text-[11px] sm:text-xs whitespace-nowrap"
             >
               <span className="material-symbols-outlined text-sm sm:text-base">person</span>
-              <span className="hidden sm:inline whitespace-nowrap">Đăng nhập</span>
+              <span className="hidden sm:inline">Đăng nhập</span>
             </button>
           )}
 
-          {/* Nút Hamburger menu - ẨN TRÊN MÁY TÍNH (md:hidden), HIỂN THỊ TRÊN MOBILE */}
+          {/* Mobile Menu Button */}
           <button
             id="header-mobile-toggle-btn"
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer shrink-0 ml-0.5"
-            aria-label="Toggle menu"
+            className="md:hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer shrink-0"
           >
             <span className="material-symbols-outlined text-2xl">
               {mobileMenuOpen ? 'close' : 'menu'}
@@ -216,30 +212,29 @@ export default function Header({
         }}
       />
 
-      {/* Mobile Drawer (Menu trượt xổ xuống trên điện thoại) */}
+      {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#FDFBF7] border-t border-b border-[#C5B358]/40 px-4 py-3 space-y-2 shadow-xl animate-fadeIn mt-2 -mx-3 sm:-mx-4">
-          {/* Badge Sen & Xu display riêng trên Mobile Menu */}
-          <button
-            type="button"
-            onClick={() => {
-              setShowReferralModal(true);
-              setMobileMenuOpen(false);
-            }}
-            className="w-full flex items-center justify-between p-2.5 mb-2 bg-[#FFF8F6] hover:bg-[#FDECE8] rounded-xl border border-[#C5B358] transition-colors cursor-pointer text-left"
-            title="Tài khoản & điểm thưởng"
-          >
-            <div className="flex items-center gap-2">
-              <span className="text-base">🪷</span>
-              <span className="font-bold text-xs text-[#570000]">{user?.lotusPoints ?? 0} Sen</span>
-              <span className="w-px h-3 bg-[#C5B358]"></span>
-              <span className="text-base">🪙</span>
-              <span className="font-bold text-xs text-[#570000]">{user?.starsCount ?? 0} điểm</span>
-            </div>
-            <span className="material-symbols-outlined text-stone-400 text-base">chevron_right</span>
-          </button>
+        <div className="md:hidden bg-[#FDFBF7] border-t border-b border-[#C5B358]/40 px-4 py-3 space-y-2 shadow-xl animate-fadeIn mt-2 -mx-2 lg:-mx-4">
+          {user && (
+            <button
+              type="button"
+              onClick={() => {
+                setShowReferralModal(true);
+                setMobileMenuOpen(false);
+              }}
+              className="w-full flex items-center justify-between p-2.5 mb-2 bg-[#FFF8F6] hover:bg-[#FDECE8] rounded-xl border border-[#C5B358] transition-colors cursor-pointer text-left"
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-base">🪷</span>
+                <span className="font-bold text-xs text-[#570000]">{user.lotusPoints ?? 0} Sen</span>
+                <span className="w-px h-3 bg-[#C5B358]"></span>
+                <span className="text-base">🪙</span>
+                <span className="font-bold text-xs text-[#570000]">{user.starsCount ?? 0} điểm</span>
+              </div>
+              <span className="material-symbols-outlined text-stone-400 text-base">chevron_right</span>
+            </button>
+          )}
 
-          {/* Các mục Navigation dạng danh sách */}
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
             return (
@@ -249,6 +244,7 @@ export default function Header({
                 onClick={() => {
                   setActiveTab(item.id);
                   setMobileMenuOpen(false);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className={`w-full text-left px-3.5 py-2.5 rounded-lg font-sans font-bold uppercase text-xs sm:text-sm transition-colors flex items-center justify-between cursor-pointer ${
                   isActive
