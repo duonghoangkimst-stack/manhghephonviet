@@ -38,11 +38,11 @@ export default function Header({
   return (
     <header
       id="main-app-header"
-      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs sticky top-0 z-50 w-full px-2 lg:px-4 py-2"
+      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs sticky top-0 z-50 w-full px-2 sm:px-4 py-2"
     >
-      <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between gap-2 lg:gap-3 flex-nowrap">
+      <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between gap-1 sm:gap-3 flex-nowrap overflow-hidden">
         
-        {/* 1. CỤM LOGO & SLOGAN */}
+        {/* 1. LOGO & SLOGAN */}
         <div id="header-logo-container" className="flex items-center shrink-0">
           <button
             type="button"
@@ -50,16 +50,16 @@ export default function Header({
               setActiveTab('trangchu');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="flex items-center gap-2 text-left group focus:outline-none cursor-pointer"
+            className="flex items-center gap-1.5 sm:gap-2 text-left group focus:outline-none cursor-pointer"
           >
             <img
               src="/logodo.png"
               alt="Mảnh Ghép Hồn Việt Logo"
-              className="h-8 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
+              className="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
             />
             <div className="flex flex-col justify-center">
               <span
-                className="text-xs sm:text-sm lg:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight whitespace-nowrap"
+                className="text-[11px] sm:text-sm lg:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight whitespace-nowrap"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Mảnh Ghép Hồn Việt
@@ -71,7 +71,7 @@ export default function Header({
           </button>
         </div>
 
-        {/* 2. CỤM NAVIGATION MENU */}
+        {/* 2. NAVIGATION MENU (DESKTOP) */}
         <nav
           id="header-nav-menu"
           className="hidden md:flex items-center justify-center gap-1.5 lg:gap-3 xl:gap-5 flex-nowrap shrink-0"
@@ -98,34 +98,34 @@ export default function Header({
           })}
         </nav>
 
-        {/* 3. CỤM PHẢI: CÁC NÚT TÁC VỤ & SEN/SAO (KHI ĐÃ ĐĂNG NHẬP) */}
+        {/* 3. TÁC VỤ & SEN/ĐIỂM THƯỞNG */}
         <div
           id="header-actions-container"
           className="flex items-center justify-end gap-1 sm:gap-2 shrink-0"
         >
-          {/* Badge Sen & Sao (Điểm) -> CHỈ HIỂN THỊ KHI ĐÃ ĐĂNG NHẬP (user !== null) */}
+          {/* Badge Sen & Điểm - Tự thu gọn siêu nhỏ trên Mobile */}
           {user && (
             <button
               id="header-rewards-btn"
               type="button"
               onClick={() => setShowReferralModal(true)}
-              className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer whitespace-nowrap text-[11px] sm:text-xs shrink-0"
+              className="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer whitespace-nowrap text-[10px] sm:text-xs shrink-0"
               title="Tài khoản & điểm thưởng"
             >
-              <div className="flex items-center gap-0.5 sm:gap-1">
-                <span className="text-xs">🪷</span>
-                <span className="font-serif font-black text-[#800000] text-xs">
+              <div className="flex items-center gap-0.5">
+                <span className="text-[11px] sm:text-xs">🪷</span>
+                <span className="font-serif font-black text-[#800000]">
                   {user.lotusPoints ?? 0}
                 </span>
-                <span className="text-[#A26D2B] font-semibold text-[10px] sm:text-[11px]">Sen</span>
+                <span className="text-[#A26D2B] hidden sm:inline text-[10px] sm:text-[11px]">Sen</span>
               </div>
-              <span className="w-px h-3 bg-[#C5B358]/60"></span>
-              <div className="flex items-center gap-0.5 sm:gap-1">
-                <span className="text-xs">🪙</span>
-                <span className="font-serif font-black text-[#800000] text-xs">
+              <span className="w-px h-2.5 sm:h-3 bg-[#C5B358]/60"></span>
+              <div className="flex items-center gap-0.5">
+                <span className="text-[11px] sm:text-xs">🪙</span>
+                <span className="font-serif font-black text-[#800000]">
                   {user.starsCount ?? 0}
                 </span>
-                <span className="text-[#A26D2B] font-semibold text-[10px] sm:text-[11px]">điểm</span>
+                <span className="text-[#A26D2B] hidden sm:inline text-[10px] sm:text-[11px]">đ</span>
               </div>
             </button>
           )}
@@ -135,10 +135,10 @@ export default function Header({
             id="header-search-btn"
             type="button"
             onClick={openSearch}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer shrink-0"
+            className="p-1 sm:p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer shrink-0"
             title="Tìm kiếm"
           >
-            <span className="material-symbols-outlined text-xl">search</span>
+            <span className="material-symbols-outlined text-lg sm:text-xl">search</span>
           </button>
 
           {/* Giỏ hàng */}
@@ -146,12 +146,12 @@ export default function Header({
             id="header-cart-btn"
             type="button"
             onClick={openCart}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer shrink-0"
+            className="p-1 sm:p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer shrink-0"
             title="Giỏ hàng"
           >
-            <span className="material-symbols-outlined text-xl">shopping_cart</span>
+            <span className="material-symbols-outlined text-lg sm:text-xl">shopping_cart</span>
             {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-4 h-4 rounded-full flex items-center justify-center shadow-sm text-[10px] leading-none">
+              <span className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center shadow-sm text-[9px] sm:text-[10px] leading-none">
                 {cartCount}
               </span>
             )}
@@ -163,13 +163,13 @@ export default function Header({
               id="header-avatar-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="rounded-full p-0.5 border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:scale-105 transition-all cursor-pointer shrink-0"
+              className="rounded-full p-0.5 border sm:border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:scale-105 transition-all cursor-pointer shrink-0"
               title={user.name || "Trang cá nhân"}
             >
               <img
                 src={user.avatar}
                 alt={user.name}
-                className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover shrink-0"
+                className="w-6 h-6 sm:w-8 sm:h-8 rounded-full object-cover shrink-0"
               />
             </button>
           ) : (
@@ -177,28 +177,29 @@ export default function Header({
               id="header-login-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="bg-[#800000] hover:bg-[#570000] text-white px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer flex items-center gap-1 shrink-0 text-[11px] sm:text-xs whitespace-nowrap"
+              className="bg-[#800000] hover:bg-[#570000] text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer flex items-center gap-1 shrink-0 text-[10px] sm:text-xs whitespace-nowrap"
             >
               <span className="material-symbols-outlined text-sm sm:text-base">person</span>
               <span className="hidden sm:inline">Đăng nhập</span>
             </button>
           )}
 
-          {/* Mobile Menu Button */}
+          {/* Nút Hamburger Menu trên Điện thoại - Luôn cố định phía phải cùng */}
           <button
             id="header-mobile-toggle-btn"
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer shrink-0"
+            className="md:hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer shrink-0 ml-0.5"
+            aria-label="Toggle menu"
           >
-            <span className="material-symbols-outlined text-2xl">
+            <span className="material-symbols-outlined text-xl sm:text-2xl">
               {mobileMenuOpen ? 'close' : 'menu'}
             </span>
           </button>
         </div>
       </div>
 
-      {/* Pop-up TÀI KHOẢN & ĐIỂM THƯỞNG */}
+      {/* Pop-up Điểm Thưởng */}
       <AccountRewardModal
         isOpen={showReferralModal}
         onClose={() => setShowReferralModal(false)}
@@ -214,7 +215,7 @@ export default function Header({
 
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#FDFBF7] border-t border-b border-[#C5B358]/40 px-4 py-3 space-y-2 shadow-xl animate-fadeIn mt-2 -mx-2 lg:-mx-4">
+        <div className="md:hidden bg-[#FDFBF7] border-t border-b border-[#C5B358]/40 px-4 py-3 space-y-2 shadow-xl animate-fadeIn mt-2 -mx-2 sm:-mx-4">
           {user && (
             <button
               type="button"
