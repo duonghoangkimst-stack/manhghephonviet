@@ -38,60 +38,31 @@ export default function Header({
   return (
     <header
       id="main-app-header"
-      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs transition-colors"
-      style={{
-        width: '100%',
-        maxWidth: '100vw',
-        boxSizing: 'border-box',
-        position: 'sticky',
-        top: 0,
-        zIndex: 50,
-        padding: '8px 16px',
-      }}
+      className="bg-[#FDFBF7]/95 dark:bg-[#2A1613]/95 backdrop-blur-md border-b border-[#C5B358]/40 shadow-xs transition-colors sticky top-0 z-50 w-full px-3 sm:px-4 py-2"
     >
-      <div
-        className="w-full flex items-center justify-between"
-        style={{
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          boxSizing: 'border-box',
-        }}
-      >
-        {/* 1. CỤM TRÁI (LOGO): flex-shrink: 0; min-width: max-content; */}
-        <div
-          id="header-logo-container"
-          className="flex items-center shrink-0 flex-shrink-0"
-          style={{
-            flexShrink: 0,
-            minWidth: 'max-content',
-            display: 'flex',
-            alignItems: 'center',
-          }}
-        >
+      <div className="w-full flex items-center justify-between gap-2 max-w-7xl mx-auto">
+        
+        {/* 1. CỤM TRÁI (LOGO & TÊN) */}
+        <div id="header-logo-container" className="flex items-center shrink-0 min-w-0">
           <button
             type="button"
             onClick={() => setActiveTab('trangchu')}
-            className="flex items-center gap-2 text-left group focus:outline-none cursor-pointer"
-            style={{ whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}
+            className="flex items-center gap-1.5 sm:gap-2 text-left group focus:outline-none cursor-pointer min-w-0"
           >
             <img
               src="/logodo.png"
               alt="Mảnh Ghép Hồn Việt Logo"
-              className="h-8 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
-              style={{ flexShrink: 0 }}
+              className="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
             />
-            <div className="flex flex-col justify-center" style={{ whiteSpace: 'nowrap' }}>
-            <span
-  className="text-sm md:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight"
-  style={{ fontFamily: "'Playfair Display', serif" }}
+            <div className="flex flex-col justify-center min-w-0">
+              <span
+                className="text-xs sm:text-sm md:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight truncate"
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Mảnh Ghép Hồn Việt
               </span>
               <span
-                className="text-[9px] sm:text-[10px] text-[#A26D2B] font-sans font-bold uppercase tracking-widest leading-none hidden sm:block"
-                style={{ whiteSpace: 'nowrap' }}
+                className="text-[9px] sm:text-[10px] text-[#A26D2B] font-sans font-bold uppercase tracking-widest leading-none hidden sm:block whitespace-nowrap"
               >
                 Khơi nguồn di sản, thắp sáng sử vàng
               </span>
@@ -99,22 +70,11 @@ export default function Header({
           </button>
         </div>
 
-        {/* 2. CỤM GIỮA (NAVIGATION MENU): flex: 1; display: flex; justify-content: center; align-items: center; gap: 8px-12px; margin: 0 16px */}
+        {/* 2. CỤM GIỮA (NAVIGATION MENU - CHỈ HIỆN TRÊN DESKTOP) */}
         <nav
           id="header-nav-menu"
-          className="no-scrollbar hidden md:flex items-center justify-center"
-          style={{
-            flex: '1 1 auto',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '8px',
-            marginLeft: '16px',
-            marginRight: '16px',
-            minWidth: 0,
-            overflowX: 'auto',
-            scrollbarWidth: 'none',
-          }}
+          className="no-scrollbar hidden md:flex items-center justify-center gap-2 mx-4 flex-1 min-w-0 overflow-x-auto"
+          style={{ scrollbarWidth: 'none' }}
         >
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
@@ -123,18 +83,11 @@ export default function Header({
                 key={item.id}
                 type="button"
                 onClick={() => setActiveTab(item.id)}
-                className={`font-sans font-bold uppercase transition-all relative py-1 px-1.5 cursor-pointer ${
+                className={`font-sans font-bold uppercase transition-all relative py-1 px-2 cursor-pointer whitespace-nowrap text-[13px] shrink-0 ${
                   isActive
                     ? 'text-[#7A1C1C] font-extrabold after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[#7A1C1C]'
                     : 'text-[#5A413D] hover:text-[#7A1C1C]'
                 }`}
-                style={{
-                  fontSize: '13px',
-                  letterSpacing: '0px',
-                  whiteSpace: 'nowrap',
-                  display: 'inline-block',
-                  flexShrink: 0,
-                }}
               >
                 {item.label}
               </button>
@@ -142,54 +95,37 @@ export default function Header({
           })}
         </nav>
 
-        {/* 3. CỤM PHẢI (BADGE SEN/ĐIỂM, KÍNH LÚP, GIỎ HÀNG, AVATAR): flex-shrink: 0; display: flex; align-items: center; gap: 10px; min-width: max-content; */}
+        {/* 3. CỤM PHẢI (BADGE SEN/ĐIỂM, TÌM KIẾM, GIỎ HÀNG, AVATAR, HAMBURGER) */}
         <div
           id="header-actions-container"
-          className="shrink-0 flex-shrink-0"
-          style={{
-            flexShrink: 0,
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            minWidth: 'max-content',
-            visibility: 'visible',
-          }}
+          className="shrink-0 flex items-center gap-1 sm:gap-2.5"
         >
-          {/* Badge Sen & Xu - Thu gọn padding và font size */}
+          {/* Badge Sen & Xu - CHỈ HIỂN THỊ TRÊN MÀN HÌNH MÁY TÍNH (hidden md:flex) */}
           <button
             id="header-rewards-btn"
             type="button"
             onClick={() => setShowReferralModal(true)}
-            className="bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer group"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '4px',
-              padding: '2px 8px',
-              flexShrink: 0,
-              whiteSpace: 'nowrap',
-              visibility: 'visible',
-            }}
+            className="hidden md:flex items-center gap-1 px-2.5 py-1 bg-[#FFF8F6] hover:bg-[#FDECE8] border border-[#C5B358] rounded-full font-bold text-[#570000] shadow-2xs transition-all cursor-pointer whitespace-nowrap text-xs"
             title="Tài khoản & điểm thưởng (Bấm để xem và nhập mã quà tặng)"
           >
-            <div className="flex items-center gap-1" style={{ whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}>
+            <div className="flex items-center gap-1">
               <span className="text-xs select-none">🪷</span>
-              <span className="font-serif font-black text-[#800000]" style={{ fontSize: '12px' }}>
+              <span className="font-serif font-black text-[#800000] text-xs">
                 {user?.lotusPoints ?? 0}
               </span>
-              <span className="text-[#A26D2B] font-semibold" style={{ fontSize: '11px', whiteSpace: 'nowrap' }}>
+              <span className="text-[#A26D2B] font-semibold text-[11px]">
                 Sen
               </span>
             </div>
 
             <span className="w-px h-3 bg-[#C5B358]/60 mx-0.5"></span>
 
-            <div className="flex items-center gap-1" style={{ whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}>
+            <div className="flex items-center gap-1">
               <span className="text-xs select-none">🪙</span>
-              <span className="font-serif font-black text-[#800000]" style={{ fontSize: '12px' }}>
+              <span className="font-serif font-black text-[#800000] text-xs">
                 {user?.starsCount ?? 0}
               </span>
-              <span className="text-[#A26D2B] font-semibold" style={{ fontSize: '11px', whiteSpace: 'nowrap' }}>
+              <span className="text-[#A26D2B] font-semibold text-[11px]">
                 điểm
               </span>
             </div>
@@ -200,14 +136,7 @@ export default function Header({
             id="header-search-btn"
             type="button"
             onClick={openSearch}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-              visibility: 'visible',
-            }}
+            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors cursor-pointer flex items-center justify-center shrink-0"
             title="Tìm kiếm"
           >
             <span className="material-symbols-outlined text-xl">search</span>
@@ -218,21 +147,13 @@ export default function Header({
             id="header-cart-btn"
             type="button"
             onClick={openCart}
-            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-              visibility: 'visible',
-            }}
+            className="p-1.5 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-full transition-colors relative cursor-pointer flex items-center justify-center shrink-0"
             title="Giỏ hàng"
           >
             <span className="material-symbols-outlined text-xl">shopping_cart</span>
             {cartCount > 0 && (
               <span
-                className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-4 h-4 rounded-full flex items-center justify-center shadow-sm"
-                style={{ fontSize: '10px', whiteSpace: 'nowrap' }}
+                className="absolute -top-1 -right-1 bg-[#C5B358] text-[#570000] font-bold w-4 h-4 rounded-full flex items-center justify-center shadow-sm text-[10px] leading-none"
               >
                 {cartCount}
               </span>
@@ -245,21 +166,13 @@ export default function Header({
               id="header-avatar-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="rounded-full p-0.5 border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:opacity-90 hover:scale-105 transition-all cursor-pointer shadow-xs focus:outline-none"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexShrink: 0,
-                visibility: 'visible',
-              }}
+              className="rounded-full p-0.5 border-2 border-[#C5B358] hover:border-[#7A1C1C] hover:opacity-90 hover:scale-105 transition-all cursor-pointer shadow-xs focus:outline-none flex items-center justify-center shrink-0"
               title={`Tài khoản: ${user.name}`}
             >
               <img
                 src={user.avatar}
                 alt={user.name}
-                className="w-8 h-8 rounded-full object-cover shrink-0"
-                style={{ flexShrink: 0 }}
+                className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover shrink-0"
               />
             </button>
           ) : (
@@ -267,31 +180,19 @@ export default function Header({
               id="header-login-btn"
               type="button"
               onClick={() => setActiveTab('login')}
-              className="bg-[#800000] hover:bg-[#570000] text-white px-2.5 sm:px-3 py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '4px',
-                flexShrink: 0,
-                whiteSpace: 'nowrap',
-                visibility: 'visible',
-                fontSize: '12px',
-              }}
+              className="bg-[#800000] hover:bg-[#570000] text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-full font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer flex items-center gap-1 shrink-0 text-[11px] sm:text-xs"
             >
-              <span className="material-symbols-outlined text-base">person</span>
-              <span style={{ whiteSpace: 'nowrap' }}>Đăng nhập</span>
+              <span className="material-symbols-outlined text-sm sm:text-base">person</span>
+              <span className="hidden sm:inline whitespace-nowrap">Đăng nhập</span>
             </button>
           )}
 
-          {/* Nút Hamburger menu - ẨN TRÊN MÁY TÍNH DESKTOP (md:!hidden), CHỈ HIỂN THỊ TRÊN MOBILE */}
+          {/* Nút Hamburger menu - ẨN TRÊN MÁY TÍNH (md:hidden), HIỂN THỊ TRÊN MOBILE */}
           <button
             id="header-mobile-toggle-btn"
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:!hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer"
-            style={{
-              flexShrink: 0,
-            }}
+            className="md:hidden flex items-center justify-center p-1 text-[#7A1C1C] hover:bg-[#FDE2DE] rounded-lg transition-colors cursor-pointer shrink-0 ml-0.5"
             aria-label="Toggle menu"
           >
             <span className="material-symbols-outlined text-2xl">
@@ -315,17 +216,17 @@ export default function Header({
         }}
       />
 
-      {/* Mobile Drawer */}
+      {/* Mobile Drawer (Menu trượt xổ xuống trên điện thoại) */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#FDFBF7] border-b border-[#C5B358] px-6 py-4 space-y-2 shadow-xl animate-fadeIn">
-          {/* Mobile Sen & Xu display */}
+        <div className="md:hidden bg-[#FDFBF7] border-t border-b border-[#C5B358]/40 px-4 py-3 space-y-2 shadow-xl animate-fadeIn mt-2 -mx-3 sm:-mx-4">
+          {/* Badge Sen & Xu display riêng trên Mobile Menu */}
           <button
             type="button"
             onClick={() => {
               setShowReferralModal(true);
               setMobileMenuOpen(false);
             }}
-            className="w-full flex items-center justify-between p-3 mb-2 bg-[#FFF8F6] hover:bg-[#FDECE8] rounded-xl border border-[#C5B358] transition-colors cursor-pointer text-left"
+            className="w-full flex items-center justify-between p-2.5 mb-2 bg-[#FFF8F6] hover:bg-[#FDECE8] rounded-xl border border-[#C5B358] transition-colors cursor-pointer text-left"
             title="Tài khoản & điểm thưởng"
           >
             <div className="flex items-center gap-2">
@@ -338,6 +239,7 @@ export default function Header({
             <span className="material-symbols-outlined text-stone-400 text-base">chevron_right</span>
           </button>
 
+          {/* Các mục Navigation dạng danh sách */}
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
             return (
@@ -348,7 +250,7 @@ export default function Header({
                   setActiveTab(item.id);
                   setMobileMenuOpen(false);
                 }}
-                className={`w-full text-left px-4 py-3 rounded-lg font-sans font-bold uppercase text-sm transition-colors flex items-center justify-between cursor-pointer ${
+                className={`w-full text-left px-3.5 py-2.5 rounded-lg font-sans font-bold uppercase text-xs sm:text-sm transition-colors flex items-center justify-between cursor-pointer ${
                   isActive
                     ? 'bg-[#800000] text-white'
                     : 'text-[#5A413D] hover:bg-[#FDE2DE]'
