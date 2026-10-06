@@ -2183,6 +2183,137 @@ Thời gian phù hợp nhất là khoảng 1,5 đến 2 giờ. Khoảng thời g
   
   Chiến thuật đóng cọc gỗ trên sông Bạch Đằng mãi là đỉnh cao của nghệ thuật quân sự Đại Việt: "dĩ đoản chế trường, dĩ nhược chế cường" (lấy ngắn trị dài, lấy yếu chống mạnh). Bằng việc biến thiên nhiên, dòng chảy và con nước thành vũ khí hộ quốc, cha ông ta đã để lại bài học muôn đời về trí tuệ, bản lĩnh và lòng tự tôn dân tộc.`
   },
+  {
+    id: 'long-yeu-nuoc',
+    title: 'Lòng Yêu Nước Hôm Nay: Mỗi Người Một Cách Yêu, Cùng Chung Một Việt Nam',
+    description: 'Từ những ngày lịch sử đến nhịp sống hôm nay, lòng yêu nước hiện diện theo nhiều cách: trong ký ức, văn hóa, cộng đồng và những điều người trẻ đang tạo nên.',
+    category: 'Góc Lịch Sử Việt',
+    date: '06/10/2026',
+    author: 'Mảnh ghép Hồn Việt',
+    image: '/images/biaseo13.jpg',
+    content: `Có những lúc, lòng yêu nước hiện lên thật lớn lao: một lá cờ tung bay, hàng vạn người hát Quốc ca hay những bước chân đều đặn trong ngày lễ lớn. Nhưng cũng có lúc, tình yêu ấy thật dịu dàng, bình dị: là khi người trẻ tìm hiểu một di tích, khoác lên mình chiếc áo dài, giữ gìn tiếng Việt, quảng bá văn hóa hay hòa chung nhịp đập cùng đội tuyển Việt Nam. Lòng yêu nước không có một khuôn mẫu cố định. Mỗi thế hệ đều có cách riêng để kết nối với Tổ quốc, qua sự trân trọng, trách nhiệm và những việc làm ý nghĩa hàng ngày. Hãy cùng **Mảnh Ghép Hồn Việt** hòa vào lòng yêu nước ấy.
+  
+  ## Lòng yêu nước hôm nay không chỉ có một hình thức
+  
+  Tình yêu Tổ quốc không xa rời hay cố định, mà luôn biến chuyển tự nhiên qua từng thời kỳ. Dù ở bất kỳ giai đoạn nào, tình cảm ấy vẫn âm thầm chảy trong đời sống thường nhật qua những biểu hiện rất đỗi phong phú.
+  
+  ### Lòng yêu nước bắt đầu từ những điều gần gũi nhất
+  
+  Khi nhắc đến lòng yêu nước, ta thường nghĩ đến những sự kiện trọng đại, những cột mốc lịch sử hay những biểu tượng thiêng liêng. Thế nhưng, tình yêu ấy chẳng ở đâu xa xôi, cũng không nhất thiết phải khởi nguồn từ điều gì quá lớn lao. Nó nảy nở ngay từ cách ta trân trọng tiếng mẹ đẻ, hào hứng tìm hiểu về quê hương, xúc động trước câu chuyện đằng sau một di tích hay âm thầm giữ gìn từng phong tục gia đình. Yêu nước đơn giản là sống có trách nhiệm với cộng đồng, tận tụy làm tốt công việc của mình, biết tôn trọng người khác và không bao giờ thờ ơ trước những vấn đề chung. Một đất nước không chỉ được khắc họa bằng những trang sử hào hùng, mà còn hiện diện sống động trong từng con người, từng gia đình, từng vùng đất và trong những giá trị tốt đẹp được trao truyền qua muôn thế hệ.
+  
+  ### Mỗi thế hệ có một cách kết nối với Tổ quốc
+  
+  Cách thể hiện tình yêu Tổ quốc luôn vận động và thay đổi theo chiều dài thời đại. Nếu thế hệ đi trước gắn liền tình yêu ấy với những năm tháng chiến đấu, hy sinh để bảo vệ độc lập, thì thế hệ hôm nay lại mang trên mình một sứ mệnh trong hòa bình. Người trẻ có thêm vô vàn không gian sáng tạo để bày tỏ cảm xúc ấy: từ trường học, công sở, nghệ thuật, thể thao đến không gian mạng xã hội, công nghệ và các hoạt động cộng đồng. Điều cốt lõi không nằm ở việc tranh cãi “yêu nước theo cách nào mới đúng”, mà là liệu cách làm ấy có giúp mỗi người thêm hiểu, thêm yêu quê hương và biết sống có trách nhiệm hơn với cộng đồng hay không.
+  
+  ## Yêu nước trong những ngày lịch sử – Khi cả dân tộc cùng nhìn về một hướng
+  
+  Có những thời khắc lịch sử không dừng lại ở quá khứ, mà trở thành chất keo gắn kết hàng triệu con tim hướng về cùng một nhịp đập. Đó là những ngày lễ lớn, nơi tinh thần dân tộc hòa quyện giữa niềm tự hào thiêng liêng và không khí rộn rã của cuộc sống hôm nay.
+  
+  ### 30/4 – ký ức lịch sử trở thành niềm tự hào hôm nay
+  
+  Có những mốc thời gian không chỉ ngủ yên trong quá khứ, mà tiếp tục sống động trong dòng chảy ký ức qua nhiều thế hệ. Sâu sắc và thiêng liêng hơn cả chính là cột mốc 30/4. Năm 2025, lễ kỷ niệm 50 năm Ngày Giải phóng miền Nam, thống nhất đất nước được tổ chức hoành tráng tại TP.HCM với màn diễu binh, diễu hành rực rỡ trên trục đường Lê Duẩn và các tuyến phố trung tâm. Hình ảnh hàng vạn con tim cùng hướng về sự kiện đã chứng minh sức lay động mạnh mẽ của lịch sử trong đời sống hiện đại.
+  
+  Đáng trân trọng hơn, hòa vào dòng người đông đúc ấy không chỉ có những nhân chứng từng kinh qua khói lửa, mà còn là đông đảo người trẻ sinh ra thời bình. Dù không có ký ức trực tiếp về ngày chiến thắng 1975, họ vẫn cảm nhận sâu sắc giá trị lịch sử qua lời kể của ông bà, cha mẹ, qua từng thước phim tư liệu và không khí tự hào của cộng đồng. Đó chính là cách ký ức dân tộc được tiếp nối tự nhiên và bền bỉ.
+  
+  ### Từ A50 Đến A80: Mạch Nối Tự Hào Giữa Các Thế Hệ
+  
+  Nếu như A50 ghi dấu nửa thế kỷ đất nước trọn niềm vui thống nhất, thì A80 lại là cột mốc tự hào kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9 năm 2025. Lễ diễu binh, diễu hành A80 diễn ra vô cùng trang nghiêm vào sáng 2/9/2025 tại Quảng trường Ba Đình cùng các tuyến phố trung tâm Hà Nội với quy mô cấp quốc gia. Những sự kiện tầm vóc này đã mở ra một không gian kết nối đặc biệt: nơi nhiều thế hệ cùng đứng chung trong một khoảnh khắc, cùng hướng về một biểu tượng thiêng liêng và hòa chung nhịp đập tự hào dân tộc. Qua đó, lịch sử vượt ra khỏi những trang sách giáo khoa khô khan để sống động trong từng ký ức gia đình, trong từng câu chuyện kể và trong những ngọn lửa cảm xúc được thế hệ trước truyền lại cho thế hệ sau.
+  
+  ![diễu binh A80 Quốc khánh 2/9 2025](/images/dieu-binh-a80.jpg)
+  *Hình 1: A80 – khi những thế hệ khác nhau cùng hướng về một dấu mốc của dân tộc.*
+  
+  ## Yêu nước khi cả Việt Nam cùng phủ đỏ
+  
+  Có những lúc lòng yêu nước không cần được nói thành lời. Chỉ một lá cờ đỏ sao vàng giữa đám đông, một tiếng reo khi Việt Nam chiến thắng hay khoảnh khắc cái tên Việt Nam được xướng lên cũng đủ khiến hàng triệu người cùng chung một niềm tự hào. Những cảm xúc ấy có thể xuất hiện ở sân vận động, trên đường phố, trong một cuộc thi quốc tế hay trước màn hình điện thoại, nhưng đều gặp nhau ở một điểm: niềm tự hào khi mình là người Việt Nam.
+  
+  ### Từ sân vận động đến phố phường – bóng đá kết nối người Việt
+  
+  Mỗi khi đội tuyển Việt Nam thi đấu, không khí dường như thay đổi ở nhiều nơi. Từ sân vận động, phố đi bộ đến những quán cà phê hay căn phòng nhỏ, người Việt cùng dõi theo từng pha bóng, hồi hộp trước mỗi cơ hội và vỡ òa khi đội nhà ghi bàn. Một trận bóng có thể kéo những người xa lạ lại gần nhau. Những lá cờ đồng loạt tung bay, tiếng hát và tiếng reo vang trên phố tạo nên một cảm giác rất đặc biệt: dù mỗi người có một cuộc sống riêng, trong khoảnh khắc ấy, tất cả cùng hướng về một màu áo và một cái tên – Việt Nam. Điều đáng nhớ không chỉ là kết quả của trận đấu. Đó còn là cảm giác được cùng hàng nghìn, hàng triệu người chia sẻ một niềm vui, một sự hồi hộp và một niềm tin. Bóng đá vì thế trở thành một trong những không gian dễ dàng khơi dậy lòng tự hào dân tộc trong đời sống hiện đại.
+  
+  ![Một màu cờ, một dòng máu, một tình yêu Việt Nam](/images/mot-mau-co-mot-tinh-yeu.jpg)
+  *Hình 2: Một màu cờ, một dòng máu, một tình yêu Việt Nam*
+  
+  ### Khi người Việt mang màu cờ Tổ quốc ra thế giới
+  
+  Niềm tự hào ấy không chỉ xuất hiện trong bóng đá. Trên những đấu trường quốc tế về thể thao, sắc đẹp, tri thức, nghệ thuật hay sáng tạo, người Việt vẫn đang nỗ lực để đưa tên Việt Nam đến gần hơn với thế giới. Đó có thể là một vận động viên trên đường đua, một đại diện Việt Nam trên sân khấu sắc đẹp, một học sinh chinh phục cuộc thi tri thức hay một người trẻ giới thiệu nghệ thuật và văn hóa Việt bằng cách của riêng mình. Mỗi người có một lĩnh vực, một hành trình và một cách tỏa sáng khác nhau. Nhưng khi lá cờ Việt Nam xuất hiện phía sau họ, thành quả cá nhân cũng trở thành niềm vui chung. Bởi phía sau một thành tích không chỉ là khoảnh khắc được vinh danh, mà còn là những tháng ngày nỗ lực, những lần thất bại và quyết tâm bước tiếp. Khi một người Việt cố gắng hết mình trên đấu trường quốc tế, họ không chỉ đại diện cho bản thân mà còn góp thêm một câu chuyện đẹp về con người Việt Nam. Mỗi người một đấu trường, mỗi người một cách tỏa sáng, nhưng cùng mang theo màu cờ và niềm tự hào Việt Nam. Và đôi khi, đó cũng là một cách rất đẹp để lòng yêu nước được thể hiện trong thời đại hôm nay.
+  
+  ## Yêu nước qua những chương trình cộng đồng
+  
+  Năm 2025, chương trình nghệ thuật chính luận “Tổ quốc trong tim” tại Sân vận động Mỹ Đình đã thu hút khoảng 50.000 khán giả tham dự trực tiếp. Hàng chục nghìn con người cùng khoác lên mình sắc đỏ cờ Tổ quốc và cất cao tiếng hát Quốc ca, tạo nên một không gian cộng đồng tràn đầy cảm xúc. Giá trị của sự kiện không chỉ nằm ở quy mô ấn tượng. Việc một chương trình chính luận về đất nước cuốn hút đông đảo giới trẻ cho thấy cách tiếp cận các giá trị lịch sử, dân tộc đang ngày càng đa dạng và sáng tạo. Âm nhạc, sân khấu, ánh sáng, công nghệ và trải nghiệm cộng đồng đã trở thành những "nhịp cầu" tự nhiên, đưa câu chuyện Việt Nam đến gần hơn với công chúng hiện đại.
+  
+  Không dừng lại ở dấu ấn tại Hà Nội, sức lan tỏa ấy tiếp tục bùng nổ khi “Tổ quốc trong tim” cập bến TP.HCM vào năm 2026. Sự hòa nhịp rực rỡ giữa hai đầu cầu đất nước càng làm nổi bật sức mạnh của trải nghiệm tập thể. Bên cạnh hàng vạn khán giả có mặt trực tiếp tại các sân vận động, chương trình còn chạm đến trái tim hàng triệu người theo dõi qua màn ảnh nhỏ và các nền tảng số. Khoảnh khắc chứng kiến hàng nghìn người xung quanh cùng hòa giọng Quốc ca, cảm xúc cá nhân như vỡ òa và hòa vào tình yêu cộng đồng lớn lao. Đó cũng chính là điều làm cho lòng yêu nước trở nên sống động: không chỉ là niềm tự hào trong tâm khảm mỗi người, mà còn là sự cảm nhận sâu sắc rằng triệu triệu con tim khác cũng đang cùng chung một nhịp đập.
+  
+  ![Hàng nghìn người cùng cất cao tiếng hát Quốc ca](/images/hang-nghin-hat-Quoc-ca.jpg)
+  *Hình 3: Khi hàng nghìn người cùng cất cao tiếng hát Quốc ca, cảm xúc cá nhân vỡ òa hòa vào tình yêu lớn của cộng đồng.*
+  
+  ## Yêu nước theo cách của Gen Z
+  
+  Gen Z không đứng ngoài dòng chảy yêu nước, chỉ là họ đang định nghĩa và thể hiện tình cảm ấy bằng ngôn ngữ của thời đại số.
+  
+  ### Mạng xã hội – không gian lan tỏa giá trị Việt
+  
+  Gen Z lớn lên trong một thế giới hội nhập, nơi một câu chuyện có thể từ góc phố nhỏ vươn ra chạm đến hàng triệu người chỉ trong vài giờ. Vì thế, mạng xã hội với họ không đơn thuần là nơi giải trí, mà đã trở thành một "sân khấu số" sôi động để kể những câu chuyện về quê hương. Đó có thể là một video ngắn quảng bá ẩm thực truyền thống, một bài viết đào sâu lịch sử danh thắng, một bộ ảnh thướt tha áo dài, một tập podcast tâm tình về nhân vật lịch sử, hay đoạn clip ngắn giải thích nguồn gốc một phong tục cổ truyền. Những nội dung ấy dù rất đỗi nhỏ bé, nhưng khi được truyền tải qua góc nhìn sáng tạo và ngôn ngữ gần gũi, đã khéo léo đưa những giá trị tưởng chừng xa xưa bước vào nhịp sống hiện đại.
+  
+  ### Khi Gen Z muốn “trải nghiệm” thay vì chỉ “học” lịch sử
+  
+  Một bước chuyển mình đáng chú ý của giới trẻ ngày nay là mong muốn được "chạm" và "sống" cùng lịch sử thay vì chỉ tiếp nhận thông tin một chiều. Lịch sử giờ đây được họ chủ động khám phá qua những chuyến đi bảo tàng, triển lãm tương tác, du lịch di sản, bản đồ số, nghệ thuật kể chuyện đa phương tiện, trò chơi nhập vai cho đến các dự án cộng đồng.
+  
+  Điều đó hoàn toàn không đồng nghĩa với việc "giải trí hóa" hay làm hời hợt lịch sử. Trái lại, những trải nghiệm trực quan sinh động ấy chính là điểm chạm tự nhiên, khơi gợi sự tò mò để người trẻ khao khát tìm hiểu sâu hơn. Từ một khoảnh khắc lướt qua trên màn hình, họ bắt đầu tự đặt câu hỏi: *Nhân vật này là ai? Địa danh này gắn với biến cố gì? Vì sao mình chưa từng biết đến câu chuyện này?* Đó chính là lúc sự hiếu kỳ hóa thành sợi dây kết nối bền chặt giữa thế hệ trẻ và nguồn cội dân tộc.
+  
+  ## Yêu nước bằng cách gìn giữ những điều thuộc về Việt Nam
+  
+  Giữa thế giới hội nhập và chuyển mình không ngừng, giữ gìn bản sắc không phải là khép kín, mà là cách chúng ta khẳng định vị thế và lòng tự tôn dân tộc. Tình yêu Tổ quốc khi ấy được cụ thể hóa bằng ý thức trân trọng, bảo vệ và tiếp nối những giá trị mộc mạc nhưng trường tồn mà cha ông đã dày công vun đắp.
+  
+  ### Gìn giữ di sản và câu chuyện của cha ông
+  
+  Một di tích chỉ thực sự sống khi vẫn còn người nhớ đến. Một nghề truyền thống chỉ có thể tiếp nối khi vẫn có người học, người làm và tha thiết kể lại. Một câu chuyện lịch sử chỉ có thể vươn xa khi vẫn còn những thế hệ muốn lắng nghe và truyền trao. Bởi vậy, gìn giữ di sản không đơn thuần là bảo tồn một công trình cổ kính. Đó còn là hành trình bảo vệ ký ức, tri thức và những giá trị cốt lõi làm nên căn tính của một cộng đồng. Người trẻ hoàn toàn có thể bắt đầu bằng những việc làm rất đỗi giản dị: ghé thăm một di tích, tìm hiểu nguồn gốc một lễ hội, đọc về lịch sử quê hương hay chủ động chia sẻ một câu chuyện văn hóa một cách chính xác và có trách nhiệm.
+  
+  ### Giữ gìn văn hóa cũng là một cách yêu nước
+  
+  Văn hóa hiện diện trong những điều thân thương và gần gũi nhất: tiếng nói, món ăn, trang phục, âm nhạc, kiến trúc, phong tục cho đến cách con người đối xử với nhau hàng ngày. Giữ gìn văn hóa không đồng nghĩa với việc khép kín hay từ chối cái mới. Một nền văn hóa giàu sức sống là nền văn hóa biết cởi mở tiếp nhận những biến chuyển của thời đại, nhưng vẫn hiểu rõ mình là ai, đến từ đâu và điều gì quý giá nhất cần được giữ lại. Đó cũng là cách yêu Việt Nam lặng lẽ mà sâu sắc—không cần nói quá nhiều lời hoa mỹ, mà bằng việc để những giá trị Việt tiếp tục sống động và hiện diện trong từng hơi thở của cuộc sống hôm nay.
+  
+  ![Gìn giữ văn hóa từ những điều nhỏ nhất](/images/giu-gin-van-hoa-tu-nhung-dieu-nho.jpg)
+  *Hình 4: Gìn giữ văn hóa từ những điều nhỏ nhất*
+  
+  ## Yêu nước bằng cách kể lại câu chuyện Việt Nam
+  
+  Lịch sử và văn hóa không phải là những mảnh di sản tĩnh lặng, mà luôn cần một làn gió mới để thở cùng nhịp đập đương đại. Bằng nghệ thuật truyền thông và ngôn ngữ kể chuyện hiện đại, những trang sử hào hùng của dân tộc hoàn toàn có thể trở nên sống động, gần gũi và chạm đến trái tim của muôn triệu người Việt.
+  
+  ### Khi lịch sử không chỉ nằm trong sách
+  
+  Một bài học lịch sử trong sách vở có thể nhanh chóng khép lại sau mỗi giờ kiểm tra, nhưng một câu chuyện được truyền tải cuốn hút sẽ đọng lại bền lâu trong tâm trí. Đó là lý do vì sao nghệ thuật kể chuyện (*storytelling*) ngày càng đóng vai trò then chốt trong việc lan tỏa văn hóa và lịch sử. Thay vì chỉ liệt kê những mốc thời gian hay số liệu khô xơ, cách kể chuyện giàu cảm xúc sẽ giúp người đọc dễ dàng hình dung về con người, không gian và bối cảnh phía sau từng sự kiện.
+  
+  Khi biết một địa danh từng chứng kiến những thời khắc sinh tử, ta sẽ nhìn nó bằng một ánh mắt hoàn toàn khác. Khi biết một hiện vật từng gắn liền với thân phận của ai, nó không còn là món đồ vô hồn nằm sau tủ kính bảo tàng. Và khi hiểu một vùng đất đã đi qua bao thăng trầm, mỗi chuyến đi đến nơi ấy cũng trở nên sâu sắc và trọn vẹn hơn.
+  
+  ### Mỗi vùng đất là một mảnh ghép của Việt Nam
+  
+  Việt Nam không chỉ gặt hái niềm tự hào từ những biểu tượng quen thuộc, mà mỗi vùng đất trên dải đất hình S đều mang trong mình một câu chuyện riêng: một di tích cổ kính, một nhân vật huyền thoại, một trận đánh oanh liệt, một làng nghề truyền thống, một món ăn đậm đà hay một phong tục chứa chan ký ức cộng đồng.
+  
+  Khi những câu chuyện riêng lẻ ấy được xâu chuỗi, chúng sẽ kết nối thành một bức tranh toàn cảnh rực rỡ về Tổ quốc. Đây cũng chính là tinh thần mà những dự án sáng tạo như **Mảnh Ghép Hồn Việt** hướng tới: biến hành trình khám phá lịch sử và văn hóa thành một trải nghiệm tương tác đầy cảm hứng. Ở đó, mỗi địa danh không chỉ đơn thuần là một tọa độ trên bản đồ, mà là một câu chuyện đong đầy cảm xúc chờ đón người trẻ tìm hiểu và viết tiếp.
+  
+  
+  ## FAQ
+  
+  ### Lòng yêu nước là gì?
+  
+  Lòng yêu nước là tình cảm gắn bó, trân trọng và tự hào đối với quê hương, đất nước, đồng thời được thể hiện qua ý thức trách nhiệm và những hành động có ích cho cộng đồng, xã hội.
+  
+  ### Người trẻ có thể thể hiện lòng yêu nước như thế nào?
+  
+  Người trẻ có thể thể hiện lòng yêu nước bằng nhiều cách: học tập tốt, sống có trách nhiệm, tìm hiểu lịch sử, bảo tồn văn hóa, lan tỏa nội dung tích cực, tham gia hoạt động cộng đồng và đóng góp năng lực của mình cho xã hội.
+  
+  ### Bảo tồn văn hóa có phải là một cách yêu nước?
+  
+  Có. Gìn giữ tiếng Việt, di sản, nghề truyền thống, phong tục và những giá trị văn hóa tốt đẹp giúp ký ức và bản sắc của cộng đồng được tiếp nối qua các thế hệ.
+  
+  ### Vì sao bóng đá có thể khơi dậy niềm tự hào dân tộc?
+  
+  Bóng đá tạo ra trải nghiệm tập thể, nơi nhiều người cùng chia sẻ một cảm xúc và cùng cổ vũ cho đội tuyển quốc gia. Từ đó hình thành cảm giác kết nối và thuộc về một cộng đồng chung.
+  
+  ### Gen Z có thể góp phần gìn giữ lịch sử và văn hóa Việt Nam?
+  
+  Gen Z có thể tìm hiểu lịch sử từ những nguồn đáng tin cậy, tham quan di sản, tạo nội dung số chất lượng, kể lại câu chuyện văn hóa bằng ngôn ngữ gần gũi và sử dụng công nghệ để đưa các giá trị Việt đến gần hơn với cộng đồng.`
+  },
 ];
 export const FEATURED_WEEKLY_ARTICLES = [
   {
