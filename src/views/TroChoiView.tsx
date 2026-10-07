@@ -892,25 +892,6 @@ export default function TroChoiView({
                                 Ảnh tự tải
                               </span>
                             )}
-                            {isCustomDesc && !isEditing && (
-                              <span className="text-[9px] font-bold bg-[#F0FDF4] text-[#166534] border border-[#86EFAC] px-2 py-0.5 rounded-full whitespace-nowrap">
-                                Đã sửa mô tả
-                              </span>
-                            )}
-                            {!isEditing && (
-                              <button
-                                type="button"
-                                title="Sửa đoạn giới thiệu"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  handleStartEditDescription(site.id, activeDesc);
-                                }}
-                                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-sans font-semibold bg-[#FFF9F0] hover:bg-[#FFE9D0] text-[#7A1C1C] border border-[#C5B358] shadow-2xs hover:shadow-xs transition-all duration-150 cursor-pointer select-none hover:scale-105 active:scale-95"
-                              >
-                                <Pencil className="w-3 h-3 text-[#7A1C1C]" />
-                                <span>Sửa mô tả</span>
-                              </button>
-                            )}
                           </div>
                         </div>
 
