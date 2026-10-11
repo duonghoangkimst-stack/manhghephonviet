@@ -577,7 +577,7 @@ export const HERITAGE_SITES: HeritageSite[] = [
     name: 'Thành Nhà Hồ',
     provinceId: 'thanh-hoa',
     subtitle: 'Kỳ quan kiến trúc đá',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDXiSpYwkeQGIdSyrTvmtUEKAbZU-0QQXXoB1mBtUkm7E94OQ-QTi6vDUwYEIseRFAypGou-4MSny8TC6lPMupkT0UK3TYovk_M75TPjYpBKDv8i1W2XcMmS2AmFACNi-HYsKqmaoMLernDLT1wYw3t9K63xik5HRpyJ7FhX41cKqIukHVmVEC1GBG5HcdAKXnCtllqbh_gCDEcX0JPAwNmvR1296pFlbY9Tuv4gm1yKsxPgX7pAucP4nP_26vQV98yhlM',
+    image: '/thanh-nha-ho.jpg',
     desc: 'Kỳ tích xây dựng thành quách bằng những khối đá xanh nghìn tấn thời nhà Hồ.',
     xpReward: 420
   },
@@ -2480,6 +2480,202 @@ Thời gian phù hợp nhất là khoảng 1,5 đến 2 giờ. Khoảng thời g
   ### Vì sao cần kể lịch sử và văn hóa Việt Nam bằng những cách mới?
   Những cách kể mới giúp thu hẹp khoảng cách giữa “biết” và “cảm nhận”. Khi lịch sử được kết hợp với hình ảnh, trải nghiệm tương tác và công nghệ, người trẻ có thêm cơ hội chủ động khám phá, ghi nhớ và hình thành sự kết nối sâu sắc hơn với những giá trị của dân tộc.`
   },
+
+  {
+    id: 'bao-tang-chung-tich-chien-tranh',
+    slug: 'bao-tang-chung-tich-chien-tranh',
+    title: 'Bảo tàng Chứng tích Chiến tranh: Trọn Bộ Các Phòng Trưng Bày & Hướng Dẫn Nhận Vé 0Đ Cho HSSV',
+    category: 'Góc Lịch Sử Việt',
+    date: '11/10/2026',
+    author: 'Mảnh Ghép Hồn Việt',
+    image: '/images/biaseo15.jpg',
+    description: 'Khám phá Bảo tàng Chứng tích Chiến tranh TP.HCM: Trọn bộ các phòng trưng bày chuyên đề, quy trình nhận vé miễn phí cho HSSV và bí quyết tham quan ý nghĩa nhất.',
+    content: `
+  Bảo tàng Chứng tích Chiến tranh là một trong những điểm đến lịch sử tiêu biểu tại TP. Hồ Chí Minh, thu hút hàng triệu lượt khách trong và ngoài nước mỗi năm. Nơi đây lưu giữ chân thực những ký ức đau thương của chiến tranh, đồng thời truyền tải thông điệp mạnh mẽ về khát vọng hòa bình. Cùng Mảnh ghép Hồn Việt tìm hiểu toàn bộ thông tin chi tiết về các chuyên đề trưng bày, giá vé cùng hướng dẫn nhận vé miễn phí dành riêng cho học sinh – sinh viên.
+  
+  ## 1. Giới thiệu tổng quan về Bảo tàng Chứng tích Chiến tranh
+  - **Địa chỉ:** Số 28 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh
+  - **Website:** [Bảo tàng Chứng tích Chiến Tranh](https://www.baotangchungtichchientranh.vn/vi)  
+  - **Thời gian mở cửa:** 
+    - Bảo tàng: 7h30 - 17h30
+    - Quầy vé: 7h30 - 17h
+    - Mở cửa tất cả các ngày trong tuần và ngày lễ.
+  - **Quy mô không gian:** Gồm khối nhà trưng bày ba tầng hiện đại cùng khuôn viên ngoài trời rộng rãi trưng bày các khí tài quân sự hạng nặng.
+  
+  Bảo tàng Chứng tích Chiến tranh không chỉ là điểm tham quan văn hóa – lịch sử hàng đầu của thành phố mà còn là địa chỉ quen thuộc cho các chuyến đi ngoại khóa, nghiên cứu thực tế của học sinh, sinh viên trên cả nước.
+  
+  ![Bên ngoài Bảo tàng Chứng tích Chiến Tranh](/images/ben-ngoai-bao-tang.jpg)
+  *Hình 1: Toàn cảnh khuôn viên và bên ngoài Bảo tàng Chứng tích Chiến tranh.*
+  
+  ## 2. Bảng giá vé & Hướng dẫn nhận vé 0 đồng cho Học sinh – Sinh viên
+  Bảo tàng áp dụng mức phí tham quan rõ ràng cho từng nhóm đối tượng, đặc biệt duy trì chính sách hỗ trợ tối đa cho học sinh, sinh viên nhằm khuyến khích thế hệ trẻ tìm hiểu lịch sử.
+  
+  ![Giá vé chính thức trên web Bảo tàng Chứng tích Chiến tranh](/images/gia-ve-bao-tang-chien-tranh.webp)
+  *Hình 2: Giá vé chính thức trên web Bảo tàng Chứng tích Chiến tranh.*
+
+  ### 2.1 Hướng dẫn thủ tục nhận vé 0 đồng cho HSSV
+  Từ 01/10/2026, học sinh, sinh viên sẽ được miễn vé tham quan Bảo tàng Chứng tích Chiến tranh, thay cho mức giảm 50% như hiện nay. 
+  - **Chuẩn bị giấy tờ:** Mang theo Thẻ học sinh hoặc Thẻ sinh viên còn hạn sử dụng (chấp nhận thẻ cứng hoặc thông tin định danh sinh viên trên ứng dụng của nhà trường) kèm theo Căn cước công dân.  
+  - **Nhận vé tại quầy:** Xuất trình thẻ học sinh hoặc sinh viên hợp lệ trực tiếp tại quầy bán vé để nhân viên cấp vé 0 đồng trước khi bước qua cửa kiểm soát.  
+  - **Quy định đối với đoàn trường:** Cần gửi công văn hoặc giấy giới thiệu của ban giám hiệu nhà trường trước ngày tham quan để bảo tàng kịp thời bố trí nhân sự hướng dẫn chu đáo.
+  
+ ![Cách đăng kí vé tham quan miễn phí cho học sinh, sinh viên](/images/cac-dang-ky-ve-free.jpg)
+*Hình 3: Cách đăng kí vé tham quan miễn phí cho học sinh, sinh viên.*
+
+  ## 3. Khám phá các khu vực & chuyên đề trưng bày nổi bật
+  Bảo tàng được phân chia khoa học thành nhiều không gian chuyên đề với lượng tư liệu ảnh và hiện vật lịch sử đồ sộ:
+  
+  ### 3.1 Khu trưng bày ngoài trời & Chuồng cọp Côn Đảo
+  - **Hiện vật chiến lợi phẩm:** Chiêm ngưỡng các phương tiện quân sự quy mô lớn như máy bay phản lực A-37, F-5E, trực thăng UH-1, xe tăng M48 cùng các loại bom và đạn pháo cỡ lớn thời chiến. 
+  
+  ![Các hiện vật được trưng bày ngoài bảo tàng](/images/cac-hien-vat-ngoai-bao-tang.jpg)
+*Hình 4: Các hiện vật được trưng bày ngoài bảo tàng.*
+
+  - **Khu phục dựng nhà tù:** Mô phỏng chân thực hệ thống biệt giam "Chuồng cọp" Côn Đảo, máy chém và các công cụ tra tấn, phản ánh chế độ giam giữ khắc nghiệt đối với tù nhân chính trị.
+
+  ![Hình ảnh “chuồng cọp” kẽm gai - nỗi ám ảnh kinh hoàng của những người tù cách mạng](/images/chuong-cop-kem-gai.jpg)
+  *Hình 5: Hình ảnh “chuồng cọp” kẽm gai - nỗi ám ảnh kinh hoàng của những người tù cách mạng.*
+  
+  ### 3.2 Chuyên đề “Những sự thật lịch sử”
+  Nơi trưng bày các văn bản, hiệp định, hình ảnh và tư liệu nguyên bản tái hiện bối cảnh, nguồn gốc cũng như tiến trình chiến tranh tại Việt Nam.
+  
+![Một góc trưng bày bên trong bảo tàng](/images/mot-goc-trung-bay-ben-trong.webp)
+*Hình 6: Một góc trưng bày bên trong bảo tàng.*
+
+  ### 3.3 Chuyên đề “Thời thanh xuân trên tuyến đường 1C huyền thoại”
+  Không gian tái hiện sinh động cuộc sống, tinh thần quả cảm và sự hy sinh kiên cường của lực lượng thanh niên xung phong Tây Nam Bộ khi bảo vệ tuyến đường vận chuyển huyết mạch.
+  
+  ![Không gian tái hiện sinh động cuộc sống Tây Nam Bộ](/images/cuoc-song-Tay-Nam-Bo.webp)
+*Hình 7: Không gian tái hiện sinh động cuộc sống Tây Nam Bộ.*
+
+  ### 3.4 Chuyên đề “Tội ác chiến tranh xâm lược”
+  Tập hợp các tài liệu, hình ảnh tố cáo hành động phá hoại, càn quét và các vụ thảm sát nhắm vào dân thường vô tội, khắc ghi cái giá đắt của nền độc lập.
+  
+   ![Những hình ảnh phơi bày tội ác mà Mỹ đã làm với nước ta](/images/toi-ac-quan-My.jpg)
+   *Hình 8: Những hình ảnh phơi bày tội ác mà Mỹ đã làm với nước ta.*
+
+  ### 3.5 Cụm chuyên đề Thảm họa Dioxin
+  - **Chất độc da cam trong chiến tranh ở Việt Nam:** Bộ tư liệu ảnh phóng sự ghi lại các chiến dịch rải hóa chất diệt cỏ trên quy mô lớn.  
+  - **Hậu quả chất độc da cam:** Tái hiện nỗi đau dai dẳng của các nạn nhân qua nhiều thế hệ, đồng thời tôn vinh nghị lực phi thường của những mảnh đời vượt lên nghịch cảnh do di chứng dioxin.
+  
+  ![Góc trưng bày trong phòng chất độc da cam](/images/chat-doc-mau-da-cam.jpg)
+  *Hình 9: Góc trưng bày trong phòng chất độc da cam.*
+  
+  ### 3.6 Chuyên đề “Việt Nam – Chiến tranh và Hòa bình”
+  Bộ sưu tập ảnh phóng sự quốc tế mang góc nhìn đa chiều, phản ánh sự đối lập sâu sắc giữa sự khốc liệt của chiến trường và khát vọng hòa bình bền bỉ của con người Việt Nam.
+  
+  ![Nhiều ảnh phóng sự được trưng bày tại chuyên đề Việt Nam - Chiến tranh và Hoà Bình](/images/phong-su-duoc-trung-bay.webp)
+   *Hình 10: Nhiều ảnh phóng sự được trưng bày tại chuyên đề Việt Nam - Chiến tranh và Hoà Bình.*
+
+  ## 4. Kinh nghiệm và lưu ý quan trọng khi tham quan
+  - **Thời gian tham quan:** Nên dành khoảng hai đến ba tiếng để có thể đọc trọn vẹn thông tin chú thích và theo dõi các phòng trưng bày theo thứ tự từ tầng trên xuống tầng trệt.
+  - **Trang phục & Ứng xử:** Lựa chọn trang phục lịch thiệp; giữ trật tự chung trong không gian tưởng niệm; tuyệt đối không chạm tay vào các hiện vật trưng bày.
+  - **Hành lý tối giản:** Chỉ nên mang những vật dụng thật sự cần thiết.
+  - **Phương tiện di chuyển:** Tuyến đường Võ Văn Tần rất thuận tiện đón các tuyến xe buýt công cộng, khu vực cạnh bảo tàng có bố trí điểm gửi xe máy và bãi đỗ rộng rãi cho xe du lịch.
+  
+  ## 5. Câu hỏi thường gặp (FAQ)
+  - **Sử dụng sinh viên trên app điện thoại có được nhận vé miễn phí không?**  
+    Hoàn toàn được. Bạn chỉ cần xuất trình màn hình thẻ sinh viên điện tử chính chủ trên ứng dụng của trường cùng CCCD đối chiếu tại quầy vé.  
+  - **Bảo tàng có cho phép quay phim, chụp ảnh không?**  
+    Du khách được phép chụp ảnh lưu niệm cá nhân nhưng cần tắt đèn flash trong các phòng trưng bày ảnh tư liệu để bảo vệ hiện vật. Hoạt động ghi hình thương mại hoặc phóng sự cần liên hệ trước với ban quản lý.  
+  - **Có dịch vụ tai nghe thuyết minh tự động không?**  
+    Bảo tàng có cung cấp thiết bị Audio Guide đa ngôn ngữ tại quầy dịch vụ ở tầng trệt để du khách chủ động nghe giải thích chi tiết về từng hiện vật suốt lộ trình tham quan.
+  `
+  },
+  {
+    id: 'top-5-bao-tang-lich-su-tphcm',
+    slug: 'top-5-bao-tang-lich-su-tphcm',
+    title: 'Top 5 bảo tàng lịch sử TP.Hồ Chí Minh bạn nhất định phải ghé',
+    category: 'Góc Lịch Sử Việt',
+    date: '11/10/2026',
+    author: 'Mảnh Ghép Hồn Việt',
+    image: '/images/biaseo16.jpg',
+    description: 'Tổng hợp top 5 bảo tàng lịch sử tiêu biểu nhất TP.HCM: địa chỉ, điểm độc đáo, giá vé ưu đãi cho học sinh, sinh viên và kinh nghiệm khám phá văn hóa trọn vẹn.',
+    content: `
+  Thành phố Hồ Chí Minh không chỉ sôi động với nhịp sống hiện đại mà còn lưu giữ nhiều dấu ấn lịch sử hào hùng qua từng thời kỳ đấu tranh giành độc lập và dựng nước. Đối với các bạn trẻ, học sinh, sinh viên hay du khách muốn tìm hiểu cội nguồn văn hóa, ghé thăm các bảo tàng là cách trực quan và sâu sắc nhất. Dưới đây là danh sách những bảo tàng lịch sử tiêu biểu hàng đầu thành phố mà Mảnh ghép Hồn Việt nghĩ bạn không nên bỏ lỡ trong hành trình khám phá.
+  
+  ## Bảo tàng Chứng tích Chiến tranh
+  - **Địa chỉ:** Số 28 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3.  
+ 
+  - **Điểm nổi bật:** Là bảo tàng lịch sử thu hút lượng khách tham quan đông đảo bậc nhất thành phố, nơi tái hiện chân thực những khốc liệt của cuộc kháng chiến bảo vệ độc lập dân tộc.  
+ 
+  - **Không gian trải nghiệm:** Khuôn viên ngoài trời lưu trữ các khí tài quân sự lớn như máy bay chiến đấu, trực thăng, xe tăng M48 và khu phục dựng chuồng cọp Côn Đảo. Bên trong ba tầng nhà trưng bày bao gồm các cụm chuyên đề chuyên sâu như Những sự thật lịch sử, Thời thanh xuân trên tuyến đường 1C huyền thoại, Tội ác chiến tranh xâm lược, Chất độc da cam trong chiến tranh ở Việt Nam, Hậu quả chất độc da cam và Việt Nam – Chiến tranh và hòa bình.  
+ 
+  - **Ưu đãi đặc biệt:** Hiện nay bảo tàng áp dụng chính sách miễn 100% giá vé tham quan dành riêng cho toàn bộ học sinh, sinh viên khi xuất trình thẻ hợp lệ tại quầy vé.
+  
+  ![Bảo tàng Chứng tích Chiến Tranh](/images/bao-tang-chung-tich-chien-tranh.jpg)
+  *Hình 1: Bảo tàng Chứng tích Chiến Tranh.*
+
+  [Tìm hiểu thêm thông tin về Bảo tàng Chứng tích Chiến tranh](https://baotangchungtichchientranh.vn/vi)
+  
+  ## Bảo tàng Lịch sử Thành phố Hồ Chí Minh
+  - **Địa chỉ:** Số 2 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1 (nằm trong khuôn viên Thảo Cầm Viên).  
+  
+  - **Điểm nổi bật:** Nơi lưu giữ tiến trình lịch sử xuyên suốt hàng ngàn năm dựng nước và giữ nước của dân tộc Việt Nam, kết hợp cùng kiến trúc phong cách Đông Dương độc đáo xây dựng từ đầu thế kỷ 20.  
+  
+  - **Không gian trải nghiệm:** Bảo tàng sở hữu hàng chục ngàn hiện vật quý hiếm trải dài từ thời tiền sử, sơ sử qua các triều đại phong kiến Đinh, Lý, Trần, Lê, Nguyễn đến thời kỳ hiện đại. Bên cạnh lịch sử các triều đại Bắc bộ và Trung bộ, nơi đây còn lưu giữ những bộ sưu tập đồ sộ về nền văn hóa Champa, Óc Eo và văn hóa bản địa Nam Bộ.
+  
+  ![Bảo tàng Lịch sử Thành phố Hồ Chí Minh](/images/bao-tang-lich-su-HCM.jpg)
+  *Hình 2: Bảo tàng Lịch sử Thành phố Hồ Chí Minh.*
+
+  [Xem thêm thông tin về Bảo tàng Lịch sử Thành phố Hồ Chí Minh](https://vi.wikipedia.org/wiki/Bảo_tàng_Lịch_sử_Thành_phố_Hồ_Chí_Minh)
+  
+  ## Bảo tàng Thành phố Hồ Chí Minh (Dinh Gia Long)
+  - **Địa chỉ:** Số 65 Lý Tự Trọng, Phường Bến Nghé, Quận 1.  
+  
+  - **Điểm nổi bật:** Tòa nhà mang phong cách tân cổ điển Pháp cổ kính, vừa là điểm đến lịch sử quy mô vừa là tọa độ kiến trúc được đông đảo giới trẻ yêu thích chụp ảnh tư liệu.  
+  
+  - **Không gian trải nghiệm:** Các phòng trưng bày tái hiện toàn diện sự hình thành và phát triển của vùng đất Sài Gòn – Gia Định – TP.HCM từ địa lý, tự nhiên, văn hóa, thương cảng đến phong trào đấu tranh cách mạng của nhân dân thành phố. Điểm ấn tượng nhất là hệ thống đường hầm ngầm kiên cố dưới lòng đất từng phục vụ các hoạt động chỉ huy trong giai đoạn chiến tranh.
+  
+  ![Bảo tàng Thành phố Hồ Chí Minh](/images/bao-tang-HCM.jpg)
+   *Hình 3: Bảo tàng Thành phố Hồ Chí Minh.*
+
+  [Xem thêm thông tin về Bảo tàng Thành phố Hồ Chí Minh](https://vi.wikipedia.org/wiki/Bảo_tàng_Thành_phố_Hồ_Chí_Minh)
+  
+  ## Bảo tàng Chiến dịch Hồ Chí Minh
+  - **Địa chỉ:** Số 2 Lê Duẩn, Phường Bến Nghé, Quận 1.  
+  
+  - **Điểm nổi bật:** Địa điểm chuyên đề quân sự đặc biệt, tái hiện toàn bộ diễn biến của cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975 giải phóng hoàn toàn miền Nam, thống nhất đất nước.  
+  
+  - **Không gian trải nghiệm:** Nơi đây trưng bày bức sa bàn điện tử quy mô lớn mô phỏng sinh động từng cánh quân tiến về Sài Gòn, cùng hàng trăm hiện vật chiến trường quý giá như bản đồ tác chiến nguyên bản, quân trang, vũ khí và phương tiện liên lạc của các chiến sĩ Quân Giải phóng.
+  
+  ![Bảo tàng Chiến dịch Hồ Chí Minh](/images/bao-tang-chien-dich-HCM.jpg)
+   *Hình 4: Bảo tàng Chiến dịch Hồ Chí Minh.*
+
+  [Xem thêm thông tin về Bảo tàng Chiến dịch Hồ Chí Minh](https://vi.wikipedia.org/wiki/Bảo_tàng_Chiến_dịch_Hồ_Chí_Minh)
+  
+  ## Bảo tàng Biệt động Sài Gòn – Gia Định
+  - **Địa chỉ:** Số 145 Trần Quang Khải, Phường Tân Định, Quận 1.  
+ 
+  - **Điểm nổi bật:** Bảo tàng tư nhân độc đáo, chuyên lưu giữ những chiến công thầm lặng nhưng vang dội của lực lượng Biệt động Sài Gòn huyền thoại giữa lòng đô thị.  
+  
+  - **Không gian trải nghiệm:** Nằm trong một căn nhà phố cổ từng là cơ sở hoạt động bí mật thời kháng chiến, khách tham quan được tận mắt chứng kiến hệ thống hầm ngầm cất giấu vũ khí, thang máy bí mật và ứng dụng công nghệ thực tế ảo để tương tác, tìm hiểu những trận đánh táo bạo vào các cơ quan đầu não năm 1968.
+  
+  ![Bảo tàng Biệt động Sài Gòn - Gia Định](/images/bao-tang-biet-dong-sg.jpg)
+  *Hình 5: Bảo tàng Biệt động Sài Gòn - Gia Định.*
+
+  [Xem thêm thông tin về Bảo tàng Biệt động Sài Gòn - Gia Định](https://baotangbietdongsaigongiadinh.vn)
+  
+  ## Kinh nghiệm tham quan bảo tàng lịch sử trọn vẹn
+  - **Lập lộ trình theo cụm:** Vì phần lớn các bảo tàng lịch sử đều tập trung tại khu vực Quận 1 và Quận 3, bạn hoàn toàn có thể kết hợp ghé thăm hai đến ba điểm trong cùng một ngày bằng xe buýt hoặc xe máy để tiết kiệm thời gian.  
+ 
+  - **Chuẩn bị giấy tờ tùy thân:** Các bạn học sinh, sinh viên hãy luôn mang theo thẻ học sinh, sinh viên và căn cước công dân để tận dụng các chính sách miễn hoặc giảm giá vé vào cổng tại các điểm đến công lập.  
+ 
+  - **Trang bị công cụ hỗ trợ:** Để chuyến đi mang lại giá trị kiến thức thực sự thay vì chỉ lướt qua, bạn nên chuẩn bị sẵn sổ tay hoặc các ứng dụng ghi chú trên điện thoại nhằm lưu lại những mốc sự kiện quan trọng.  
+ 
+  - **Ứng xử văn minh:** Giữ thái độ trang nghiêm, ăn mặc lịch sự, đi nhẹ nói khẽ và hạn chế chụp ảnh dùng đèn flash trong các không gian trưng bày hiện vật nhạy cảm với ánh sáng.  
+  
+  ## Câu hỏi thường gặp
+  - **Phương tiện nào tiện lợi nhất để đi tour bảo tàng ở trung tâm thành phố?**  
+    Xe buýt công cộng và xe máy là hai lựa chọn thuận tiện nhất, vì các bảo tàng ở Quận 1 và Quận 3 đều nằm gần các trạm xe buýt lớn và có bãi gửi xe riêng.  
+  
+    - **Thẻ sinh viên điện tử trên ứng dụng của trường có được giảm hoặc miễn vé không?**  
+    Đa số các bảo tàng hiện nay đều chấp nhận thông tin sinh viên chính chủ trên ứng dụng của nhà trường khi đi kèm căn cước công dân để đối chiếu.  
+  
+    - **Các bảo tàng có dịch vụ hướng dẫn viên cho đoàn học sinh đông người không?**  
+    Có. Các trường học hoặc câu lạc bộ chỉ cần gửi công văn hoặc liên hệ đặt lịch trước với ban quản lý bảo tàng để được sắp xếp thuyết minh viên hỗ trợ miễn phí hoặc theo biểu phí quy định.
+`
+},
 ];
 
 export const FEATURED_WEEKLY_ARTICLES = [
