@@ -11,25 +11,18 @@
     <!-- Biểu tượng website (Favicon) -->
     <link rel="icon" type="image/png" href="/Favicon.png" />
 
-    <!-- Google Fonts Preconnect -->
+    <!-- Google Fonts Preconnect (Kết nối sớm với máy chủ Google để tăng tốc tải font) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Tải bộ font Playfair Display & Be Vietnam Pro chuẩn hỗ trợ Tiếng Việt -->
+    <!-- Tải gộp các bộ font với display=swap để chống chặn hiển thị chữ -->
     <link 
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" 
       rel="stylesheet" 
-    />
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
     />
 
-    <!-- Style tùy chỉnh để ép font Serif cổ điển hiển thị chính xác -->
+    <!-- Style tùy chỉnh trực tiếp không dùng @import để tránh nghẽn mạng -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-      /* Class tùy chỉnh để dùng trực tiếp cho các tiêu đề di sản */
       .font-playfair {
         font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', Times, serif !important;
       }
