@@ -30,7 +30,7 @@ export default function TrangChuView({
         id="hero-banner-section"
         className="relative w-full min-h-[520px] sm:min-h-[580px] md:min-h-[720px] flex items-center justify-center md:justify-start border-b border-[#C5B358] overflow-hidden"
         style={{
-          backgroundImage: `url(${heroBannerBg}), url('Bìa trang chủ.jpg')`,
+          backgroundImage: `url(${heroBannerBg}), url('Bìa trang chủ.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
