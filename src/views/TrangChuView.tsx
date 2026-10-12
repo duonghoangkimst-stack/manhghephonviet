@@ -1,6 +1,6 @@
 import { TabType, Product } from '../types';
 import { PRODUCTS } from '../data/mockData';
-import heroBannerBg from '../assets/images/bia_trang_chu.jpg';
+import heroBannerBg from '../assets/images/Bìa trang chủ.webp';
 
 interface TrangChuViewProps {
   setActiveTab: (tab: TabType) => void;
@@ -246,7 +246,7 @@ export default function TrangChuView({
             <div className="mt-10 lg:col-span-6">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-[#C5B358] min-h-[380px] sm:min-h-[460px] flex items-center group">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0WZp3ODsQbEv7ZFMtUihkgaPZ5yRUckbDO_enHLl3zYw6LWeFgFaeRTOWBYg67YkO5PIRIqg9V5ungAvP0i4QM6gLxxfAe2AHr7VoYBA6wJUPCMXXtERtwsp3ZtuwJ-vwra9UI6tD7TNYNZqAeKy4Wpeb2F2qKk3yPRZhPm0Q5RoKvqcskb2wddLrY6NZsUqTkUrEXUmE6w4dfo9SDcANRBNheHNcIB9k8rQdoTwtSEkHQ6CnyAzVaFbdZ8XmDT5vHYY"
+                  src="/thanh-co-quang-tri-trang-chu.webp"
                   alt="Thành cổ Quảng Trị"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />

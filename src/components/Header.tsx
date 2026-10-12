@@ -53,7 +53,7 @@ export default function Header({
             className="flex items-center gap-1.5 sm:gap-2 text-left group focus:outline-none cursor-pointer"
           >
             <img
-              src="/logodo.png"
+              src="/logodo.webp"
               alt="Mảnh Ghép Hồn Việt Logo"
               className="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
             />

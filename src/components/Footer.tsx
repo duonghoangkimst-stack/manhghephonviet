@@ -43,7 +43,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
               className="flex items-center gap-3 text-left group focus:outline-none cursor-pointer"
             >
               <img
-                src="logovang(1).png"
+                src="logovang(1).webp"
                 alt="Logo Manh Ghep Hon Viet"
                 className="h-12 w-auto object-contain filter brightness-110"
               />

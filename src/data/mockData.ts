@@ -780,7 +780,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 54444,
     rating: 4.9,
     soldCount: 1420,
-    image: '/MANHGHEPNFC.jpg',
+    image: '/MANHGHEPNFC.webp',
     shortDesc: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh.',
     description: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh. Chạm smartphone để truy cập vào giao diện trò chơi trên trang web và nhận mã giới thiệu đổi sao/sen.',
     nfcFeatures: [
@@ -798,7 +798,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 54444,
     rating: 4.8,
     soldCount: 3820,
-    image: '/MocKhoa.jpg',
+    image: '/MocKhoa.webp',
     shortDesc: 'Móc khóa gỗ khắc họa các di tích lịch sử',
     description: 'Móc khóa làm bằng gỗ, khắc họa các di tích lịch sử nổi tiếng.',
     nfcFeatures: [
@@ -816,7 +816,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 77000,
     rating: 4.7,
     soldCount: 2150,
-    image: '/Magnet.jpg',
+    image: '/Magnet.webp',
     shortDesc: 'Nam châm dán hít trang trí tủ lạnh – Magnet Polyresin.',
     description: `Nam châm dán hít trang trí tủ lạnh – Magnet Tủ Lạnh Polyresin
 
@@ -842,7 +842,7 @@ THÔNG TIN SẢN PHẨM:
     oldPrice: 165556,
     rating: 5.0,
     soldCount: 940,
-    image: '/BOSUUTAP.jpg',
+    image: '/BOSUUTAP.webp',
     shortDesc: 'Món quà ý nghĩa dành tặng người thân và bạn bè quốc tế.',
     description: 'Hộp quà sang trọng bọc nhung bao gồm sổ tay giấy điệp thủ công, bút khắc gỗ Hồn Việt, bookmark kim loại hình hoa sen nghệ thuật.',
     nfcFeatures: ['Hộp quà bọc nhung sang trọng', 'Bộ quà tặng văn hóa thủ công'],
@@ -1242,7 +1242,7 @@ Cầm trên tay từng **mảnh ghép bản đồ Việt Nam bằng gỗ**, bạ
 
 Từng khớp nối giữa các tỉnh thành, hệ thống sông ngòi và các quần đảo tiền tiêu như Hoàng Sa, Trường Sa đều được cắt laser với độ chuẩn xác tuyệt đối, mang lại cảm giác gắn kết thiêng liêng khi tự tay hoàn thiện từng tấc đất quê hương.
 
-![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC.jpg)
+![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC.webp)
 
 *Hình 1: Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt*
 
@@ -1558,7 +1558,7 @@ Những chiếc túi, khăn hay ví nhỏ làm từ thổ cẩm mang vẻ đẹp
 
 Mảnh Ghép Hồn Việt mang đến làn gió mới cho thị trường quà lưu niệm khi biến mỗi vật phẩm thành một câu chuyện văn hóa có tính tương tác cao. Bộ sưu tập nổi bật với các mảnh ghép bản đồ bằng gỗ, móc khóa và nam châm tủ lạnh tích hợp chip NFC thông minh. Không chỉ tái hiện sinh động các danh thắng từ Bắc vào Nam, sản phẩm còn mở ra nội dung đa phương tiện chi tiết về di sản chỉ với một chạm nhẹ từ smartphone. Kết hợp cùng bộ thẻ bài khám phá, Mảnh Ghép Hồn Việt giúp người trẻ vừa nâng cao trải nghiệm sưu tầm, vừa kéo dài hành trình kết nối văn hóa một cách sâu sắc và ý nghĩa.
 
-![Mảnh ghép nam châm bản đồ gỗ Côn Đảo của Mảnh Ghép Hồn Việt](/images/Magnet.jpg)
+![Mảnh ghép nam châm bản đồ gỗ Côn Đảo của Mảnh Ghép Hồn Việt](/images/Magnet.webp)
 
 *Hình 7: Mảnh ghép Hồn Việt Côn Đảo – lưu giữ hình ảnh vùng đất biển đảo qua một món quà mang dấu ấn văn hóa Việt.*
 
