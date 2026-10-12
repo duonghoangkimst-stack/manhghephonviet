@@ -11,17 +11,32 @@
     <!-- Biểu tượng website (Favicon) -->
     <link rel="icon" type="image/png" href="/Favicon.png" />
 
-    <!-- Google Fonts Preconnect (Kết nối sớm với máy chủ Google để tăng tốc tải font) -->
+    <!-- Google Fonts Preconnect (Kết nối sớm với máy chủ Google) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Tải gộp các bộ font với display=swap để chống chặn hiển thị chữ -->
+    <!-- Preload để nạp sớm dữ liệu phông chữ -->
     <link 
+      rel="preload" 
+      as="style" 
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" 
-      rel="stylesheet" 
     />
 
-    <!-- Style tùy chỉnh trực tiếp không dùng @import để tránh nghẽn mạng -->
+    <!-- Tải CSS phông chữ bất đồng bộ (Non-blocking) bằng media="print" -->
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" 
+      media="print" 
+      onload="this.media='all'" 
+    />
+    <noscript>
+      <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" 
+      />
+    </noscript>
+
+    <!-- Style tùy chỉnh trực tiếp -->
     <style>
       .font-playfair {
         font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', Times, serif !important;
