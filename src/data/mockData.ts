@@ -780,7 +780,7 @@ export const PRODUCTS: Product[] = [
     oldPrice: 54444,
     rating: 4.9,
     soldCount: 1420,
-    image: '/MANHGHEPNFC.webp',
+    image: '/MANHGHEPNFC (1).webp',
     shortDesc: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh.',
     description: 'Mảnh ghép 34 tỉnh thành của bản đồ Việt Nam tích hợp chip NFC thông minh. Chạm smartphone để truy cập vào giao diện trò chơi trên trang web và nhận mã giới thiệu đổi sao/sen.',
     nfcFeatures: [
@@ -842,7 +842,7 @@ THÔNG TIN SẢN PHẨM:
     oldPrice: 165556,
     rating: 5.0,
     soldCount: 940,
-    image: '/BOSUUTAP.webp',
+    image: '/BOSUUTAP (1).webp',
     shortDesc: 'Món quà ý nghĩa dành tặng người thân và bạn bè quốc tế.',
     description: 'Hộp quà sang trọng bọc nhung bao gồm sổ tay giấy điệp thủ công, bút khắc gỗ Hồn Việt, bookmark kim loại hình hoa sen nghệ thuật.',
     nfcFeatures: ['Hộp quà bọc nhung sang trọng', 'Bộ quà tặng văn hóa thủ công'],
@@ -1242,7 +1242,7 @@ Cầm trên tay từng **mảnh ghép bản đồ Việt Nam bằng gỗ**, bạ
 
 Từng khớp nối giữa các tỉnh thành, hệ thống sông ngòi và các quần đảo tiền tiêu như Hoàng Sa, Trường Sa đều được cắt laser với độ chuẩn xác tuyệt đối, mang lại cảm giác gắn kết thiêng liêng khi tự tay hoàn thiện từng tấc đất quê hương.
 
-![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC.webp)
+![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC (1).webp)
 
 *Hình 1: Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt*
 
