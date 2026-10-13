@@ -1242,7 +1242,7 @@ Cầm trên tay từng **mảnh ghép bản đồ Việt Nam bằng gỗ**, bạ
 
 Từng khớp nối giữa các tỉnh thành, hệ thống sông ngòi và các quần đảo tiền tiêu như Hoàng Sa, Trường Sa đều được cắt laser với độ chuẩn xác tuyệt đối, mang lại cảm giác gắn kết thiêng liêng khi tự tay hoàn thiện từng tấc đất quê hương.
 
-![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC (1).webp)
+![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC(1).webp)
 
 *Hình 1: Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt*
 
