@@ -87,10 +87,10 @@ export default function CuaHangView({
     if (selectedCategory === 'phu') return p.id !== 'sp-01';
     return true;
   }).filter((p) => {
-    return (
-      p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.shortDesc.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const name = p.name?.toLowerCase() || '';
+    const shortDesc = p.shortDesc?.toLowerCase() || '';
+    const query = searchQuery?.toLowerCase() || '';
+    return name.includes(query) || shortDesc.includes(query);
   });
 
   if (sortBy === 'price-asc') {
@@ -315,7 +315,7 @@ export default function CuaHangView({
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5 flex-wrap">
                         <span className="font-bold text-[#570000] text-sm sm:text-base block whitespace-nowrap">
-                          {prod.price.toLocaleString('vi-VN')}đ
+                        {(prod.price || 0).toLocaleString('vi-VN')}đ
                         </span>
                         <span className="bg-[#E63946] text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">
                           -10%

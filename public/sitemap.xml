@@ -141,4 +141,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://manhghephonviet.com/bai-viet/nguyen-tri-phuong-cuoc-doi-va-su-nghiep</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manhghephonviet.com/bai-viet/co-phuc-viet-nam-qua-cac-thoi-ky</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

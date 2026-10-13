@@ -847,7 +847,7 @@ THÔNG TIN SẢN PHẨM:
     description: 'Hộp quà sang trọng bọc nhung bao gồm sổ tay giấy điệp thủ công, bút khắc gỗ Hồn Việt, bookmark kim loại hình hoa sen nghệ thuật.',
     nfcFeatures: ['Hộp quà bọc nhung sang trọng', 'Bộ quà tặng văn hóa thủ công'],
     inStock: true
-  }
+  },
 ];
 
 export interface Article {
@@ -2909,6 +2909,225 @@ Bạn ấn tượng nhất với bộ phim nào trong danh sách trên? Hãy đ�
 
 [Loạt phim lịch sử sắp đổ bộ, có phim về tình báo, hoàng hậu Nam Phương, chị Võ Thị Sáu, đặc công rừng Sác](https://tuoitre.vn/loat-phim-lich-su-sap-do-bo-co-phim-ve-tinh-bao-hoang-hau-nam-phuong-chi-vo-thi-sau-dac-cong-rung-sac-10026061910035362.htm)
 
+`
+},
+{
+  id: 'nguyen-tri-phuong-cuoc-doi-va-su-nghiep',
+  slug: 'nguyen-tri-phuong-cuoc-doi-va-su-nghiep',
+  title: 'Nguyễn Tri Phương là ai? Cuộc đời bi hùng của vị tướng tuẫn tiết giữ thành',
+  category: 'Góc Lịch Sử Việt',
+  date: '13/10/2026',
+  author: 'Mảnh Ghép Hồn Việt',
+  image: '/images/biaseo19.jpg',
+  description: 'Nguyễn Tri Phương là ai và có công lao gì? Khám phá tiểu sử hào hùng, 3 trận chiến kinh điển và khí tiết bất khuất của danh tướng triều Nguyễn cùng Mảnh Ghép Hồn Việt.',
+  content: `
+Dù bạn đang sinh sống tại TP. Hồ Chí Minh, Hà Nội, Đà Nẵng hay Thừa Thiên Huế, tuyến **đường Nguyễn Tri Phương** chắc hẳn là cái tên quen thuộc trên lộ trình di chuyển hàng ngày. Đây thường là các trục đường sầm uất, gắn liền với các bệnh viện lớn, trường đại học hay khu thương mại nhộn nhịp.
+
+Tuy nhiên, giữa nhịp sống đô thị hối hả, đã bao giờ bạn dừng lại tự hỏi: **Đường Nguyễn Tri Phương là ai?** Đằng sau tấm biển tên đường ấy là cả một trang sử bi tráng về người đại danh tướng thời Nguyễn – người đã dành trọn hơi thở cuối cùng để bảo vệ thành trì và giữ vững khí tiết bất khuất của dân tộc. Cùng [Mảnh ghép Hồn Việt](https://www.manhghephonviet.com/) tìm hiểu ngay nhé!
+
+## Tóm tắt nhanh: Danh tướng Nguyễn Tri Phương là ai?
+**Nguyễn Tri Phương (1800 – 1873)**, tên thật là Nguyễn Văn Chương, tự Hàm Trinh, là đại thần phụng sự qua ba triều vua nhà Nguyễn (Minh Mạng, Thiệu Trị, Tự Đức). Ông là vị chỉ huy quân sự từng đánh bại kế hoạch "đánh nhanh thắng nhanh" của liên quân Pháp - Tây Ban Nha tại Đà Nẵng (1858) và khẳng khái tuyệt thực tuẫn tiết khi thành Hà Nội thất thủ năm 1873.
+
+| Thông tin chính | Chi tiết lịch sử |
+| :--- | :--- |
+| **Năm sinh – Năm mất** | 1800 – 1873 (thọ 73 tuổi) |
+| **Quê quán** | Làng Đường Long, tổng Chánh Lộc, huyện Phong Điền, tỉnh Thừa Thiên |
+| **Triều đại phụng sự** | Nhà Nguyễn (triều vua Minh Mạng, Thiệu Trị, Tự Đức) |
+| **Chức vụ cao nhất** | Trí Dũng tướng, Võ Hiển điện Đại học sĩ, Tiết chế quân vụ |
+| **Trận đánh tiêu biểu** | Mặt trận Đà Nẵng (1858), đại đồn Chí Hòa (1861), giữ thành Hà Nội (1873) |
+
+![Tượng danh tướng Nguyễn Tri Phương](/images/tuong-danh-tuong-Nguyen-Tri-Phuong.jpg)
+*Hình 1: Tượng danh tướng Nguyễn Tri Phương.*
+
+## Xuất thân áo vải và con đường trở thành thống tướng triều Nguyễn
+Khác với phần lớn các đại thần đương thời xuất thân từ chốn khoa bảng lẫy lừng, Nguyễn Tri Phương sinh ra trong một gia đình làm nghề mộc nghèo khó ở đất Thừa Thiên. Không có điều kiện dùi mài kinh sử để thi cử trạng nguyên, ông khởi đầu sự nghiệp chốn quan trường từ một viên lại dịch (thư lại) cấp huyện.
+
+Nhờ tư chất thông minh, tính tình cương trực, cần mẫn và có tài thao lược quân sự, ông nhanh chóng được vua Minh Mạng trọng dụng. Trải qua các đợt cất nhắc và thử thách dưới thời vua Thiệu Trị và Tự Đức, ông được giao phó trọng trách trấn giữ biên cương Nam Bộ, tiễu trừ phản loạn và ổn định an ninh vùng Tây Nam.
+
+Sự thanh liêm, thẳng thắn cùng tầm nhìn chiến lược thực tế đã đưa một người áo vải từng bước trở thành vị nguyên soái nắm quyền binh lớn của Đại Nam lúc bấy giờ.
+
+![Lăng mộ và nhà thờ Nguyễn Tri Phương](/images/lang-mo-nha-tho-Nguyen-Tri-Phuong.jpg)
+*Hình 2: Lăng mộ và nhà thờ Nguyễn Tri Phương.*
+
+## Ba trận chiến lớn gắn liền với tên tuổi Nguyễn Tri Phương
+Cuộc đời binh nghiệp của Nguyễn Tri Phương gắn liền với giai đoạn vận mệnh quốc gia ngàn cân treo sợi tóc, khi thực dân phương Tây bắt đầu nổ súng xâm lược:
+
+- **Mặt trận Đà Nẵng: Bẻ gãy chiến lược đánh nhanh thắng nhanh (1858 - 1859)**
+Khi liên quân Pháp - Tây Ban Nha nổ súng đánh chiếm bán đảo Sơn Trà nhằm mở đường tiến thẳng ra kinh đô Huế, Nguyễn Tri Phương được vua Tự Đức cử làm Tổng đốc quân vụ. Nhận thấy hỏa lực đối phương vượt trội, ông kiên quyết không đối đầu trực diện trên biển mà chủ trương lập phòng tuyến chiến lũy Liên Trì, kết hợp chiến thuật "vườn không nhà trống". Đạo quân viễn chinh bị cô lập, thiếu lương thực và dịch bệnh bủa vây suốt gần 18 tháng, buộc chỉ huy quân Pháp phải rút lui vào Gia Định.
+
+![Trận đánh Đà Nẵng](/images/tran-danh-Da-Nang.jpg)
+*Hình 3: Trận đánh Đà Nẵng.*
+
+- **Đại đồn Chí Hòa: Lá chắn thép chặn bước quân thù (1860 - 1861)**
+Đầu năm 1860, Nguyễn Tri Phương được điều vào Nam Kỳ lãnh trách nhiệm xây dựng đại đồn Chí Hòa (Gia Định). Đây là công trình phòng ngự quy mô lớn dài hơn 3km, được thiết kế kiên cố với nhiều tầng chiến lũy và hầm chông. Dù sau cùng thất thủ trước sức công phá của đại bác phương Tây, cuộc chiến phòng ngự tại Chí Hòa đã tiêu hao nhiều sinh lực địch và chứng minh tinh thần kiên cường của quân lính dưới sự chỉ huy của ông.
+
+![Trận đánh Đại đồn Chí Hoà](/images/tran-danh-Dai-don-Chi-Hoa.jpg)
+*Hình 4: Trận đánh Đại đồn Chí Hoà.*
+
+- **Huyết chiến giữ thành Hà Nội: Khí tiết thà chết không hàng (1873)**
+Ở tuổi ngoài 70, mái tóc bạc trắng, Nguyễn Tri Phương nhận chiếu chỉ ra Bắc lãnh trách nhiệm giữ thành Hà Nội. Ngày 20/11/1873, Francis Garnier bất ngờ nổ súng tấn công Cửa Bắc. Đích thân ông cùng con trai là Phò mã Nguyễn Lâm trực tiếp lên mặt thành chỉ huy binh sĩ xông pha cản giặc. Khi con trai trúng đạn hy sinh, Nguyễn Tri Phương cũng bị trọng thương ở bụng và bị quân Pháp bắt giữ.
+
+![Trận thành Hà Nội](/images/tran-thanh-Ha-Noi.jpg)
+*Hình 5: Trận thành Hà Nội.*
+
+## Khí tiết bất khuất: Thà chết vì nghĩa chứ không lay lắt sống
+Khi rơi vào tay giặc, sĩ quan Pháp tìm cách mua chuộc ông bằng việc cho thầy thuốc băng bó vết thương, hứa hẹn phục chức và khuyên ông quy phục để bảo toàn tính mạng.
+
+Đáp lại lời dụ dỗ của đối phương, vị lão tướng 73 tuổi đã khẳng khái gạt bỏ băng gạc, cự tuyệt việc chăm sóc y tế và kiên quyết tuyệt thực gần một tháng cho đến khi trút hơi thở cuối cùng vào ngày 20 tháng 12 năm 1873.
+
+Trước lúc hy sinh, ông đã để lại lời tuyên ngôn bất hủ:
+
+*"Bây giờ nếu ta chỉ gắng lay lắt mà sống, sao bằng thong dong chết vì việc nghĩa!"*
+
+Sự tuẫn tiết của ông cùng khí phách kiên trung đã trở thành biểu tượng cho tinh thần yêu nước, thà chết vinh còn hơn sống nhục của dân tộc.
+
+## Ý nghĩa tuyến đường Nguyễn Tri Phương ngày nay
+Hiện nay, tên tuổi Nguyễn Tri Phương hiện diện trên nhiều trục đường huyết mạch tại các đô thị lớn:
+
+- **Tại TP. Hồ Chí Minh:** Tuyến đường Nguyễn Tri Phương nối liền Quận 10 và Quận 5, là trục giao thương tấp nập, gắn liền với Bệnh viện Nguyễn Tri Phương và các trường đại học lớn.
+
+![Đường Nguyễn Tri Phương tại TP. Hồ Chí Minh](/images/duong-Nguyen-Tri-Phuong-TpHCM.jpg)
+*Hình 6: Đường Nguyễn Tri Phương tại TP. Hồ Chí Minh.*
+
+- **Tại Hà Nội:** Con đường rợp bóng cây xanh nằm ngay cạnh Hoàng thành Thăng Long, gần Cửa Bắc – nơi vết đạn pháo của trận chiến năm 1873 vẫn còn lưu dấu trên cổng thành cổ.
+
+![Đường Nguyễn Tri Phương tại Hà Nội](/images/duong-Nguyen-Tri-Phuong-HN.jpg)
+*Hình 7: Đường Nguyễn Tri Phương tại Hà Nội.*
+
+- **Tại Đà Nẵng và Thừa Thiên Huế:** Những con đường lớn hướng ra biển hoặc trung tâm cố đô nhằm ghi nhớ công ơn người anh hùng đã dành trọn cuộc đời vì sự vẹn toàn bờ cõi.
+
+![Cầu Nguyễn Tri Phương ở Đà Nẵng](/images/cau-Nguyen-Tri-Phuong-DN.jpg)
+*Hình 8: Cầu Nguyễn Tri Phương ở Đà Nẵng.*
+
+Mỗi lần đi qua con đường mang tên ông, đó không chỉ là một địa chỉ định vị trên bản đồ, mà còn là lời nhắc nhở về lòng tự tôn dân tộc và sự hy sinh của các bậc tiền nhân.
+
+## Cùng Mảnh Ghép Hồn Việt kết nối di sản qua từng tên đường
+Lịch sử dân tộc không chỉ nằm trong những trang sử cũ, mà hiện diện ngay trong từng ngõ phố, từng hành trình thường nhật của chúng ta. Mỗi bảng tên đường là một "mảnh ghép" sống động kết nối quá khứ với hiện tại.
+
+Ghé thăm ngay website **[Mảnh Ghép Hồn Việt](https://www.manhghephonviet.com)** để khám phá hệ thống bản đồ di sản tương tác, tra cứu tiểu sử danh nhân và cùng chúng tôi ghép lại bức tranh lịch sử Việt Nam qua từng câu chuyện gần gũi!
+
+Con đường bạn đi qua mỗi ngày mang tên ai? Bạn có tò mò về nhân vật lịch sử phía sau cái tên đó? Hãy để lại bình luận bên dưới để cùng **Mảnh Ghép Hồn Việt** tìm hiểu trong các bài viết tiếp theo!
+
+## Bài viết liên quan
+[Xem thêm thông tin về Danh tướng Nguyễn Tri Phương](https://vi.wikipedia.org/wiki/Nguyễn_Tri_Phương)
+
+[Chủ tướng Nguyễn Tri Phương - Vị tướng đầu tiên thắng giặc phương Tây](https://vov2.vov.vn/van-hoa-giai-tri/chu-tuong-nguyen-tri-phuong-vi-tuong-dau-tien-thang-giac-phuong-tay-36574.vov2)
+
+[Xem thêm thông tin về các vị tướng khác](https://www.manhghephonviet.com/bai-viet/dai-tuong-le-trong-tan-cuoc-doi-va-dau-an-lich-su)
+`
+},
+{
+  id: 'co-phuc-viet-nam-qua-cac-thoi-ky',
+  slug: 'co-phuc-viet-nam-qua-cac-thoi-ky',
+  title: 'Cổ phục Việt Nam qua các thời kỳ và nét đẹp trang phục truyền thống',
+  category: 'Góc Lịch Sử Việt',
+  date: '13/10/2026',
+  author: 'Mảnh Ghép Hồn Việt',
+  image: '/images/biaseo20.jpg',
+  description: 'Khám phá cổ phục Việt Nam qua các thời kỳ từ Lý đến Nguyễn, tìm hiểu đặc trưng áo Tấc, Nhật Bình và cách phân biệt cổ phục Việt với trang phục nước khác.',
+  content: `
+Cổ phục Việt Nam là thuật ngữ dùng để chỉ toàn bộ các dạng thức trang phục truyền thống từng được người Việt sáng tạo, quy định và mặc trong các giai đoạn lịch sử, đặc biệt là thời kỳ quân chủ độc lập tự chủ. Trải qua hàng ngàn năm, trang phục nước ta không hề rập khuôn mà luôn vận động, biến đổi linh hoạt theo từng bối cảnh văn hóa xã hội.
+
+Trong những năm gần đây, phong trào nghiên cứu, phục dựng cổ phục phát triển mạnh mẽ trong giới trẻ. Cổ phục đã bước ra khỏi những trang sử sách hay tủ kính bảo tàng để xuất hiện tự nhiên trên phố phường, giảng đường, lễ cưới và các tác phẩm nghệ thuật. Dòng chảy **cổ phục Việt Nam qua các thời kỳ** là minh chứng rõ nét cho sức sống bất diệt của văn hóa dân tộc, đưa chúng ta đi từ nét thanh thoát thời Lý – Trần, sự uy nghiêm thời Lê sơ cho đến nét tinh xảo đỉnh cao của triều Nguyễn. Cùng [Mảnh Ghép Hồn Việt](https://www.manhghephonviet.com/) tìm hiểu cổ phục Việt Nam qua các thời kỳ nhé!
+
+## 1. Trang phục thời Lý – Trần: Nét phóng khoáng và ảnh hưởng Phật giáo
+Thời kỳ Lý – Trần mở ra kỷ nguyên độc lập, tự chủ đỉnh cao của quốc gia Đại Việt sau hơn một thiên niên kỷ Bắc thuộc. Đây là thời kỳ đánh dấu sự định hình mạnh mẽ của phong cách thẩm mỹ cung đình lẫn dân gian, nơi tinh thần tự do và Phật giáo thấm sâu vào từng nếp áo. Dấu ấn ban đầu của **cổ phục Việt Nam qua các thời kỳ** chính là sự kết hợp hài hòa giữa nét mềm mại của đạo Thiền và khí phách kiên cường của một quốc gia độc lập.
+
+[Xem thêm thông tin về trang phục thời Lý - Trần](https://daivietcophong.com/trang-phuc-va-trang-suc-thoi-ly-tran-qua-tu-lieu-khao-co-hoc/)
+
+### Thời Lý: Vẻ đẹp thanh thoát, hoa văn hoa sen, cúc dây; quy chế trang phục quý tộc và dân dã
+Dưới triều Lý, mỹ thuật Phật giáo đạt đến độ chín muồi và ảnh hưởng sâu rộng đến lối ăn mặc của người xưa. Y phục thời Lý mang phong thái nhẹ nhàng, thanh thoát với các họa tiết trang trí phổ biến như hoa sen cách điệu, cúc dây uốn lượn mềm mại hay lá đề.
+
+Triều đình thời kỳ này đã bắt đầu ban hành những quy định đầu tiên về phẩm phục quan lại, sử dụng lụa gấm thêu hoa làm biểu tượng của giới quý tộc. Trong khi tầng lớp quý tộc khoác lên mình những tà áo giao lĩnh hoặc viên lĩnh thêu dệt cầu kỳ, thì người dân dã vẫn ưa chuộng lối ăn mặc mộc mạc với áo tứ thân, vạt ngắn tiện cho việc đồng áng, phản ánh nét thanh lịch nhưng gần gũi của văn hóa Thăng Long nghìn năm văn hiến.
+
+![Đặc trưng trang phục thời Lý](/images/dac-trung-trang-phuc-thoi-Ly.webp)
+*Hình 1: Đặc trưng trang phục thời Lý.*
+
+### Thời Trần: Tinh thần thượng võ, sự xuất hiện của áo giao lĩnh vạt chéo, kiểu tóc và tập tục xăm mình của quân dân
+Bước sang triều Trần, tinh thần "Hào khí Đông A" và chất thượng võ thể hiện đậm nét trong lối sống lẫn diện mạo trang phục. Cả vua tôi nhà Trần đều giữ lối sống giản dị, chú trọng sự khỏe khoắn, cơ động để sẵn sàng chiến đấu bảo vệ bờ cõi. Dạng áo giao lĩnh vạt chéo (cổ chéo đè lên nhau) trở thành trang phục phổ biến hàng đầu trong xã hội thời bấy giờ.
+
+Đặc biệt, phong tục cạo trọc đầu hoặc cắt tóc ngắn, đi chân đất và xăm hình rồng, thủy quái lên đùi, cánh tay là nét nhận diện độc đáo của quân dân thời Trần. Bất kể quý tộc hay bình dân đều tự hào mang trên mình những hình xăm như biểu tượng của lòng dũng cảm, tạo nên một diện mạo văn hóa độc bản khó trộn lẫn trong dòng lịch sử dân tộc.
+
+![Tranh vẽ áo vạt dài cổ tròn Trần ( Cả thời Lý ) Nguồn từ “Đại Việt Cổ Phong” vẽ bởi Lục Bình](/images/tranh-ve-ao-vat-co-tron.webp)
+*Hình 2: Tranh vẽ áo vạt dài cổ tròn Trần ( Cả thời Lý ) Nguồn từ “Đại Việt Cổ Phong” vẽ bởi Lục Bình.*
+
+## 2. Trang phục thời Lê sơ: Đỉnh cao quy chế phẩm phục Đại Việt
+Sau chiến thắng trước quân Minh và thời kỳ phục hưng đất nước, nhà Lê sơ thiết lập nền hành chính Nho giáo tập quyền nghiêm ngặt. Đây được xem là giai đoạn hoàn thiện quy chế lễ nhạc và điển chương quy củ nhất, đưa **cổ phục Việt Nam qua các thời kỳ** bước lên một nấc thang chuẩn mực mới về mặt biểu tượng chính trị.
+
+### Quy chế y phục nghiêm ngặt theo quan chế triều đình (phân biệt màu sắc, hoa văn bổ tử)
+Nhà Lê sơ đã ban hành hệ thống sắc phục rõ ràng, định rõ *quy chế y phục Đại Việt* nhằm phân định thứ bậc trên dưới từ hoàng tộc đến cửu phẩm quan lại. Triều đình quy định chặt chẽ về chất liệu (sa, đoạn, gấm), màu sắc trang phục (màu vàng dành riêng cho hoàng đế, màu tía, đỏ, lam, lục phân cấp theo phẩm hàm của bá quan).
+
+Điểm nổi bật nhất thời kỳ này là sự xuất hiện của tấm "bổ tử" – mảnh vải vuông thêu họa tiết chim muông (quan văn) hoặc thú dữ (quan võ) đính trước ngực và sau lưng áo viên lĩnh. Mỗi loài vật như tiên hạc, khổng tước, sư tử, bạch hổ đều đại diện cho phẩm hàm cụ thể, tạo nên sự trang nghiêm, tề chỉnh tuyệt đối chốn triều nghi.
+
+![Trang phục thời Lê - Sơ](/images/trang-phuc-thoi-Le-So.jpg)
+*Hình 3: Trang phục thời Lê - Sơ.*
+
+### Áo giao lĩnh rộng tay và tiền đề cho các dạng thức trang phục thời Lê Trung Hưng
+Bên cạnh phẩm phục triều đình, trang phục thường nhật của tầng lớp sĩ phu và quý tộc thời Lê sơ chuộng kiểu áo giao lĩnh cổ chéo với phần ống tay thụng rộng rãi, thể hiện cốt cách ung dung, thanh tao của kẻ sĩ Nho gia. Vạt áo buông dài thướt tha kết hợp đai lưng bản lớn tạo nên vẻ ngoài đĩnh đạc.
+
+Dạng thức áo giao lĩnh rộng tay thời Lê sơ đã trở thành tiền đề kỹ thuật may mặc quan trọng để chuyển giao sang các thiết kế áo trực lĩnh, áo đối khâm phong phú dưới thời Lê Trung Hưng, đồng thời lưu giữ kỹ thuật may ghép vạt tiền đề cho trang phục các đời sau.
+
+![Hình ảnh áo Giao Lĩnh quấn thường](/images/ao-Giao-Linh-quan-thuong.jpg)
+*Hình 4: Hình ảnh áo Giao Lĩnh quấn thường.*
+
+[Xem thêm thông tin về áo Giao Lĩnh](https://vi.wikipedia.org/wiki/Giao_lĩnh)
+
+## 3. Trang phục thời Nguyễn: Sự đa dạng và những biểu tượng quen thuộc nhất
+Triều Nguyễn là triều đại phong kiến cuối cùng của Việt Nam, cũng là giai đoạn để lại khối lượng hiện vật, tư liệu văn bản và tranh ảnh phong phú nhất. Đây là thời kỳ trang phục dân tộc đạt đến độ định hình hoàn chỉnh về kiểu dáng, màu sắc và hoa văn, tạo nên một chương đặc sắc bậc nhất trong toàn cảnh **cổ phục Việt Nam qua các thời kỳ**.
+
+### Áo Tấc (Áo thụng ngũ thân): Lễ phục trang trọng dùng trong tế lễ, cưới hỏi và dịp trọng đại
+*Áo Tấc*, hay còn gọi là áo thụng ngũ thân, là kiểu áo cổ đứng, thân thụng dài qua đầu gối với phần tay áo may dài và rộng thùng thình. Áo Tấc được mặc định là lễ phục trang nghiêm dành cho mọi tầng lớp trong xã hội, từ vua quan cho đến thứ dân.
+
+Trong các dịp trọng đại như tế lễ đình miếu, tết nhất, đám cưới hay mừng thọ, cả nam lẫn nữ đều mặc áo Tấc kết hợp cùng khăn đóng (khăn vấn) và quần lụa trắng. Khi mặc áo Tấc, người mặc thường chắp hai tay trước bụng, tạo nên phong thái cung kính, đoan trang và đúng mực theo chuẩn mực lễ giáo phong kiến thuộc hệ thống *trang phục triều Nguyễn*.
+
+![Áo Tấc - Lễ phục trang trọng dùng trong tế lễ, cưới hỏi và dịp trọng đại](/images/ao-Tac.jpg)
+*Hình 5: Áo Tấc - Lễ phục trang trọng dùng trong tế lễ, cưới hỏi và dịp trọng đại.*
+
+### Áo Nhật Bình: Nét đặc trưng của hậu phi, công chúa và mệnh phụ triều Nguyễn (ý nghĩa hoa văn ở cổ áo)
+*Áo Nhật Bình* là dạng thường phục của bậc hoàng hậu, công chúa và là lễ phục của các phi tần, mệnh phụ phu nhân chốn hoàng cung. Tên gọi "Nhật Bình" xuất phát từ dải cổ áo dạng đối khâm to bản, khi mặc khép lại phía trước ngực sẽ tạo thành một hình chữ nhật nằm ngay ngắn.
+
+Trên dải cổ áo Nhật Bình được thêu hoa văn dải bạt ngũ sắc, chim phượng, hoa mẫu đơn và các đồ án bát bửu vô cùng tinh xảo. Màu sắc của thân áo quy định nghiêm ngặt theo cấp bậc: hoàng hậu dùng màu vàng chính sắc, công chúa dùng màu đỏ, các bậc tần phi dùng màu tím, lam thoa. Đây là biểu tượng của vẻ đẹp quyền quý, đài các chốn cung đình Huế.
+
+![Áo Nhật Bình - Nét đặc trưng của hậu phi, công chúa và mệnh phụ triều Nguyễn](/images/ao-Nhat-Binh.jpg)
+*Hình 6: Áo Nhật Bình - Nét đặc trưng của hậu phi, công chúa và mệnh phụ triều Nguyễn.*
+
+### Áo Ngũ Thân tay chẽn: Tiền thân trực tiếp của tà áo dài hiện đại (kết cấu 5 thân, ý nghĩa ngũ thường)
+*Áo ngũ thân* tay chẽn là mẫu trang phục thường nhật mang tính cách mạng do chúa Nguyễn Phúc Khoát đặt nền móng và vua Minh Mạng chuẩn hóa trên phạm vi cả nước. Áo được may ghép từ năm mảnh vải: bốn thân ngoài tượng trưng cho "tứ thân phụ mẫu" (cha mẹ đẻ và cha mẹ chồng/vợ), và thân thứ năm nằm ẩn bên trong tượng trưng cho chính bản thân người mặc.
+
+Năm chiếc cúc áo cài bên mạn sườn phải đại diện cho ngũ thường: Nhân – Lễ – Nghĩa – Trí – Tín. Thiết kế cổ đứng ôm sát cùng tay áo may chẽn gọn gàng tôn lên vóc dáng kín đáo, nho nhã. Áo ngũ thân tay chẽn chính là tiền thân trực tiếp đặt nền tảng cấu trúc may mặc để sau này phát triển thành tà áo dài Việt Nam nổi tiếng khắp năm châu.
+
+![Áo Ngũ Thân tay chẽn - Tiền thân trực tiếp của tà áo dài hiện đại](/images/ao-Ngu-Than-tay-chen.jpg)
+*Hình 7: Áo Ngũ Thân tay chẽn - Tiền thân trực tiếp của tà áo dài hiện đại.*
+
+### Mũ mã vĩ, khăn đóng (khăn vấn): Phụ kiện định hình phong thái người Việt thời Nguyễn
+Diện mạo của người Việt thời Nguyễn không thể trọn vẹn nếu thiếu đi phụ kiện đội đầu. Trong đó, mũ mã vĩ được đan tỉ mỉ từ lông đuôi ngựa với độ thông thoáng cao, dành riêng cho quan lại và giới khá giả đội lót bên trong hoặc đội hàng ngày.
+
+Bên cạnh đó, chiếc khăn đóng (vải quấn nhiều vòng quanh đầu tạo hình chữ Nhất hoặc chữ Nhân phía trước trán) là nét định hình diện mạo kinh điển của người xưa. Dù là nam giới quấn khăn đen gọn gàng hay phụ nữ vấn khăn nhung sang trọng, phụ kiện này tạo nên nét chỉnh tề, thanh lịch rất riêng biệt của văn hóa trang phục Việt Nam.
+
+![Hình ảnh chiếc mũ mã vĩ](/images/mu-ma-vi.jpg)
+*Hình 8: Hình ảnh chiếc mũ mã vĩ.*
+
+## 4. Bảng so sánh nhanh các loại cổ phục phổ biến nhất
+| Loại trang phục | Triều đại tiêu biểu | Kiểu cổ / Tay áo | Đối tượng & Dịp sử dụng |
+| :--- | :--- | :--- | :--- |
+| **Giao lĩnh** | Lý, Trần, Lê | Cổ vạt chéo đè lên nhau, tay thụng rộng | Thường dân & quý tộc trong các nghi lễ trang trọng |
+| **Viên lĩnh** | Lý, Trần, Lê, Nguyễn | Cổ tròn, vạt cài khuy lệch sang bên vai | Phẩm phục của quan lại, hoàng tộc tại triều đình |
+| **Áo Nhật Bình** | Nguyễn | Cổ hình chữ nhật ghép vạt đối khâm | Lễ phục cung đình của hậu phi, công chúa, mệnh phụ |
+| **Áo Tấc** | Nguyễn | Cổ đứng ngũ thân, tay thụng dài và rộng | Lễ phục trang nghiêm cho cả nam lẫn nữ trong hội hè, cưới hỏi |
+| **Áo ngũ thân chẽn** | Nguyễn | Cổ đứng năm thân, tay bó ôm sát cổ tay | Trang phục tiện dụng thường nhật, đi lại và làm việc hàng ngày |
+
+## Kết luận
+Dòng chảy **cổ phục Việt Nam qua các thời kỳ** không chỉ là câu chuyện của thời trang hay thẩm mỹ, mà là chứng nhân cho khí phách độc lập, trí tuệ và linh hồn của dân tộc qua hàng ngàn năm lịch sử. Giữ gìn và tôn vinh nét đẹp cổ phục chính là cách chúng ta kết nối mạch nguồn quá khứ với hơi thở hiện đại hôm nay.
+
+Hãy chia sẻ bài viết này để lan tỏa tình yêu lịch sử đến cộng đồng và để lại bình luận bên dưới những góc nhìn của bạn về trang phục truyền thống! Đừng quên đồng hành cùng [Mảnh Ghép Hồn Việt](https://www.manhghephonviet.com/) trong hành trình gìn giữ di sản và khám phá thêm nhiều câu chuyện văn hóa Việt Nam đặc sắc.
+
+## Xem thêm các bài viết về lịch sử:
+
+[Đại tướng Lê Trọng Tấn - Một đời cống hiến cho đất nước](https://www.manhghephonviet.com/bai-viet/dai-tuong-le-trong-tan-cuoc-doi-va-dau-an-lich-su)
+
+[Trận Ngọc Hồi - Đống Đa](https://vi.wikipedia.org/wiki/Trận_Ng%E1%BB%8Dc_Hồi_–_Đống_Đa)
+
+[Chiến thuật đóng cọc gỗ trên sông Bạch Đằng](https://www.manhghephonviet.com/bai-viet/chien-thuat-dong-coc-go-tren-song-bach-dang)
 `
 },
 ];
