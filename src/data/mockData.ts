@@ -3249,6 +3249,94 @@ Những câu chuyện ấy giúp thế hệ trẻ hiểu rõ hơn về lịch s�
 
 `
 },
+{
+  id: 'website-manh-ghep-hon-viet',
+  slug: 'website-manh-ghep-hon-viet',
+  title: 'Website Mảnh Ghép Hồn Việt: Không gian số đưa lịch sử vào từng trải nghiệm tương tác',
+  category: 'Về Mảnh ghép Hồn Việt',
+  date: '14/10/2026',
+  author: 'Mảnh Ghép Hồn Việt',
+  image: '/images/biaseo22.jpg',
+  description: 'Khám phá website Mảnh Ghép Hồn Việt, nền tảng số hóa bản đồ lịch sử tương tác kết hợp công nghệ NFC và cơ chế nhập vai độc đáo cho người trẻ.',
+  content: `
+Trong kỷ nguyên công nghệ bùng nổ, việc ghi nhớ những mốc thời gian và sự kiện lịch sử qua sách vở truyền thống dần trở nên khô khan đối với người trẻ. Thấu hiểu nhu cầu tiếp cận kiến thức trực quan và sinh động, **website Mảnh Ghép Hồn Việt** ra đời như một giải pháp đột phá, chuyển hóa các chiến dịch hào hùng thành chuyến hành trình khám phá đa chiều. Hãy cùng **Mảnh Ghép Hồn Việt** mở ra cánh cửa kết nối quá khứ với hiện tại qua không gian số hóa độc đáo ngay dưới đây!
+
+Lịch sử dân tộc là dòng chảy văn hóa nuôi dưỡng tinh thần yêu nước và lòng tự tôn của mỗi thế hệ. Tuy nhiên, trong nhịp sống hiện đại, phương pháp tiếp cận kiến thức theo lối truyền thụ một chiều dễ tạo ra khoảng cách giữa người trẻ và quá khứ. Dự án [**Mảnh Ghép Hồn Việt**](https://www.manhghephonviet.com) ra đời với sứ mệnh xóa nhòa ranh giới ấy, mang đến một nền tảng số hóa sáng tạo để di sản không còn nằm yên trong trang sách.
+
+Xu hướng ứng dụng công nghệ và chuyển đổi số trong giáo dục di sản đang mở ra cơ hội lớn để tái hiện quá khứ một cách chân thực. Thông qua hệ thống bản đồ số, cơ chế hóa thân nhân vật và công nghệ một chạm thông minh, nền tảng mang đến một hành trình khám phá trọn vẹn, nơi mỗi người dùng đều có thể tương tác, trải nghiệm và lưu giữ những giá trị lịch sử vô giá.
+
+## Cầu nối trung tâm trong hành trình trải nghiệm đa kênh
+Trong mô hình kết hợp trực tuyến và đời thực (Online to Offline), **Mảnh ghép Hồn Việt** giữ vai trò hạt nhân trung tâm điều phối toàn bộ hành trình trải nghiệm của người dùng. Nếu như mạng xã hội là điểm chạm đầu tiên khơi gợi niềm cảm hứng, thì website chính là không gian lưu giữ, mở rộng nội dung và kết nối người dùng sâu sắc với dòng chảy lịch sử dân tộc. Tại đây, mọi sự tò mò đều được giải đáp bằng nguồn tư liệu trực quan, đa tầng và giàu tính tương tác.
+
+![Website Mảnh ghép Hồn Việt](/images/biaseo22.webp)
+*Hình 1: Website Mảnh ghép Hồn Việt.*
+
+### Thu hút người trẻ từ mạng xã hội đến không gian số
+Các nền tảng mạng xã hội như TikTok và Facebook đóng vai trò là "mũi nhọn" truyền thông, thu hút người trẻ thông qua các video ngắn giải mã nguồn gốc tên đường, giai thoại danh tướng hay những góc khuất lịch sử thú vị. Những mẩu chuyện ngắn gọn, giàu hình ảnh này đánh thức trí tò mò tự nhiên của độc giả. Từ đó, người xem được dẫn dắt chuyển tiếp về website chính thức để đào sâu nội dung, chuyển hóa sự quan tâm nhất thời thành nhu cầu học hỏi chuyên sâu và có hệ thống.
+
+![Trang Fanpage của Mảnh ghép Hồn Việt](/images/Fanpage-Manh-ghep-hon-Viet.webp)
+*Hình 2: Trang Fanpage của Mảnh ghép Hồn Việt.*
+
+### Khép kín vòng trải nghiệm từ màn hình ảo đến hiện vật đời thực
+Không dừng lại ở việc đọc thông tin trên mạng, trang web đóng vai trò như một trạm điều phối trung tâm kết nối người học với các sản phẩm vật lý ngoài đời thực. Người dùng sau khi tương tác trên nền tảng số có thể sở hữu các vật phẩm lưu niệm mang dấu ấn di sản. Ngược lại, khi cầm các hiện vật hữu hình trên tay, họ có thể tương tác ngược trở lại website để mở ra những trải nghiệm cá nhân hóa, khép kín hành trình tiếp nhận tri thức từ thế giới số ra đời sống hàng ngày.
+
+## Những tính năng đột phá trên website Mảnh Ghép Hồn Việt
+Nhằm biến việc ghi nhớ thụ động thành *trải nghiệm lịch sử tương tác* đầy hứng khởi, nền tảng tích hợp nhiều công cụ hiện đại cùng cơ chế tương tác đa dạng. Từng tính năng đều được tối ưu hóa nhằm kích thích sự tò mò và tinh thần chủ động tìm hiểu của thế hệ trẻ.
+
+### Bản đồ địa danh tương tác theo dòng thời gian
+Điểm nhấn nổi bật đầu tiên khi truy cập website chính là tính năng *bản đồ Việt Nam tương tác*. Người dùng có thể tự do phóng to, thu nhỏ và lựa chọn từng tỉnh thành hay vùng đất địa lý cụ thể. Mỗi cú nhấp chuột sẽ mở ra danh sách các chiến dịch quân sự, danh lam thắng cảnh và di tích gắn liền với cột mốc lịch sử tương ứng. Thông tin được trình bày mạch lạc kết hợp hình ảnh đồ họa trực quan giúp người xem dễ dàng định vị không gian và mốc thời gian diễn ra sự kiện.
+
+![Bản đồ tương tác trên website Mảnh ghép Hồn Việt](/images/ban-do-tuong-tac-tren-web.webp)
+*Hình 3: Bản đồ tương tác trên website Mảnh ghép Hồn Việt.*
+
+### Cơ chế nhập vai giải quyết tình huống lịch sử
+Thay vì chỉ đọc những đoạn văn bản tóm tắt khô khan, người dùng được trải nghiệm phương pháp *học lịch sử qua nhập vai*. Khi bước vào một sự kiện cụ thể như chiến dịch Điện Biên Phủ hay trận Bạch Đằng, người dùng sẽ hóa thân thành một chiến sĩ hoặc nhân chứng lịch sử, trực tiếp đối diện với các bài trắc nghiệm tình huống gay cấn. Việc đưa ra quyết định trong tình huống sinh tử giúp người học thấu hiểu sâu sắc tâm tư, khó khăn và lý do đằng sau mỗi lựa chọn của cha ông.
+
+![Tham gia trải nghiệm để trải nghiệm cơ chế nhập vai tại Mảnh ghép Hồn Việt](/images/tham-gia-trai-nghiem-nhap-vai.webp)
+*Hình 4: Tham gia trải nghiệm để trải nghiệm cơ chế nhập vai tại Mảnh ghép Hồn Việt.*
+
+### Hệ thống kinh tế ảo và mở khóa ngoại truyện chuyên sâu
+Website áp dụng khéo léo cơ chế tích lũy điểm thưởng thông qua hai đơn vị biểu trưng là Sao và Sen sau mỗi lần hoàn thành nhiệm vụ lịch sử. Hệ thống kinh tế ảo này kích thích động lực học tập, cho phép người dùng dùng điểm để mở khóa các tuyến nội dung ngoại truyện đặc sắc. Đó có thể là những bức thư tay thời chiến đẫm nước mắt, lời trăn trối của các liệt sĩ hay những câu chuyện hậu phương xúc động ít khi xuất hiện trong sách giáo khoa chính thống.
+
+## Điểm chạm vật lý thông qua công nghệ kết nối một chạm
+Một trong những nét sáng tạo độc bản của dự án chính là sự kết hợp nhịp nhàng giữa nền tảng trực tuyến và các sản phẩm hữu hình. Sự giao thoa này giúp người học không chỉ nhìn ngắm di sản qua màn hình mà còn thực sự chạm vào lịch sử và mang những câu chuyện ý nghĩa về không gian sống của mình.
+
+### Ứng dụng công nghệ NFC kết nối website với sản phẩm vật lý
+Dự án ứng dụng *công nghệ NFC* tiên tiến vào các sản phẩm thủ công như mảnh ghép bản đồ gỗ, móc khóa di sản và nam châm trang trí. Mỗi sản phẩm đều được gắn chip cảm ứng thông minh. Người dùng chỉ cần chạm nhẹ điện thoại vào hiện vật, thiết bị sẽ tự động mở ra trang web hoặc đường dẫn trực tiếp đến vùng cột mốc độc quyền. Thao tác một chạm nhanh chóng này giúp việc tra cứu thông tin trở nên liền mạch mà không đòi hỏi thao tác tìm kiếm phức tạp.
+
+![Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt](/images/MANHGHEPNFC(1).webp)
+*Hình 5: Mảnh ghép bản đồ Việt Nam tích hợp NFC - Sản phẩm của Mảnh ghép Hồn Việt.*
+
+### Giá trị sưu tầm và gắn kết cảm xúc lâu dài
+Việc tích hợp công nghệ biến mỗi món quà lưu niệm thông thường thành một "cánh cửa tri thức" sống động. Người sở hữu không chỉ giữ một vật phẩm trưng bày trên bàn làm việc, mà còn nắm giữ một phần ký ức của tiền nhân. Trải nghiệm sưu tầm từng mảnh ghép để hoàn thiện bản đồ tạo ra sự gắn kết cảm xúc bền chặt, duy trì niềm đam mê tìm hiểu lịch sử một cách tự nhiên và lâu dài.
+
+## Tầm nhìn và sứ mệnh lan tỏa lòng tự hào dân tộc
+Dự án cam kết đồng hành dài hạn cùng thế hệ trẻ trên hành trình tiếp cận di sản bằng tư duy mới mẻ, hiện đại và tràn đầy cảm hứng, biến lịch sử thành niềm tự hào tự thân trong trái tim mỗi người.
+
+### Đổi mới phương pháp tiếp cận di sản cho thế hệ số
+Bằng cách vận dụng phương pháp gamification cùng giao diện thân thiện, dự án từng bước xóa bỏ rào cản tâm lý e ngại môn lịch sử. Nền tảng không chỉ cung cấp dữ liệu mà còn truyền tải cảm xúc, qua đó xây dựng một cộng đồng người trẻ có tri thức, có trách nhiệm và luôn trân trọng bản sắc cội nguồn dân tộc.
+
+### Định hướng mở rộng hệ sinh thái số trong tương lai
+Trong lộ trình phát triển tiếp theo, đội ngũ sẽ liên tục mở rộng kho dữ liệu, cập nhật thêm nhiều vùng đất, chiến dịch lịch sử và di sản văn hóa phi vật thể của các triều đại. Việc hoàn thiện hệ sinh thái số sẽ tạo ra nguồn tư liệu phong phú phục vụ cho công tác học tập, nghiên cứu và quảng bá văn hóa Việt Nam ra thế giới.
+
+## Kết luận
+**Website** [**Mảnh Ghép Hồn Việt**](https://www.manhghephonviet.com) đã mở ra một hướng đi sáng tạo trong công cuộc số hóa lịch sử dân tộc. Bằng việc kết hợp hài hòa giữa bản đồ tương tác, cơ chế nhập vai và công nghệ chạm hiện đại, dự án đã thổi luồng sinh khí mới vào từng cột mốc hào hùng của đất nước.
+
+Hãy truy cập ngay website để trải nghiệm chuyến du hành lịch sử đầy cảm xúc và cùng **Mảnh Ghép Hồn Việt** ghép nên bức tranh di sản hoàn chỉnh của dân tộc Việt Nam!
+
+*Website:[https://www.manhghephonviet.com/](https://www.manhghephonviet.com/)*
+
+*Email:* manhghephonviet.project@gmail.com
+
+*Hotline:* 0338 343 697
+
+### Tham khảo thêm các bài viết về Mảnh ghép Hồn Việt: ###
+
+[Mảnh Ghép Bản Đồ Việt Nam Bằng Gỗ: Quà Tặng Văn Hóa Đặc Biệt](https://www.manhghephonviet.com/bai-viet/manh-ghep-ban-do-viet-nam-bang-go)
+
+[Quà lưu niệm Việt Nam: 10 món quà mang đậm dấu ấn văn hóa ](https://www.manhghephonviet.com/bai-viet/qua-luu-niem-viet-nam-10-mon-qua-mang-dam-dau-an-van-hoa)
+`
+},
 ];
 
 export const FEATURED_WEEKLY_ARTICLES = [
