@@ -3669,6 +3669,102 @@ Theo bạn, bí ẩn nào trong các sự kiện trên mang uẩn khúc lớn nh
 
 `
 },
+{
+  id: 'tran-ngoc-hoi-dong-da-1789',
+  slug: 'tran-ngoc-hoi-dong-da-1789',
+  title: 'Trận Ngọc Hồi - Đống Đa (1789): Diễn biến & Đỉnh cao nghệ thuật quân sự',
+  category: 'Góc Lịch sử Việt',
+  date: '15/10/2026',
+  author: 'Mảnh Ghép Hồn Việt',
+  image: '/images/biaseo26.jpg',
+  description: 'Khám phá chi tiết diễn biến trận Ngọc Hồi Đống Đa 1789. Cùng Mảnh ghép Hồn Việt tìm hiểu nghệ thuật quân sự thần tốc của vua Quang Trung quét sạch 29 vạn quân Thanh trong 5 ngày đêm.',
+  content: `
+Chiến thắng Ngọc Hồi – Đống Đa vào mùa xuân năm Kỷ Dậu 1789 là một trong những trang sử chống ngoại xâm oanh liệt nhất của dân tộc Việt Nam. Cùng [Mảnh ghép Hồn Việt](https://www.manhghephonviet.com/) tìm hiểu về sự chỉ huy thiên tài của Hoàng đế Quang Trung (Nguyễn Huệ), nghĩa quân Tây Sơn đã quét sạch 29 vạn quân Mãn Thanh chỉ trong vỏn vẹn 5 ngày đêm, giải phóng hoàn toàn kinh thành Thăng Long và đập tan mưu đồ bành trướng phương Nam của đế chế Càn Long.
+
+## 1. Bối cảnh lịch sử và nguyên nhân cuộc chiến
+Vào cuối thế kỷ 18, đất nước lâm vào cảnh chia cắt kéo dài. Sau khi phong trào Tây Sơn lật đổ chúa Nguyễn ở Đàng Trong rồi tiến ra Bắc tiêu diệt họ Trịnh, vua Lê Chiêu Thống vì muốn bảo toàn ngai vàng đã trốn sang Trung Quốc cầu viện nhà Thanh.
+
+Nhận thấy thời cơ bành trướng lãnh thổ, vua Càn Long sai Tổng đốc Lưỡng Quảng Tôn Sĩ Nghị chỉ huy 29 vạn quân cùng dân phu ồ ạt tiến sang xâm lược Đại Việt vào tháng 10 năm Mậu Thân (1788).
+
+Trước thế giặc hung hãn, danh sĩ Ngô Thì Nhậm và các tướng lĩnh Tây Sơn trấn thủ Bắc Hà đã thi hành kế sách: chủ động rút quân khỏi Thăng Long, lui về thiết lập phòng tuyến thủy - bộ hiểm trở tại Tam Điệp – Biện Sơn (Ninh Bình - Thanh Hóa). Kế hoạch "bảo toàn thực lực, nhử địch vào chỗ hiểm và kiêu ngạo" đã tạo tiền đề quyết định cho cuộc phản công chiến lược sau đó.
+
+![Trận Ngọc Hồi - Đống Đa](/images/tran-Ngoc-Hoi-Dong-Da.jpg)
+*Hình 1: Trận Ngọc Hồi - Đống Đa.*
+
+## 2. Nghệ thuật hành quân thần tốc của vua Quang Trung
+Nhận được tin cấp báo tại Phú Xuân (Huế), Nguyễn Huệ quyết định lên ngôi Hoàng đế, lấy niên hiệu là Quang Trung vào ngày 22 tháng Chạp năm Mậu Thân (22/12/1788), rồi lập tức phát lệnh xuất quân tiến ra Bắc.
+
+### 2.1. Kỷ lục hành quân và tuyển quân trên đường đi
+Từ Phú Xuân ra đến Tam Điệp dài hơn 300 km qua địa hình đèo dốc hiểm trở, đạo quân Tây Sơn chỉ mất chưa đầy một tháng để hoàn thành, vừa cơ động vừa tuyển thêm hàng vạn binh sĩ tại Nghệ An và Thanh Hóa.
+* **Cơ chế "cáng võng xoay vòng":** Cứ ba người tạo thành một tổ; hai người khiêng cáng cho một người nằm nghỉ, luân phiên thay đổi liên tục giúp đội hình hành quân cả ngày lẫn đêm mà không kiệt sức.  
+
+* **Bổ sung quân số:** Tại Nghệ An, vua Quang Trung duyệt binh, tuyển thêm hơn 1 vạn quân tinh nhuệ, củng cố lực lượng lên tới 10 vạn quân cùng hàng trăm voi chiến.
+
+![Kỷ lục hành quân thần tốc của vua Quang Trung](/images/ky-luc-hanh-quan-than-toc.jpg)
+*Hình 2: Kỷ lục hành quân thần tốc của vua Quang Trung.*
+
+### 2.2. Lời thề xuất quân và bữa tiệc ăn Tết sớm
+Tại Tam Điệp, Quang Trung khen ngợi kế sách lui quân của Ngô Thì Nhậm, đồng thời mở tiệc khao quân ăn Tết Nguyên Đán sớm vào đêm 30 tháng Chạp. Trước ba quân tướng sĩ, nhà vua tuyên bố lời hịch bất hủ:
+
+*"Đánh cho để dài tóc, đánh cho để đen răng, đánh cho nó chích luân bất phản, đánh cho nó phiến giáp bất hoàn, đánh cho sử tri Nam quốc anh hùng chi hữu chủ."*
+
+Nhà vua khẳng định chắc nịch: Mùng 7 Tết sẽ tiến vào Thăng Long mở tiệc ăn Tết lại (trên thực tế chiến dịch đã kết thúc đại thắng sớm hơn dự kiến hai ngày).
+
+## 3. Diễn biến chi tiết: 5 ngày đêm sấm sét quét sạch 29 vạn quân Thanh
+Chiến dịch bắt đầu từ đêm Giao thừa Tết Kỷ Dậu (đêm 30 tháng Chạp) và kết thúc thắng lợi trọn vẹn vào trưa mùng 5 Tết qua từng mốc chiến đấu then chốt:
+
+| Thời gian | Địa điểm / Cứ điểm | Lực lượng chỉ huy | Diễn biến & Chiến thuật chính | Kết quả |
+| :--- | :--- | :--- | :--- | :--- |
+| **Đêm 30 Tết** *(25/01/1789)* | Phòng tuyến sông Gián Khẩu (sông Đáy) | Đạo quân chủ lực (Quang Trung) | Quân Tây Sơn bí mật vượt sông trong đêm tối, bất ngờ tập kích bắt gọn toàn bộ các toán quân do thám của giặc Thanh. | Tiêu diệt gọn tuyến tuần tiễu; cắt đứt hoàn toàn tin tức về đại bản doanh Thăng Long. |
+| **Nửa đêm Mùng 3 Tết** *(28/01/1789)* | Đồn Hà Hồi (Thường Tín, Hà Nội) | Đạo quân chủ lực (Quang Trung) | Áp dụng chiến thuật tâm lý chiến: vây kín đồn, bắc loa gọi hàng kết hợp đốt đuốc, hò reo đánh trống trợ oai như có hàng chục vạn quân. | Bức hàng toàn bộ quân địch mà không tốn một mũi tên; thu gọn toàn bộ vũ khí và lương thảo. |
+| **Mờ sáng Mùng 5 Tết** *(30/01/1789)* | Đồn Ngọc Hồi (Thanh Trì, Hà Nội) | Đạo quân chủ lực kết hợp cánh quân Đô đốc Bảo | Sử dụng hơn 100 voi chiến kết hợp đội hình "mộc rơm bọc bùn" che chắn hỏa lực đại bác để đột kích giáp lá cà. Đô đốc Bảo phục kích sẵn tại đầm Mực. | Cứ điểm phòng ngự kiên cố nhất của địch sụp đổ; tàn quân giặc tháo chạy rơi vào đầm Mực và bị tiêu diệt hoàn toàn. |
+| **Rạng sáng Mùng 5 Tết** *(30/01/1789)* | Đồn Khương Thượng – Đống Đa | Đạo quân Đô đốc Long (Đặng Tiến Đông) | Đòn vu hồi chiến lược: Đột kích bất ngờ từ sườn phía Tây; kết hợp cùng nhân dân địa phương dùng bùi nhùi rơm tạo thành thế trận "rồng lửa" vây xiết. | Phá nát đồn lũy; tướng giặc Sầm Nghi Đống tuyệt vọng thắt cổ tự vẫn tại núi Loa Sơn. |
+| **Trưa Mùng 5 Tết** *(30/01/1789)* | Kinh thành Thăng Long & Bến sông Nhị Hà | Toàn bộ các cánh quân Tây Sơn | Tôn Sĩ Nghị hoảng loạn tháo chạy qua sông Hồng, vội vã hạ lệnh chặt đứt cầu phao khiến hàng vạn binh sĩ rơi xuống nước. Đại quân Tây Sơn tổng tiến công vào nội đô. | Giải phóng hoàn toàn Thăng Long; vua Quang Trung ngự trên lưng voi tiến vào thành ca khúc khải hoàn. |
+
+## 4. Giá trị và nghệ thuật quân sự độc đáo
+Chiến dịch Ngọc Hồi – Đống Đa minh chứng cho đỉnh cao nghệ thuật quân sự truyền thống của dân tộc:
+
+* **Tốc độ và sự bất ngờ tuyệt đối:** Tấn công đúng vào dịp Tết Nguyên Đán khi quân địch còn say sưa yến tiệc và mất cảnh giác.  
+
+* **Nghệ thuật hiệp đồng đa binh chủng:** Kết hợp nhịp nhàng giữa voi chiến uy lực, kỵ binh cơ động, thuyền chiến bao vây trên sông và bộ binh tinh nhuệ với trang bị độc sáng (mộc rơm bọc bùn chống hỏa khí).  
+
+* **Chiến thuật vu hồi thọc sâu:** Không chỉ đánh chính diện vào các cứ điểm phòng ngự kiên cố phía Nam (Ngọc Hồi), Quang Trung còn tung mũi vu hồi luồn sâu đánh úp Khương Thượng ở phía Tây, phá vỡ tuyến phòng ngự đầu não bao quanh kinh thành.
+
+![Tượng đài vua Quang Trung tại bảo tàng](/images/tuong-dai-vua-Quang-Trung.JPG)
+*Hình 3: Tượng đài vua Quang Trung tại bảo tàng.*
+
+## 5. Dấu ấn lịch sử và Di tích Gò Đống Đa ngày nay
+Chiến thắng mùa xuân Kỷ Dậu 1789 bảo vệ vững chắc nền độc lập chủ quyền, thể hiện khí phách tự chủ của non sông Đại Việt. Sau trận đánh, xác lính giặc Thanh tử trận được thu gom và đắp thành 12 gò đất rải rác, về sau quy tụ lại thành di tích **Gò Đống Đa** tại trung tâm Hà Nội.
+
+Hằng năm, vào đúng ngày **mùng 5 tháng Giêng Âm lịch**, Lễ hội Gò Đống Đa được tổ chức trọng thể nhằm tri ân công đức của Hoàng đế Quang Trung và các tướng sĩ Tây Sơn. Nghi lễ rước "Rồng lửa Thăng Long" trong ngày hội tái hiện sống động hào khí năm xưa, trở thành biểu tượng tinh thần bất khuất trong lòng người dân đất Việt.
+
+![Lễ hội kỷ niệm chiến thắng Ngọc Hồi - Đống Đa](/images/le-hoi-ky-niem-chien-thang-Ngoc-Hoi-Dong-Da.jpg)
+*Hình 4: Lễ hội kỷ niệm chiến thắng Ngọc Hồi - Đống Đa.*
+
+## Câu hỏi thường gặp (FAQ)
+
+* **Trận Ngọc Hồi Đống Đa diễn ra vào ngày tháng năm nào?**
+
+Chiến dịch diễn ra từ đêm 30 tháng Chạp năm Mậu Thân đến mùng 5 Tết Kỷ Dậu, tương ứng từ ngày 25/01/1789 đến ngày 30/01/1789 theo Dương lịch.
+
+* **Tướng giặc nào thắt cổ tự vẫn trong trận Đống Đa?**
+
+Đề đốc Sầm Nghi Đống, chỉ huy cứ điểm Khương Thượng (Đống Đa), đã thắt cổ tự vẫn tại núi Loa Sơn khi đồn lũy bị quân Tây Sơn tiêu diệt hoàn toàn vào sáng mùng 5 Tết.
+
+* **Vì sao quân Tây Sơn có thể phá được đồn Ngọc Hồi kiên cố?**
+
+Vua Quang Trung đã sử dụng sáng kiến ghép các tấm ván phủ rơm ướt bện bùn dày làm lá chắn chống đạn đại bác và cung tên lửa, đồng thời điều động đội tượng binh hơn 100 thớt voi xông lên trước để phá vỡ chông rào và chướng ngại vật phòng thủ của quân Thanh.
+
+* **Lễ hội Đống Đa được tổ chức vào ngày nào và ở đâu?**
+
+Lễ hội Đống Đa diễn ra định kỳ vào ngày mùng 5 tháng Giêng Âm lịch hằng năm tại Công viên Văn hóa Đống Đa, phố Tây Sơn, quận Đống Đa, Hà Nội.
+
+## Bài viết liên quan
+* [Trận Ngọc Hồi - Đống Đa](https://vi.wikipedia.org/wiki/Trận_Ng%E1%BB%8Dc_H%E1%BB%93i_–_Đống_Đa)
+* [Chiến thuật đóng cọc gỗ trên sông Bạch Đằng](https://www.manhghephonviet.com/bai-viet/chien-thuat-dong-coc-go-tren-song-bach-dang)
+* [Chiến thắng Điện Biên Phủ](https://www.manhghephonviet.com/bai-viet/chien-thang-dien-bien-phu-56-ngay-dem-di-vao-lich-su)
+`
+},
 ];
 
 export const FEATURED_WEEKLY_ARTICLES = [
