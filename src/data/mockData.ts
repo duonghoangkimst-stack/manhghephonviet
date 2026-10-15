@@ -3355,8 +3355,8 @@ Năm 1956, đất nước tạm thời bị chia cắt, đời sống nhân dân
 ### 1.1. Khi học tập và cống hiến cùng hướng về tương lai
 Trong những năm tháng gian khó, học tập không chỉ là con đường mở rộng tri thức mà còn nuôi dưỡng hy vọng về tương lai. Lao động, tinh thần trách nhiệm và sự gắn bó với cộng đồng trở thành những cách thiết thực để người trẻ đóng góp cho xã hội. Không phải tất cả thanh niên năm 1956 đều trực tiếp chiến đấu nơi chiến trường. Mỗi người đảm nhận một vai trò, tùy theo hoàn cảnh và khả năng của mình. Chính những nỗ lực âm thầm trong học tập, lao động và đời sống thường ngày cũng góp phần tạo nên sức mạnh của một thế hệ.
 
-![Thanh niên Việt Nam trong hoạt động học tập và công tác thời chiến](https://www.manhghephonviet.com/)
-*Thanh niên Việt Nam trong hoạt động học tập và công tác thời chiến.*
+![Thanh niên Việt Nam trong hoạt động học tập và công tác thời chiến](/images/thanh-nien-Viet-Nam-trong-hoc-tap-khang-chien.jpg)
+*Hình 1: Thanh niên Việt Nam trong hoạt động học tập và công tác thời chiến.*
 
 ### 1.2. Những ước mơ bình dị trong một giai đoạn lịch sử đặc biệt
 Ước mơ của thanh niên ngày ấy có thể không giống nhau, nhưng thường gặp nhau ở mong muốn về một cuộc sống tốt đẹp hơn cho bản thân, gia đình và quê hương. Nhìn lại quá khứ không phải để tô hồng những tháng năm gian khó, mà để hiểu sâu hơn giá trị của tinh thần vượt khó, ý thức cộng đồng và niềm tin vào tương lai. Đó cũng là những giá trị có thể tiếp tục soi sáng hành trình trưởng thành của người trẻ hôm nay.
@@ -3364,8 +3364,8 @@ Trong những năm tháng gian khó, học tập không chỉ là con đường 
 ## 2. Thanh niên năm 2026: Sống trong thời đại số, trưởng thành giữa nhiều lựa chọn
 Bảy mươi năm sau, thanh niên Việt Nam trưởng thành trong một thế giới rộng mở hơn bao giờ hết. Internet, trí tuệ nhân tạo và các nền tảng số đã thay đổi cách con người học tập, làm việc, sáng tạo và kết nối. Một ý tưởng có thể vượt khỏi phạm vi lớp học; một dự án nhỏ có thể tìm thấy cộng đồng đồng hành ở nhiều nơi. Thanh niên Việt Nam thời đại số có nhiều con đường để cống hiến: nghiên cứu khoa học, phát triển công nghệ, khởi nghiệp, sáng tạo nội dung, tham gia hoạt động tình nguyện hay gìn giữ văn hóa dân tộc. Những đóng góp ấy không nhất thiết bắt đầu từ điều lớn lao, mà có thể hình thành từ tri thức, sự chủ động và trách nhiệm trong từng hành động. Tuy nhiên, càng có nhiều cơ hội, người trẻ càng cần bản lĩnh để lựa chọn. Giữa dòng thông tin không ngừng chuyển động, khả năng kiểm chứng, tư duy phản biện và ý thức gìn giữ bản sắc trở thành những năng lực quan trọng.
 
-![Sinh viên Việt Nam học tập và sáng tạo trong thời đại công nghệ số](https://www.manhghephonviet.com/)
-*Sinh viên Việt Nam học tập và sáng tạo trong thời đại công nghệ số.*
+![Sinh viên Việt Nam học tập và sáng tạo trong thời đại công nghệ số](/images/sinh-vien-hoc-tap-sang-tạo-cong-nghe-so.jpg)
+*Hình 2: Sinh viên Việt Nam học tập và sáng tạo trong thời đại công nghệ số.*
 
 ### 2.1. Từ giảng đường đến không gian sáng tạo số
 Giảng đường hôm nay không còn giới hạn trong bốn bức tường. Người trẻ có thể học qua nền tảng trực tuyến, hợp tác trong các dự án liên ngành, phát triển sản phẩm số hoặc chia sẻ kiến thức với cộng đồng. Công nghệ mở rộng khả năng biến ý tưởng thành hiện thực, nhưng một sản phẩm có giá trị không chỉ cần mới lạ. Nó còn phải giải quyết được vấn đề thực tế, bảo đảm độ tin cậy và mang lại lợi ích thiết thực cho người sử dụng.
@@ -3382,8 +3382,8 @@ Muốn bảo tồn một di sản, trước hết cần hiểu giá trị mà n�
 ### 3.2. Người trẻ kể chuyện Việt Nam bằng ngôn ngữ của thời đại mình
 Gìn giữ truyền thống không đồng nghĩa với việc giữ nguyên mọi cách thể hiện của quá khứ. Người trẻ có thể kể chuyện Việt Nam qua phim ngắn, podcast, bản đồ số, triển lãm tương tác hay những dự án sáng tạo dành cho cộng đồng. Điều cốt lõi là làm mới cách kể mà không làm sai lệch giá trị lịch sử. Khi sự sáng tạo được đặt trên nền tảng tư liệu đáng tin cậy, những câu chuyện tưởng chừng xa xưa có thể trở nên gần gũi hơn với Gen Z, đồng thời mở rộng cơ hội giới thiệu văn hóa Việt Nam đến bạn bè quốc tế.
 
-![Người trẻ kể chuyện Việt Nam bằng sự lan tỏa qua mạng xã hội](https://www.manhghephonviet.com/)
-*Người trẻ kể chuyện Việt Nam bằng sự lan tỏa qua mạng xã hội.*
+![Người trẻ kể chuyện Việt Nam bằng sự lan tỏa qua mạng xã hội](/images/nguoi-tre-ke-chuyen-qua-su-lan-toa.jpg)
+*Hình 3: Người trẻ kể chuyện Việt Nam bằng sự lan tỏa qua mạng xã hội.*
 
 ## 4. Công nghệ số: Cầu nối đưa lịch sử đến gần Gen Z
 Chuyển đổi số di sản đang mở ra nhiều cách thức mới để lưu trữ, giới thiệu và khám phá lịch sử. Bản đồ tương tác giúp người dùng tìm hiểu các địa danh; hình ảnh và video tái hiện bối cảnh; công nghệ NFC kết nối sản phẩm vật lý với nội dung số; trò chơi khám phá khuyến khích người dùng chủ động tìm kiếm thông tin. Nhờ đó, lịch sử có thể được tiếp cận qua nhiều giác quan và trải nghiệm khác nhau, thay vì chỉ giới hạn trong việc đọc hay ghi nhớ. Tuy nhiên, công nghệ không thay thế sách sử, tư liệu chuyên môn hoặc trải nghiệm trực tiếp tại di tích. Giá trị của nó nằm ở khả năng bổ sung những con đường tiếp cận linh hoạt, phù hợp hơn với nhu cầu của người học hiện đại.
@@ -3403,8 +3403,36 @@ Kỷ niệm 70 năm Ngày truyền thống Hội Liên hiệp Thanh niên Việt
 
 Bảy mươi năm là hành trình của nhiều thế hệ, nhưng khát vọng dựng xây Việt Nam vẫn luôn được tiếp nối. Từ những ước mơ bình dị năm xưa đến những sáng tạo của Gen Z hôm nay, mỗi người trẻ đều có thể trở thành một mảnh ghép góp phần làm nên diện mạo Việt Nam trong tương lai.
 
-![Thế hệ trẻ viết tiếp câu chuyện Việt Nam](https://www.manhghephonviet.com/)
-*Thế hệ trẻ viết tiếp câu chuyện Việt Nam*
+![Thế hệ trẻ viết tiếp câu chuyện Việt Nam](/images/the-he-tre-viet-tiep-cau-chuyen-Viet-Nam.jpg)
+*Hình 4: Thế hệ trẻ viết tiếp câu chuyện Việt Nam*
+
+## Câu hỏi thường gặp (FAQ)
+
+**Ngày truyền thống Hội Liên hiệp Thanh niên Việt Nam là ngày nào?**
+
+Ngày truyền thống Hội Liên hiệp Thanh niên Việt Nam là ngày 15/10 hằng năm, gắn với dấu mốc thành lập Hội vào ngày 15/10/1956.
+
+**Năm 2026 kỷ niệm bao nhiêu năm Ngày truyền thống Hội Liên hiệp Thanh niên Việt Nam?**
+
+Năm 2026 đánh dấu 70 năm Ngày truyền thống Hội Liên hiệp Thanh niên Việt Nam, tính từ năm 1956 đến năm 2026.
+
+**Thanh niên Việt Nam hôm nay có thể gìn giữ văn hóa bằng cách nào?**
+
+Người trẻ có thể tìm hiểu lịch sử từ nguồn đáng tin cậy, tham quan di tích, tham gia hoạt động bảo tồn và sáng tạo nội dung văn hóa chính xác, có trách nhiệm.
+
+**Công nghệ số đóng vai trò gì trong việc bảo tồn di sản?**
+
+Công nghệ số hỗ trợ lưu trữ, giới thiệu và mở rộng khả năng tiếp cận di sản thông qua bản đồ tương tác, dữ liệu số, hình ảnh, video và trải nghiệm đa phương tiện. Hiệu quả phụ thuộc vào chất lượng nội dung, độ chính xác của thông tin và cách ứng dụng.
+
+**Mảnh Ghép Hồn Việt kết nối Gen Z với lịch sử như thế nào?**
+
+Mảnh Ghép Hồn Việt hướng đến kết hợp bản đồ lịch sử tương tác, kể chuyện số, trải nghiệm khám phá và sản phẩm lưu niệm ứng dụng NFC, giúp người trẻ chủ động tìm hiểu lịch sử và văn hóa Việt Nam.
+
+## Bài viết liên quan ##
+[Mảnh Ghép Bản Đồ Việt Nam Bằng Gỗ: Quà Tặng Văn Hóa Đặc Biệt](https://www.manhghephonviet.com/bai-viet/manh-ghep-ban-do-viet-nam-bang-go)
+
+[Quà lưu niệm Việt Nam: 10 món quà mang đậm dấu ấn văn hóa](https://www.manhghephonviet.com/bai-viet/qua-luu-niem-viet-nam-10-mon-qua-mang-dam-dau-an-van-hoa)
+
 `
 },
 ];
