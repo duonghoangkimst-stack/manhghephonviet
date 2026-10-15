@@ -3435,6 +3435,116 @@ Mảnh Ghép Hồn Việt hướng đến kết hợp bản đồ lịch sử t�
 
 `
 },
+{
+  id: 'chien-dich-500-ngay-dem-tim-kiem-hai-cot-liet-si',
+  slug: 'chien-dich-500-ngay-dem-tim-kiem-hai-cot-liet-si',
+  title: 'Chiến dịch 500 ngày đêm: Hành trình tìm lại tên cho những anh hùng đã hy sinh',
+  category: 'Góc Sử Việt',
+  date: '15/10/2026',
+  author: 'Mảnh Ghép Hồn Việt',
+  image: '/images/biaseo24.jpg',
+  description: 'Chiến dịch 500 ngày đêm tìm kiếm hài cốt liệt sĩ nối những di vật và ký ức, mở ra hành trình tìm lại tên tuổi cho những người đã hy sinh vì Tổ quốc.',
+  content: `
+Giữa những trang sử còn dang dở, Chiến dịch 500 ngày đêm tìm kiếm hài cốt liệt sĩ là hành trình đi tìm những người đã hy sinh nhưng chưa thể trở về với gia đình. Từ những di vật còn sót lại đến từng manh mối lịch sử, mỗi phát hiện đều thắp lên hy vọng tìm lại danh tính cho các anh hùng liệt sĩ. Với mong muốn lưu giữ ký ức dân tộc và kết nối thế hệ trẻ với lịch sử, Mảnh Ghép Hồn Việt lan tỏa những câu chuyện tri ân sâu sắc, để sự hy sinh của những người đi trước luôn được ghi nhớ và tiếp nối.
+
+## 1. Chiến dịch 500 ngày đêm – Hành trình tìm kiếm những người chưa trở về
+Hơn nửa thế kỷ sau ngày đất nước thống nhất, vẫn còn nhiều gia đình chưa tìm thấy người thân hy sinh trong chiến tranh. Có người đã nằm lại nơi chiến trường xa, có người được tìm thấy nhưng chưa xác định được danh tính, cũng có những ngôi mộ vẫn thiếu thông tin để kết nối với gia đình. Đằng sau mỗi trường hợp là nỗi mong chờ kéo dài qua nhiều năm và khát vọng được biết nơi người thân yên nghỉ.
+
+Trong bối cảnh đó, Chiến dịch 500 ngày đêm đẩy mạnh thực hiện tìm kiếm, quy tập và xác định danh tính hài cốt liệt sĩ được triển khai từ ngày 15/3/2026 đến ngày 27/7/2027, hướng tới kỷ niệm 80 năm Ngày Thương binh – Liệt sĩ. Chiến dịch đặt mục tiêu tìm kiếm, quy tập khoảng 7.000 hài cốt liệt sĩ; lấy mẫu đối với khoảng 230.000 mộ liệt sĩ chưa xác định được thông tin và giám định ADN khoảng 18.000 mẫu hài cốt liệt sĩ. Những mục tiêu ấy thể hiện quyết tâm đẩy nhanh hành trình tìm lại danh tính cho những người đã hy sinh vì Tổ quốc. Ý nghĩa của chiến dịch không chỉ nằm ở số lượng hài cốt được tìm thấy, mà còn ở việc khôi phục thông tin về từng con người, giúp những gia đình có thêm hy vọng sau nhiều năm chờ đợi. Bởi đằng sau mỗi hồ sơ là một cuộc đời, một gia đình và những lời hẹn có thể đã mãi dang dở giữa khói lửa chiến tranh.
+
+### 1.1. Hành trình tìm kiếm hài cốt liệt sĩ vẫn tiếp tục
+Chiến tranh đã lùi xa, nhưng những mất mát mà chiến tranh để lại vẫn chưa thể khép lại. Theo thời gian, địa hình chiến trường thay đổi, nhân chứng ngày càng ít đi, hồ sơ thất lạc và ký ức dần phai nhạt. Nhiều trường hợp chưa thể xác định danh tính do thiếu thông tin đối chiếu hoặc chưa có đủ căn cứ khoa học để đưa ra kết luận chính xác. Vì vậy, tìm kiếm hài cốt liệt sĩ và xác định danh tính liệt sĩ là hành trình đòi hỏi sự kiên trì, phối hợp giữa nhiều phương pháp. Từ khảo sát thực địa, nghiên cứu hồ sơ lịch sử, thu thập thông tin nhân chứng đến phân tích di vật liệt sĩ và giám định ADN, mỗi nguồn dữ liệu đều có thể trở thành manh mối quan trọng. Việc đối chiếu cẩn trọng các thông tin giúp thu hẹp phạm vi tìm kiếm, làm sáng tỏ những trường hợp còn bỏ ngỏ và đưa quá trình xác minh đến gần hơn với kết quả. Trong hành trình ấy, mỗi mẫu ADN, mỗi dòng hồ sơ hay mỗi di vật được tìm thấy đều có thể mở ra hy vọng cho những gia đình chưa biết tin tức người thân. Đó không chỉ là nỗ lực ứng dụng khoa học vào công tác tìm kiếm, mà còn là trách nhiệm gìn giữ ký ức lịch sử và tri ân những người đã cống hiến, hy sinh vì độc lập, tự do của dân tộc.
+
+### 1.2. Đằng sau mỗi cuộc tìm kiếm là một gia đình mong chờ
+Với những gia đình có người thân hy sinh nhưng chưa rõ danh tính, điều mong mỏi đôi khi vô cùng giản dị: biết người thân đã nằm lại nơi đâu, được gọi đúng tên người đã khuất hoặc có một nơi cụ thể để thắp nén hương tưởng niệm. Sau nhiều năm chờ đợi, một thông tin được xác minh hay một danh tính được làm sáng tỏ cũng có thể mang ý nghĩa lớn lao đối với những người ở lại. Bởi thế, hành trình tìm kiếm hài cốt liệt sĩ không đơn thuần là nhiệm vụ chuyên môn, mà còn là nỗ lực hàn gắn những khoảng trống do chiến tranh để lại. Mỗi trường hợp được xác định danh tính không chỉ giúp một gia đình tìm thấy lời đáp, mà còn góp phần đưa những con người đã hy sinh trở về với ký ức cộng đồng bằng tên tuổi và câu chuyện của chính mình. Sâu xa hơn, đó là sự tiếp nối của đạo lý uống nước nhớ nguồn, nhắc nhở thế hệ hôm nay trân trọng những hy sinh của cha ông. Tìm lại một danh tính không chỉ là trả lại tên cho người đã khuất, mà còn là gìn giữ ký ức lịch sử và trao thêm sự bình yên cho những người ở lại.
+
+![Chiến dịch 500 ngày đêm tìm kiếm hài cốt liệt sĩ tại Công viên Lê Thị Riêng](/images/chien-dich-500-ngay-dem.jpg)
+*Hình 1: Chiến dịch 500 ngày đêm tìm kiếm hài cốt liệt sĩ tại Công viên Lê Thị Riêng.*
+
+## 2. Di vật liệt sĩ – Những dấu tích nhỏ mang theo thông tin lớn
+Trong hành trình tìm kiếm hài cốt liệt sĩ sau chiến tranh, đôi khi một mảnh giấy, vật dụng cá nhân hay dòng chữ khắc tên cũng có thể mở ra manh mối quan trọng. Dù nhỏ bé và chịu nhiều tác động của thời gian, những dấu tích ấy vẫn có thể lưu giữ thông tin về những người đã hy sinh. Di vật liệt sĩ không chỉ mang giá trị kỷ niệm, mà còn góp phần hỗ trợ xác minh danh tính, đơn vị và hoàn cảnh hy sinh. Khi được bảo quản, ghi nhận và đối chiếu đúng phương pháp, một cái tên còn lưu lại trên di vật có thể giúp cơ quan chức năng tra cứu hồ sơ, kết nối thông tin nhân chứng và tìm kiếm thân nhân. Tuy nhiên, di vật không phải lúc nào cũng đủ căn cứ để xác định danh tính. Những thông tin còn lại cần được kiểm chứng và đối chiếu với hồ sơ lịch sử, lời kể nhân chứng cùng các kết quả giám định phù hợp.
+
+### 2.1 Từ một cái tên trên di vật đến manh mối lịch sử
+Một cái tên có thể trở thành điểm khởi đầu cho hành trình tìm kiếm. Từ thông tin trên di vật, lực lượng chuyên môn có thể tra cứu hồ sơ quân nhân, xác minh đơn vị, đối chiếu địa bàn hoạt động và tìm kiếm thêm thông tin từ những người từng sống hoặc chiến đấu tại khu vực liên quan. Bên cạnh đó, ảnh tư liệu lịch sử cũng có thể cung cấp những manh mối giá trị. Địa hình, công trình và góc chụp trong ảnh giúp đối chiếu với thực địa, từ đó hỗ trợ khoanh vùng khu vực chôn cất. Khi kết hợp với hồ sơ, nhân chứng và di vật, những dữ liệu tưởng chừng rời rạc có thể bổ sung cho nhau, mở ra hướng tìm kiếm cụ thể hơn. Tại Công viên Lê Thị Riêng, việc kết hợp ảnh lịch sử với hồ sơ, thông tin nhân chứng và di vật đã góp phần hỗ trợ quá trình tìm kiếm hài cốt liệt sĩ. Trường hợp này cho thấy giá trị của việc kết nối nhiều nguồn tư liệu trong công tác xác minh lịch sử.
+
+### 2.2 Khi ký ức gia đình và tư liệu lịch sử gặp nhau
+Hồ sơ lưu giữ thông tin về tên tuổi, đơn vị và thời điểm mất liên lạc; nhân chứng có thể nhớ về trận đánh hoặc nơi chôn cất; còn gia đình lưu giữ những bức ảnh, lá thư và ký ức về người thân trước ngày ra đi. Mỗi nguồn thông tin mang một phần câu chuyện, nhưng chỉ khi được đối chiếu cẩn trọng mới có thể tạo thành cơ sở xác minh đáng tin cậy. Ngày nay, công nghệ số hỗ trợ lưu trữ, hệ thống hóa và kết nối dữ liệu, trong khi giám định ADN cung cấp thêm cơ sở khoa học để đối chiếu quan hệ huyết thống. Tuy nhiên, mọi kết luận vẫn cần tuân thủ quy trình chuyên môn, tránh suy đoán từ một dấu hiệu riêng lẻ. Từ một di vật đến một hồ sơ, từ một lời kể đến kết quả xác minh, hành trình tìm lại danh tính liệt sĩ là quá trình kiên trì kết nối những mảnh thông tin còn sót lại. Mỗi manh mối được làm sáng tỏ không chỉ góp phần khôi phục sự thật lịch sử, mà còn thắp lên hy vọng để những người đã hy sinh được trở về với gia đình bằng chính tên tuổi của mình.
+
+![Di vật liệt sĩ và tư liệu lịch sử phục vụ xác định danh tính hài cốt liệt sĩ](/images/di-vat-va-tu-lieu-lich-su.webp)
+*Hình 2: Di vật liệt sĩ và tư liệu lịch sử phục vụ xác định danh tính hài cốt liệt sĩ.*
+
+## 3. Công viên Lê Thị Riêng – Từ những dấu tích lịch sử đến câu chuyện gần 60 năm chờ đợi
+Giữa nhịp sống hiện đại của Thành phố Hồ Chí Minh, Công viên Lê Thị Riêng còn lưu giữ những dấu tích lịch sử gắn với chiến tranh. Năm 2026, từ bức ảnh lịch sử do Hãng thông tấn AP chụp năm 1968 cùng các tư liệu liên quan, lực lượng chức năng đã xác định khu vực khảo sát, mở ra hành trình tìm kiếm và quy tập hài cốt liệt sĩ. Trong quá trình ấy, những di vật còn sót lại trở thành manh mối quý giá, giúp kết nối hiện trường với hồ sơ lịch sử và gia đình liệt sĩ. Tuy nhiên, để xác định danh tính người đã khuất, mỗi dấu tích đều cần được đối chiếu, xác minh cẩn trọng. Bởi đằng sau một cái tên được tìm thấy là niềm hy vọng đoàn tụ và sự chờ đợi suốt nhiều thập kỷ của những người ở lại.
+
+### 3.1 Từ di vật liệt sĩ đến hy vọng của một gia đình
+Trong số những câu chuyện gắn với cuộc tìm kiếm tại Công viên Lê Thị Riêng, trường hợp liệt sĩ Huỳnh Văn Quên đã khơi lên nhiều xúc động. Theo thông tin báo chí, ông Quên nhập ngũ năm 1966 và mất liên lạc với gia đình từ năm 1968. Những di vật mang tên ông được phát hiện tại khu vực tìm kiếm đã mở ra manh mối để gia đình ở Tây Ninh tiếp tục trình báo, phối hợp xác minh. Câu chuyện ấy còn gắn với bà Nguyễn Thị Lệ, người từng có lời hẹn ước với ông Quên trước khi chiến tranh chia lìa đôi lứa. Gần 60 năm trôi qua, ký ức về người thương vẫn được bà gìn giữ, dù ngày đoàn tụ đã không thể diễn ra như mong đợi.
+
+Ngày 18/7/2026, Sở Nội vụ tỉnh Tây Ninh ban hành quyết định công nhận bà Nguyễn Thị Lệ là vợ liệt sĩ Huỳnh Văn Quên, sau quá trình hoàn tất hồ sơ và xác nhận quan hệ thân nhân. Sự ghi nhận này mang ý nghĩa đặc biệt đối với người phụ nữ đã chờ đợi suốt nhiều thập kỷ, đồng thời thể hiện sự trân trọng đối với tình nghĩa và những hy sinh thầm lặng của người ở lại. Cần phân biệt việc công nhận quan hệ vợ liệt sĩ với việc xác định danh tính hài cốt bằng giám định ADN, bởi đây là hai quá trình có căn cứ và thủ tục riêng. Dù vậy, cả hai đều hướng đến việc làm sáng tỏ những thông tin còn bỏ ngỏ và bảo đảm sự tôn trọng đối với người đã hy sinh cùng thân nhân của họ.
+
+![Ảnh tư liệu lịch sử về nghĩa địa Chí Hòa năm 1968 hoặc ảnh lực lượng chức năng tìm kiếm tại Công viên Lê Thị Riêng.](/images/tu-lieu-lich-su-nghia-dia-Chi-Hoa.jpg)
+*Hình 3: Ảnh tư liệu lịch sử về nghĩa địa Chí Hòa năm 1968 hoặc ảnh lực lượng chức năng tìm kiếm tại Công viên Lê Thị Riêng.*
+
+### 3.2 Khi lịch sử không chỉ được tìm thấy, mà còn được gọi tên
+Từ một bức ảnh lịch sử đến những di vật còn sót lại, từ hồ sơ quân nhân đến câu chuyện của một người phụ nữ chờ đợi gần 60 năm, hành trình tại Công viên Lê Thị Riêng cho thấy mỗi manh mối đều có thể mang ý nghĩa vượt xa giá trị vật chất của nó. Bởi phía sau mỗi hài cốt được tìm thấy là một con người từng sống, từng yêu thương và từng có gia đình mong ngóng. Việc tìm kiếm, quy tập và xác định danh tính liệt sĩ vì thế không chỉ là nhiệm vụ chuyên môn, mà còn là hành trình kết nối quá khứ với hiện tại, giúp những mất mát từng bị chiến tranh chia cắt dần được sáng tỏ.
+
+Có những cuộc trở về không thể đưa người đã khuất trở lại cuộc sống, nhưng có thể trả lại tên tuổi, ký ức và sự bình yên cho những người ở lại. Đó cũng là ý nghĩa sâu sắc của đạo lý uống nước nhớ nguồn – để những hy sinh vì Tổ quốc không bị lãng quên và mỗi câu chuyện lịch sử đều được tiếp nối bằng sự trân trọng của các thế hệ hôm nay.
+
+![Câu chuyện bà Nguyễn Thị Lệ và liệt sĩ Huỳnh Văn Quên gợi nhắc về tình nghĩa, ký ức và những năm tháng chờ đợi sau chiến tranh.](/images/cau-chuyen-chien-si-Huynh-Van-Quen.webp)
+*Hình 4: Câu chuyện bà Nguyễn Thị Lệ và liệt sĩ Huỳnh Văn Quên gợi nhắc về tình nghĩa, ký ức và những năm tháng chờ đợi sau chiến tranh.*
+
+## 4. Tìm lại danh tính liệt sĩ – trả lại tên tuổi cho lịch sử
+Một hài cốt được tìm thấy là một bước tiến quan trọng. Nhưng hành trình chỉ có thể tiếp tục khi các dấu vết được xác minh, thông tin được đối chiếu và danh tính được làm rõ theo quy trình chuyên môn. Vì vậy, cần phân biệt ba khái niệm có liên quan nhưng không đồng nhất: tìm thấy hài cốt, xác định danh tính và xác minh quan hệ thân nhân. Tìm thấy hài cốt là kết quả của công tác tìm kiếm, quy tập. Xác định danh tính là quá trình làm rõ người đã hy sinh bằng các bằng chứng phù hợp. Còn xác minh thân nhân là việc làm rõ mối quan hệ gia đình để giải quyết các thủ tục và chế độ liên quan. Sự phân biệt này giúp chúng ta hiểu rằng đằng sau mỗi trường hợp là nhiều bước công việc, từ hiện trường đến phòng giám định, từ hồ sơ lưu trữ đến cơ quan quản lý. Mỗi kết luận cần có căn cứ, bởi danh tính của một liệt sĩ không chỉ là dữ liệu hành chính mà còn gắn với danh dự, ký ức và quyền lợi của một gia đình.
+
+### 4.1 Ý nghĩa của việc xác minh danh tính đối với thân nhân
+Một cái tên được trả lại không chỉ là lời giải đáp sau hàng thập kỷ ngóng trông, mà còn là hành trình khép lại nỗi đau khắc khoải của những người ở lại. Khi danh tính liệt sĩ được xác nhận, gia đình cuối cùng cũng tìm thấy người thân giữa lòng đất mẹ, được vỗ về bởi một điểm tựa tâm linh cụ thể và trọn vẹn nghĩa tình theo đúng quy định. Nhưng trên hết, đó là gia đình được cất tiếng gọi tên người đã khuất bằng tất cả nỗi nhớ thương qua bao năm tháng, nối lại sợi dây ký ức thiêng liêng giữa dòng họ và lịch sử dân tộc. Ở góc độ xã hội, mỗi tên tuổi được tìm thấy là một mảnh ghép ký ức được trả về đúng vị trí, nhắc nhở thế hệ hôm nay về cái giá của hòa bình. Những dòng chữ khắc lại trên bia mộ ấy không chỉ ghi dấu một người con của một gia đình, mà đã hòa vào nhịp đập ký ức chung của cả đất nước.
+
+### 4.2 Thế hệ trẻ tiếp nối hành trình tri ân bằng cách nào?
+Tri ân không nhất thiết bắt đầu từ những hành động lớn lao. Với người trẻ, hành trình ấy có thể bắt đầu bằng việc tìm hiểu lịch sử từ nguồn đáng tin cậy, lắng nghe câu chuyện của các gia đình liệt sĩ, gìn giữ ảnh và tư liệu cũ, hoặc chia sẻ thông tin đã được kiểm chứng. Trong môi trường số, mỗi bài viết, bản đồ tương tác hay câu chuyện lịch sử đều có thể giúp một địa danh trở nên gần gũi hơn. Tuy nhiên, việc truyền tải cần đi cùng trách nhiệm: ghi rõ nguồn tư liệu, tôn trọng nhân vật, không giật gân hóa nỗi đau và không biến những câu chuyện hy sinh thành nội dung giải trí đơn thuần. Khi người trẻ chủ động tìm hiểu, kiểm chứng và kể lại lịch sử bằng ngôn ngữ của thời đại mình, ký ức không chỉ được lưu giữ mà còn tiếp tục có ý nghĩa trong đời sống hiện tại.
+
+![Người dân và các bạn trẻ đưa tiễn hài cốt liệt sĩ tại công viên Lê Thị Riêng](/images/nguoi-dan-va-cac-ban-tre-dua-tien.webp)
+*Hình 5: Người dân và các bạn trẻ đưa tiễn hài cốt liệt sĩ tại công viên Lê Thị Riêng.*
+
+## 5. Mảnh Ghép Hồn Việt – lưu giữ những câu chuyện lịch sử chưa thể lãng quên
+Lịch sử không chỉ hiện diện trong sách giáo khoa hay những mốc thời gian được ghi trên bia tưởng niệm. Lịch sử còn nằm trong tên một địa danh, một bức ảnh cũ, một di vật được gìn giữ và câu chuyện của những người đã dành cả đời để nhớ về người thân. Với định hướng kết nối lịch sử và văn hóa Việt Nam bằng bản đồ tương tác, storytelling và trải nghiệm số, Mảnh Ghép Hồn Việt mong muốn góp phần đưa những câu chuyện ấy đến gần hơn với cộng đồng, đặc biệt là thế hệ trẻ.
+
+Sứ mệnh này không thay thế công tác tìm kiếm hay xác minh danh tính của cơ quan chức năng. Đó là một cách tiếp cận bổ trợ trong giáo dục và truyền thông lịch sử: giúp người đọc hiểu rằng phía sau mỗi địa danh là những con người thật, những sự kiện có thật và những giá trị cần được gìn giữ.
+
+### 5.1 Kết nối địa danh với những câu chuyện có thật
+Một bản đồ lịch sử không chỉ giúp người xem biết một địa điểm nằm ở đâu. Khi được kết nối với tư liệu đáng tin cậy, bản đồ còn có thể giải thích điều gì đã xảy ra tại nơi đó, vì sao địa danh ấy có ý nghĩa và những con người nào đã góp phần làm nên lịch sử. Với Công viên Lê Thị Riêng, câu chuyện về hành trình tìm kiếm hài cốt liệt sĩ mở ra một góc nhìn sâu hơn về ký ức chiến tranh giữa lòng đô thị hiện đại. Một không gian công cộng quen thuộc cũng có thể mang trong mình những lớp lịch sử cần được tìm hiểu và tôn trọng. Việc kể lại câu chuyện cần đặt sự chính xác lên hàng đầu: thông tin phải có nguồn, những chi tiết chưa được xác nhận cần được trình bày đúng mức độ chắc chắn, hình ảnh phải được sử dụng phù hợp và nhân vật cần được đối xử bằng sự tôn trọng.
+
+### 5.2 Đưa ký ức lịch sử đến gần hơn với người trẻ
+Người trẻ hôm nay có thể tiếp cận lịch sử qua nhiều hình thức: bản đồ số, câu chuyện đa phương tiện, hình ảnh tư liệu và những trải nghiệm tương tác. Khi được thiết kế có trách nhiệm, các phương thức này giúp lịch sử bớt xa cách mà không làm mất đi chiều sâu. Mảnh Ghép Hồn Việt hướng đến việc biến sự tò mò ban đầu thành mong muốn tìm hiểu sâu hơn. Một địa danh có thể dẫn người xem đến một sự kiện; một sự kiện có thể mở ra câu chuyện của một nhân vật; và câu chuyện ấy có thể giúp người trẻ hiểu rõ hơn giá trị của hòa bình, lòng biết ơn và trách nhiệm với ký ức dân tộc. Bởi sau cùng, công nghệ chỉ thực sự có ý nghĩa khi phục vụ con người. Bản đồ có thể chỉ đường đến một địa danh, nhưng chính câu chuyện sẽ giúp chúng ta hiểu vì sao nơi ấy đáng được ghi nhớ.
+
+## Câu hỏi thường gặp (FAQ)
+* **1. Chiến dịch 500 ngày đêm tìm kiếm hài cốt liệt sĩ là gì?**
+
+  Đây là chiến dịch nhằm đẩy mạnh tìm kiếm, quy tập và xác định danh tính hài cốt liệt sĩ, góp phần đưa những người đã hy sinh trở về với tên tuổi và kết nối họ với gia đình.
+
+  * **2. Vì sao việc tìm kiếm hài cốt liệt sĩ vẫn tiếp tục sau nhiều thập kỷ?**
+  
+  Nhiều trường hợp còn thiếu thông tin về nơi hy sinh, vị trí an táng hoặc danh tính. Thời gian cũng khiến hồ sơ thất lạc, nhân chứng ngày càng ít, nên việc tìm kiếm cần kết hợp tư liệu lịch sử, khảo sát thực địa và phương pháp khoa học.
+
+  * **3. Di vật liệt sĩ có vai trò gì trong việc xác định danh tính?**
+
+  Di vật như giấy tờ, vật dụng cá nhân hoặc thông tin khắc tên có thể cung cấp manh mối về danh tính và đơn vị. Tuy nhiên, những dấu tích này cần được đối chiếu với hồ sơ, lời kể nhân chứng và bằng chứng phù hợp trước khi đưa ra kết luận.
+
+  * **4. Vì sao Công viên Lê Thị Riêng trở thành địa điểm tìm kiếm hài cốt liệt sĩ?**
+
+  Khu vực này gắn với những dấu vết lịch sử về việc chôn cất các chiến sĩ hy sinh trong chiến tranh. Ảnh tư liệu, hồ sơ và thông tin liên quan đã góp phần hỗ trợ xác định khu vực khảo sát, phục vụ công tác tìm kiếm và quy tập.
+
+  * **5. Câu chuyện bà Nguyễn Thị Lệ và liệt sĩ Huỳnh Văn Quên có ý nghĩa gì?**
+
+  Câu chuyện thể hiện sức bền của tình nghĩa và sự chờ đợi trong chiến tranh. Việc bà Nguyễn Thị Lệ được công nhận là vợ liệt sĩ Huỳnh Văn Quên vào ngày 18/7/2026 cũng cho thấy ý nghĩa của việc xác minh hồ sơ và ghi nhận mối quan hệ thân nhân sau nhiều năm.
+
+  * **6. Tìm thấy hài cốt có đồng nghĩa với việc đã xác định được danh tính liệt sĩ không?**
+
+  Không. Tìm thấy hài cốt là bước đầu của quá trình tìm kiếm, quy tập. Xác định danh tính cần thêm căn cứ như di vật, hồ sơ lịch sử, thông tin nhân chứng và kết quả giám định ADN khi phù hợp.
+
+## Bài viết liên quan
+* [Nguyễn Tri Phương là ai? Cuộc đời bi hùng của vị tướng tuẫn tiết giữ thành](https://www.manhghephonviet.com/bai-viet/nguyen-tri-phuong-cuoc-doi-va-su-nghiep)
+* [Đại tướng Lê Trọng Tấn: Một đời cống hiến cho đất nước](https://www.manhghephonviet.com/bai-viet/dai-tuong-le-trong-tan-cuoc-doi-va-dau-an-lich-su)
+`
+},
 ];
 
 export const FEATURED_WEEKLY_ARTICLES = [
