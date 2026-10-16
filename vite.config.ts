@@ -19,6 +19,11 @@ export default defineConfig(() => {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
+              // Tách riêng các thư viện cốt lõi của React và Router ra một file riêng
+              if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
+                return 'react-core';
+              }
+              // Các thư viện node_modules còn lại gom vào vendor
               return 'vendor';
             }
           },

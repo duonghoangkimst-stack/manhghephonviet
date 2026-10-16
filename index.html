@@ -47,14 +47,20 @@
       }
     </style>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKNR3RML6X"></script>
+    <!-- Google tag (gtag.js) - Trì hoãn tải sau khi trang đã load xong -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-QKNR3RML6X');
+
+      // Tự động gắn script gtag.js sau khi trình duyệt đã tải xong trang
+      window.addEventListener('load', function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-QKNR3RML6X';
+        document.head.appendChild(script);
+      });
     </script>
   </head>
   <body class="antialiased bg-[#FDFBF7] text-[#261816] min-h-screen">
