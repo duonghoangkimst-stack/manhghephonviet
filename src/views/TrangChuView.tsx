@@ -25,19 +25,21 @@ export default function TrangChuView({
 
   return (
     <div className="w-full flex-grow">
-      {/* Hero Banner Section - Responsive cho cả Mobile & Desktop */}
-      <section
-        id="hero-banner-section"
-        className="relative w-full min-h-[520px] sm:min-h-[580px] md:min-h-[720px] flex items-center justify-center md:justify-start border-b border-[#C5B358] overflow-hidden"
-        style={{
-          backgroundImage: `url(${heroBannerBg}), url('Bìa trang chủ.webp')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        {/* Soft overlay giúp tăng độ tương phản cho chữ */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF6EE]/90 via-[#FAF6EE]/60 md:via-[#FAF6EE]/40 to-transparent pointer-events-none"></div>
+      {/* Hero Banner Section - Hiển thị ảnh nền trực tiếp */}
+<section 
+  id="hero-banner-section" 
+  className="relative w-full min-h-[520px] sm:min-h-[580px] md:min-h-[720px] flex items-center justify-center md:justify-start overflow-hidden"
+>
+  {/* Thẻ img hiển thị trực tiếp ảnh từ thư mục public hoặc assets */}
+  <img
+    src="/images/Bìa trang chủ.webp"
+    alt="Bìa trang chủ Mảnh Ghép Hồn Việt"
+    fetchPriority="high"
+    className="absolute inset-0 w-full h-full object-cover object-center z-0"
+  />
+
+  {/* Soft overlay (lớp phủ mờ nhẹ) nằm đè lên trên ảnh để chữ dễ đọc hơn */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#FAF6EE]/70 via-[#FAF6EE]/40 to-transparent z-10" />
 
         {/* CỤM VĂN BẢN VÀ NÚT BẤM */}
         <div
