@@ -3892,50 +3892,63 @@ Giữa vùng quê Nam Đàn, Nghệ An, Khu di tích Kim Liên lưu giữ nhữn
 
 ### Từ nếp nhà bình dị đến những giá trị hình thành nhân cách
 Quê hương không quyết định toàn bộ con đường của một con người, nhưng gia đình, môi trường sống và bối cảnh xã hội có thể góp phần định hình cách họ nhìn nhận cuộc đời. Với Hồ Chí Minh, truyền thống hiếu học của gia đình, ảnh hưởng từ thân phụ Nguyễn Sinh Sắc cùng những trải nghiệm trong xã hội Việt Nam đương thời là những yếu tố cần được đặt trong bối cảnh lịch sử khi tìm hiểu tuổi thơ của Người.
+
 Kim Liên vì thế không chỉ là nơi lưu giữ ký ức về một thời niên thiếu, mà còn mở ra câu hỏi về những điều đã nuôi dưỡng khát vọng của một con người trước vận mệnh đất nước. Từ một miền quê bình dị, hành trình của Nguyễn Tất Thành sau này đã vượt khỏi không gian làng xóm, hướng đến một câu hỏi lớn hơn: làm thế nào để dân tộc Việt Nam giành lại độc lập và quyền tự quyết?
 
-![Làng Sen, quê nội của Chủ tịch Hồ Chí Minh](/images/)
-*Làng Sen, quê nội của Chủ tịch Hồ Chí Minh, lưu giữ những dấu tích gắn với gia đình và tuổi thơ của Người.*
+![Làng Sen, quê nội của Chủ tịch Hồ Chí Minh](/images/lang-Sen.webp)
+*Hình 1: Làng Sen, quê nội của Chủ tịch Hồ Chí Minh, lưu giữ những dấu tích gắn với gia đình và tuổi thơ của Người.*
 
 ## 3. Bến Nhà Rồng – nơi khởi đầu hành trình tìm đường cứu nước
 
 ### Ngày 5/6/1911: Người thanh niên Nguyễn Tất Thành ra đi tìm đường cứu nước
+
 Ngày 5/6/1911, tại Bến Nhà Rồng ở Sài Gòn, người thanh niên Nguyễn Tất Thành rời Tổ quốc trên con tàu Amiral Latouche-Tréville, bắt đầu hành trình tìm con đường giải phóng dân tộc. Sự kiện ấy đánh dấu một bước ngoặt quan trọng trong cuộc đời Người và trở thành dấu mốc tiêu biểu trong lịch sử cách mạng Việt Nam.
+
 Trong bối cảnh đất nước đang chịu ách thống trị của thực dân Pháp, nhiều phong trào yêu nước đã diễn ra nhưng chưa giành được thắng lợi như mong muốn. Nguyễn Tất Thành lựa chọn ra đi để tìm hiểu thế giới, tiếp cận những tư tưởng và con đường đấu tranh khác nhau, từ đó từng bước tìm kiếm hướng đi phù hợp cho cách mạng Việt Nam. Bến cảng hôm ấy là điểm khởi đầu của một hành trình dài qua nhiều quốc gia và châu lục. Ý nghĩa lịch sử của sự kiện không chỉ nằm ở chuyến đi xa, mà còn ở quá trình tìm tòi, học hỏi và lựa chọn con đường cách mạng trong những năm tiếp theo.
 
 ### Bến Nhà Rồng hôm nay – nơi lịch sử tiếp nối hiện tại
 Ngày nay, Bến Nhà Rồng gắn với Bảo tàng Hồ Chí Minh – Chi nhánh Thành phố Hồ Chí Minh, nơi lưu giữ và giới thiệu những tư liệu, hình ảnh cùng hiện vật về cuộc đời và sự nghiệp cách mạng của Người. Từ một bến cảng gắn với sự kiện năm 1911, địa điểm này đã trở thành không gian giáo dục lịch sử, giúp khách tham quan tìm hiểu hành trình hoạt động của Hồ Chí Minh trong mối liên hệ với phong trào đấu tranh giải phóng dân tộc. Đứng trước bến cảng, điều đáng suy ngẫm không chỉ là khoảng cách địa lý mà người thanh niên Nguyễn Tất Thành đã đi qua, mà còn là hành trình nhận thức để tìm ra con đường đấu tranh cho dân tộc. Một quyết định khởi đầu từ năm 1911 đã mở ra chuỗi sự kiện có ảnh hưởng sâu sắc đến lịch sử Việt Nam trong thế kỷ XX.
 
-![Bến Nhà Rồng](/images/)
-*Bến Nhà Rồng gắn với sự kiện Nguyễn Tất Thành ra đi tìm đường cứu nước ngày 5/6/1911.*
+![Bến Nhà Rồng](/images/ben-nha-rong.jpg)
+*Hình 2: Bến Nhà Rồng gắn với sự kiện Nguyễn Tất Thành ra đi tìm đường cứu nước ngày 5/6/1911.*
 
 ## 4. Pác Bó – nơi Bác trở về trực tiếp lãnh đạo cách mạng
 
 ### Ngày 28/1/1941: Trở về Tổ quốc sau nhiều năm hoạt động ở nước ngoài
+
 Ngày 28/1/1941, Nguyễn Ái Quốc trở về Việt Nam qua khu vực Pác Bó, thuộc Cao Bằng, sau nhiều năm hoạt động cách mạng ở nước ngoài. Sự kiện diễn ra trong bối cảnh phong trào giải phóng dân tộc đứng trước yêu cầu cấp thiết về đường lối và sự chuẩn bị cho một giai đoạn đấu tranh mới.
+
 Việc trở về trực tiếp lãnh đạo cách mạng trong nước có ý nghĩa quan trọng đối với quá trình chuẩn bị lực lượng, xây dựng căn cứ địa và xác định nhiệm vụ chiến lược của cách mạng Việt Nam. Pác Bó từ đó trở thành một địa danh tiêu biểu gắn với hoạt động của Nguyễn Ái Quốc trong giai đoạn đầu thập niên 1940.
 
-![Pác Bó, Cao Bằng](/images/)
-*Pác Bó, Cao Bằng, gắn với sự kiện Nguyễn Ái Quốc trở về nước năm 1941 và quá trình chuẩn bị cho cách mạng Việt Nam.*
+![Pác Bó, Cao Bằng](/images/Pac-Bo.jpg)
+*Hình 3: Pác Bó, Cao Bằng, gắn với sự kiện Nguyễn Ái Quốc trở về nước năm 1941 và quá trình chuẩn bị cho cách mạng Việt Nam.*
 
 ### Hang Cốc Bó, suối Lê-nin và lán Khuổi Nặm
+
 Pác Bó không chỉ được nhớ đến bởi cảnh quan núi rừng Cao Bằng, mà còn bởi những địa điểm gắn với hoạt động cách mạng của Nguyễn Ái Quốc. Hang Cốc Bó là nơi Người từng ở và làm việc trong thời gian đầu trở về nước. Suối Lê-nin và núi Các Mác gắn với không gian sinh hoạt, hoạt động của căn cứ cách mạng. Lán Khuổi Nặm là địa điểm có ý nghĩa trong quá trình chuẩn bị và tổ chức hoạt động của Trung ương Đảng. Đặc biệt, Hội nghị Trung ương lần thứ tám diễn ra từ ngày 10 đến 19/5/1941 tại Pác Bó, dưới sự chủ trì của Nguyễn Ái Quốc. Hội nghị xác định giải phóng dân tộc là nhiệm vụ cấp bách hàng đầu, đồng thời đề ra những chủ trương quan trọng cho sự chuẩn bị lực lượng cách mạng.
+
 Những dấu tích tại Pác Bó vì vậy giúp người tham quan hiểu rõ hơn mối liên hệ giữa không gian căn cứ địa, hoạt động lãnh đạo cách mạng và những quyết sách có ảnh hưởng đến tiến trình giành độc lập. Giữa núi rừng biên giới, những điều kiện còn nhiều thiếu thốn đã không ngăn cản quá trình chuẩn bị cho một bước ngoặt lớn của dân tộc.
 
 ## 5. Tân Trào – nơi chuẩn bị cho thời khắc giành độc lập
 
 ### Lán Nà Nưa và quá trình chuẩn bị Tổng khởi nghĩa
+
 Trong những tháng trước Cách mạng Tháng Tám năm 1945, Tân Trào, thuộc Tuyên Quang ngày nay, trở thành một căn cứ quan trọng của cách mạng. Tại đây, Hồ Chí Minh cùng các cán bộ cách mạng tập trung chỉ đạo công việc chuẩn bị lực lượng, xây dựng phong trào và nắm bắt thời cơ giành chính quyền.
+
 Lán Nà Nưa là địa điểm gắn với thời gian Hồ Chí Minh sống và làm việc tại Tân Trào. Trong điều kiện sinh hoạt giản dị, Người cùng Trung ương Đảng theo dõi tình hình trong nước và quốc tế, chuẩn bị cho những quyết định quan trọng khi thời cơ cách mạng xuất hiện.
+
 Tháng 8/1945, khi tình hình thay đổi nhanh chóng, các quyết định về tổng khởi nghĩa được đưa ra, mở đường cho nhân dân cả nước đứng lên giành chính quyền. Tân Trào trở thành một địa danh tiêu biểu trong tiến trình chuẩn bị cho thắng lợi của Cách mạng Tháng Tám.
 
 ### Từ căn cứ cách mạng đến bước ngoặt của dân tộc
+
 Đình Tân Trào, lán Nà Nưa và cây đa Tân Trào là những địa điểm thường được nhắc đến khi tìm hiểu lịch sử cách mạng tại vùng đất này. Mỗi địa điểm gắn với những khía cạnh khác nhau của quá trình tập hợp lực lượng, hội họp và chuẩn bị khởi nghĩa.
+
 Giá trị của Tân Trào không chỉ nằm ở từng di tích riêng lẻ, mà còn ở mối liên hệ giữa chúng trong bối cảnh lịch sử năm 1945. Từ một căn cứ cách mạng giữa núi rừng, những quyết sách và hoạt động chuẩn bị đã góp phần đưa phong trào đấu tranh tiến tới thời khắc giành chính quyền trên phạm vi cả nước.
+
 Tìm hiểu Tân Trào cũng là cách nhìn lại vai trò của sự chuẩn bị, tinh thần đoàn kết và khả năng nắm bắt thời cơ trong những bước ngoặt của lịch sử.
 
-![Tân Trào](/images/)
-*Tân Trào, căn cứ cách mạng gắn với quá trình chuẩn bị Tổng khởi nghĩa Tháng Tám năm 1945.*
+![Tân Trào](/images/Tan-Trao.jpg)
+*Hình 4: Tân Trào, căn cứ cách mạng gắn với quá trình chuẩn bị Tổng khởi nghĩa Tháng Tám năm 1945.*
 
 ## 6. Quảng trường Ba Đình – nơi Bác đọc Tuyên ngôn Độc lập
 
@@ -3948,8 +3961,8 @@ Tuyên ngôn Độc lập có ý nghĩa vượt ra ngoài khuôn khổ của m�
 ### Quảng trường Ba Đình hôm nay – không gian lịch sử giữa lòng Thủ đô
 Ngày nay, Quảng trường Ba Đình vẫn là không gian có ý nghĩa đặc biệt trong đời sống lịch sử và văn hóa của Việt Nam. Nơi đây gắn với các nghi lễ cấp quốc gia, hoạt động tưởng niệm và những dịp kỷ niệm trọng đại của đất nước. Giữa nhịp sống hiện đại của Hà Nội, quảng trường nhắc nhớ về ngày 2/9/1945 và giá trị của nền độc lập. Đến đây, người tham quan có thể kết nối không gian hiện tại với sự kiện lịch sử, đồng thời tìm hiểu sâu hơn về văn kiện đã đánh dấu sự ra đời của nước Việt Nam Dân chủ Cộng hòa.
 
-![Quảng trường Ba Đình](/images/)
-*Quảng trường Ba Đình, nơi Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập ngày 2/9/1945.*
+![Quảng trường Ba Đình](/images/quang-truong-Ba-Dinh.jpg)
+*Hình 5: Quảng trường Ba Đình, nơi Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập ngày 2/9/1945.*
 
 ## 7. Lăng Chủ tịch Hồ Chí Minh – nơi đồng bào về viếng Bác
 
@@ -3958,26 +3971,38 @@ Nằm trong quần thể lịch sử Ba Đình, Lăng Chủ tịch Hồ Chí Min
 
 ### Gìn giữ di sản, tiếp nối những giá trị của Bác
 Dòng người đến viếng Lăng thể hiện tình cảm, sự tưởng nhớ và mong muốn tìm hiểu về cuộc đời, sự nghiệp của Chủ tịch Hồ Chí Minh. Đối với nhiều người trẻ, chuyến thăm không chỉ là một hoạt động tham quan, mà còn là dịp nhìn lại những dấu mốc quan trọng của lịch sử dân tộc. Tuy nhiên, gìn giữ di sản không chỉ dừng lại ở việc đến thăm một địa điểm hay lưu giữ một bức ảnh. Điều quan trọng hơn là tìm hiểu lịch sử từ những nguồn đáng tin cậy, hiểu đúng bối cảnh của sự kiện, trân trọng giá trị văn hóa và có ý thức bảo vệ những di tích được trao lại cho thế hệ sau.
+
 Di sản của một nhân vật lịch sử được tiếp nối bền vững khi những câu chuyện về cuộc đời và sự nghiệp của họ được nghiên cứu, gìn giữ và truyền đạt một cách có trách nhiệm. Đó cũng là cách để ký ức lịch sử tiếp tục hiện diện trong đời sống hôm nay.
 
-![Lăng Chủ tịch Hồ Chí Minh](/images/)
-*Lăng Chủ tịch Hồ Chí Minh, công trình tưởng niệm được khánh thành năm 1975 trong quần thể lịch sử Ba Đình.*
+![Lăng Chủ tịch Hồ Chí Minh](/images/lang-chu-tich-Ho-Chi-Minh.webp)
+*Hình 6: Lăng Chủ tịch Hồ Chí Minh, công trình tưởng niệm được khánh thành năm 1975 trong quần thể lịch sử Ba Đình.*
 
 ## 8. Kết luận – Giữ gìn ký ức về Bác bằng cách hiểu đúng lịch sử
 Từ mái nhà bình dị ở Kim Liên đến Bến Nhà Rồng, từ núi rừng Pác Bó, căn cứ Tân Trào đến Quảng trường Ba Đình, mỗi địa danh lưu giữ một lát cắt của hành trình lịch sử gắn với Chủ tịch Hồ Chí Minh. Những nơi ấy không thay thế cho việc nghiên cứu lịch sử, nhưng giúp các sự kiện trở nên cụ thể hơn, gần gũi hơn và dễ được ghi nhớ hơn. Đi qua những địa danh này cũng là đi qua những chặng đường quan trọng của dân tộc: nuôi dưỡng khát vọng cứu nước, chuẩn bị lực lượng cách mạng và tuyên bố nền độc lập. Giá trị của các di tích vì thế không chỉ thuộc về quá khứ, mà còn nằm trong khả năng giúp thế hệ hôm nay hiểu rõ hơn cái giá của tự do và trách nhiệm đối với tương lai đất nước.
+
 Với Mảnh Ghép Hồn Việt, mỗi địa danh là một mảnh ghép của ký ức dân tộc. Khi được kết nối bằng tư liệu chính xác, câu chuyện giàu ý nghĩa và trải nghiệm khám phá phù hợp, những mảnh ghép ấy có thể giúp lịch sử đến gần hơn với người trẻ. Bởi nhớ về Bác không chỉ là nhắc lại những dấu mốc đã qua, mà còn là học cách hiểu đúng lịch sử, trân trọng di sản và tiếp nối những giá trị tốt đẹp bằng hành động thiết thực trong cuộc sống hôm nay.
 
 ## Câu hỏi thường gặp (FAQ)
+
 * **1. Các di tích lịch sử tiêu biểu về Bác Hồ gồm những địa điểm nào?**
-  Một số địa điểm tiêu biểu gồm Khu di tích Kim Liên ở Nghệ An, Bến Nhà Rồng tại Thành phố Hồ Chí Minh, Khu di tích Pác Bó ở Cao Bằng, Khu di tích Tân Trào ở Tuyên Quang, Quảng trường Ba Đình và Lăng Chủ tịch Hồ Chí Minh tại Hà Nội.
+
+Một số địa điểm tiêu biểu gồm Khu di tích Kim Liên ở Nghệ An, Bến Nhà Rồng tại Thành phố Hồ Chí Minh, Khu di tích Pác Bó ở Cao Bằng, Khu di tích Tân Trào ở Tuyên Quang, Quảng trường Ba Đình và Lăng Chủ tịch Hồ Chí Minh tại Hà Nội.
+
 * **2. Bác Hồ ra đi tìm đường cứu nước tại đâu và khi nào?**
-  Ngày 5/6/1911, Nguyễn Tất Thành rời Bến Nhà Rồng ở Sài Gòn trên tàu Amiral Latouche-Tréville, bắt đầu hành trình tìm đường cứu nước.
+
+Ngày 5/6/1911, Nguyễn Tất Thành rời Bến Nhà Rồng ở Sài Gòn trên tàu Amiral Latouche-Tréville, bắt đầu hành trình tìm đường cứu nước.
+
 * **3. Pác Bó có ý nghĩa gì trong lịch sử cách mạng Việt Nam?**
-  Pác Bó là nơi Nguyễn Ái Quốc trở về nước ngày 28/1/1941 và trực tiếp hoạt động cách mạng. Địa danh này còn gắn với Hội nghị Trung ương lần thứ tám, diễn ra từ ngày 10 đến 19/5/1941.
+
+Pác Bó là nơi Nguyễn Ái Quốc trở về nước ngày 28/1/1941 và trực tiếp hoạt động cách mạng. Địa danh này còn gắn với Hội nghị Trung ương lần thứ tám, diễn ra từ ngày 10 đến 19/5/1941.
+
 * **4. Quảng trường Ba Đình và Lăng Chủ tịch Hồ Chí Minh có gì khác nhau?**
-  Quảng trường Ba Đình là nơi Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập ngày 2/9/1945. Lăng Chủ tịch Hồ Chí Minh là công trình tưởng niệm được khánh thành ngày 29/8/1975, nằm trong cùng quần thể lịch sử.
+
+Quảng trường Ba Đình là nơi Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập ngày 2/9/1945. Lăng Chủ tịch Hồ Chí Minh là công trình tưởng niệm được khánh thành ngày 29/8/1975, nằm trong cùng quần thể lịch sử.
+
 * **5. Vì sao nên tìm hiểu các di tích lịch sử về Bác Hồ?**
-  Việc tìm hiểu di tích giúp người đọc kết nối sự kiện với địa điểm có thật, hiểu rõ hơn bối cảnh lịch sử và nâng cao ý thức bảo tồn di sản văn hóa, lịch sử dân tộc.
+
+Việc tìm hiểu di tích giúp người đọc kết nối sự kiện với địa điểm có thật, hiểu rõ hơn bối cảnh lịch sử và nâng cao ý thức bảo tồn di sản văn hóa, lịch sử dân tộc.
 `
 },
 {
@@ -3990,83 +4015,131 @@ Với Mảnh Ghép Hồn Việt, mỗi địa danh là một mảnh ghép của 
   image: '/images/biaseo29.jpg',
   description: 'Phân tích toàn diện chiến thuật du kích địa đạo Củ Chi: kiến trúc ngầm chịu bom đạn, đòn đánh xuất quỷ nhập thần và cách khắc chế đội lính chuột cống Mỹ.',
   content: `
-Trong lịch sử quân sự thế giới, hiếm có công trình nào đặc biệt như hệ thống Địa đạo Củ Chi[cite: 7]. Không đơn thuần là nơi trú ẩn thụ động trước mưa bom bão đạn, **chiến thuật du kích địa đạo Củ Chi** đã biến một hệ thống ngầm dài hơn hai trăm rưỡi cây số thành căn cứ tiến công chủ động[cite: 7]. Đây chính là minh chứng sống động nhất cho nghệ thuật chiến tranh nhân dân, nơi ý chí và trí tuệ bản địa đã bẻ gãy ưu thế vũ khí tối tân của một đội quân viễn chinh hùng mạnh[cite: 7]. Cùng Mảnh ghép Hồn Việt tìm hiểu ngay nhé!
+Trong lịch sử quân sự thế giới, hiếm có công trình nào đặc biệt như hệ thống Địa đạo Củ Chi. Không đơn thuần là nơi trú ẩn thụ động trước mưa bom bão đạn, **chiến thuật du kích địa đạo Củ Chi** đã biến một hệ thống ngầm dài hơn hai trăm rưỡi cây số thành căn cứ tiến công chủ động. Đây chính là minh chứng sống động nhất cho nghệ thuật chiến tranh nhân dân, nơi ý chí và trí tuệ bản địa đã bẻ gãy ưu thế vũ khí tối tân của một đội quân viễn chinh hùng mạnh. Cùng Mảnh ghép Hồn Việt tìm hiểu ngay nhé!
 
 ## Kiến trúc lòng đất – Nền tảng của chiến thuật phòng thủ và cơ động
-Thành công của chiến thuật đánh giặc dưới lòng đất trước hết bắt nguồn từ sự am hiểu tường tận về địa chất và khả năng thiết kế công sự tài tình của quân dân miền Đông Nam Bộ[cite: 7].
+Thành công của chiến thuật đánh giặc dưới lòng đất trước hết bắt nguồn từ sự am hiểu tường tận về địa chất và khả năng thiết kế công sự tài tình của quân dân miền Đông Nam Bộ.
 
 ### Ưu thế địa chất đất sét pha đá ong vùng Củ Chi
-Hệ thống địa đạo không thể đứng vững nếu thiếu đi chất đất đặc thù của vùng Củ Chi[cite: 7]. Toàn bộ mạng lưới được đào xuyên qua tầng đất sét pha đá ong:
-* Đất có độ kết dính cực cao, không bị sụt lở tự nhiên ngay cả trong mùa mưa kéo dài[cite: 7].
-* Càng đào sâu xuống và tiếp xúc với không khí, bề mặt vách hầm càng khô cứng lại, rắn chắc không thua kém các khối bê tông tự nhiên[cite: 7].
-* Cấu trúc đất có khả năng hấp thụ và tiêu tán rung chấn rất tốt, giúp triệt tiêu sức ép kinh hoàng từ các đợt rải thảm bom hay hỏa lực pháo hạng nặng bắn phá suốt ngày đêm[cite: 7].
+Hệ thống địa đạo không thể đứng vững nếu thiếu đi chất đất đặc thù của vùng Củ Chi. Toàn bộ mạng lưới được đào xuyên qua tầng đất sét pha đá ong:
 
-![Địa chất đất sét pha đá ong vùng Củ Chi](https://tuoitre.vn/phunuonline/cuu-binh-my-nghien-cuu-ve-dat-trong-dia-dao-cu-chi-1101432724.htm)
+* Đất có độ kết dính cực cao, không bị sụt lở tự nhiên ngay cả trong mùa mưa kéo dài.
+
+* Càng đào sâu xuống và tiếp xúc với không khí, bề mặt vách hầm càng khô cứng lại, rắn chắc không thua kém các khối bê tông tự nhiên.
+
+* Cấu trúc đất có khả năng hấp thụ và tiêu tán rung chấn rất tốt, giúp triệt tiêu sức ép kinh hoàng từ các đợt rải thảm bom hay hỏa lực pháo hạng nặng bắn phá suốt ngày đêm.
+
+![Địa chất đất sét pha đá ong vùng Củ Chi](/images/dia-chat-dat-set-pha-da-ong.jpg)
+*Hình 1: Địa chất đất sét pha đá ong vùng Củ Chi.*
+
 
 ### Sơ đồ cấu trúc ba tầng liên hoàn và phân bổ chức năng
-Địa đạo không đào theo một đường thẳng thấu suốt mà phân chia thành ba tầng zíc-zắc, mỗi tầng giữ một vai trò tác chiến riêng biệt[cite: 7]:
-* **Tầng một (sâu khoảng ba mét):** Nằm sát mặt đất nhất, chịu được sức ép của đạn pháo và sức nặng của xe tăng, xe bọc thép càn quét phía trên[cite: 7]. Tầng này là bàn đạp tác chiến cơ động, bố trí dày đặc các lỗ châu mai, nắp hầm phục kích và ụ bắn tỉa[cite: 7].
-* **Tầng hai (sâu khoảng năm đến tám mét):** Chống được các loại bom cỡ vừa[cite: 7]. Nơi đây là trung tâm sinh hoạt và đầu não chiến đấu, gồm phòng họp ban chỉ huy, trạm phẫu thuật dã chiến, kho cất giấu lương thảo, đạn dược và khu vực bếp Hoàng Cầm[cite: 7].
-* **Tầng ba (sâu từ tám đến mười hai mét):** Tầng sâu và an toàn nhất, có thể chịu được bom khoan và bom công phá hạng nặng[cite: 7]. Tầng này giữ vai trò huyết mạch thoát hiểm, sở hữu các nhánh ngầm bí mật trổ thẳng ra sông Sài Gòn để rút lui an toàn hoặc đón lực lượng chi viện khi căn cứ bị siết chặt vòng vây[cite: 7].
+Địa đạo không đào theo một đường thẳng thấu suốt mà phân chia thành ba tầng zíc-zắc, mỗi tầng giữ một vai trò tác chiến riêng biệt:
 
-![Sơ đồ cấu trúc ba tầng của địa đạo Củ Chi](https://vov2.vov.vn/van-hoa-giai-tri/dia-dao-cu-chi-thanh-pho-duoi-long-dat-25718.vov2)
+* **Tầng một (sâu khoảng ba mét):** Nằm sát mặt đất nhất, chịu được sức ép của đạn pháo và sức nặng của xe tăng, xe bọc thép càn quét phía trên. Tầng này là bàn đạp tác chiến cơ động, bố trí dày đặc các lỗ châu mai, nắp hầm phục kích và ụ bắn tỉa.
+
+* **Tầng hai (sâu khoảng năm đến tám mét):** Chống được các loại bom cỡ vừa. Nơi đây là trung tâm sinh hoạt và đầu não chiến đấu, gồm phòng họp ban chỉ huy, trạm phẫu thuật dã chiến, kho cất giấu lương thảo, đạn dược và khu vực bếp Hoàng Cầm.
+
+* **Tầng ba (sâu từ tám đến mười hai mét):** Tầng sâu và an toàn nhất, có thể chịu được bom khoan và bom công phá hạng nặng. Tầng này giữ vai trò huyết mạch thoát hiểm, sở hữu các nhánh ngầm bí mật trổ thẳng ra sông Sài Gòn để rút lui an toàn hoặc đón lực lượng chi viện khi căn cứ bị siết chặt vòng vây.
+
+![Sơ đồ cấu trúc ba tầng của địa đạo Củ Chi](/images/so-do-cau-truc-ba-tang-dia-dao-Cu-Chi.jpg)
+*Hình 2: Sơ đồ cấu trúc ba tầng của địa đạo Củ Chi.*
 
 ## Đòn đánh "xuất quỷ nhập thần" của du kích Củ Chi
-Dựa vào pháo đài ngầm kiên cố, quân dân Củ Chi đã xây dựng nên cách đánh linh hoạt, biến lòng đất thành nỗi ám ảnh thường trực đối với đối phương[cite: 7].
+Dựa vào pháo đài ngầm kiên cố, quân dân Củ Chi đã xây dựng nên cách đánh linh hoạt, biến lòng đất thành nỗi ám ảnh thường trực đối với đối phương.
 
 ### Bám thắt lưng đối phương và biến mất chớp nhoáng
-Phương châm tác chiến cốt lõi tại chiến trường Củ Chi là bám sát đối phương để đánh, tước bỏ ưu thế hỏa lực tầm xa và máy bay yểm trợ[cite: 7]:
-* Nắp hầm được làm bằng gỗ chắc chắn, bên trên đắp lớp đất mỏng phủ cỏ khô mục, lá gai hoặc ụ mối tự nhiên, khít chặt đến mức người đi ngang qua không thể nhận biết[cite: 7]. Kích thước nắp hầm chỉ vừa khít thân hình một chiến sĩ[cite: 7].
-* Khi đội hình tuần tra của đối phương đi qua, chiến sĩ du kích khẽ đội nắp hầm trồi lên, quét một băng đạn tiểu liên, quăng lựu đạn hoặc bấm mìn định hướng rồi lập tức tụt xuống hầm, kéo nắp đóng kín chỉ trong vài giây[cite: 7].
-* Trước khi đối phương kịp dàn đội hình bắn trả, hiện trường đã trở lại vẻ tĩnh mịch hoang vu[cite: 7]. Lối đánh này làm suy sụp tinh thần binh lính đối phương, tạo ra trạng thái căng thẳng tâm lý tột độ vì luôn linh cảm cái chết rình rập ngay dưới bước chân mình[cite: 7].
+Phương châm tác chiến cốt lõi tại chiến trường Củ Chi là bám sát đối phương để đánh, tước bỏ ưu thế hỏa lực tầm xa và máy bay yểm trợ:
+
+* Nắp hầm được làm bằng gỗ chắc chắn, bên trên đắp lớp đất mỏng phủ cỏ khô mục, lá gai hoặc ụ mối tự nhiên, khít chặt đến mức người đi ngang qua không thể nhận biết. Kích thước nắp hầm chỉ vừa khít thân hình một chiến sĩ.
+
+* Khi đội hình tuần tra của đối phương đi qua, chiến sĩ du kích khẽ đội nắp hầm trồi lên, quét một băng đạn tiểu liên, quăng lựu đạn hoặc bấm mìn định hướng rồi lập tức tụt xuống hầm, kéo nắp đóng kín chỉ trong vài giây.
+
+* Trước khi đối phương kịp dàn đội hình bắn trả, hiện trường đã trở lại vẻ tĩnh mịch hoang vu. Lối đánh này làm suy sụp tinh thần binh lính đối phương, tạo ra trạng thái căng thẳng tâm lý tột độ vì luôn linh cảm cái chết rình rập ngay dưới bước chân mình.
 
 ### Thế trận bẫy ngầm và mìn tự chế tiêu hao sinh lực
-Bao quanh các cửa hầm và lối mòn dẫn vào khu căn cứ là thế trận chiến tranh du kích kết hợp cạm bẫy dân gian đa dạng[cite: 7]:
-* Du kích bố trí đan xen các loại hố chông lá lật, chông bẫy treo cành cây, chông bàn xăm tẩm độc và bẫy đòn bẩy[cite: 7].
-* Các quả bom, đạn pháo lép của đối phương được công binh và du kích thu gom về, khéo léo tháo ngòi và cưa lấy thuốc nổ để chế tạo thành các loại mìn gạt, mìn định hướng tự chế[cite: 7].
-* Mục tiêu của bẫy ngầm không chỉ tiêu diệt sinh lực mà chủ yếu làm đối phương bị thương tật, phá vỡ đội hình hành quân, buộc lực lượng hành quân phải dừng lại cáng tải thương binh, tạo cơ hội vàng cho các xạ thủ bắn tỉa ngầm tiếp tục công kích[cite: 7].
+Bao quanh các cửa hầm và lối mòn dẫn vào khu căn cứ là thế trận chiến tranh du kích kết hợp cạm bẫy dân gian đa dạng:
+
+* Du kích bố trí đan xen các loại hố chông lá lật, chông bẫy treo cành cây, chông bàn xăm tẩm độc và bẫy đòn bẩy.
+
+* Các quả bom, đạn pháo lép của đối phương được công binh và du kích thu gom về, khéo léo tháo ngòi và cưa lấy thuốc nổ để chế tạo thành các loại mìn gạt, mìn định hướng tự chế.
+
+* Mục tiêu của bẫy ngầm không chỉ tiêu diệt sinh lực mà chủ yếu làm đối phương bị thương tật, phá vỡ đội hình hành quân, buộc lực lượng hành quân phải dừng lại cáng tải thương binh, tạo cơ hội vàng cho các xạ thủ bắn tỉa ngầm tiếp tục công kích.
+
+![Thế trận bẫy ngầm ở địa đạo Củ Chi](/images/the-tran-bay-ngam-dia-dao-Cu-Chi.jpg)
+*Hình 3: Thế trận bẫy ngầm ở địa đạo Củ Chi.*
 
 ### Nghệ thuật giấu vết: Hệ thống thông hơi và bếp Hoàng Cầm
-Sự tồn tại của hàng vạn người dưới lòng đất suốt nhiều năm là điều không tưởng nếu không có nghệ thuật giấu vết tài tình[cite: 7]:
-* **Lỗ thông hơi:** Được khoét chéo góc từ đường hầm đâm xiên lên mặt đất, ngụy trang kín đáo vào các gốc tre gai, lùm cây rậm rạp hoặc tổ mối[cite: 7]. Góc nghiêng này giúp đón luồng gió đối lưu tự nhiên vào hầm, đồng thời ngăn không cho nước mưa hay lựu đạn dội ngược xuống đáy[cite: 7].
-* **Bếp Hoàng Cầm:** Bếp dã chiến trứ danh phát huy công năng tuyệt đối trong lòng địa đạo[cite: 7]. Toàn bộ khói nấu nướng được dẫn qua hệ thống rãnh dài đào ngầm, đi qua nhiều khoang lọc lót lá cây ướt và đất xốp[cite: 7]. Khi thoát lên mặt đất, khói chỉ còn là làn sương mỏng bay là là mặt cỏ vào sáng sớm hoặc chiều tà, hoàn toàn qua mặt được các thiết bị trinh sát đường không[cite: 7].
+Sự tồn tại của hàng vạn người dưới lòng đất suốt nhiều năm là điều không tưởng nếu không có nghệ thuật giấu vết tài tình:
+
+* **Lỗ thông hơi:** Được khoét chéo góc từ đường hầm đâm xiên lên mặt đất, ngụy trang kín đáo vào các gốc tre gai, lùm cây rậm rạp hoặc tổ mối. Góc nghiêng này giúp đón luồng gió đối lưu tự nhiên vào hầm, đồng thời ngăn không cho nước mưa hay lựu đạn dội ngược xuống đáy.
+
+* **Bếp Hoàng Cầm:** Bếp dã chiến trứ danh phát huy công năng tuyệt đối trong lòng địa đạo. Toàn bộ khói nấu nướng được dẫn qua hệ thống rãnh dài đào ngầm, đi qua nhiều khoang lọc lót lá cây ướt và đất xốp. Khi thoát lên mặt đất, khói chỉ còn là làn sương mỏng bay là là mặt cỏ vào sáng sớm hoặc chiều tà, hoàn toàn qua mặt được các thiết bị trinh sát đường không.
+
+![Bếp Hoàng Cầm - Huyền thoại một thời của quân đội Việt Nam](/images/bep-Hoang-Cam.jpg)
+*Hình 4: Bếp Hoàng Cầm - Huyền thoại một thời của quân đội Việt Nam.*
 
 ## Khắc chế vũ khí tối tân và đòn cân não với biệt đội "Chuột cống"
-Trước sự bất lực của các phương thức tác chiến thông thường, đối phương buộc phải thay đổi chiến thuật, dẫn đến những cuộc đọ trí khốc liệt ngay trong lòng đường hầm[cite: 7].
+Trước sự bất lực của các phương thức tác chiến thông thường, đối phương buộc phải thay đổi chiến thuật, dẫn đến những cuộc đọ trí khốc liệt ngay trong lòng đường hầm.
 
 ### Vô hiệu hóa lính "Chuột cống" trong không gian hẹp
-Đối phương tuyển chọn các binh sĩ có vóc dáng nhỏ bé, lập thành các đội đặc nhiệm được gọi là lính "Chuột cống", trang bị đèn pin, súng ngắn, dao găm và mặt nạ phòng độc để liều lĩnh chui xuống lòng đất lùng sục[cite: 7]:
-* Nhược điểm của lính biệt kích là sự lúng túng trong bóng tối mịt mù, không gian ngột ngạt và không thể phát huy các loại vũ khí liên thanh cỡ lớn[cite: 7].
-* Quân du kích đã đón đầu bằng cách thiết kế các nút thắt "cổ chai" chật hẹp chỉ vừa một người lách qua, kết hợp với các khúc cua quẹo vuông góc chín mươi độ[cite: 7]. Khi lính đối phương phải hạ thấp người bò trườn, tầm nhìn bị chặn đứng hoàn toàn, du kích phục kích ở góc khuất chỉ cần dùng vũ khí thô sơ hoặc bẫy chông ngầm đã dễ dàng khống chế mục tiêu[cite: 7].
+Đối phương tuyển chọn các binh sĩ có vóc dáng nhỏ bé, lập thành các đội đặc nhiệm được gọi là lính "Chuột cống", trang bị đèn pin, súng ngắn, dao găm và mặt nạ phòng độc để liều lĩnh chui xuống lòng đất lùng sục:
+
+* Nhược điểm của lính biệt kích là sự lúng túng trong bóng tối mịt mù, không gian ngột ngạt và không thể phát huy các loại vũ khí liên thanh cỡ lớn.
+
+* Quân du kích đã đón đầu bằng cách thiết kế các nút thắt "cổ chai" chật hẹp chỉ vừa một người lách qua, kết hợp với các khúc cua quẹo vuông góc chín mươi độ. Khi lính đối phương phải hạ thấp người bò trườn, tầm nhìn bị chặn đứng hoàn toàn, du kích phục kích ở góc khuất chỉ cần dùng vũ khí thô sơ hoặc bẫy chông ngầm đã dễ dàng khống chế mục tiêu.
+
+![Lính chuột cống - Lực lượng bất đắc dĩ của lính Mỹ ](/images/linh-chuot-cong-My.jpg)
+*Hình 5: Lính chuột cống - Lực lượng bất đắc dĩ của lính Mỹ .*
 
 ### Cửa ngăn bí mật chống bom khí độc và vòi rồng nước
-Đối phương từng dùng máy bơm công suất lớn hút nước từ sông Sài Gòn bơm vào địa đạo, hoặc ném lựu đạn hơi cay CS hòng bức hàng[cite: 7]:
-* Hệ thống cửa ngăn cách ly bằng gỗ lim dày bọc đất sét nén chặt đã phát huy tác dụng[cite: 7]. Toàn bộ đường hầm được chia cắt thành nhiều khoang độc lập với nắp chặn kín nước và kín khí[cite: 7].
-* Khi một đoạn ngách bị bơm nước hay xả khí độc, chiến sĩ du kích đóng then cài cửa ngăn, cô lập hoàn toàn phân đoạn đó để khí độc và nước không thể tràn vào tầng kế tiếp, bảo toàn tính mạng cho toàn bộ lực lượng ở các khoang sâu[cite: 7].
+Đối phương từng dùng máy bơm công suất lớn hút nước từ sông Sài Gòn bơm vào địa đạo, hoặc ném lựu đạn hơi cay CS hòng bức hàng:
+
+* Hệ thống cửa ngăn cách ly bằng gỗ lim dày bọc đất sét nén chặt đã phát huy tác dụng. Toàn bộ đường hầm được chia cắt thành nhiều khoang độc lập với nắp chặn kín nước và kín khí.
+
+* Khi một đoạn ngách bị bơm nước hay xả khí độc, chiến sĩ du kích đóng then cài cửa ngăn, cô lập hoàn toàn phân đoạn đó để khí độc và nước không thể tràn vào tầng kế tiếp, bảo toàn tính mạng cho toàn bộ lực lượng ở các khoang sâu.
 
 ### Bẻ gãy các chiến dịch càn quét quy mô lớn
-Hệ thống địa đạo đã kiên cường vượt qua các chiến dịch càn quét mang tính hủy diệt như Chiến dịch Crimp hay Chiến dịch Cedar Falls[cite: 7]:
-* Bất chấp hàng ngàn tấn bom rải thảm từ pháo đài bay, xe ủi đất san phẳng làng mạc và hóa chất diệt cỏ biến vùng đất xanh tươi thành "vùng đất trắng", mạng lưới ngầm Củ Chi vẫn bảo toàn nguyên vẹn bộ máy chỉ huy[cite: 7].
-* Căn cứ địa Củ Chi vẫn đứng vững như một mũi dao sắc nhọn cắm sát cạnh sào huyệt đầu não của đối phương, trở thành bàn đạp xuất phát quân trọng yếu trong cuộc Tổng tiến công và nổi dậy Tết Mậu Thân cũng như chiến dịch giải phóng sau này[cite: 7].
+Hệ thống địa đạo đã kiên cường vượt qua các chiến dịch càn quét mang tính hủy diệt như Chiến dịch Crimp hay Chiến dịch Cedar Falls:
+
+* Bất chấp hàng ngàn tấn bom rải thảm từ pháo đài bay, xe ủi đất san phẳng làng mạc và hóa chất diệt cỏ biến vùng đất xanh tươi thành "vùng đất trắng", mạng lưới ngầm Củ Chi vẫn bảo toàn nguyên vẹn bộ máy chỉ huy.
+
+* Căn cứ địa Củ Chi vẫn đứng vững như một mũi dao sắc nhọn cắm sát cạnh sào huyệt đầu não của đối phương, trở thành bàn đạp xuất phát quân trọng yếu trong cuộc Tổng tiến công và nổi dậy Tết Mậu Thân cũng như chiến dịch giải phóng sau này.
+
+[Thông tin về chiến dịch Crimp](https://en.wikipedia.org/wiki/Operation_Crimp)
+
+[Thông tin về chiến dịch Cedar Falls](https://vi.wikipedia.org/wiki/Chiến_dịch_Cedar_Falls)
 
 ## Giá trị quân sự của nghệ thuật chiến tranh bất đối xứng
-Chiến thuật du kích đường hầm Củ Chi để lại những bài học vô giá cho khoa học quân sự[cite: 7]:
-* **Lấy đoản binh thắng trường trận:** Kéo đối phương rời khỏi vùng an toàn nơi họ sở hữu ưu thế hỏa lực tầm xa, đưa họ vào không gian tác chiến cận chiến chật hẹp dưới lòng đất—nơi công nghệ tối tân bị tước bỏ tác dụng[cite: 7].
-* **Biến địa hình bất lợi thành pháo đài ngầm:** Nhược điểm đồng bằng phẳng lì, dễ bị bao vây càn quét đã được khắc phục hoàn toàn bằng chiều sâu của lòng đất, biến mỗi mét đất thành một chiến hào phòng thủ kiên cố[cite: 7].
-* **Sức mạnh từ chiến tranh nhân dân:** Địa đạo không thể dài đến hàng trăm cây số nếu không có hàng ngàn ngày công của toàn thể quân và dân[cite: 7]. Mỗi người dân đều là một chiến sĩ công binh, cùng đào hầm, giấu đất, ngụy trang và tiếp tế lương thảo để tạo nên kỳ tích[cite: 7].
+Chiến thuật du kích đường hầm Củ Chi để lại những bài học vô giá cho khoa học quân sự:
+
+* **Lấy đoản binh thắng trường trận:** Kéo đối phương rời khỏi vùng an toàn nơi họ sở hữu ưu thế hỏa lực tầm xa, đưa họ vào không gian tác chiến cận chiến chật hẹp dưới lòng đất—nơi công nghệ tối tân bị tước bỏ tác dụng.
+
+* **Biến địa hình bất lợi thành pháo đài ngầm:** Nhược điểm đồng bằng phẳng lì, dễ bị bao vây càn quét đã được khắc phục hoàn toàn bằng chiều sâu của lòng đất, biến mỗi mét đất thành một chiến hào phòng thủ kiên cố.
+
+* **Sức mạnh từ chiến tranh nhân dân:** Địa đạo không thể dài đến hàng trăm cây số nếu không có hàng ngàn ngày công của toàn thể quân và dân. Mỗi người dân đều là một chiến sĩ công binh, cùng đào hầm, giấu đất, ngụy trang và tiếp tế lương thảo để tạo nên kỳ tích.
 
 ## Giải đáp thắc mắc về hệ thống Địa đạo Củ Chi (FAQ)
-* **Địa đạo Củ Chi có tổng chiều dài thực tế bao nhiêu km?**[cite: 7]
-  Toàn bộ mạng lưới địa đạo Củ Chi có tổng chiều dài lên tới hơn hai trăm năm mươi cây số, nối liền các xã trong huyện Củ Chi, kéo dài từ Bến Dược, Bến Đình đến tận bờ sông Sài Gòn và ăn sâu vào các vùng phụ cận[cite: 7].
-* **Người chiến sĩ du kích duy trì dưỡng khí thế nào trong nhiều tuần dưới hầm?**[cite: 7]
-  Nhờ mạng lưới lỗ thông hơi vi mô được tính toán khoa học, khoét nghiêng góc và ngụy trang dưới các lùm cây, ụ mối[cite: 7]. Sự chênh lệch áp suất và nhiệt độ giữa ba tầng hầm sâu nông khác nhau đã tạo ra luồng gió đối lưu tự nhiên, đưa khí tươi luân chuyển khắp các đường ngách[cite: 7].
-* **Đối phương đã từng áp dụng những cách thức gì để phá hủy mạng lưới địa đạo?**[cite: 7]
-  Đối phương đã sử dụng hàng loạt biện pháp khốc liệt: dùng vòi rồng bơm nước sông Sài Gòn, thả lựu đạn hơi ngạt CS, đưa chó nghiệp vụ đánh hơi miệng hầm, lập biệt đội lính "Chuột cống" chui hầm, rải thảm bom công phá lớn và dùng xe ủi hạng nặng cày xới mặt đất; song tất cả đều bị các cửa ngăn bí mật, bẫy ngầm và bản lĩnh kiên cường của quân du kích bẻ gãy[cite: 7].
+
+* **Địa đạo Củ Chi có tổng chiều dài thực tế bao nhiêu km?**
+
+Toàn bộ mạng lưới địa đạo Củ Chi có tổng chiều dài lên tới hơn hai trăm năm mươi cây số, nối liền các xã trong huyện Củ Chi, kéo dài từ Bến Dược, Bến Đình đến tận bờ sông Sài Gòn và ăn sâu vào các vùng phụ cận.
+
+* **Người chiến sĩ du kích duy trì dưỡng khí thế nào trong nhiều tuần dưới hầm?**
+
+Nhờ mạng lưới lỗ thông hơi vi mô được tính toán khoa học, khoét nghiêng góc và ngụy trang dưới các lùm cây, ụ mối. Sự chênh lệch áp suất và nhiệt độ giữa ba tầng hầm sâu nông khác nhau đã tạo ra luồng gió đối lưu tự nhiên, đưa khí tươi luân chuyển khắp các đường ngách.
+
+* **Đối phương đã từng áp dụng những cách thức gì để phá hủy mạng lưới địa đạo?**
+
+Đối phương đã sử dụng hàng loạt biện pháp khốc liệt: dùng vòi rồng bơm nước sông Sài Gòn, thả lựu đạn hơi ngạt CS, đưa chó nghiệp vụ đánh hơi miệng hầm, lập biệt đội lính "Chuột cống" chui hầm, rải thảm bom công phá lớn và dùng xe ủi hạng nặng cày xới mặt đất; song tất cả đều bị các cửa ngăn bí mật, bẫy ngầm và bản lĩnh kiên cường của quân du kích bẻ gãy.
 
 ## Bài viết liên quan
-* [Lịch sử Việt Nam: Dòng chảy qua các thời kỳ](https://www.manhghephonviet.com/bai-viet/lich-su-viet-nam-dong-chay-qua-cac-thoi-ky)[cite: 7]
-* [Trải Nghiệm Lịch Sử Việt Nam: Chạm Vào Hồn Thiêng Non Nước](https://www.manhghephonviet.com/bai-viet/trai-nghiem-lich-su)[cite: 7]
-* [Chiến thắng Điện Biên Phủ: 56 ngày đêm đi vào lịch sử](https://www.manhghephonviet.com/bai-viet/chien-thang-dien-bien-phu-56-ngay-dem-di-vao-lich-su)[cite: 7]
+
+* [Lịch sử Việt Nam: Dòng chảy qua các thời kỳ](https://www.manhghephonviet.com/bai-viet/lich-su-viet-nam-dong-chay-qua-cac-thoi-ky)
+
+* [Trải Nghiệm Lịch Sử Việt Nam: Chạm Vào Hồn Thiêng Non Nước](https://www.manhghephonviet.com/bai-viet/trai-nghiem-lich-su)
+
+* [Chiến thắng Điện Biên Phủ: 56 ngày đêm đi vào lịch sử](https://www.manhghephonviet.com/bai-viet/chien-thang-dien-bien-phu-56-ngay-dem-di-vao-lich-su)
 `
 },
 ];
