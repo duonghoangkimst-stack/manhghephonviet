@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { TabType, CartItem, Product, UserProfile, Article } from './types';
@@ -8,14 +8,18 @@ import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
 import SearchModal from './components/SearchModal';
 import CheckoutModal from './components/CheckoutModal';
+
+// 🚀 Luôn tải sẵn Trang Chủ để đảm bảo tốc độ LCP và hiển thị tức thì
 import TrangChuView from './views/TrangChuView';
-import VeChungToiView from './views/VeChungToiView';
-import BaiVietView from './views/BaiVietView';
-import ChiTietBaiVietView from './views/ChiTietBaiVietView';
-import TroChoiView from './views/TroChoiView';
-import CuaHangView from './views/CuaHangView';
-import LienHeView from './views/LienHeView';
-import LoginView from './views/LoginView';
+
+// 💤 Lazy load các trang phụ còn lại để giảm dung lượng file JS ban đầu
+const VeChungToiView = lazy(() => import('./views/VeChungToiView'));
+const BaiVietView = lazy(() => import('./views/BaiVietView'));
+const ChiTietBaiVietView = lazy(() => import('./views/ChiTietBaiVietView'));
+const TroChoiView = lazy(() => import('./views/TroChoiView'));
+const CuaHangView = lazy(() => import('./views/CuaHangView'));
+const LienHeView = lazy(() => import('./views/LienHeView'));
+const LoginView = lazy(() => import('./views/LoginView'));
 
 // Component wrapper hỗ trợ route chi tiết bài viết theo URL :id / :slug
 function ChiTietBaiVietRoute({
@@ -34,10 +38,7 @@ function ChiTietBaiVietRoute({
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
-  // Decode URI và làm sạch chuỗi id từ URL
   const targetId = id ? decodeURIComponent(id).trim() : '';
-
-  // Tìm bài viết theo id HOẶC slug
   const currentArticle = articles.find(
     (a) => String(a.id).trim() === targetId || String((a as any).slug).trim() === targetId
   );
@@ -99,7 +100,6 @@ function MainContent() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
-  // Xác định activeTab dựa theo path thực tế của URL
   const getActiveTabFromPath = (path: string): TabType => {
     if (path.startsWith('/ve-chung-toi')) return 'vechungtoi';
     if (path.startsWith('/bai-viet/')) return 'chitietbaiviet';
@@ -113,18 +113,14 @@ function MainContent() {
 
   const activeTab = getActiveTabFromPath(location.pathname);
 
-  // Khởi tạo và TỰ ĐỘNG ĐỒNG BỘ mảng ARTICLES từ mockData với localStorage
   const [articles, setArticles] = useState<Article[]>(() => {
     try {
       const saved = localStorage.getItem('vietnam_heritage_articles_list');
       if (saved) {
         const parsed: Article[] = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          // Lấy tất cả bài viết từ mockData
           const mockIds = new Set(ARTICLES.map((a) => String(a.id)));
-          // Giữ lại các bài viết do người dùng tự thêm mới
           const userCreated = parsed.filter((a) => !mockIds.has(String(a.id)));
-          // Ưu tiên mảng ARTICLES từ mockData chuẩn + bài do người dùng tạo
           return [...userCreated, ...ARTICLES];
         }
       }
@@ -134,7 +130,6 @@ function MainContent() {
     return ARTICLES;
   });
 
-  // Tự động lưu articles vào localStorage khi có sự thay đổi
   useEffect(() => {
     try {
       localStorage.setItem('vietnam_heritage_articles_list', JSON.stringify(articles));
@@ -143,7 +138,6 @@ function MainContent() {
     }
   }, [articles]);
 
-  // Điều hướng bằng URL chuẩn
   const handleTabChange = (tab: TabType) => {
     const routeMap: Record<TabType, string> = {
       trangchu: '/',
@@ -268,7 +262,6 @@ function MainContent() {
     showToast(`Kích hoạt mã [${code}] thành công! +${lotus} Sen & +${coins} Xu.`);
   };
 
-  // Cập nhật thẻ Title chuẩn SEO theo trang
   useEffect(() => {
     const titles: Record<TabType, string> = {
       trangchu: 'Mảnh Ghép Hồn Việt - Khơi nguồn di sản, thắp sáng sử vàng',
@@ -305,81 +298,93 @@ function MainContent() {
         className="w-full flex-grow pt-[72px] m-0 p-0 flex flex-col overflow-x-hidden bg-[#FAF7F0]"
         style={{ width: '100%', maxWidth: '100vw', margin: 0, padding: 0, overflowX: 'hidden', backgroundColor: '#FAF7F0' }}
       >
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <TrangChuView
-                setActiveTab={handleTabChange}
-                onAddToCart={handleAddToCart}
-                onBuyNow={handleBuyNow}
-                onSelectProduct={(p) => {
-                  setSelectedProduct(p);
-                  handleTabChange('cuahang');
-                }}
-              />
-            }
-          />
-          <Route path="/ve-chung-toi" element={<VeChungToiView setActiveTab={handleTabChange} />} />
-          <Route
-            path="/bai-viet"
-            element={
-              <BaiVietView
-                setActiveTab={handleTabChange}
-                articles={articles}
-                onSelectArticle={handleSelectArticle}
-                onAddArticle={handleAddArticle}
-                onLikeArticle={handleLikeArticle}
-              />
-            }
-          />
-          <Route
-            path="/bai-viet/:id"
-            element={
-              <ChiTietBaiVietRoute
-                articles={articles}
-                setActiveTab={handleTabChange}
-                user={user}
-                onLikeArticle={handleLikeArticle}
-                onSelectArticle={handleSelectArticle}
-              />
-            }
-          />
-          <Route
-            path="/tro-choi"
-            element={
-              <TroChoiView
-                setActiveTab={handleTabChange}
-                user={user}
-                onAwardXp={handleAwardXp}
-              />
-            }
-          />
-          <Route
-            path="/cua-hang"
-            element={
-              <CuaHangView
-                setActiveTab={handleTabChange}
-                onAddToCart={handleAddToCart}
-                onBuyNow={handleBuyNow}
-                selectedProduct={selectedProduct}
-                onSelectProduct={setSelectedProduct}
-              />
-            }
-          />
-          <Route path="/lien-he" element={<LienHeView setActiveTab={handleTabChange} />} />
-          <Route
-            path="/tai-khoan"
-            element={
-              <LoginView
-                setActiveTab={handleTabChange}
-                user={user}
-                onLogin={(u) => setUser(u)}
-                onLogout={() => setUser(null)}
-              />
-            }
-          />
-        </Routes>
+        {/* Bọc Routes trong Suspense để hiển thị màn hình chờ mượt mà khi load trang lazy */}
+        <Suspense
+          fallback={
+            <div className="w-full min-h-[60vh] flex items-center justify-center bg-[#FAF7F0]">
+              <div className="text-center">
+                <div className="w-10 h-10 border-4 border-[#8C1010] border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
+                <p className="text-[#8C1010] font-medium text-sm">Đang tải không gian di sản...</p>
+              </div>
+            </div>
+          }
+        >
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <TrangChuView
+                  setActiveTab={handleTabChange}
+                  onAddToCart={handleAddToCart}
+                  onBuyNow={handleBuyNow}
+                  onSelectProduct={(p) => {
+                    setSelectedProduct(p);
+                    handleTabChange('cuahang');
+                  }}
+                />
+              }
+            />
+            <Route path="/ve-chung-toi" element={<VeChungToiView setActiveTab={handleTabChange} />} />
+            <Route
+              path="/bai-viet"
+              element={
+                <BaiVietView
+                  setActiveTab={handleTabChange}
+                  articles={articles}
+                  onSelectArticle={handleSelectArticle}
+                  onAddArticle={handleAddArticle}
+                  onLikeArticle={handleLikeArticle}
+                />
+              }
+            />
+            <Route
+              path="/bai-viet/:id"
+              element={
+                <ChiTietBaiVietRoute
+                  articles={articles}
+                  setActiveTab={handleTabChange}
+                  user={user}
+                  onLikeArticle={handleLikeArticle}
+                  onSelectArticle={handleSelectArticle}
+                />
+              }
+            />
+            <Route
+              path="/tro-choi"
+              element={
+                <TroChoiView
+                  setActiveTab={handleTabChange}
+                  user={user}
+                  onAwardXp={handleAwardXp}
+                />
+              }
+            />
+            <Route
+              path="/cua-hang"
+              element={
+                <CuaHangView
+                  setActiveTab={handleTabChange}
+                  onAddToCart={handleAddToCart}
+                  onBuyNow={handleBuyNow}
+                  selectedProduct={selectedProduct}
+                  onSelectProduct={setSelectedProduct}
+                />
+              }
+            />
+            <Route path="/lien-he" element={<LienHeView setActiveTab={handleTabChange} />} />
+            <Route
+              path="/tai-khoan"
+              element={
+                <LoginView
+                  setActiveTab={handleTabChange}
+                  user={user}
+                  onLogin={(u) => setUser(u)}
+                  onLogout={() => setUser(null)}
+                />
+              }
+            />
+          </Routes>
+        </Suspense>
       </main>
 
       <Footer setActiveTab={handleTabChange} />
