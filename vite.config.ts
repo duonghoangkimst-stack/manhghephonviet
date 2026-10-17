@@ -23,6 +23,10 @@ export default defineConfig(() => {
               if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
                 return 'react-core';
               }
+              // Tách riêng các thư viện tiện ích hoặc UI/Icons phổ biến nếu có
+              if (id.includes('lucide-react') || id.includes('clsx') || id.includes('tailwind-merge')) {
+                return 'vendor-utils';
+              }
               // Các thư viện node_modules còn lại gom vào vendor
               return 'vendor';
             }

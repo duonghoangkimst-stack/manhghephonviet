@@ -47,20 +47,36 @@
       }
     </style>
 
-    <!-- Google tag (gtag.js) - Trì hoãn tải sau khi trang đã load xong -->
+    <!-- Google tag (gtag.js) - Trì hoãn tải cho đến khi có tương tác đầu tiên của người dùng -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-QKNR3RML6X');
 
-      // Tự động gắn script gtag.js sau khi trình duyệt đã tải xong trang
-      window.addEventListener('load', function() {
+      var gtmLoaded = false;
+      function loadGTM() {
+        if (gtmLoaded) return;
+        gtmLoaded = true;
+        
         var script = document.createElement('script');
         script.async = true;
         script.src = 'https://www.googletagmanager.com/gtag/js?id=G-QKNR3RML6X';
         document.head.appendChild(script);
+
+        // Xóa các sự kiện lắng nghe sau khi đã tải xong
+        ['scroll', 'mousemove', 'pointerdown', 'keydown', 'touchstart'].forEach(function(evt) {
+          window.removeEventListener(evt, loadGTM, { passive: true });
+        });
+      }
+
+      // Lắng nghe tương tác đầu tiên từ người dùng để nạp ngầm GTM
+      ['scroll', 'mousemove', 'pointerdown', 'keydown', 'touchstart'].forEach(function(evt) {
+        window.addEventListener(evt, loadGTM, { passive: true, once: true });
       });
+
+      // Phòng hờ nếu người dùng không tương tác, tự động tải sau 4 giây
+      setTimeout(loadGTM, 4000);
     </script>
   </head>
   <body class="antialiased bg-[#FDFBF7] text-[#261816] min-h-screen">
