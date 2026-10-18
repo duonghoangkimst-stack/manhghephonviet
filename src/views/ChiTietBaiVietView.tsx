@@ -104,9 +104,9 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
   // Ép Canonical lấy chính xác URL hiện tại trên trình duyệt để trùng khớp 100% tuyệt đối chống lỗi VARIANT
   const pageUrl = typeof window !== 'undefined' 
     ? window.location.href.split('?')[0].split('#')[0] 
-    : `https://manhghephonviet.com/bai-viet/${article.id}`;
+    : `https://www.manhghephonviet.com/bai-viet/${article.id}`;
 
-  const pageImage = article.image || 'https://manhghephonviet.com/images/bia_seo_4.jpg';
+  const pageImage = article.image || 'https://www.manhghephonviet.com/images/bia_seo_4.jpg';
 
   // Chuẩn bị dữ liệu Schema JSON-LD cho bài viết chuẩn SEO
   const articleSchema = {
@@ -118,14 +118,14 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
     "author": {
       "@type": "Organization",
       "name": typeof article.author === 'object' && article.author !== null ? (article.author as any).name : (article.author || "Mảnh Ghép Hồn Việt"),
-      "url": "https://manhghephonviet.com"
+      "url": "https://www.manhghephonviet.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Mảnh Ghép Hồn Việt",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://manhghephonviet.com/favicon.ico"
+        "url": "https://www.manhghephonviet.com/favicon.ico"
       }
     },
     "description": sapoText || article.title
