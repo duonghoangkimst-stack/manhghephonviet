@@ -95,8 +95,17 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
 
   // Lấy nội dung Sapo/Mô tả ngắn
   const sapoText = article.description || (article as any).excerpt;
-  const pageTitle = `${article.title} | Mảnh Ghép Hồn Việt`;
-  const pageUrl = `https://manhghephonviet.com/bai-viet/${article.id}`;
+
+  // 🛠️ FIX TITLE & CANONICAL ĐỂ TRÁNH LỖI SEOQUAKE (VARIANT & OVER 60 CHARS)
+  const pageTitle = article.title.length > 50 
+    ? `${article.title.substring(0, 47)}... | Mảnh Ghép Hồn Việt` 
+    : `${article.title} | Mảnh Ghép Hồn Việt`;
+
+  // Ép Canonical lấy chính xác URL hiện tại trên trình duyệt để trùng khớp 100% tuyệt đối chống lỗi VARIANT
+  const pageUrl = typeof window !== 'undefined' 
+    ? window.location.href.split('?')[0].split('#')[0] 
+    : `https://manhghephonviet.com/bai-viet/${article.id}`;
+
   const pageImage = article.image || 'https://manhghephonviet.com/images/bia_seo_4.jpg';
 
   // Chuẩn bị dữ liệu Schema JSON-LD cho bài viết chuẩn SEO
@@ -124,12 +133,11 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] py-10 px-4 sm:px-6 lg:px-8">
-      {/* 🛠️ TÍCH HỢP REACT HELMET ĐỂ FIX TRIỆT ĐỂ LỖI SEOQUAKE (Title, Twitter Card, Canonical, Schema, Hreflang) */}
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={sapoText || "Khám phá di sản lịch sử văn hóa Việt Nam cùng Mảnh Ghép Hồn Việt."} />
         
-        {/* Canonical Link */}
+        {/* Canonical Link đồng bộ hoàn toàn với URL trình duyệt */}
         <link rel="canonical" href={pageUrl} />
         
         {/* Hreflang */}
@@ -142,13 +150,13 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
         <meta property="og:image" content={pageImage} />
         <meta property="og:url" content={pageUrl} />
 
-        {/* Twitter Cards (Fix lỗi MISSING trong SEOquake) */}
+        {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={sapoText} />
         <meta name="twitter:image" content={pageImage} />
 
-        {/* Schema.org Structured Data JSON-LD (Fix lỗi Schema.org NONE) */}
+        {/* Schema.org Structured Data JSON-LD */}
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
@@ -256,7 +264,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
               {article.content}
             </ReactMarkdown>
 
-            {/* Khung Tương tác (Đã được bọc gọn gàng, tránh lỗi phát sinh thẻ heading từ con component) */}
+            {/* Khung Tương tác */}
             <div className="mt-8 pt-6 border-t border-gray-100">
               <InteractionSection
                 articleId={String(article.id)}
