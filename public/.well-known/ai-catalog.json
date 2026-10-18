@@ -2,14 +2,27 @@
   "specVersion": "1.0",
   "entries": [
     {
-      "type": "website",
+      "identifier": "manh-ghep-hon-viet-website",
+      "displayName": "Mảnh Ghép Hồn Việt - Trang chủ",
+      "type": "application/ai-catalog+json",
       "url": "https://manhghephonviet.com",
-      "description": "Trang chủ chính thức của Mảnh Ghép Hồn Việt"
+      "description": "Nền tảng trải nghiệm và kết nối di sản lịch sử văn hóa Việt Nam.",
+      "representativeQueries": [
+        "Giới thiệu về Mảnh Ghép Hồn Việt",
+        "Khám phá bản đồ di sản văn hóa Việt Nam",
+        "Trò chơi tìm hiểu lịch sử và danh lam thắng cảnh"
+      ]
     },
     {
-      "type": "documentation",
+      "identifier": "manh-ghep-hon-viet-llms",
+      "displayName": "Tài liệu hệ thống LLMs",
+      "type": "text/markdown",
       "url": "https://manhghephonviet.com/llms.txt",
-      "description": "Tài liệu tóm tắt nội dung dành cho AI (llms.txt)"
+      "description": "Tài liệu tóm tắt nội dung và kiến trúc dành cho AI.",
+      "representativeQueries": [
+        "Tài liệu tóm tắt hệ thống Mảnh Ghép Hồn Việt",
+        "Thông tin kỹ thuật và dữ liệu di sản cho AI"
+      ]
     }
   ]
 }
