@@ -5,14 +5,11 @@ import { TabType, CartItem, Product, UserProfile, Article } from './types';
 import { ARTICLES } from './data/mockData';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import CartDrawer from './components/CartDrawer';
-import SearchModal from './components/SearchModal';
-import CheckoutModal from './components/CheckoutModal';
 
 // 🚀 Luôn tải sẵn Trang Chủ để đảm bảo tốc độ LCP và hiển thị tức thì
 import TrangChuView from './views/TrangChuView';
 
-// 💤 Lazy load các trang phụ còn lại để giảm dung lượng file JS ban đầu
+// 💤 Lazy load toàn bộ các View phụ để chia nhỏ file JS chính
 const VeChungToiView = lazy(() => import('./views/VeChungToiView'));
 const BaiVietView = lazy(() => import('./views/BaiVietView'));
 const ChiTietBaiVietView = lazy(() => import('./views/ChiTietBaiVietView'));
@@ -20,6 +17,11 @@ const TroChoiView = lazy(() => import('./views/TroChoiView'));
 const CuaHangView = lazy(() => import('./views/CuaHangView'));
 const LienHeView = lazy(() => import('./views/LienHeView'));
 const LoginView = lazy(() => import('./views/LoginView'));
+
+// ⚡ Lazy load các Modals / Component phụ không xuất hiện ở màn hình đầu
+const CartDrawer = lazy(() => import('./components/CartDrawer'));
+const SearchModal = lazy(() => import('./components/SearchModal'));
+const CheckoutModal = lazy(() => import('./components/CheckoutModal'));
 
 // Component wrapper hỗ trợ route chi tiết bài viết theo URL :id / :slug
 function ChiTietBaiVietRoute({
@@ -298,7 +300,6 @@ function MainContent() {
         className="w-full flex-grow pt-[72px] m-0 p-0 flex flex-col overflow-x-hidden bg-[#FAF7F0]"
         style={{ width: '100%', maxWidth: '100vw', margin: 0, padding: 0, overflowX: 'hidden', backgroundColor: '#FAF7F0' }}
       >
-        {/* Bọc Routes trong Suspense để hiển thị màn hình chờ mượt mà khi load trang lazy */}
         <Suspense
           fallback={
             <div className="w-full min-h-[60vh] flex items-center justify-center bg-[#FAF7F0]">
@@ -389,36 +390,45 @@ function MainContent() {
 
       <Footer setActiveTab={handleTabChange} />
 
-      <CartDrawer
-        isOpen={isCartOpen}
-        onClose={() => setIsCartOpen(false)}
-        items={cartItems}
-        onUpdateQuantity={handleUpdateQuantity}
-        onRemoveItem={handleRemoveItem}
-        onClearCart={handleClearCart}
-        onProceedToCheckout={() => {
-          setIsCartOpen(false);
-          setIsCheckoutOpen(true);
-        }}
-      />
+      {/* Chỉ nạp ngầm Modals / Drawers khi người dùng bật để giảm tải dung lượng ban đầu */}
+      <Suspense fallback={null}>
+        {isCartOpen && (
+          <CartDrawer
+            isOpen={isCartOpen}
+            onClose={() => setIsCartOpen(false)}
+            items={cartItems}
+            onUpdateQuantity={handleUpdateQuantity}
+            onRemoveItem={handleRemoveItem}
+            onClearCart={handleClearCart}
+            onProceedToCheckout={() => {
+              setIsCartOpen(false);
+              setIsCheckoutOpen(true);
+            }}
+          />
+        )}
 
-      <CheckoutModal
-        isOpen={isCheckoutOpen}
-        onClose={() => setIsCheckoutOpen(false)}
-        items={cartItems}
-        onClearCart={handleClearCart}
-        user={user}
-        onOrderSuccess={(orderCode) => {
-          showToast(`Đặt hàng thành công! Mã đơn: ${orderCode}`);
-        }}
-      />
+        {isCheckoutOpen && (
+          <CheckoutModal
+            isOpen={isCheckoutOpen}
+            onClose={() => setIsCheckoutOpen(false)}
+            items={cartItems}
+            onClearCart={handleClearCart}
+            user={user}
+            onOrderSuccess={(orderCode) => {
+              showToast(`Đặt hàng thành công! Mã đơn: ${orderCode}`);
+            }}
+          />
+        )}
 
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        setActiveTab={handleTabChange}
-        onSelectProduct={(p) => setSelectedProduct(p)}
-      />
+        {isSearchOpen && (
+          <SearchModal
+            isOpen={isSearchOpen}
+            onClose={() => setIsSearchOpen(false)}
+            setActiveTab={handleTabChange}
+            onSelectProduct={(p) => setSelectedProduct(p)}
+          />
+        )}
+      </Suspense>
 
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-[150] bg-[#570000] text-[#F4EBD0] border-2 border-[#C5B358] px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 animate-fadeIn">
