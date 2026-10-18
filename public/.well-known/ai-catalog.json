@@ -2,7 +2,7 @@
   "specVersion": "1.0",
   "entries": [
     {
-      "identifier": "manh-ghep-hon-viet-website",
+      "identifier": "urn:air:manhghephonviet:website:home",
       "displayName": "Mảnh Ghép Hồn Việt - Trang chủ",
       "type": "application/ai-catalog+json",
       "url": "https://manhghephonviet.com",
@@ -14,9 +14,9 @@
       ]
     },
     {
-      "identifier": "manh-ghep-hon-viet-llms",
+      "identifier": "urn:air:manhghephonviet:docs:llms",
       "displayName": "Tài liệu hệ thống LLMs",
-      "type": "text/markdown",
+      "type": "application/ai-catalog+json",
       "url": "https://manhghephonviet.com/llms.txt",
       "description": "Tài liệu tóm tắt nội dung và kiến trúc dành cho AI.",
       "representativeQueries": [
