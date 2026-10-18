@@ -186,7 +186,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
       {/* Khung Thả tim */}
       <div className="flex items-center justify-between bg-red-50 p-4 rounded-xl mb-8 border border-red-100">
         <div>
-          <h4 className="font-bold text-gray-800 text-lg">Yêu thích bài viết này?</h4>
+        <p className="text-lg font-bold text-[#261816]">Yêu thích bài viết này?</p>
           <p className="text-sm text-gray-600">Thả tim để lan tỏa di sản đến cộng đồng</p>
         </div>
         <button
@@ -211,9 +211,7 @@ export const InteractionSection: React.FC<InteractionSectionProps> = ({
 
       {/* Khung Bình luận */}
       <div>
-        <h3 className="text-xl font-bold text-gray-900 mb-4">
-          Bình luận ({comments.length})
-        </h3>
+      <p className="text-xl font-bold text-[#261816]">Bình luận ({comments.length})</p>
 
         <form onSubmit={handleCommentSubmit} className="mb-6">
           <textarea

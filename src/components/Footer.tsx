@@ -111,9 +111,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
 
           {/* Col 2: Khám Phá */}
           <div>
-            <h4 className="font-sans font-bold text-[#D4AF37] uppercase tracking-wider text-base mb-5 pb-1 border-b border-[#D4AF37]/30 inline-block">
-              Khám Phá
-            </h4>
+          <p className="font-bold text-[#D4AF37] mb-4 text-base">Khám Phá</p>
             <ul className="space-y-3 text-sm">
               <li>
                 <button
@@ -168,9 +166,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
 
           {/* Col 3: Hỗ Trợ & Liên Kết */}
           <div>
-            <h4 className="font-sans font-bold text-[#D4AF37] uppercase tracking-wider text-base mb-5 pb-1 border-b border-[#D4AF37]/30 inline-block">
-              Hỗ Trợ
-            </h4>
+          <p className="font-bold text-[#D4AF37] mb-4 text-base">Hỗ Trợ</p>
             <ul className="space-y-3 text-sm">
               <li>
                 <button
@@ -225,9 +221,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
 
           {/* Col 4: Đăng Ký Nhận Tin */}
           <div>
-            <h4 className="font-sans font-bold text-[#D4AF37] uppercase tracking-wider text-base mb-3 pb-1 border-b border-[#D4AF37]/30 inline-block">
-              Bản Tin Di Sản
-            </h4>
+          <p className="font-bold text-[#D4AF37] mb-4 text-base">Bản Tin Di Sản</p>
             <p className="text-sm text-[#F4EBD0]/75 mb-4 leading-relaxed">
               Nhận thông báo về câu chuyện di sản và sự kiện mới nhất.
             </p>

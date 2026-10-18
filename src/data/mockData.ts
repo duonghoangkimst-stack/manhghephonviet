@@ -967,14 +967,14 @@ Phôi gỗ tự nhiên được xử lý sấy chống ẩm và mối mọt theo
     image: '/bia_seo_2.jpg',
     content: `Cứ mở sách Lịch sử ra là bạn lại thấy hoa mắt trước hàng trăm con số và các cột mốc sự kiện dày đặc? Thực tế, việc lấy gốc môn lịch sử không hề đòi hỏi bạn phải thức trắng đêm nhồi nhét hay học vẹt từng trang sách. Bạn hoàn toàn có thể ghi nhớ tự nhiên, hiểu sâu tiến trình và bứt phá điểm số nếu nắm bắt phương pháp học trực quan, khoa học. Hãy đồng hành cùng Mảnh ghép Hồn Việt để việc học Sử trở nên nhẹ nhàng và tự tin đạt điểm số mơ ước ngay hôm nay!
 
-### 1. Vì sao bạn học mãi vẫn mất gốc môn Lịch sử?
+## 1. Vì sao bạn học mãi vẫn mất gốc môn Lịch sử?
 - **Thói quen học vẹt, nhồi nhét số liệu:** Cố nhớ từng ngày tháng lẻ tẻ mà không hiểu bản chất khiến não bộ nhanh chóng đào thải dữ liệu sau kỳ kiểm tra hoặc gặp tình trạng học trước quên sau.
 - **Thiếu bức tranh toàn cảnh:** Học các sự kiện một cách rời rạc trên trang sách chữ dày đặc dễ gây buồn ngủ, khó xâu chuỗi tiến trình,, từ đó hình thành tâm lý “sợ” học.
 
 ![Áp lực ôn tập môn lịch sử theo cách truyền thống khiến học sinh nhanh nản lòng và kiệt sức](/images/hinh-anh-hoc-sinh-ap-luc-on-bai.jpg)
 *Hình 1: Áp lực ôn tập môn lịch sử theo cách truyền thống khiến học sinh nhanh nản lòng và kiệt sức*
 
-### 2. Lộ trình 3 bước lấy gốc môn Lịch sử hiệu quả không cần học thuộc
+## 2. Lộ trình 3 bước lấy gốc môn Lịch sử hiệu quả không cần học thuộc
 Thay vì học thuộc lòng, hãy áp dụng quy trình 3 bước tư duy trực quan:
 - **Bước 1: Chia nhỏ giai đoạn bằng trục thời gian (Timeline):** Gom toàn bộ lịch sử Việt Nam thành 5 mốc lớn: 1858–1918, 1919–1930, 1930–1945, 1945–1954, 1954–1975. Nhớ theo giai đoạn giúp định vị sự kiện cực nhanh.
 - **Bước 2: Nắm bản chất qua nguyên tắc 5W1H:** Đây là cách học lịch sử không cần học thuộc hiệu quả nhất. Với mỗi sự kiện, chỉ cần trả lời 6 câu hỏi: Chuyện gì xảy ra (What)? Ai lãnh đạo (Who)? Ở đâu (Where)? Thời điểm nào (When)? Vì sao thắng/thua (Why)? Ý nghĩa/bài học gì (How)?
@@ -992,27 +992,27 @@ Thay vì học thuộc lòng, hãy áp dụng quy trình 3 bước tư duy trự
 ![ Áp dụng nguyên tắc 5W1H là cách học lịch sử không cần học thuộc cực kỳ hiệu quả](/images/nguyen-tac-5W1H.jpg)
 *Hình 2: Áp dụng nguyên tắc 5W1H là cách học lịch sử không cần học thuộc cực kỳ hiệu quả*
 
-### 3. Bí quyết làm trắc nghiệm Lịch sử điểm cao cho người mất gốc
+## 3. Bí quyết làm trắc nghiệm Lịch sử điểm cao cho người mất gốc
 - **Bắt từ khóa & loại trừ đáp án nhiễu:** Gạch chân ngay từ khóa thời gian và tính chất sự kiện (*"bước ngoặt"*, *"quyết định"*...). Gạch bỏ các đáp án sai lệch mốc thời gian hoặc chứa từ tuyệt đối hóa (*"duy nhất"*, *"hoàn toàn"*).
 - **Luyện đề cuốn chiếu theo chuyên đề:** Đừng vội làm đề tổng hợp. Hãy làm chắc câu hỏi nhận biết và thông hiểu của từng bài học để nắm trọn 7 điểm trước khi thử sức câu hỏi vận dụng cao.
 
 ![ Áp dụng phương pháp cuốn chiếu vào giải đề là bí quyết lấy gốc môn lịch sử](/images/phuong-phap-cuon-chieu.jpg)
 *Hình 3: Áp dụng phương pháp cuốn chiếu vào giải đề là bí quyết lấy gốc môn lịch sử*
 
-### 4. Tối ưu việc ôn tập môn lịch sử cùng Mảnh ghép Hồn Việt
+## 4. Tối ưu việc ôn tập môn lịch sử cùng Mảnh ghép Hồn Việt
 Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc nhìn đa chiều và hình ảnh sinh động. Nếu bạn đang tìm kiếm một nền tảng hỗ trợ ôn tập lại các kiến thức lịch sử một cách trực quan, hãy ghé thăm Mảnh ghép Hồn Việt để tự mình trải nghiệm phương pháp số hóa tư liệu này! 
 
 ![ Tham gia trải nghiệm để ôn tập kiến thức lịch sử cùng Mảnh ghép Hồn Việt](/images/giao-dien-game-trai-nghiem-lich-su.jpg)
 *Hình 4: Tham gia trải nghiệm để ôn tập kiến thức lịch sử cùng Mảnh ghép Hồn Việt*
 
-### 5. Câu hỏi thường gặp khi lấy gốc môn lịch sử
-- **Câu 1:Mất gốc hoàn toàn thì cần bao lâu để lấy gốc môn lịch sử cấp tốc đạt 7 điểm?**  
+## 5. Câu hỏi thường gặp khi lấy gốc môn lịch sử
+- ### **Câu 1:Mất gốc hoàn toàn thì cần bao lâu để lấy gốc môn lịch sử cấp tốc đạt 7 điểm?**  
   *Trả lời:* Với cách học bám sát trục thời gian và rèn luyện trắc nghiệm từ khóa, bạn chỉ mất từ 2 đến 3 tuần (mỗi ngày 45–60 phút) để nắm vững kiến thức đạt mức 7+.
-- **Câu 2: Đề thi trắc nghiệm Lịch sử hiện nay có bắt buộc nhớ ngày tháng chi tiết không?**  
+- ### **Câu 2: Đề thi trắc nghiệm Lịch sử hiện nay có bắt buộc nhớ ngày tháng chi tiết không?**  
   *Trả lời:* Không. Đa số câu hỏi tập trung vào việc nhận biết diễn biến chính, bản chất, nguyên nhân và ý nghĩa của các sự kiện quan trọng chứ không đánh đố ngày tháng lẻ tẻ.
-- **Câu 3: Có nên dùng các trang web/app bổ trợ khi ôn thi Lịch sử không?**  
+- ### **Câu 3: Có nên dùng các trang web/app bổ trợ khi ôn thi Lịch sử không?**  
   *Trả lời:* Rất nên. Các công cụ tư liệu trực quan đóng vai trò như một cuốn sổ tay điện tử tiện lợi, giúp bạn củng cố trí nhớ và giảm bớt cảm giác khô khan khi tự học.
-- **Câu 4: Người lười nên ghi chép bài học như thế nào để không thấy ngán?**  
+- ### **Câu 4: Người lười nên ghi chép bài học như thế nào để không thấy ngán?**  
   *Trả lời:* Hãy thay đổi thói quen chép văn xuôi bằng các gạch đầu dòng ngắn, vẽ sơ đồ nhánh hoặc ghi chú dạng bảng so sánh để nhìn vào là hiểu ngay.
 
   Hành trình lấy gốc môn lịch sử sẽ không còn là áp lực nếu bạn áp dụng đúng lộ trình tư duy nhân - quả, tối giản hóa ghi chép và kết hợp hình ảnh trực quan. Hãy chủ động thay đổi thói quen học vẹt ngay hôm nay để tự tin bứt phá điểm số trong các kỳ thi sắp tới. Đừng quên ghé thăm [Mảnh ghép Hồn Việt](https://www.manhghephonviet.com) để khám phá thêm nhiều tài liệu bổ trợ thú vị và biến việc học Lịch sử thành niềm say mê thực thụ!
@@ -1032,7 +1032,7 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   
   Lịch sử dân tộc vốn là dòng chảy bất tận của nhân tâm, mưu lược và những quyết sách sinh tử trước vận mệnh non sông. Thay vì cố nhồi nhét từng mốc niên đại khô cứng, việc hóa thân vào chính bối cảnh sẽ biến hành trình tìm về cội nguồn thành một niềm say mê tự nhiên.
   
-  ### 1. Vì sao nhiều người sợ học lịch sử?
+  ## 1. Vì sao nhiều người sợ học lịch sử?
   
   Cảm giác ngột ngạt trước môn Sử chủ yếu đến từ cách tiếp cận một chiều kéo dài suốt nhiều năm:
   
@@ -1043,7 +1043,7 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   ![Nhiều cột mốc lịch sử khiến người học khó ghi nhớ](/images/cac-cot-moc-lich-su-phat-trien-nuoc.jpg)
   *Hình 1: Nhiều cột mốc lịch sử khiến người học khó ghi nhớ*
   
-  ### 2. Học lịch sử như thế nào để dễ hiểu hơn?
+  ## 2. Học lịch sử như thế nào để dễ hiểu hơn?
   
   Bản chất của sử học là chuỗi liên hoàn của các mối quan hệ nhân quả. Muốn việc tiếp thu trở nên nhẹ nhàng, bạn cần chuyển hướng từ tâm thế “ghi nhớ sự kiện” sang tư duy “giải mã thời cuộc”.
   
@@ -1054,19 +1054,19 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   | **Công cụ hỗ trợ** | Đọc chép, học thuộc từng trang chữ | Sa bàn chiến thuật, đồ họa tương tác, nhập vai |
   | **Hiệu quả thực tế** | Nhanh quên, tạo cảm giác ngột ngạt | Ghi nhớ sâu sắc, khơi dậy niềm tự hào tự nhiên |
   
-  #### **Bắt đầu từ câu hỏi “Vì sao?”**
+  ### **Bắt đầu từ câu hỏi “Vì sao?”**
   Thay vì ép bản thân nhớ năm 938 diễn ra trận Bạch Đằng, hãy thử đặt câu hỏi: Vì sao Ngô Quyền lại dùng cọc vạt nhọn mà không phải chiến thuật nào khác? Câu hỏi ấy sẽ dẫn bạn đi sâu vào việc tìm hiểu quy luật thủy triều, đặc tính lòng sông và tầm nhìn quân sự tài tình của bậc tiền nhân.
   
-  #### **Đặt sự kiện vào bối cảnh thời cuộc**
+  ### **Đặt sự kiện vào bối cảnh thời cuộc**
   Mỗi quyết định lịch sử đều phản ánh rõ nét sức ép chính trị, xã hội và kinh tế của thời đại đó. Thấu suốt nỗi trăn trở giữ nước thời Trần hay những cải cách mang tính bước ngoặt thời Lê sơ sẽ giúp bạn nhìn nhận hành động của từng nhân vật một cách công bằng, sâu sắc.
   
-  #### **Kết nối các sự kiện thành dòng chảy logic**
+  ### **Kết nối các sự kiện thành dòng chảy logic**
   Lịch sử nước nhà không phải là những mảnh ghép rời rạc mà là một sợi dây tiếp nối liền mạch. Sự thất bại của một cuộc kháng chiến thường để lại bài học xương máu cho một triều đại quật khởi rực rỡ phía sau.
   
   ![Tổng hợp các sự kiện theo thời gian giúp tăng khả năng ghi nhớ](/images/nhung-cot-moc-lich-su.jpg)
   *Hình 2: Tổng hợp các sự kiện theo thời gian giúp tăng khả năng ghi nhớ*
   
-  ### 3. Cách học lịch sử hiệu quả không chỉ nằm ở việc học thuộc
+  ## 3. Cách học lịch sử hiệu quả không chỉ nằm ở việc học thuộc
   
   **Cách học lịch sử hiệu quả** là chủ động khơi dậy sự tò mò thay vì tiếp nhận thụ động:
   
@@ -1077,20 +1077,20 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   ![Mô hình trải nghiệm lịch sử tại Bảo tàng Lịch sử Quốc gia](/images/hoc-lich-su-theo-cach-trai-nghiem.jpg)
   *Hình 3: Mô hình trải nghiệm lịch sử tại Bảo tàng Lịch sử Quốc gia*
   
-  ### 4. Trải nghiệm lịch sử: Đánh thức mọi giác quan
+  ## 4. Trải nghiệm lịch sử: Đánh thức mọi giác quan
   
   **Trải nghiệm lịch sử** đưa người học từ vị thế người quan sát trở thành người trong cuộc:
   
   - **Chuyển hóa dữ liệu thành câu chuyện:** Biến những trang chính sử từ *Đại Việt Sử Ký Toàn Thư*, văn bia cổ thành những thước phim hào hùng, giàu cảm xúc.
   - **Điểm tựa di sản:** Đối chiếu tư liệu với hiện vật khảo cổ học giúp lịch sử không còn là chuyện ngàn năm xa xôi mà gắn liền với từng tấc đất quê hương.
   
-  ### 5. Lịch sử không khó, quan trọng là chọn đúng công cụ đồng hành
+  ## 5. Lịch sử không khó, quan trọng là chọn đúng công cụ đồng hành
   
   Lịch sử Việt Nam hào hùng, bi tráng và ly kỳ không thua kém bất kỳ trang sử thi nào trên thế giới. Trở ngại lớn nhất bấy lâu nay nằm ở chỗ người học chưa tìm thấy một phương thức truyền tải đủ khơi gợi niềm xúc động.
   
   Mỗi người đều có một cánh cửa tiếp nhận riêng biệt: người say mê câu chuyện truyền cảm, người rung động trước hình ảnh phục dựng chân thực, và phần đông người trẻ ngày nay hứng thú nhất khi được trực tiếp thao tác, trải nghiệm và tự mình giải mã.
   
-  ### 6. Điểm khác biệt tại Mảnh Ghép Hồn Việt: Biến sử thi thành trải nghiệm thực cảnh
+  ## 6. Điểm khác biệt tại Mảnh Ghép Hồn Việt: Biến sử thi thành trải nghiệm thực cảnh
   
   Được xây dựng từ tình yêu sâu nặng với cội nguồn dân tộc, **Mảnh Ghép Hồn Việt** ra đời để giúp bạn bước chân vào dòng chảy lịch sử một cách chân thực và tự hào nhất:
   
@@ -1099,18 +1099,18 @@ Lịch sử không hề khô khan nếu bạn biết cách tiếp cận qua góc
   - **Trải nghiệm nhập vai tương tác sâu sắc:** Đặt người chơi vào vai trò người trong cuộc, tự tay bố trận, ra quyết sách quân sự và cảm nhận sâu sắc cái giá của từng tấc đất quê hương.  
   - **Hệ thống sơ đồ tư duy liên kết đa chiều:** Tích hợp logic nhân - quả giữa sự kiện, nhân vật và bản đồ địa lý, giúp người ôn tập nắm bắt bản chất vấn đề nhẹ nhàng mà không cần học vẹt.  
   
-  ### 7. Câu hỏi thường gặp về cách học và trải nghiệm lịch sử (FAQs)
+  ## 7. Câu hỏi thường gặp về cách học và trải nghiệm lịch sử (FAQs)
   
-  #### **Người mất gốc kiến thức nên bắt đầu học lịch sử lại từ đâu?**
+  ### **Người mất gốc kiến thức nên bắt đầu học lịch sử lại từ đâu?**
   Hãy chọn một triều đại hoặc một vị danh tướng mà bạn cảm thấy tò mò, kính ngưỡng nhất để bắt đầu tìm hiểu. Việc nắm vững một giai đoạn cốt lõi sẽ tạo điểm tựa và động lực tự nhiên để bạn mở rộng sang các thời kỳ lân cận.
   
-  #### **Làm thế nào để phân biệt giữa dã sử truyền miệng và chính sử?**
+  ### **Làm thế nào để phân biệt giữa dã sử truyền miệng và chính sử?**
   Chính sử là những ghi chép được biên soạn chính thức bởi các sử quan qua các triều đại với niên đại và sự kiện rõ ràng. Dã sử hay truyền thuyết dân gian thường mang nhiều yếu tố hư cấu nghệ thuật, rất giàu cảm xúc nhưng cần được đối chiếu lại cùng thư tịch cổ và di vật khảo cổ khi học tập chuyên sâu.
   
-  #### **Trải nghiệm qua game nhập vai có đảm bảo độ chính xác để ôn tập thi cử?**
+  ### **Trải nghiệm qua game nhập vai có đảm bảo độ chính xác để ôn tập thi cử?**
   Hoàn toàn có thể, với điều kiện nền tảng đó được xây dựng dựa trên sự cố vấn và đối chiếu sử liệu nghiêm túc. Tại **Mảnh Ghép Hồn Việt**, từng bối cảnh chiến trường đến mốc thời gian đều bám sát chính sử, giúp người chơi vừa giải trí nhập vai vừa củng cố kiến thức một cách tự nhiên, chuẩn xác.
   
-  #### **Khám phá lịch sử qua công nghệ có thể thay thế hoàn toàn sách vở không?**
+  ### **Khám phá lịch sử qua công nghệ có thể thay thế hoàn toàn sách vở không?**
   Công nghệ đóng vai trò như chiếc chìa khóa trực quan hóa, giúp khơi dậy niềm say mê và biến con chữ tĩnh thành trải nghiệm sống động. Việc kết hợp giữa trải nghiệm tương tác với đọc tài liệu tra cứu chính là phương pháp học tập toàn diện và sâu sắc nhất.
   
   
@@ -4108,7 +4108,7 @@ Hệ thống địa đạo đã kiên cường vượt qua các chiến dịch c
 
 [Thông tin về chiến dịch Crimp](https://en.wikipedia.org/wiki/Operation_Crimp)
 
-[Thông tin về chiến dịch Cedar Falls](https://vi.wikipedia.org/wiki/Chiến_dịch_Cedar_Falls)
+[Thông tin về chiến dịch Cedar Falls](https://vi.wikipedia.org/wiki/Chiến_dịch_Cedar_Fallsf)
 
 ## Giá trị quân sự của nghệ thuật chiến tranh bất đối xứng
 Chiến thuật du kích đường hầm Củ Chi để lại những bài học vô giá cho khoa học quân sự:
