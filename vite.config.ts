@@ -15,6 +15,8 @@ export default defineConfig(() => {
       // Bật tối ưu hóa, nén mã nguồn và tách nhỏ asset để tăng tốc độ tải
       minify: 'esbuild',
       cssCodeSplit: true,
+      // Không cho phép Vite tự động nhúng các file nhỏ thành mã base64 (tránh lỗi MIME type)
+      assetsInlineLimit: 0,
       rollupOptions: {
         output: {
           manualChunks(id) {
