@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import { Helmet } from 'react-helmet-async';
 import { ARTICLES, Article } from '../data/mockData';
 import { InteractionSection } from '../components/InteractionSection';
 
@@ -25,7 +26,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
   allArticles = ARTICLES,
   onSelectArticle,
 }) => {
-  // Lấy id/slug trực tiếp từ đường dẫn URL (ví dụ: trai-nghiem-lich-su)
+  // Lấy id/slug trực tiếp từ đường dẫn URL
   const { id } = useParams<{ id: string }>();
 
   // Ưu tiên tìm bài viết chính xác khớp với slug/id trên URL
@@ -41,7 +42,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
 
   const [article, setArticle] = useState<Article | null>(findArticleByUrlOrProp());
 
-  // Cập nhật lại state bài viết khi URL (id/slug) hoặc propArticle thay đổi
+  // Cập nhật lại state bài viết khi URL hoặc propArticle thay đổi
   useEffect(() => {
     window.scrollTo(0, 0);
     const currentArticle = findArticleByUrlOrProp();
@@ -51,6 +52,10 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
   if (!article) {
     return (
       <div className="min-h-screen bg-[#FAF7F2] py-20 px-4 text-center">
+        <Helmet>
+          <title>Không tìm thấy bài viết | Mảnh Ghép Hồn Việt</title>
+          <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <p className="text-gray-500 mb-4">Không tìm thấy bài viết hoặc đang tải...</p>
         <button
           onClick={onBack}
@@ -62,7 +67,7 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
     );
   }
 
-  // Hàm hỗ trợ render thông tin tác giả (xử lý cả dạng chuỗi lẫn dạng object)
+  // Hàm hỗ trợ render thông tin tác giả
   const renderAuthorInfo = () => {
     const authorData = article.author;
     if (!authorData) return <strong className="text-gray-800">Mảnh Ghép Hồn Việt</strong>;
@@ -90,9 +95,65 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
 
   // Lấy nội dung Sapo/Mô tả ngắn
   const sapoText = article.description || (article as any).excerpt;
+  const pageTitle = `${article.title} | Mảnh Ghép Hồn Việt`;
+  const pageUrl = `https://manhghephonviet.com/bai-viet/${article.id}`;
+  const pageImage = article.image || 'https://manhghephonviet.com/images/bia_seo_4.jpg';
+
+  // Chuẩn bị dữ liệu Schema JSON-LD cho bài viết chuẩn SEO
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "image": [pageImage],
+    "datePublished": article.date,
+    "author": {
+      "@type": "Organization",
+      "name": typeof article.author === 'object' && article.author !== null ? (article.author as any).name : (article.author || "Mảnh Ghép Hồn Việt"),
+      "url": "https://manhghephonviet.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Mảnh Ghép Hồn Việt",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://manhghephonviet.com/favicon.ico"
+      }
+    },
+    "description": sapoText || article.title
+  };
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] py-10 px-4 sm:px-6 lg:px-8">
+      {/* 🛠️ TÍCH HỢP REACT HELMET ĐỂ FIX TRIỆT ĐỂ LỖI SEOQUAKE (Title, Twitter Card, Canonical, Schema, Hreflang) */}
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={sapoText || "Khám phá di sản lịch sử văn hóa Việt Nam cùng Mảnh Ghép Hồn Việt."} />
+        
+        {/* Canonical Link */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Hreflang */}
+        <link rel="alternate" hrefLang="vi" href={pageUrl} />
+
+        {/* Open Graph / Facebook / Zalo Cards */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={sapoText} />
+        <meta property="og:image" content={pageImage} />
+        <meta property="og:url" content={pageUrl} />
+
+        {/* Twitter Cards (Fix lỗi MISSING trong SEOquake) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={sapoText} />
+        <meta name="twitter:image" content={pageImage} />
+
+        {/* Schema.org Structured Data JSON-LD (Fix lỗi Schema.org NONE) */}
+        <script type="application/ld+json">
+          {JSON.stringify(articleSchema)}
+        </script>
+      </Helmet>
+
       <div className="max-w-4xl mx-auto space-y-6">
         
         {/* Nút quay lại */}
@@ -123,7 +184,8 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
               <span>Tác giả:</span>
               {renderAuthorInfo()}
             </div>
-            </div>
+          </div>
+
           {/* SAPO / Mô tả ngắn dạng khung viền đỏ */}
           {sapoText && (
             <div className="p-5 bg-[#FAF5EF] border-l-4 border-[#8C1010] rounded-r-2xl text-gray-700 font-medium italic text-base md:text-lg leading-relaxed">
@@ -194,12 +256,14 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
               {article.content}
             </ReactMarkdown>
 
-            {/* Khung Tương tác */}
-            <InteractionSection
-              articleId={String(article.id)}
-              currentUser={user}
-              initialLikes={article.likes || 0}
-            />
+            {/* Khung Tương tác (Đã được bọc gọn gàng, tránh lỗi phát sinh thẻ heading từ con component) */}
+            <div className="mt-8 pt-6 border-t border-gray-100">
+              <InteractionSection
+                articleId={String(article.id)}
+                currentUser={user}
+                initialLikes={article.likes || 0}
+              />
+            </div>
           </div>
 
         </article>
