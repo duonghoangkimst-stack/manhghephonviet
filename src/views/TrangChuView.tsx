@@ -311,7 +311,7 @@ export default function TrangChuView({
                   <span className="absolute top-2 left-2 bg-[#800000] text-white text-[10px] font-bold px-2 py-0.5 rounded">
                     NFC
                   </span>
-                  <span className="absolute top-2 right-2 bg-[#E63946] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow">
+                  <span className="absolute top-2 right-2 bg-[#8C1010] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow">
                     -10%
                   </span>
                 </div>
@@ -330,7 +330,7 @@ export default function TrangChuView({
                           -10%
                         </span>
                       </div>
-                      <span className="text-[10px] sm:text-[11px] text-stone-400 line-through block">
+                      <span className="text-[10px] sm:text-[11px] text-stone-600 line-through block">
                         {(prod.oldPrice || Math.round((prod.price / 0.9) / 1000) * 1000).toLocaleString('vi-VN')}đ
                       </span>
                     </div>
@@ -451,7 +451,7 @@ export default function TrangChuView({
                     "Lần đầu tiên mình cảm thấy lịch sử không còn xa lạ. Nhập vai rất chân thực và xúc động."
                   </p>
                   <p className="text-center font-bold text-xs text-[#5B0E0E]">Ngọc Vân</p>
-                  <p className="text-center text-[10px] text-gray-500">Sinh viên, TpHCM</p>
+                  <p className="text-center text-[10px] text-gray-700">Sinh viên, TpHCM</p>
                 </div>
 
                 <div className="bg-[#FAF5EB] p-4 rounded-xl border border-[#D8CBB4] flex flex-col">

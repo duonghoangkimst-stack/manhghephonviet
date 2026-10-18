@@ -231,7 +231,7 @@ export default function CuaHangView({
                         <span className="material-symbols-outlined text-xl">{v.icon}</span>
                       </div>
                       <div>
-                        <span className="text-[10px] uppercase font-bold text-[#A26D2B] bg-[#FFF8F6] border border-[#C5B358]/60 px-2 py-0.5 rounded-full inline-block mb-1">
+                        <span className="text-[10px] uppercase font-bold text-[#7A4B0D] bg-[#FFF8F6] border border-[#C5B358]/60 px-2 py-0.5 rounded-full inline-block mb-1">
                           {v.tag}
                         </span>
                         <h4 className="font-serif font-bold text-base text-[#570000]">
