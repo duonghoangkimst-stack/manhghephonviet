@@ -133,30 +133,24 @@ export const ChiTietBaiVietView: React.FC<ChiTietBaiVietViewProps> = ({
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] py-10 px-4 sm:px-6 lg:px-8">
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>{pageTitle}</title>
         <meta name="description" content={sapoText || "Khám phá di sản lịch sử văn hóa Việt Nam cùng Mảnh Ghép Hồn Việt."} />
         
-        {/* Canonical Link đồng bộ hoàn toàn với URL trình duyệt */}
+        {/* Đảm bảo chỉ có DUY NHẤT 1 thẻ canonical được render */}
         <link rel="canonical" href={pageUrl} />
         
-        {/* Hreflang */}
-        <link rel="alternate" hrefLang="vi" href={pageUrl} />
-
-        {/* Open Graph / Facebook / Zalo Cards */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={sapoText} />
         <meta property="og:image" content={pageImage} />
         <meta property="og:url" content={pageUrl} />
 
-        {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={sapoText} />
         <meta name="twitter:image" content={pageImage} />
 
-        {/* Schema.org Structured Data JSON-LD */}
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
