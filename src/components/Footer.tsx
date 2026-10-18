@@ -42,11 +42,13 @@ export default function Footer({ setActiveTab }: FooterProps) {
               }}
               className="flex items-center gap-3 text-left group focus:outline-none cursor-pointer"
             >
-              <img
-                src="logovang(1).webp"
-                alt="Logo Manh Ghep Hon Viet"
-                className="h-12 w-auto object-contain filter brightness-110"
-              />
+              <img 
+  alt="Logo Manh Ghep Hon Viet" 
+  class="h-12 w-auto object-contain filter brightness-110" 
+  src="logovang(1).webp" 
+  width="48" 
+  height="48" 
+/>
               <div className="flex flex-col pt-1 overflow-visible">
                 <span className="font-serif text-[22px] font-bold text-[#D4AF37] uppercase leading-[1.35] whitespace-nowrap overflow-visible">
                   Mảnh Ghép Hồn Việt

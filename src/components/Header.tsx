@@ -52,11 +52,13 @@ export default function Header({
             }}
             className="flex items-center gap-1.5 sm:gap-2 text-left group focus:outline-none cursor-pointer"
           >
-            <img
-              src="/logodo.webp"
-              alt="Mảnh Ghép Hồn Việt Logo"
-              className="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:scale-105 shrink-0"
-            />
+            <img 
+  alt="Mảnh Ghép Hồn Việt Logo" 
+  class="h-7 sm:h-9 xl:h-10 w-auto object-contain transition-transform group-hover:..." 
+  src="logodo.webp" 
+  width="40" 
+  height="40" 
+/>
             <div className="flex flex-col justify-center">
               <span
                 className="text-[11px] sm:text-sm lg:text-base font-bold text-[#58080A] uppercase tracking-wide leading-tight whitespace-nowrap"
