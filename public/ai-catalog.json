@@ -1,0 +1,17 @@
+{
+    "name": "Mảnh Ghép Hồn Việt",
+    "description": "Nền tảng trải nghiệm và kết nối di sản lịch sử văn hóa Việt Nam.",
+    "url": "https://manhghephonviet.com",
+    "resources": [
+      {
+        "type": "website",
+        "url": "https://manhghephonviet.com",
+        "description": "Trang chủ chính thức của Mảnh Ghép Hồn Việt"
+      },
+      {
+        "type": "documentation",
+        "url": "https://manhghephonviet.com/llms.txt",
+        "description": "Tài liệu tóm tắt nội dung dành cho AI (llms.txt)"
+      }
+    ]
+  }

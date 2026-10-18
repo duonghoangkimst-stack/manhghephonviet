@@ -1,0 +1,14 @@
+# Mảnh Ghép Hồn Việt
+
+> Nền tảng trải nghiệm, tương tác và kết nối di sản lịch sử văn hóa Việt Nam.
+
+## Giới thiệu
+Mảnh Ghép Hồn Việt (manhghephonviet.com) là dự án web tương tác số hóa di sản, giúp người dùng khám phá bản đồ lịch sử, tìm hiểu thông tin các tỉnh thành, tham gia trò chơi tìm hiểu kiến thức văn hóa và mua sắm các sản phẩm quà tặng di sản tích hợp công nghệ NFC.
+
+## Các trang chính
+- [Trang chủ](https://manhghephonviet.com/): Khám phá tổng quan không gian di sản, bản đồ và các nội dung nổi bật.
+- [Về chúng tôi](https://manhghephonviet.com/ve-chung-toi): Sứ mệnh, tầm nhìn và đội ngũ phát triển dự án Mảnh Ghép Hồn Việt.
+- [Bài viết & Tư liệu](https://manhghephonviet.com/bai-viet): Kho tàng kiến thức lịch sử, văn hóa và các bài viết chuyên sâu.
+- [Trò chơi di sản](https://manhghephonviet.com/tro-choi): Thử thách khám phá 34 tỉnh thành và tích lũy điểm thưởng.
+- [Cửa hàng quà tặng](https://manhghephonviet.com/cua-hang): Các sản phẩm bản đồ, mảnh ghép gỗ NFC thủ công mang dấu ấn văn hóa.
+- [Liên hệ](https://manhghephonviet.com/lien-he): Kênh kết nối, đóng góp tư liệu di tích và hỗ trợ người dùng.
